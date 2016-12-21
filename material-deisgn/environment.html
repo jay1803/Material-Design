@@ -1,0 +1,109 @@
+<!-- $title 环境 -->
+<!-- @include header -->
+<!-- @include navigation_drawer -->
+<div class="chapter-content">
+    <div class="article-content chapter-intro">
+        <div>
+            <h1>Material design 是一个三维的环境，包括环境光、材料以及投射的阴影。</h1>
+            <div class="col-list">
+                <section class="module-module-figure col-3">
+                    <div class="module">
+                        <p>所有的 Material 对象都包含 x、y、z 三个维度。</p>
+                        <p>所有的 Material 对象都在 z-轴 上有一个单独的位置</p>
+                        <p>主光源投射出一个定向的阴影，而环境光从各个角度投射出连贯又柔和的阴影。</p>
+                    </div>
+                    <div class="module">
+                        <h3><strong>Material 的厚度</strong></h3>
+                        <p>1dp </p>
+                        <h3><strong>阴影</strong></h3>
+                        <p>阴影是不同高度的材料相互叠加所产生的。</p>
+                    </div>
+                    <div class="figure">
+                        <figure class="s-tag-media">
+                            <div class="media"><img alt="" src="<!-- @path what_is_material_environment.png -->" /></div>
+                        </figure>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </div>
+    <nav class="chapter-toc">
+        <h1>索引</h1>
+        <ul>
+            <li><a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="#environment-3d-world" data-qp-ui-data-id="qp:1">3D 世界</a></li>
+            <li><a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="#environment-light-shadow" data-qp-ui-data-id="qp:2">光线和阴影</a></li>
+        </ul>
+    </nav>
+    <div class="article-list">
+        <div id="environment-3d-world" class="article qp-ui" data-qp-ui="{ 'ScrollSpy': {} }" data-qp-ui-data-id="qp:1">
+            <h2 class="article-title qp-ui" data-qp-ui="{ 'ResponsiveZippy': {} }" data-qp-ui-data-id="qp:1">3D world<!-- @include _arrow --></h2>
+            <div class="article-content">
+                <div>
+                    <div class="col-list">
+                        <section class="module-figure col-2">
+                            <div class="module">
+                                <p>Material 环境是一个三维的空间，这意味着每个对象都有 x ， y ， z 三维坐标属性，z 轴垂直于显示平面，并延伸向用户视角,每个 Material 元素在 z 轴上占据一定的位置并且有一个 1dp 厚度的标准。厚度相当于一个屏幕密度（Pixel Desity, PD）为 160 的设备上的<a href="units-measurements.html#units-measurements-density-independent-pixels-dp-">一像素</a></p>
+                                <p>在网页上，z 轴被用来分层而不是为了视角。3D 空间通过操纵 y 轴进行仿真。</p>
+                                <!-- @todo 修改网页链接 -->
+                            </div>
+                            <div class="figure">
+                                <figure class="s-tag-media">
+                                    <div class="media"><img alt="" src="<!-- @path whatismaterial_environment_3d.png -->" /></div>
+                                    <figcaption>
+                                        <p>具备 x，y 和 z 轴的 3D 空间</p>
+                                    </figcaption>
+                                </figure>
+                            </div>
+                        </section>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="environment-light-shadow" class="article qp-ui" data-qp-ui="{ 'ScrollSpy': {} }" data-qp-ui-data-id="qp:2">
+            <h2 class="article-title qp-ui" data-qp-ui="{ 'ResponsiveZippy': {} }" data-qp-ui-data-id="qp:2">光线和阴影<!-- @include _arrow --></h2>
+            <div class="article-content">
+                <div>
+                    <p>在 Material 环境中，虚拟的光线照射使场景中的对象投射出阴影，直射光投射出一个定向的阴影，而环境光从各个角度投射出连贯又柔和的阴影。</p>
+                    <p>Material 环境中的所有阴影都是由这两种光投射产生的，阴影是光线照射不到的地方，因为各个元素在z轴上占据了不同大小的位置遮挡住了这些光线。在网页上，阴影的实现是在 y-轴 上使用多重阴影。下面的案例中，卡片的高度为 6dp。</p>
+                    <div class="col-list">
+                        <section class="figure-figure-figure col-3">
+                            <div class="figure">
+                                <figure class="s-tag-media">
+                                    <div class="media"><img alt="" src="<!-- @path whatismaterial_environment_shadow1.png -->" /></div>
+                                    <figcaption>
+                                        <p>直射光投射的阴影</p>
+                                    </figcaption>
+                                </figure>
+                            </div>
+                            <div class="figure">
+                                <figure class="s-tag-media">
+                                    <div class="media"><img alt="" src="<!-- @path whatismaterial_environment_shadow2.png -->" /></div>
+                                    <figcaption>
+                                        <p>环境光投射的阴影</p>
+                                    </figcaption>
+                                </figure>
+                            </div>
+                            <div class="figure">
+                                <figure class="s-tag-media">
+                                    <div class="media"><img alt="" src="<!-- @path whatismaterial_environment_shadow3.png -->" /></div>
+                                    <figcaption>
+                                        <p>直射光和环境光混合投影</p>
+                                    </figcaption>
+                                </figure>
+                            </div>
+                        </section>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div>
+        </div>
+        </section>
+    </div>
+    <!-- $prePage 引言 -->
+    <!-- $preURL introduction.html -->
+    <!-- $nextPage Material 属性 -->
+    <!-- $nextURL material-properties.html -->
+    <!-- $leftColor cyan -->
+    <!-- $rightColor cyan -->
+    <!-- @include footer -->
