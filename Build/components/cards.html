@@ -1,470 +1,282 @@
 <!DOCTYPE html>
 <html class="qp-ui" data-qp-ui="{'Futurizr': {'hasTouch': 'touch'}}">
-  <head>
+<head>
     <meta charset="utf-8">
-    <link href="../static/css/main.min.css" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700,400italic|Material+Icons" rel="stylesheet">
+    <link href="../assets/css/main.css" rel="stylesheet">
     <meta name="viewport" content="initial-scale=1, width=device-width">
-    <title>Cards - Components - Material design guidelines</title>
-    <meta itemprop="name" content="Cards - Components - Material design guidelines">
-    <meta itemprop="image" content="https://storage.googleapis.com/material-design/publish/material_v_10/share.png">
+    <title>卡片 - 组件 - Material design guidelines</title>
+    <meta itemprop="name" content="卡片  - Material design - Material design guidelines">
+    <meta itemprop="image" content="../assets/images/share.png">
     <meta property="og:type" content="article">
-    <meta property="og:title" content="Cards - Components - Material design guidelines">
-    <meta itemprop="image" content="https://storage.googleapis.com/material-design/publish/material_v_10/share.png">
+    <meta property="og:title" content="卡片  - Material design - Material design guidelines">
+    <meta itemprop="image" content="../assets/images/share.png">
     <meta property="og:site_name" content="Material design guidelines">
-    <meta property="article:section" content="Cards - Components">
-    <meta name="theme-color" content="#3949AB">
-    <link rel="icon" sizes="192x192" href="https://storage.googleapis.com/material-design/publish/material_v_10/guidelines-icon-192x192.png">
-    <link rel="shortcut icon" href="https://storage.googleapis.com/material-design/publish/material_v_10/guidelines-icon-72x72.png">
-    <link rel="apple-touch-icon" href="https://storage.googleapis.com/material-design/publish/material_v_10/guidelines-icon-72x72.png">
-    <link rel="apple-touch-icon" sizes="72x72" href="https://storage.googleapis.com/material-design/publish/material_v_10/guidelines-icon-72x72.png">
-    <link rel="apple-touch-icon" sizes="144x144" href="https://storage.googleapis.com/material-design/publish/material_v_10/guidelines-icon-144x144.png">
-    <link rel="apple-touch-icon" sizes="180x180" href="https://storage.googleapis.com/material-design/publish/material_v_10/guidelines-icon-180x180.png">
-    <meta name="msapplication-TileImage" content="https://storage.googleapis.com/material-design/publish/material_v_10/guidelines-icon-144x144.png">
+    <meta property="article:section" content="卡片  - Material design">
+    <meta name="theme-color" content="#00bcd4">
+    <link rel="icon" sizes="192x192" href="../assets/images/guidelines-icon-192x192.png">
+    <link rel="shortcut icon" href="../assets/images/guidelines-icon-72x72.png">
+    <link rel="apple-touch-icon" href="../assets/images/guidelines-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="../assets/images/guidelines-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="../assets/images/guidelines-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="../assets/images/guidelines-icon-180x180.png">
+    <meta name="msapplication-TileImage" content="../assets/images/guidelines-icon-144x144.png">
     <meta name="msapplication-tap-highlight" content="no">
-    
-<!--
-<PageMap>
-    <DataObject type="document">
-      <Attribute name="uid"></Attribute>
-      <Attribute name="title">Cards</Attribute>
-      <Attribute name="keywords"></Attribute>
-      <Attribute name="slug"></Attribute>
-      <Attribute name="description"></Attribute>
-      <Attribute name="section_title">Components</Attribute>
-      <Attribute name="section_slug">components</Attribute>
-    </DataObject>
-    <DataObject type="thumbnail">
-      <Attribute name="src" value="" />
-    </DataObject>
-</PageMap>
--->
-  </head>
+    <!--
+    <PageMap>
+        <DataObject type="document">
+          <Attribute name="uid"></Attribute>
+          <Attribute name="title">Introduction </Attribute>
+          <Attribute name="keywords"></Attribute>
+          <Attribute name="slug"></Attribute>
+          <Attribute name="description"></Attribute>
+          <Attribute name="section_title">Material design</Attribute>
+          <Attribute name="section_slug">material-design</Attribute>
+        </DataObject>
+        <DataObject type="thumbnail">
+          <Attribute name="src" value="" />
+        </DataObject>
+    </PageMap>
+    -->
+</head>
 
-  
-  
-    
-  
-
-  <body class="site-material_ext_publish section-material-design noninitial-chapter color-indigo qp-ui" data-qp-ui="{ 'Mask': {} }">
-    
-    <!-- Google Tag Manager -->
-    <noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-NHRPF8"
-    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-    '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-    })(window,document,'script','dataLayer','GTM-NHRPF8');</script>
-    <!-- End Google Tag Manager -->
-    
-
-    
-
-      <header>
-        <div class="header-wrapper">
-          <div class="header-title">
-            
-              <span class="section-title">Components</span>
-              <span class="chapter-title">
-                <span class="title-separator">–</span> Cards
-              </span>
-            
-          </div>
+<body class="site-material_ext_publish section-material-design first-chapter color-indigo qp-ui" data-qp-ui="{ 'Mask': {} }">
+    <header class="qp-ui" data-qp-ui="{'Peekaboo': {'mobile': 72,'desktop-sm': 72,'default': 192}}">
+        <div class="header-wrapper qp-ui" data-qp-ui="{'Peekaboo': {'mobile': 28,'desktop-sm': 28,'default': 82}}">
+            <div class="header-title">
+                <span class="section-title">组件</span>
+                <span class="chapter-title">
+              <span class="title-separator">–</span> 卡片
+                </span>
+            </div>
         </div>
-      </header>
-
-    
-
+    </header>
     <nav>
-      <button class="hamburger-button qp-ui" data-qp-ui="{ 'SideNavToggle': {} }" role="tab">
-        <i class="material-icons material-spec-icon" title="Show navigation">menu</i>
-      </button>
+        <button class="hamburger-button qp-ui" data-qp-ui="{ 'SideNavToggle': {} }" role="tab">
+            <i class="material-icons material-spec-icon" title="Show navigation">menu</i>
+        </button>
     </nav>
-
-    
-      <form id="search-form" action="../search.html" method="GET">
-        <div class="search-widget qp-ui" data-qp-ui="{ 'SearchInput': {} }">
-          <button class="search-button"><i class="material-icons">search</i></button>
-          <button class="search-close-button"><i class="material-icons">close</i></button>
-          <input name="q" type="text" id="search-input" autocomplete="off">
-          <label for="search-input">Search</label>
-        </div>
-      </form>
-    
-
-    
-
-    
-
-    
-
-    
-    
-    <div id="side-nav" class="qp-ui" data-qp-ui="{ 'SideNavDrawer': {} }">
-      <div class="side-nav-wrapper ">
+<div id="side-nav" class="qp-ui qp-ui-side-nav-drawer" data-qp-ui="{ 'SideNavDrawer': {} }" data-qp-ui-data-id="qp:4">
+    <div class="side-nav-wrapper ">
         <div>
-          <span id="logo"><a href="/"><img src="../static/images/material-design.svg" alt="Logo"/></a></span>
-          <nav>
-            
-
-              
-                
-              
-
-              <dl>
-                <dt class="qp-ui" data-qp-ui="{ 'SideNavZippy': false }">Material design</dt>
-                <dd>
-                  
-                    <a  href="../material-design/introduction.html">Introduction </a>
-                  
-                    <a  href="../material-design/environment.html">Environment</a>
-                  
-                    <a  href="../material-design/material-properties.html">Material properties</a>
-                  
-                    <a  href="../material-design/elevation-shadows.html">Elevation &amp; shadows</a>
-                  
-                    <a  href="../material-design/whats-new.html">What’s new</a>
-                  
-                </dd>
-              </dl>
-
-            
-
-              
-                
-              
-
-              <dl>
-                <dt class="qp-ui" data-qp-ui="{ 'SideNavZippy': false }">Motion</dt>
-                <dd>
-                  
-                    <a  href="../motion/material-motion.html">Material motion</a>
-                  
-                    <a  href="../motion/duration-easing.html">Duration &amp; easing</a>
-                  
-                    <a  href="../motion/movement.html"> Movement</a>
-                  
-                    <a  href="../motion/transforming-material.html">Transforming material</a>
-                  
-                    <a  href="../motion/choreography.html">Choreography</a>
-                  
-                    <a  href="../motion/creative-customization.html">Creative customization</a>
-                  
-                </dd>
-              </dl>
-
-            
-
-              
-                
-              
-
-              <dl>
-                <dt class="qp-ui" data-qp-ui="{ 'SideNavZippy': false }">Style</dt>
-                <dd>
-                  
-                    <a  href="../style/color.html">Color</a>
-                  
-                    <a  href="../style/icons.html">Icons</a>
-                  
-                    <a  href="../style/imagery.html">Imagery</a>
-                  
-                    <a  href="../style/typography.html">Typography</a>
-                  
-                    <a  href="../style/writing.html">Writing</a>
-                  
-                </dd>
-              </dl>
-
-            
-
-              
-                
-              
-
-              <dl>
-                <dt class="qp-ui" data-qp-ui="{ 'SideNavZippy': false }">Layout</dt>
-                <dd>
-                  
-                    <a  href="../layout/principles.html">Principles</a>
-                  
-                    <a  href="../layout/units-measurements.html">Units &amp; measurements</a>
-                  
-                    <a  href="../layout/metrics-keylines.html">Metrics &amp; keylines</a>
-                  
-                    <a  href="../layout/structure.html">Structure</a>
-                  
-                    <a  href="../layout/responsive-ui.html">Responsive UI</a>
-                  
-                    <a  href="../layout/split-screen.html">Split screen</a>
-                  
-                </dd>
-              </dl>
-
-            
-
-              
-                
-              
-
-              <dl>
-                <dt class="qp-ui" data-qp-ui="{ 'SideNavZippy': true }">Components</dt>
-                <dd>
-                  
-                    <a  href="../components/bottom-navigation.html">Bottom navigation</a>
-                  
-                    <a  href="../components/bottom-sheets.html">Bottom sheets</a>
-                  
-                    <a  href="../components/buttons.html">Buttons</a>
-                  
-                    <a  href="../components/buttons-floating-action-button.html">Buttons: Floating Action Button</a>
-                  
-                    <a class="nav_selected" href="../components/cards.html">Cards</a>
-                  
-                    <a  href="../components/chips.html">Chips</a>
-                  
-                    <a  href="../components/data-tables.html">Data tables</a>
-                  
-                    <a  href="../components/dialogs.html">Dialogs</a>
-                  
-                    <a  href="../components/dividers.html">Dividers</a>
-                  
-                    <a  href="../components/expansion-panels.html">Expansion panels</a>
-                  
-                    <a  href="../components/grid-lists.html">Grid lists</a>
-                  
-                    <a  href="../components/lists.html">Lists</a>
-                  
-                    <a  href="../components/lists-controls.html">Lists: Controls</a>
-                  
-                    <a  href="../components/menus.html">Menus</a>
-                  
-                    <a  href="../components/pickers.html">Pickers</a>
-                  
-                    <a  href="../components/progress-activity.html">Progress &amp; activity</a>
-                  
-                    <a  href="../components/selection-controls.html">Selection controls</a>
-                  
-                    <a  href="../components/sliders.html">Sliders</a>
-                  
-                    <a  href="../components/snackbars-toasts.html">Snackbars &amp; toasts</a>
-                  
-                    <a  href="../components/steppers.html">Steppers</a>
-                  
-                    <a  href="../components/subheaders.html">Subheaders</a>
-                  
-                    <a  href="../components/tabs.html">Tabs</a>
-                  
-                    <a  href="../components/text-fields.html">Text fields</a>
-                  
-                    <a  href="../components/toolbars.html">Toolbars</a>
-                  
-                    <a  href="../components/tooltips.html">Tooltips</a>
-                  
-                    <a  href="../components/widgets.html">Widgets</a>
-                  
-                </dd>
-              </dl>
-
-            
-
-              
-                
-              
-
-              <dl>
-                <dt class="qp-ui" data-qp-ui="{ 'SideNavZippy': false }">Patterns</dt>
-                <dd>
-                  
-                    <a  href="../patterns/confirmation-acknowledgement.html">Confirmation &amp; acknowledgement</a>
-                  
-                    <a  href="../patterns/data-formats.html">Data formats</a>
-                  
-                    <a  href="../patterns/empty-states.html">Empty states</a>
-                  
-                    <a  href="../patterns/errors.html">Errors</a>
-                  
-                    <a  href="../patterns/fingerprint.html">Fingerprint</a>
-                  
-                    <a  href="../patterns/gestures.html">Gestures </a>
-                  
-                    <a  href="../patterns/help-feedback.html">Help &amp; feedback</a>
-                  
-                    <a  href="../patterns/launch-screens.html">Launch screens</a>
-                  
-                    <a  href="../patterns/loading-images.html">Loading images</a>
-                  
-                    <a  href="../patterns/navigation.html">Navigation</a>
-                  
-                    <a  href="../patterns/navigation-drawer.html">Navigation drawer</a>
-                  
-                    <a  href="../patterns/navigational-transitions.html">Navigational transitions</a>
-                  
-                    <a  href="../patterns/notifications.html">Notifications</a>
-                  
-                    <a  href="../patterns/permissions.html">Permissions</a>
-                  
-                    <a  href="../patterns/scrolling-techniques.html">Scrolling techniques</a>
-                  
-                    <a  href="../patterns/search.html">Search </a>
-                  
-                    <a  href="../patterns/selection.html">Selection </a>
-                  
-                    <a  href="../patterns/settings.html">Settings </a>
-                  
-                    <a  href="../patterns/swipe-to-refresh.html">Swipe to refresh</a>
-                  
-                </dd>
-              </dl>
-
-            
-
-              
-                
-              
-
-              <dl>
-                <dt class="qp-ui" data-qp-ui="{ 'SideNavZippy': false }">Growth &amp; communications</dt>
-                <dd>
-                  
-                    <a  href="../growth-communications/introduction.html">Introduction</a>
-                  
-                    <a  href="../growth-communications/onboarding.html">Onboarding</a>
-                  
-                    <a  href="../growth-communications/feature-discovery.html">Feature discovery</a>
-                  
-                    <a  href="../growth-communications/gesture-education.html">Gesture education</a>
-                  
-                </dd>
-              </dl>
-
-            
-
-              
-                
-              
-
-              <dl>
-                <dt class="qp-ui" data-qp-ui="{ 'SideNavZippy': false }">Usability</dt>
-                <dd>
-                  
-                    <a  href="../usability/accessibility.html">Accessibility</a>
-                  
-                    <a  href="../usability/bidirectionality.html">Bidirectionality</a>
-                  
-                </dd>
-              </dl>
-
-            
-
-              
-                
-              
-
-              <dl>
-                <dt class="qp-ui" data-qp-ui="{ 'SideNavZippy': false }">Platforms </dt>
-                <dd>
-                  
-                    <a  href="../platforms/platform-adaptation.html">Platform adaptation</a>
-                  
-                    <a  href="../platforms/android.html">Android</a>
-                  
-                </dd>
-              </dl>
-
-            
-
-              
-                
-              
-
-              <dl>
-                <dt class="qp-ui" data-qp-ui="{ 'SideNavZippy': false }">Resources</dt>
-                <dd>
-                  
-                    <a  href="../resources/color-palettes.html">Color palettes</a>
-                  
-                    <a  href="../resources/devices.html">Devices</a>
-                  
-                    <a  href="../resources/layout-templates.html">Layout templates</a>
-                  
-                    <a  href="../resources/roboto-noto-fonts.html">Roboto &amp; Noto fonts</a>
-                  
-                    <a  href="../resources/sticker-sheets-icons.html">Sticker sheets &amp; icons</a>
-                  
-                </dd>
-              </dl>
-
-            
-          </nav>
-
-
-          
-          <div class="legal">
-            <p class="copyright">Google &copy;</p>
-            <ul>
-              
-              <li>
-                <a href="javascript:void(0);" onclick="try{userfeedback.api.startFeedback({'productId': '1027542', 'bucket': 'material_spec', 'locale': 'en', 'allowNonLoggedInFeedback': true});return false;}catch(e){}" class="qp-ui-side-nav-dismiss">Site feedback</a>
-              </li>
-              
-              <li>
-                <a href="http://www.google.com/policies/privacy/">Privacy</a>
-              </li>
-              <li>
-                <a href="http://www.google.com/policies/terms/">Terms</a>
-              </li>
-            </ul>
-          </div>
-          
+            <span id="logo"><a href="../material-deisgn/introduction.html"><img src="../assets/images/material-design.svg" alt="Logo"></a></span>
+            <nav>
+                <dl>
+                    <dt class="qp-ui goog-zippy-header goog-zippy-expanded" data-qp-ui="{ 'SideNavZippy': false }" tabindex="0" role="tab" aria-expanded="false" data-qp-ui-data-id="qp:5">Material design</dt>
+                    <div style="overflow: hidden;">
+                        <dd style="margin-top: 0px;">
+                            <a href="../material-deisgn/introduction.html">概述</a>
+                            <a href="../material-deisgn/environment.html">环境</a>
+                            <a href="../material-deisgn/material-properties.html">Material 属性</a>
+                            <a href="../material-deisgn/elevation-shadows.html">层次 &amp; 阴影</a>
+                            <a href="../material-deisgn/whats-new.html">最近更新</a>
+                        </dd>
+                    </div>
+                </dl>
+                <dl>
+                    <dt class="qp-ui goog-zippy-header goog-zippy-collapsed" data-qp-ui="{ 'SideNavZippy': false }" tabindex="0" role="tab" aria-expanded="false" data-qp-ui-data-id="qp:6">动效</dt>
+                    <div style="overflow: hidden;">
+                        <dd>
+                            <a href="../motion/material-motion.html">Material 动效</a>
+                            <a href="../motion/duration-easing.html">持续时间 &amp; 缓动</a>
+                            <a href="../motion/movement.html">移动</a>
+                            <a href="../motion/transforming-material.html">材料的形变</a>
+                            <a href="../motion/choreography.html">编排</a>
+                            <a href="../motion/creative-customization.html">别出心裁</a>
+                        </dd>
+                    </div>
+                </dl>
+                <dl>
+                    <dt class="qp-ui goog-zippy-header goog-zippy-collapsed" data-qp-ui="{ 'SideNavZippy': false }" tabindex="0" role="tab" aria-expanded="false" data-qp-ui-data-id="qp:7">样式</dt>
+                    <div style="overflow: hidden;">
+                        <dd>
+                            <a href="../style/color.html">色彩</a>
+                            <a href="../style/icons.html">图标</a>
+                            <a href="../style/imagery.html">图像</a>
+                            <a href="../style/typography.html">排版</a>
+                            <a href="../style/writing.html">书写</a>
+                        </dd>
+                    </div>
+                </dl>
+                <dl>
+                    <dt class="qp-ui goog-zippy-header goog-zippy-collapsed" data-qp-ui="{ 'SideNavZippy': false }" tabindex="0" role="tab" aria-expanded="false" data-qp-ui-data-id="qp:8">布局</dt>
+                    <div style="overflow: hidden;">
+                        <dd>
+                            <a href="../layout/principles.html">原则</a>
+                            <a href="../layout/units-measurements.html">单位 &amp; 度量</a>
+                            <a href="../layout/metrics-keylines.html">度量标准 &amp; 关键线</a>
+                            <a href="../layout/structure.html">结构</a>
+                            <a href="../layout/responsive-ui.html">响应式 UI</a>
+                            <a href="../layout/split-screen.html">分屏</a>
+                        </dd>
+                    </div>
+                </dl>
+                <dl>
+                    <dt class="qp-ui goog-zippy-header goog-zippy-expanded" data-qp-ui="{ 'SideNavZippy': false }" tabindex="0" role="tab" aria-expanded="false" data-qp-ui-data-id="qp:9">组件</dt>
+                    <div style="overflow: hidden;">
+                        <dd>
+                            <a href="bottom-navigation.html">底部导航栏</a>
+                            <a href="bottom-sheets.html">底部 sheets</a>
+                            <a href="buttons.html">按钮</a>
+                            <a href="buttons-floating-action-button.html">按钮：浮动按钮</a>
+                            <a class='current' href="cards.html">卡片</a>
+                            <a href="chips.html">Chips</a>
+                            <a href="data-tables.html">数据表格</a>
+                            <a href="dialogs.html">对话框</a>
+                            <a href="dividers.html">分隔符</a>
+                            <a href="expansion-panels.html">Expansion panels</a>
+                            <a href="grid-lists.html">网格列表</a>
+                            <a href="lists.html">列表</a>
+                            <a href="lists-controls.html">列表：控制器</a>
+                            <a href="menus.html">Menus</a>
+                            <a href="pickers.html">Pickers</a>
+                            <a href="progress-activity.html">进程 &amp; 活动</a>
+                            <a href="selection-controls.html">控制开关</a>
+                            <a href="sliders.html">滑块</a>
+                            <a href="snackbars-toasts.html">Snackbars &amp; toasts</a>
+                            <a href="steppers.html">Steppers</a>
+                            <a href="subheaders.html">Subheaders</a>
+                            <a href="tabs.html">Tabs</a>
+                            <a href="text-fields.html">文本框</a>
+                            <a href="toolbars.html">工具栏</a>
+                            <a href="tooltips.html">Tooltips</a>
+                            <a href="widgets.html">插件</a>
+                        </dd>
+                    </div>
+                </dl>
+                <dl>
+                    <dt class="qp-ui goog-zippy-header goog-zippy-collapsed" data-qp-ui="{ 'SideNavZippy': false }" tabindex="0" role="tab" aria-expanded="false" data-qp-ui-data-id="qp:a">模式</dt>
+                    <div style="overflow: hidden;">
+                        <dd>
+                            <a href="../patterns/confirmation-acknowledgement.html">批准 &amp; 鸣谢</a>
+                            <a href="../patterns/data-formats.html">数据格式</a>
+                            <a href="../patterns/empty-states.html">空白状态</a>
+                            <a href="../patterns/errors.html">出错</a>
+                            <a href="../patterns/fingerprint.html">指纹</a>
+                            <a href="../patterns/gestures.html">手势</a>
+                            <a href="../patterns/help-feedback.html">帮助 &amp; 反馈</a>
+                            <a href="../patterns/launch-screens.html">启动页</a>
+                            <a href="../patterns/loading-images.html">图片加载</a>
+                            <a href="../patterns/navigation.html">导航</a>
+                            <a href="../patterns/navigation-drawer.html">抽屉导航</a>
+                            <a href="../patterns/navigational-transitions.html">导航的转场</a>
+                            <a href="../patterns/notifications.html">通知</a>
+                            <a href="../patterns/permissions.html">权限</a>
+                            <a href="../patterns/scrolling-techniques.html">滚动技术</a>
+                            <a href="../patterns/search.html">搜索</a>
+                            <a href="../patterns/selection.html">选择</a>
+                            <a href="../patterns/settings.html">设置</a>
+                            <a href="../patterns/swipe-to-refresh.html">滑动刷新</a>
+                        </dd>
+                    </div>
+                </dl>
+                <dl>
+                    <dt class="qp-ui goog-zippy-header goog-zippy-collapsed" data-qp-ui="{ 'SideNavZippy': false }" tabindex="0" role="tab" aria-expanded="false" data-qp-ui-data-id="qp:b">成长 &amp; 沟通</dt>
+                    <div style="overflow: hidden;">
+                        <dd>
+                            <a href="../growth-communications/introduction-2.html">引言</a>
+                            <a href="../growth-communications/onboarding.html">过程</a>
+                            <a href="../growth-communications/feature-discovery.html">探索特性</a>
+                            <a href="../growth-communications/gesture-education.html">附加手势</a>
+                        </dd>
+                    </div>
+                </dl>
+                <dl>
+                    <dt class="qp-ui goog-zippy-header goog-zippy-collapsed" data-qp-ui="{ 'SideNavZippy': false }" tabindex="0" role="tab" aria-expanded="false" data-qp-ui-data-id="qp:c">可用性</dt>
+                    <div style="overflow: hidden;">
+                        <dd>
+                            <a href="../usability/accessibility.html">可达性</a>
+                            <a href="../usability/bidirectionality.html">双向性</a>
+                        </dd>
+                    </div>
+                </dl>
+                <dl>
+                    <dt class="qp-ui goog-zippy-header goog-zippy-collapsed" data-qp-ui="{ 'SideNavZippy': false }" tabindex="0" role="tab" aria-expanded="false" data-qp-ui-data-id="qp:d">平台 </dt>
+                    <div style="overflow: hidden;">
+                        <dd>
+                            <a href="../platforms/platform-adaptation.html">平台适配</a>
+                            <a href="../platforms/android.html">Android</a>
+                        </dd>
+                    </div>
+                </dl>
+                <dl>
+                    <dt class="qp-ui goog-zippy-header goog-zippy-collapsed" data-qp-ui="{ 'SideNavZippy': false }" tabindex="0" role="tab" aria-expanded="false" data-qp-ui-data-id="qp:e">资源</dt>
+                    <div style="overflow: hidden;">
+                        <dd>
+                            <a href="../resources/color-palettes.html">调色板</a>
+                            <a href="../resources/devices.html">设备</a>
+                            <a href="../resources/layout-templates.html">布局模版</a>
+                            <a href="../resources/roboto-noto-fonts.html">Roboto &amp; Noto fonts</a>
+                            <a href="../resources/sticker-sheets-icons.html">Sticker sheets &amp; icons</a>
+                        </dd>
+                    </div>
+                </dl>
+            </nav>
+            <div class="legal">
+                <p class="copyright">Google ©</p>
+                <ul>
+                    <li>
+                        <a href="http://www.google.com/policies/privacy/">Privacy</a>
+                    </li>
+                    <li>
+                        <a href="http://www.google.com/policies/terms/">Terms</a>
+                    </li>
+                    <li>
+                        <a href="http://maxc.me">Max Design</a>
+                    </li>
+                </ul>
+            </div>
         </div>
-      </div>
-
-      
-
     </div>
-
-    <div id="grid-cont">
-      <section class="grid_outer chapter">
-        
-        <h1 class="chapter-title">Cards
-          
-          
-          
-          
-          
-        </h1>
-        <div class="chapter-content">
-
-          <div class="article-content chapter-intro">
-            <div><p>A card is a sheet of material that serves as an entry point to more detailed information. </p><div class="col-list"><section class="module-module-figure col-3"><div class="module"><p>Cards may contain a photo, text, and a link about a single subject. They may display content containing elements of varying size, such as photos with captions of variable length.</p><p>A card collection is a layout of cards on the same plane.</p></div><div class="module"><h3><strong>Usage</strong></h3><p>Cards display content composed of different elements whose size or supported actions vary.</p><h3><strong>Supported gestures</strong></h3><p>Swipe<br>
-Pick-up-and-move</p><h3><strong>Related components </strong></h3><p><a href="../components/grid-lists.html">Grid lists</a></p><h3><strong>For developers</strong></h3><p><a href="https://www.google.com/url?q=http://developer.android.com/index.html&amp;sa=D&amp;ust=1481817970288000&amp;usg=AFQjCNGDCjHsLwZxRyFZiza53UXMMl_Prg" target="_blank">Android cards</a><br>
-<a href="https://www.google.com/url?q=https://www.polymer-project.org/1.0/&amp;sa=D&amp;ust=1481817970289000&amp;usg=AFQjCNGE4vO4lDdu1AKO1gSMoZknFYWhxQ" target="_blank">Polymer cards</a></p></div><div class="figure"><figure class="s-tag-media"><div class="media"><img alt="" src="https://storage.googleapis.com/material-design/publish/material_v_10/assets/0B7WCemMG6e0VR0ptbC1RV1NLNlk/components_cards.png"/></div></figure></div></section></div></div>
-          </div>
-
-          
-          <nav class="chapter-toc">
-            <h1>Contents</h1>
-            <ul>
-              
-                <li><a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="#cards-usage" data-qp-ui-data-id="qp:1">Usage</a></li>
-              
-                <li><a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="#cards-content" data-qp-ui-data-id="qp:2">Content</a></li>
-              
-                <li><a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="#cards-behavior" data-qp-ui-data-id="qp:3">Behavior</a></li>
-              
-                <li><a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="#cards-actions" data-qp-ui-data-id="qp:4">Actions</a></li>
-              
-                <li><a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="#cards-content-blocks" data-qp-ui-data-id="qp:5">Content blocks</a></li>
-              
-            </ul>
-          </nav>
-
-          <div class="article-list">
-            
-              <div id="cards-usage" class="article qp-ui" data-qp-ui="{ 'ScrollSpy': {} }" data-qp-ui-data-id="qp:1">
-                <h2 class="article-title qp-ui" data-qp-ui="{ 'ResponsiveZippy': {} }" data-qp-ui-data-id="qp:1">
+</div>
+<div id="grid-cont">
+    <section class="grid_outer chapter">
+        <h1 class="chapter-title">卡片</h1>
+<div class="chapter-content">
+    <div class="article-content chapter-intro">
+        <div>
+            <p>A card is a sheet of material that serves as an entry point to more detailed information. </p>
+            <div class="col-list">
+                <section class="module-module-figure col-3">
+                    <div class="module">
+                        <p>Cards may contain a photo, text, and a link about a single subject. They may display content containing elements of varying size, such as photos with captions of variable length.</p>
+                        <p>A card collection is a layout of cards on the same plane.</p>
+                    </div>
+                    <div class="module">
+                        <h3><strong>Usage</strong></h3>
+                        <p>Cards display content composed of different elements whose size or supported actions vary.</p>
+                        <h3><strong>Supported gestures</strong></h3>
+                        <p>Swipe
+                            <br> Pick-up-and-move
+                        </p>
+                        <h3><strong>Related components </strong></h3>
+                        <p><a href="../components/grid-lists.html">Grid lists</a></p>
+                        <h3><strong>For developers</strong></h3>
+                        <p><a href="https://www.google.com/url?q=http://developer.android.com/index.html&amp;sa=D&amp;ust=1481817970288000&amp;usg=AFQjCNGDCjHsLwZxRyFZiza53UXMMl_Prg" target="_blank">Android cards</a>
+                            <br>
+                            <a href="https://www.google.com/url?q=https://www.polymer-project.org/1.0/&amp;sa=D&amp;ust=1481817970289000&amp;usg=AFQjCNGE4vO4lDdu1AKO1gSMoZknFYWhxQ" target="_blank">Polymer cards</a></p>
+                    </div>
+                    <div class="figure">
+                        <figure class="s-tag-media">
+                            <div class="media"><img alt="" src="https://storage.googleapis.com/material-design/publish/material_v_10/assets/0B7WCemMG6e0VR0ptbC1RV1NLNlk/components_cards.png" /></div>
+                        </figure>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </div>
+    <nav class="chapter-toc">
+        <h1>Contents</h1>
+        <ul>
+            <li><a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="#cards-usage" data-qp-ui-data-id="qp:1">Usage</a></li>
+            <li><a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="#cards-content" data-qp-ui-data-id="qp:2">Content</a></li>
+            <li><a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="#cards-behavior" data-qp-ui-data-id="qp:3">Behavior</a></li>
+            <li><a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="#cards-actions" data-qp-ui-data-id="qp:4">Actions</a></li>
+            <li><a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="#cards-content-blocks" data-qp-ui-data-id="qp:5">Content blocks</a></li>
+        </ul>
+    </nav>
+    <div class="article-list">
+        <div id="cards-usage" class="article qp-ui" data-qp-ui="{ 'ScrollSpy': {} }" data-qp-ui-data-id="qp:1">
+            <h2 class="article-title qp-ui" data-qp-ui="{ 'ResponsiveZippy': {} }" data-qp-ui-data-id="qp:1">
                   Usage
                   
                   
@@ -475,19 +287,134 @@ Pick-up-and-move</p><h3><strong>Related components </strong></h3><p><a href="../
                     <polygon role="presentation" points="2.5,4.167 5,6.667 7.5,4.167 6.917,3.583 5,5.5 3.083,3.583"></polygon>
                   </svg>
                 </h2>
-                <div class="article-content">
-                  <div><div class="col-list"><section class="module-figure col-2"><div class="module"><p>Cards are a convenient means of displaying content composed of different elements. They’re also well-suited for showcasing elements whose size or supported actions vary, like photos with captions of variable length.</p></div><div class="figure"><figure class="s-tag-media"><div class="media"><img alt="" src="https://storage.googleapis.com/material-design/publish/material_v_10/assets/0Bzhp5Z4wHba3WFBLZjBNNGpnQzg/components_cards1.png"/></div><figcaption><p>Example of a card</p></figcaption></figure></div></section></div><div class="col-list"><section class="module-figure-figure col-3"><div class="module"><p>A card collection is coplanar, or a layout of cards on the same plane.</p></div><div class="figure"><figure class="s-tag-media"><div class="media"><img alt="" src="https://storage.googleapis.com/material-design/publish/material_v_10/assets/0Bzhp5Z4wHba3Y1lRbzJERTJIa28/components_cards2.png"/></div><figcaption><p>Example of a card collection</p></figcaption></figure></div><div class="figure"><figure class="s-tag-media"><div class="media"><img alt="" src="https://storage.googleapis.com/material-design/publish/material_v_10/assets/0Bzhp5Z4wHba3am9VWWFlbHVJNDg/components_cards3.png"/></div><figcaption><p>Example of a card collection</p></figcaption></figure></div></section></div><div class="col-list"><section class="module-figure-figure col-3"><div class="module"><p><strong>When to use</strong></p><p>Use a card layout when displaying content that:</p><ul class="lst-kix_rnw5ydwfz5t2-0 start"><li>As a collection, comprises multiple data types, such as images, movies, and text</li><li>Does not require direct comparison (a user is not directly comparing images or text)</li><li>Supports content of highly variable length, such as comments</li><li>Contains interactive content, such as +1 buttons or comments</li><li>Would otherwise be in a grid list but needs to display more content to supplement the image</li></ul></div><div class="figure"><figure class="s-tag-media"><div class="media"><img alt="" src="https://storage.googleapis.com/material-design/publish/material_v_10/assets/0B_udO5B8pzrzSG9CdkJzMEJCODQ/components_cards6.png"/></div><figcaption><p class="s-tag-caption do">Do.</p><p>1. Cards have rounded corners.<br>
-2. Cards can have multiple actions.<br>
-3. Cards can be dismissible and rearranged.</p></figcaption></figure></div><div class="figure"><figure class="s-tag-media"><div class="media"><img alt="" src="https://storage.googleapis.com/material-design/publish/material_v_10/assets/0B_udO5B8pzrzSk92SnhSbTQwRlk/components_cards7.png"/></div><figcaption><p class="s-tag-caption dont">Don't.</p><p>This is a tile, not a card.<br>
-1. Tiles have square corners.<br>
-2. Tiles have no more than two actions.</p></figcaption></figure></div></section></div><div class="col-list"><section class="module-figure-figure col-3"><div class="module">
-</div><div class="figure"><figure class="s-tag-media"><div class="media"><img alt="" src="https://storage.googleapis.com/material-design/publish/material_v_10/assets/0B6Okdz75tqQsZGZTVVJIWW4zZWs/components_cards8.png"/></div><figcaption><p class="s-tag-caption do">Do.</p><p>A quickly scannable list, instead of cards, is an appropriate way to represent homogeneous content that doesn't have many actions.</p></figcaption></figure></div><div class="figure"><figure class="s-tag-media"><div class="media"><img alt="" src="https://storage.googleapis.com/material-design/publish/material_v_10/assets/0B6Okdz75tqQsM3ZqMmJXdjRyZk0/components_cards9.png"/></div><figcaption><p class="s-tag-caption dont">Don't.</p><p>The use of cards here distracts the user from being able to quickly scan. These list items are also not dismissable, so having them on separate cards is confusing. </p></figcaption></figure></div></section><section class="module-figure-figure col-3"><div class="module">
-</div><div class="figure"><figure class="s-tag-media"><div class="media"><img alt="" src="https://storage.googleapis.com/material-design/publish/material_v_10/assets/0B6Okdz75tqQsN2F1Y2RWNzQ0R1U/components_cards10.png"/></div><figcaption><p class="s-tag-caption do">Do.</p><p>Grid tiles are a clean and lightweight way to present a gallery of images.</p></figcaption></figure></div><div class="figure"><figure class="s-tag-media"><div class="media"><img alt="" src="https://storage.googleapis.com/material-design/publish/material_v_10/assets/0B6Okdz75tqQscVl0VzR1SlZkMWM/components_cards11.png"/></div><figcaption><p class="s-tag-caption dont">Don't.</p><p>Cards are unnecessary in a gallery of images (homogeneous content). </p></figcaption></figure></div></section></div></div>
+            <div class="article-content">
+                <div>
+                    <div class="col-list">
+                        <section class="module-figure col-2">
+                            <div class="module">
+                                <p>Cards are a convenient means of displaying content composed of different elements. They’re also well-suited for showcasing elements whose size or supported actions vary, like photos with captions of variable length.</p>
+                            </div>
+                            <div class="figure">
+                                <figure class="s-tag-media">
+                                    <div class="media"><img alt="" src="https://storage.googleapis.com/material-design/publish/material_v_10/assets/0Bzhp5Z4wHba3WFBLZjBNNGpnQzg/components_cards1.png" /></div>
+                                    <figcaption>
+                                        <p>Example of a card</p>
+                                    </figcaption>
+                                </figure>
+                            </div>
+                        </section>
+                    </div>
+                    <div class="col-list">
+                        <section class="module-figure-figure col-3">
+                            <div class="module">
+                                <p>A card collection is coplanar, or a layout of cards on the same plane.</p>
+                            </div>
+                            <div class="figure">
+                                <figure class="s-tag-media">
+                                    <div class="media"><img alt="" src="https://storage.googleapis.com/material-design/publish/material_v_10/assets/0Bzhp5Z4wHba3Y1lRbzJERTJIa28/components_cards2.png" /></div>
+                                    <figcaption>
+                                        <p>Example of a card collection</p>
+                                    </figcaption>
+                                </figure>
+                            </div>
+                            <div class="figure">
+                                <figure class="s-tag-media">
+                                    <div class="media"><img alt="" src="https://storage.googleapis.com/material-design/publish/material_v_10/assets/0Bzhp5Z4wHba3am9VWWFlbHVJNDg/components_cards3.png" /></div>
+                                    <figcaption>
+                                        <p>Example of a card collection</p>
+                                    </figcaption>
+                                </figure>
+                            </div>
+                        </section>
+                    </div>
+                    <div class="col-list">
+                        <section class="module-figure-figure col-3">
+                            <div class="module">
+                                <p><strong>When to use</strong></p>
+                                <p>Use a card layout when displaying content that:</p>
+                                <ul class="lst-kix_rnw5ydwfz5t2-0 start">
+                                    <li>As a collection, comprises multiple data types, such as images, movies, and text</li>
+                                    <li>Does not require direct comparison (a user is not directly comparing images or text)</li>
+                                    <li>Supports content of highly variable length, such as comments</li>
+                                    <li>Contains interactive content, such as +1 buttons or comments</li>
+                                    <li>Would otherwise be in a grid list but needs to display more content to supplement the image</li>
+                                </ul>
+                            </div>
+                            <div class="figure">
+                                <figure class="s-tag-media">
+                                    <div class="media"><img alt="" src="https://storage.googleapis.com/material-design/publish/material_v_10/assets/0B_udO5B8pzrzSG9CdkJzMEJCODQ/components_cards6.png" /></div>
+                                    <figcaption>
+                                        <p class="s-tag-caption do">Do.</p>
+                                        <p>1. Cards have rounded corners.
+                                            <br> 2. Cards can have multiple actions.
+                                            <br> 3. Cards can be dismissible and rearranged.</p>
+                                    </figcaption>
+                                </figure>
+                            </div>
+                            <div class="figure">
+                                <figure class="s-tag-media">
+                                    <div class="media"><img alt="" src="https://storage.googleapis.com/material-design/publish/material_v_10/assets/0B_udO5B8pzrzSk92SnhSbTQwRlk/components_cards7.png" /></div>
+                                    <figcaption>
+                                        <p class="s-tag-caption dont">Don't.</p>
+                                        <p>This is a tile, not a card.
+                                            <br> 1. Tiles have square corners.
+                                            <br> 2. Tiles have no more than two actions.</p>
+                                    </figcaption>
+                                </figure>
+                            </div>
+                        </section>
+                    </div>
+                    <div class="col-list">
+                        <section class="module-figure-figure col-3">
+                            <div class="module">
+                            </div>
+                            <div class="figure">
+                                <figure class="s-tag-media">
+                                    <div class="media"><img alt="" src="https://storage.googleapis.com/material-design/publish/material_v_10/assets/0B6Okdz75tqQsZGZTVVJIWW4zZWs/components_cards8.png" /></div>
+                                    <figcaption>
+                                        <p class="s-tag-caption do">Do.</p>
+                                        <p>A quickly scannable list, instead of cards, is an appropriate way to represent homogeneous content that doesn't have many actions.</p>
+                                    </figcaption>
+                                </figure>
+                            </div>
+                            <div class="figure">
+                                <figure class="s-tag-media">
+                                    <div class="media"><img alt="" src="https://storage.googleapis.com/material-design/publish/material_v_10/assets/0B6Okdz75tqQsM3ZqMmJXdjRyZk0/components_cards9.png" /></div>
+                                    <figcaption>
+                                        <p class="s-tag-caption dont">Don't.</p>
+                                        <p>The use of cards here distracts the user from being able to quickly scan. These list items are also not dismissable, so having them on separate cards is confusing. </p>
+                                    </figcaption>
+                                </figure>
+                            </div>
+                        </section>
+                        <section class="module-figure-figure col-3">
+                            <div class="module">
+                            </div>
+                            <div class="figure">
+                                <figure class="s-tag-media">
+                                    <div class="media"><img alt="" src="https://storage.googleapis.com/material-design/publish/material_v_10/assets/0B6Okdz75tqQsN2F1Y2RWNzQ0R1U/components_cards10.png" /></div>
+                                    <figcaption>
+                                        <p class="s-tag-caption do">Do.</p>
+                                        <p>Grid tiles are a clean and lightweight way to present a gallery of images.</p>
+                                    </figcaption>
+                                </figure>
+                            </div>
+                            <div class="figure">
+                                <figure class="s-tag-media">
+                                    <div class="media"><img alt="" src="https://storage.googleapis.com/material-design/publish/material_v_10/assets/0B6Okdz75tqQscVl0VzR1SlZkMWM/components_cards11.png" /></div>
+                                    <figcaption>
+                                        <p class="s-tag-caption dont">Don't.</p>
+                                        <p>Cards are unnecessary in a gallery of images (homogeneous content). </p>
+                                    </figcaption>
+                                </figure>
+                            </div>
+                        </section>
+                    </div>
                 </div>
-              </div>
-            
-              <div id="cards-content" class="article qp-ui" data-qp-ui="{ 'ScrollSpy': {} }" data-qp-ui-data-id="qp:2">
-                <h2 class="article-title qp-ui" data-qp-ui="{ 'ResponsiveZippy': {} }" data-qp-ui-data-id="qp:2">
+            </div>
+        </div>
+        <div id="cards-content" class="article qp-ui" data-qp-ui="{ 'ScrollSpy': {} }" data-qp-ui-data-id="qp:2">
+            <h2 class="article-title qp-ui" data-qp-ui="{ 'ResponsiveZippy': {} }" data-qp-ui-data-id="qp:2">
                   Content
                   
                   
@@ -498,13 +425,54 @@ Pick-up-and-move</p><h3><strong>Related components </strong></h3><p><a href="../
                     <polygon role="presentation" points="2.5,4.167 5,6.667 7.5,4.167 6.917,3.583 5,5.5 3.083,3.583"></polygon>
                   </svg>
                 </h2>
-                <div class="article-content">
-                  <div><div class="col-list"><section class="module-figure-figure col-3"><div class="module"><p>Cards provide context and an entry point to more robust information and views, and their content and quantity can vary greatly. Cards within a card collection can each contain a unique data set, such as a checklist with an action, a note with an action, and a note with a photo.</p><p>Don't overload cards with extraneous information or actions.</p><h2><strong><strong>Content hierarchy</strong></strong></h2><p>Use hierarchy within the card to direct users’ attention to the most important information. For example, place primary content at the top of the card, or use typography to emphasize primary content.</p><p>Images can reinforce other content in a card. However, their size and placement within the card depends on whether images are the primary content or are being used to supplement other content on the card.</p><p><strong>Background images</strong></p><p>Text is most legible when placed on a solid color background with a sufficient contrast ratio to the text. Text placed on image backgrounds should preserve text legibility.</p></div><div class="figure"><figure class="s-tag-media"><div class="media"><img alt="" src="https://storage.googleapis.com/material-design/publish/material_v_10/assets/0Bzhp5Z4wHba3cXVadmtJa19wT3M/components_cards_content1.png"/></div><figcaption><p>This card collection contains cards with varied layouts.</p></figcaption></figure><figure class="s-tag-media"><div class="media"><img alt="" src="https://storage.googleapis.com/material-design/publish/material_v_10/assets/0B6Okdz75tqQsZWNWWDZVek41S1U/components_cards_content2.png"/></div><figcaption><p>This card collection contains cards with varied content types and layouts.</p></figcaption></figure></div><div class="figure"><figure class="s-tag-media"><div class="media"><img alt="" src="https://storage.googleapis.com/material-design/publish/material_v_10/assets/0Bzhp5Z4wHba3NGo3QkpVWTNBZzA/components_cards_content3.png"/></div><figcaption><p>Typography can emphasize primary content.</p></figcaption></figure><figure class="s-tag-media"><div class="media"><img alt="" src="https://storage.googleapis.com/material-design/publish/material_v_10/assets/0Bzhp5Z4wHba3b1N2Q2swOFNuX28/components_cards_content4.png"/></div><figcaption><p>This card collection contains cards with varied layouts and content hierarchy. </p></figcaption></figure></div></section></div></div>
+            <div class="article-content">
+                <div>
+                    <div class="col-list">
+                        <section class="module-figure-figure col-3">
+                            <div class="module">
+                                <p>Cards provide context and an entry point to more robust information and views, and their content and quantity can vary greatly. Cards within a card collection can each contain a unique data set, such as a checklist with an action, a note with an action, and a note with a photo.</p>
+                                <p>Don't overload cards with extraneous information or actions.</p>
+                                <h2><strong><strong>Content hierarchy</strong></strong></h2>
+                                <p>Use hierarchy within the card to direct users’ attention to the most important information. For example, place primary content at the top of the card, or use typography to emphasize primary content.</p>
+                                <p>Images can reinforce other content in a card. However, their size and placement within the card depends on whether images are the primary content or are being used to supplement other content on the card.</p>
+                                <p><strong>Background images</strong></p>
+                                <p>Text is most legible when placed on a solid color background with a sufficient contrast ratio to the text. Text placed on image backgrounds should preserve text legibility.</p>
+                            </div>
+                            <div class="figure">
+                                <figure class="s-tag-media">
+                                    <div class="media"><img alt="" src="https://storage.googleapis.com/material-design/publish/material_v_10/assets/0Bzhp5Z4wHba3cXVadmtJa19wT3M/components_cards_content1.png" /></div>
+                                    <figcaption>
+                                        <p>This card collection contains cards with varied layouts.</p>
+                                    </figcaption>
+                                </figure>
+                                <figure class="s-tag-media">
+                                    <div class="media"><img alt="" src="https://storage.googleapis.com/material-design/publish/material_v_10/assets/0B6Okdz75tqQsZWNWWDZVek41S1U/components_cards_content2.png" /></div>
+                                    <figcaption>
+                                        <p>This card collection contains cards with varied content types and layouts.</p>
+                                    </figcaption>
+                                </figure>
+                            </div>
+                            <div class="figure">
+                                <figure class="s-tag-media">
+                                    <div class="media"><img alt="" src="https://storage.googleapis.com/material-design/publish/material_v_10/assets/0Bzhp5Z4wHba3NGo3QkpVWTNBZzA/components_cards_content3.png" /></div>
+                                    <figcaption>
+                                        <p>Typography can emphasize primary content.</p>
+                                    </figcaption>
+                                </figure>
+                                <figure class="s-tag-media">
+                                    <div class="media"><img alt="" src="https://storage.googleapis.com/material-design/publish/material_v_10/assets/0Bzhp5Z4wHba3b1N2Q2swOFNuX28/components_cards_content4.png" /></div>
+                                    <figcaption>
+                                        <p>This card collection contains cards with varied layouts and content hierarchy. </p>
+                                    </figcaption>
+                                </figure>
+                            </div>
+                        </section>
+                    </div>
                 </div>
-              </div>
-            
-              <div id="cards-behavior" class="article qp-ui" data-qp-ui="{ 'ScrollSpy': {} }" data-qp-ui-data-id="qp:3">
-                <h2 class="article-title qp-ui" data-qp-ui="{ 'ResponsiveZippy': {} }" data-qp-ui-data-id="qp:3">
+            </div>
+        </div>
+        <div id="cards-behavior" class="article qp-ui" data-qp-ui="{ 'ScrollSpy': {} }" data-qp-ui-data-id="qp:3">
+            <h2 class="article-title qp-ui" data-qp-ui="{ 'ResponsiveZippy': {} }" data-qp-ui-data-id="qp:3">
                   Behavior
                   
                   
@@ -515,16 +483,114 @@ Pick-up-and-move</p><h3><strong>Related components </strong></h3><p><a href="../
                     <polygon role="presentation" points="2.5,4.167 5,6.667 7.5,4.167 6.917,3.583 5,5.5 3.083,3.583"></polygon>
                   </svg>
                 </h2>
-                <div class="article-content">
-                  <div><p>Cards have a constant width and variable height. The maximum height is limited to the height of the available space on a platform, but it can temporarily expand (for example, to display a comment field). </p><p>Cards do not flip over to reveal information on the back.</p><h1>Supported gestures</h1><p>Card gestures should be consistently implemented within a card collection.</p><p>Supported gestures include:</p><ul class="lst-kix_s5w344fogft3-0 start"><li>The <strong>swipe gesture</strong> may be used on a per-card basis. Limit swipe gestures within a view so that they don’t overlap with one another. For example, a swipeable card should not contain a swipeable image carousel, so that only a single action occurs when the card is swiped.</li><li>The <strong>pick-up-and-move gesture</strong> may be used if it is important for the user to be able to sort cards within a collection. But consider if filtering or sorting would better organize the content.</li></ul><div class="col-list"><section class="module-figure col-2"><div class="module"><h1>Card collection filtering and sorting</h1><p>Card collections can be programmatically sorted or filtered by date, file size, alphabetical order, or other parameters. </p><ul class="lst-kix_k88e5oocs0bw-0 start"><li>The first item in the collection is positioned at the top left.</li><li>The order proceeds left to right and top to bottom.</li></ul></div><div class="figure"><figure class="s-tag-media"><div class="media"><img alt="" src="https://storage.googleapis.com/material-design/publish/material_v_10/assets/0Bzhp5Z4wHba3dU9ETE9PUDExMUU/components_cards_behavior1.png"/></div><figcaption><p>Card sorting from left to right, top to bottom. </p></figcaption></figure></div></section><section class="module-figure-module col-3"><div class="module"><h1>Scrolling</h1><p>Card collections only scroll vertically. </p><p>Card content that exceeds the maximum card height is truncated and does not scroll, but the card can be expanded.  Once expanded, the card may exceed the maximum height of the view. In this case, the card will scroll with the card collection.</p></div><div class="figure"><figure class="s-tag-media"><div class="media"><img alt="" src="https://storage.googleapis.com/material-design/publish/material_v_10/assets/0Bzhp5Z4wHba3dnROYlN6b1hsTmM/components_cards_behavior2.png"/></div><figcaption><p>Card content that exceeds the maximum card height is truncated and does not scroll</p></figcaption></figure></div><div class="module">
-</div></section><section class="module-figure-figure col-3"><div class="module">
-</div><div class="figure"><figure class="s-tag-media"><div class="media"><img alt="" src="https://storage.googleapis.com/material-design/publish/material_v_10/assets/0Bzhp5Z4wHba3X3FmbXU5WXF0VlU/components_cards_behavior5.png"/></div><figcaption><p class="s-tag-caption do">Do.</p><p>Cards may be expanded to reveal more content, without using scrolling.</p></figcaption></figure></div><div class="figure"><figure class="s-tag-media"><div class="media"><img alt="" src="https://storage.googleapis.com/material-design/publish/material_v_10/assets/0Bzhp5Z4wHba3eEdpVE9jVm54OG8/components_cards_behavior4.png"/></div><figcaption><p class="s-tag-caption dont">Don't.</p><p>On mobile, avoid placing scrollable space within a card, as it could cause two sets of scroll bars to be displayed, if one is already present.</p></figcaption></figure></div></section><section class="module-figure col-2"><div class="module">
-</div><div class="figure"><figure class="s-tag-media"><div class="media"><img alt="" src="https://storage.googleapis.com/material-design/publish/material_v_10/assets/0Bzhp5Z4wHba3RWFNdDhxOEtKc1E/components_cards_behavior3.png"/></div><figcaption><p>On desktop, card content can expand and scroll internally </p></figcaption></figure></div></section><section class="module-figure col-2"><div class="module"><h1>Card focus</h1><p>When traversing through focus points on a card, all focusable elements are visited before moving to the next card.</p><p>For interfaces that depend on focus traversal for navigation (D-pad and keyboard), cards should have either a primary action or open a new view containing primary and supplemental actions.</p></div><div class="figure"><figure class="s-tag-media"><div class="media"><img alt="" src="https://storage.googleapis.com/material-design/publish/material_v_10/assets/0Bzhp5Z4wHba3NW5oUGduR2VscXM/components_cards_behavior6.png"/></div><figcaption><p>Action selected during focus traversal </p></figcaption></figure><figure class="s-tag-media"><div class="media"><img alt="" src="https://storage.googleapis.com/material-design/publish/material_v_10/assets/0Bzhp5Z4wHba3Q3BSMEZNOVNOWU0/components_cards_behavior7.png"/></div><figcaption><p>Expanded supporting text made visible, with the focus then placed on a supplemental action</p></figcaption></figure></div></section></div></div>
+            <div class="article-content">
+                <div>
+                    <p>Cards have a constant width and variable height. The maximum height is limited to the height of the available space on a platform, but it can temporarily expand (for example, to display a comment field). </p>
+                    <p>Cards do not flip over to reveal information on the back.</p>
+                    <h1>Supported gestures</h1>
+                    <p>Card gestures should be consistently implemented within a card collection.</p>
+                    <p>Supported gestures include:</p>
+                    <ul class="lst-kix_s5w344fogft3-0 start">
+                        <li>The <strong>swipe gesture</strong> may be used on a per-card basis. Limit swipe gestures within a view so that they don’t overlap with one another. For example, a swipeable card should not contain a swipeable image carousel, so that only a single action occurs when the card is swiped.</li>
+                        <li>The <strong>pick-up-and-move gesture</strong> may be used if it is important for the user to be able to sort cards within a collection. But consider if filtering or sorting would better organize the content.</li>
+                    </ul>
+                    <div class="col-list">
+                        <section class="module-figure col-2">
+                            <div class="module">
+                                <h1>Card collection filtering and sorting</h1>
+                                <p>Card collections can be programmatically sorted or filtered by date, file size, alphabetical order, or other parameters. </p>
+                                <ul class="lst-kix_k88e5oocs0bw-0 start">
+                                    <li>The first item in the collection is positioned at the top left.</li>
+                                    <li>The order proceeds left to right and top to bottom.</li>
+                                </ul>
+                            </div>
+                            <div class="figure">
+                                <figure class="s-tag-media">
+                                    <div class="media"><img alt="" src="https://storage.googleapis.com/material-design/publish/material_v_10/assets/0Bzhp5Z4wHba3dU9ETE9PUDExMUU/components_cards_behavior1.png" /></div>
+                                    <figcaption>
+                                        <p>Card sorting from left to right, top to bottom. </p>
+                                    </figcaption>
+                                </figure>
+                            </div>
+                        </section>
+                        <section class="module-figure-module col-3">
+                            <div class="module">
+                                <h1>Scrolling</h1>
+                                <p>Card collections only scroll vertically. </p>
+                                <p>Card content that exceeds the maximum card height is truncated and does not scroll, but the card can be expanded. Once expanded, the card may exceed the maximum height of the view. In this case, the card will scroll with the card collection.</p>
+                            </div>
+                            <div class="figure">
+                                <figure class="s-tag-media">
+                                    <div class="media"><img alt="" src="https://storage.googleapis.com/material-design/publish/material_v_10/assets/0Bzhp5Z4wHba3dnROYlN6b1hsTmM/components_cards_behavior2.png" /></div>
+                                    <figcaption>
+                                        <p>Card content that exceeds the maximum card height is truncated and does not scroll</p>
+                                    </figcaption>
+                                </figure>
+                            </div>
+                            <div class="module">
+                            </div>
+                        </section>
+                        <section class="module-figure-figure col-3">
+                            <div class="module">
+                            </div>
+                            <div class="figure">
+                                <figure class="s-tag-media">
+                                    <div class="media"><img alt="" src="https://storage.googleapis.com/material-design/publish/material_v_10/assets/0Bzhp5Z4wHba3X3FmbXU5WXF0VlU/components_cards_behavior5.png" /></div>
+                                    <figcaption>
+                                        <p class="s-tag-caption do">Do.</p>
+                                        <p>Cards may be expanded to reveal more content, without using scrolling.</p>
+                                    </figcaption>
+                                </figure>
+                            </div>
+                            <div class="figure">
+                                <figure class="s-tag-media">
+                                    <div class="media"><img alt="" src="https://storage.googleapis.com/material-design/publish/material_v_10/assets/0Bzhp5Z4wHba3eEdpVE9jVm54OG8/components_cards_behavior4.png" /></div>
+                                    <figcaption>
+                                        <p class="s-tag-caption dont">Don't.</p>
+                                        <p>On mobile, avoid placing scrollable space within a card, as it could cause two sets of scroll bars to be displayed, if one is already present.</p>
+                                    </figcaption>
+                                </figure>
+                            </div>
+                        </section>
+                        <section class="module-figure col-2">
+                            <div class="module">
+                            </div>
+                            <div class="figure">
+                                <figure class="s-tag-media">
+                                    <div class="media"><img alt="" src="https://storage.googleapis.com/material-design/publish/material_v_10/assets/0Bzhp5Z4wHba3RWFNdDhxOEtKc1E/components_cards_behavior3.png" /></div>
+                                    <figcaption>
+                                        <p>On desktop, card content can expand and scroll internally </p>
+                                    </figcaption>
+                                </figure>
+                            </div>
+                        </section>
+                        <section class="module-figure col-2">
+                            <div class="module">
+                                <h1>Card focus</h1>
+                                <p>When traversing through focus points on a card, all focusable elements are visited before moving to the next card.</p>
+                                <p>For interfaces that depend on focus traversal for navigation (D-pad and keyboard), cards should have either a primary action or open a new view containing primary and supplemental actions.</p>
+                            </div>
+                            <div class="figure">
+                                <figure class="s-tag-media">
+                                    <div class="media"><img alt="" src="https://storage.googleapis.com/material-design/publish/material_v_10/assets/0Bzhp5Z4wHba3NW5oUGduR2VscXM/components_cards_behavior6.png" /></div>
+                                    <figcaption>
+                                        <p>Action selected during focus traversal </p>
+                                    </figcaption>
+                                </figure>
+                                <figure class="s-tag-media">
+                                    <div class="media"><img alt="" src="https://storage.googleapis.com/material-design/publish/material_v_10/assets/0Bzhp5Z4wHba3Q3BSMEZNOVNOWU0/components_cards_behavior7.png" /></div>
+                                    <figcaption>
+                                        <p>Expanded supporting text made visible, with the focus then placed on a supplemental action</p>
+                                    </figcaption>
+                                </figure>
+                            </div>
+                        </section>
+                    </div>
                 </div>
-              </div>
-            
-              <div id="cards-actions" class="article qp-ui" data-qp-ui="{ 'ScrollSpy': {} }" data-qp-ui-data-id="qp:4">
-                <h2 class="article-title qp-ui" data-qp-ui="{ 'ResponsiveZippy': {} }" data-qp-ui-data-id="qp:4">
+            </div>
+        </div>
+        <div id="cards-actions" class="article qp-ui" data-qp-ui="{ 'ScrollSpy': {} }" data-qp-ui-data-id="qp:4">
+            <h2 class="article-title qp-ui" data-qp-ui="{ 'ResponsiveZippy': {} }" data-qp-ui-data-id="qp:4">
                   Actions
                   
                   
@@ -535,13 +601,122 @@ Pick-up-and-move</p><h3><strong>Related components </strong></h3><p><a href="../
                     <polygon role="presentation" points="2.5,4.167 5,6.667 7.5,4.167 6.917,3.583 5,5.5 3.083,3.583"></polygon>
                   </svg>
                 </h2>
-                <div class="article-content">
-                  <div><div class="col-list"><section class="module-figure col-2"><div class="module"><p>The primary action in a card is typically the card itself.</p><p>Supplemental actions can vary from card to card in a collection, depending on the content type and expected outcome; for example, playing a movie versus opening a book. Within cards in a collection, position actions consistently. </p><h2><strong><strong>Supplemental actions </strong></strong></h2><p>Supplemental actions within the card are explicitly called out using icons, text, and UI controls, typically placed at the bottom of the card.</p><p>Limit supplemental actions to two actions, in addition to an overflow menu.</p></div><div class="figure"><figure class="s-tag-media"><div class="media"><img alt="" src="https://storage.googleapis.com/material-design/publish/material_v_10/assets/0Bzhp5Z4wHba3U1JrMFJ2UnEyZjg/components_cards16.png"/></div><figcaption><p>Card with action area, rich media and supporting text</p></figcaption></figure><figure class="s-tag-media"><div class="media"><img alt="" src="https://storage.googleapis.com/material-design/publish/material_v_10/assets/0Bzhp5Z4wHba3MHh2ZlhHVUMyQlk/components_cards17.png"/></div><figcaption><p>Card with action areas 1 and 2, optional header, rich media, supporting text, and supplemental actions</p></figcaption></figure><figure class="s-tag-media"><div class="media"><img alt="" src="https://storage.googleapis.com/material-design/publish/material_v_10/assets/0Bzhp5Z4wHba3S0UxeHU4T3B0Wjg/components_cards18.png"/></div><figcaption><p>Card with action areas 1, 2, 3 and 4, optional header, rich media, and supplemental actions</p></figcaption></figure><figure class="s-tag-media"><div class="media"><img alt="" src="https://storage.googleapis.com/material-design/publish/material_v_10/assets/0Bzhp5Z4wHba3aHp5aGtIT0dwQ28/components_cards19.png"/></div><figcaption><p>Card with action areas 1 and 2, optional header, supporting text and supplemental actions</p></figcaption></figure></div></section><section class="module-figure col-2"><div class="module"><h2><strong>UI controls</strong></h2><p>UI controls, like a slider, placed inline with primary content can modify the view of the primary content. For example, a slider to choose a day, stars to rate content, or a segmented button to select a date range.</p></div><div class="figure"><figure class="s-tag-media"><div class="media"><img alt="" src="https://storage.googleapis.com/material-design/publish/material_v_10/assets/0Bzhp5Z4wHba3OXdMTGNiaG9MVXc/components_cards_action1.png"/></div><figcaption><p>This card contains UI controls within the action area block</p></figcaption></figure><figure class="s-tag-media"><div class="media"><img alt="" src="https://storage.googleapis.com/material-design/publish/material_v_10/assets/0Bzhp5Z4wHba3UWdmRm15cGR2TGM/components_cards_action4.png"/></div><figcaption><p>This card contains segmented buttons within the action area block. </p></figcaption></figure><figure class="s-tag-media"><div class="media"><img alt="" src="https://storage.googleapis.com/material-design/publish/material_v_10/assets/0Bzhp5Z4wHba3TVlLZ3RQUDBSX3c/components_cards_action6.png"/></div><figcaption><p>This card contains a slider control within the action area block.</p></figcaption></figure><figure class="s-tag-media"><div class="media"><img alt="" src="https://storage.googleapis.com/material-design/publish/material_v_10/assets/0Bzhp5Z4wHba3cXJ0OTI1MXJUV0U/components_cards_action5.png"/></div><figcaption><p>This card contains tabs within the action area block. </p></figcaption></figure></div></section><section class="module-figure col-2"><div class="module"><h2><strong>Overflow menu (optional)</strong></h2><p>An overflow menu is typically placed in the upper-right corner of a card, but can be placed in the lower-right corner if doing so improves content layout and legibility.</p><p>Take care not to overload an overflow menu with too many actions.</p></div><div class="figure"><figure class="s-tag-media"><div class="media"><img alt="" src="https://storage.googleapis.com/material-design/publish/material_v_10/assets/0Bzhp5Z4wHba3UEJ3Qk9SRVR6dDg/components_cards_overflow.png"/></div><figcaption><p>This card contains an overflow menu in the top right.  </p></figcaption></figure></div></section><section class="module-figure-figure col-3"><div class="module"><h2><strong><strong>Additional actions</strong></strong></h2><p>Inline links within text content are strongly discouraged.</p><p>Although cards can support multiple actions, UI controls, and an overflow menu, use restraint and remember that cards are entry points to more complex and detailed information.</p></div><div class="figure"><figure class="s-tag-media"><div class="media"><img alt="" src="https://storage.googleapis.com/material-design/publish/material_v_10/assets/0Bzhp5Z4wHba3MHFUUWc0Sll0Mk0/components_cards_action2-do.png"/></div><figcaption><p class="s-tag-caption do">Do.</p><p>Use cards as an entry point to more detailed information. </p></figcaption></figure></div><div class="figure"><figure class="s-tag-media"><div class="media"><img alt="" src="https://storage.googleapis.com/material-design/publish/material_v_10/assets/0Bzhp5Z4wHba3ODh2X0tOeTVXcjQ/components_cards_action3-dont.png"/></div><figcaption><p class="s-tag-caption dont">Don't.</p><p>Cards provide context and an entry point to more robust information and views. Don't overload cards with extraneous information or actions. Inline links within text content are strongly discouraged.</p></figcaption></figure></div></section></div></div>
+            <div class="article-content">
+                <div>
+                    <div class="col-list">
+                        <section class="module-figure col-2">
+                            <div class="module">
+                                <p>The primary action in a card is typically the card itself.</p>
+                                <p>Supplemental actions can vary from card to card in a collection, depending on the content type and expected outcome; for example, playing a movie versus opening a book. Within cards in a collection, position actions consistently. </p>
+                                <h2><strong><strong>Supplemental actions </strong></strong></h2>
+                                <p>Supplemental actions within the card are explicitly called out using icons, text, and UI controls, typically placed at the bottom of the card.</p>
+                                <p>Limit supplemental actions to two actions, in addition to an overflow menu.</p>
+                            </div>
+                            <div class="figure">
+                                <figure class="s-tag-media">
+                                    <div class="media"><img alt="" src="https://storage.googleapis.com/material-design/publish/material_v_10/assets/0Bzhp5Z4wHba3U1JrMFJ2UnEyZjg/components_cards16.png" /></div>
+                                    <figcaption>
+                                        <p>Card with action area, rich media and supporting text</p>
+                                    </figcaption>
+                                </figure>
+                                <figure class="s-tag-media">
+                                    <div class="media"><img alt="" src="https://storage.googleapis.com/material-design/publish/material_v_10/assets/0Bzhp5Z4wHba3MHh2ZlhHVUMyQlk/components_cards17.png" /></div>
+                                    <figcaption>
+                                        <p>Card with action areas 1 and 2, optional header, rich media, supporting text, and supplemental actions</p>
+                                    </figcaption>
+                                </figure>
+                                <figure class="s-tag-media">
+                                    <div class="media"><img alt="" src="https://storage.googleapis.com/material-design/publish/material_v_10/assets/0Bzhp5Z4wHba3S0UxeHU4T3B0Wjg/components_cards18.png" /></div>
+                                    <figcaption>
+                                        <p>Card with action areas 1, 2, 3 and 4, optional header, rich media, and supplemental actions</p>
+                                    </figcaption>
+                                </figure>
+                                <figure class="s-tag-media">
+                                    <div class="media"><img alt="" src="https://storage.googleapis.com/material-design/publish/material_v_10/assets/0Bzhp5Z4wHba3aHp5aGtIT0dwQ28/components_cards19.png" /></div>
+                                    <figcaption>
+                                        <p>Card with action areas 1 and 2, optional header, supporting text and supplemental actions</p>
+                                    </figcaption>
+                                </figure>
+                            </div>
+                        </section>
+                        <section class="module-figure col-2">
+                            <div class="module">
+                                <h2><strong>UI controls</strong></h2>
+                                <p>UI controls, like a slider, placed inline with primary content can modify the view of the primary content. For example, a slider to choose a day, stars to rate content, or a segmented button to select a date range.</p>
+                            </div>
+                            <div class="figure">
+                                <figure class="s-tag-media">
+                                    <div class="media"><img alt="" src="https://storage.googleapis.com/material-design/publish/material_v_10/assets/0Bzhp5Z4wHba3OXdMTGNiaG9MVXc/components_cards_action1.png" /></div>
+                                    <figcaption>
+                                        <p>This card contains UI controls within the action area block</p>
+                                    </figcaption>
+                                </figure>
+                                <figure class="s-tag-media">
+                                    <div class="media"><img alt="" src="https://storage.googleapis.com/material-design/publish/material_v_10/assets/0Bzhp5Z4wHba3UWdmRm15cGR2TGM/components_cards_action4.png" /></div>
+                                    <figcaption>
+                                        <p>This card contains segmented buttons within the action area block. </p>
+                                    </figcaption>
+                                </figure>
+                                <figure class="s-tag-media">
+                                    <div class="media"><img alt="" src="https://storage.googleapis.com/material-design/publish/material_v_10/assets/0Bzhp5Z4wHba3TVlLZ3RQUDBSX3c/components_cards_action6.png" /></div>
+                                    <figcaption>
+                                        <p>This card contains a slider control within the action area block.</p>
+                                    </figcaption>
+                                </figure>
+                                <figure class="s-tag-media">
+                                    <div class="media"><img alt="" src="https://storage.googleapis.com/material-design/publish/material_v_10/assets/0Bzhp5Z4wHba3cXJ0OTI1MXJUV0U/components_cards_action5.png" /></div>
+                                    <figcaption>
+                                        <p>This card contains tabs within the action area block. </p>
+                                    </figcaption>
+                                </figure>
+                            </div>
+                        </section>
+                        <section class="module-figure col-2">
+                            <div class="module">
+                                <h2><strong>Overflow menu (optional)</strong></h2>
+                                <p>An overflow menu is typically placed in the upper-right corner of a card, but can be placed in the lower-right corner if doing so improves content layout and legibility.</p>
+                                <p>Take care not to overload an overflow menu with too many actions.</p>
+                            </div>
+                            <div class="figure">
+                                <figure class="s-tag-media">
+                                    <div class="media"><img alt="" src="https://storage.googleapis.com/material-design/publish/material_v_10/assets/0Bzhp5Z4wHba3UEJ3Qk9SRVR6dDg/components_cards_overflow.png" /></div>
+                                    <figcaption>
+                                        <p>This card contains an overflow menu in the top right. </p>
+                                    </figcaption>
+                                </figure>
+                            </div>
+                        </section>
+                        <section class="module-figure-figure col-3">
+                            <div class="module">
+                                <h2><strong><strong>Additional actions</strong></strong></h2>
+                                <p>Inline links within text content are strongly discouraged.</p>
+                                <p>Although cards can support multiple actions, UI controls, and an overflow menu, use restraint and remember that cards are entry points to more complex and detailed information.</p>
+                            </div>
+                            <div class="figure">
+                                <figure class="s-tag-media">
+                                    <div class="media"><img alt="" src="https://storage.googleapis.com/material-design/publish/material_v_10/assets/0Bzhp5Z4wHba3MHFUUWc0Sll0Mk0/components_cards_action2-do.png" /></div>
+                                    <figcaption>
+                                        <p class="s-tag-caption do">Do.</p>
+                                        <p>Use cards as an entry point to more detailed information. </p>
+                                    </figcaption>
+                                </figure>
+                            </div>
+                            <div class="figure">
+                                <figure class="s-tag-media">
+                                    <div class="media"><img alt="" src="https://storage.googleapis.com/material-design/publish/material_v_10/assets/0Bzhp5Z4wHba3ODh2X0tOeTVXcjQ/components_cards_action3-dont.png" /></div>
+                                    <figcaption>
+                                        <p class="s-tag-caption dont">Don't.</p>
+                                        <p>Cards provide context and an entry point to more robust information and views. Don't overload cards with extraneous information or actions. Inline links within text content are strongly discouraged.</p>
+                                    </figcaption>
+                                </figure>
+                            </div>
+                        </section>
+                    </div>
                 </div>
-              </div>
-            
-              <div id="cards-content-blocks" class="article qp-ui" data-qp-ui="{ 'ScrollSpy': {} }" data-qp-ui-data-id="qp:5">
-                <h2 class="article-title qp-ui" data-qp-ui="{ 'ResponsiveZippy': {} }" data-qp-ui-data-id="qp:5">
+            </div>
+        </div>
+        <div id="cards-content-blocks" class="article qp-ui" data-qp-ui="{ 'ScrollSpy': {} }" data-qp-ui-data-id="qp:5">
+            <h2 class="article-title qp-ui" data-qp-ui="{ 'ResponsiveZippy': {} }" data-qp-ui-data-id="qp:5">
                   Content blocks
                   
                   
@@ -552,87 +727,604 @@ Pick-up-and-move</p><h3><strong>Related components </strong></h3><p><a href="../
                     <polygon role="presentation" points="2.5,4.167 5,6.667 7.5,4.167 6.917,3.583 5,5.5 3.083,3.583"></polygon>
                   </svg>
                 </h2>
-                <div class="article-content">
-                  <div><div class="col-list"><section class="module-figure col-2"><div class="module"><p>Cards can be constructed using blocks of content which include:</p><ul class="lst-kix_an4kdbg3r80d-0 start"><li>An optional header</li><li>A primary title</li><li>Rich media</li><li>Supporting text</li><li>Actions</li></ul><p>These blocks can be organized to promote different types of content. For example, numbers may be emphasized by increasing their typographic scale.</p><p>On tablet/desktop<strong>, </strong>cards should follow the 24dp keyline. See <a href="../layout/metrics-keylines.html#metrics-keylines-keylines-spacing">Metrics &amp; Keylines</a> for more information.</p></div><div class="figure"><figure class="s-tag-media"><div class="media"><img alt="" src="https://storage.googleapis.com/material-design/publish/material_v_10/assets/0Bzhp5Z4wHba3bElRc0xaZGR4S0E/components_cards20.png"/></div><figcaption><p>Primary title top padding: 24dp<br>
-Primary title bottom padding: 16dp<br>
-Action button row padding: 8dp<br>
-Supporting text top padding: 16dp<br>
-Supporting text bottom padding: 24dp</p></figcaption></figure></div></section></div><div class="col-list"><section class="module-figure col-2"><div class="module"><h1>Content block types</h1><p><strong>Rich media</strong></p><p>16:9 or 1:1 aspect ratio (recommended)</p><p><strong>Actions</strong></p><p>Padding: 8dp</p><p><strong>Primary title/text</strong></p><p>Title: 24sp or 14sp<br>
-Subtitle: 14sp<br>
-Left and right padding: 16dp on mobile </p><p>On tablet/desktop<strong>, </strong>cards should follow the 24dp keyline. See <a href="../layout/metrics-keylines.html#metrics-keylines-keylines-spacing">Metrics &amp; Keylines</a> for more information.</p><p>Top padding: 16dp or 24dp (when a large primary title is present)<br>
-Bottom padding: 16dp (if there are additional actions or supporting text) or 24dp (no actions or supporting text) </p><p><strong>Supporting text</strong></p><p>Supporting text: 14sp<br>
-Left and right padding: 16dp on mobile </p><p>On tablet/desktop<strong>, </strong>cards should follow the 24dp keyline. See <a href="../layout/metrics-keylines.html#metrics-keylines-keylines-spacing">Metrics &amp; Keylines</a> for more information.<br>
-Top padding: 16dp<br>
-Bottom padding: 24dp (16dp if there are additional actions or text below)</p><p>Bullet points (but not their text), images, and buttons may extend outside of the 16dp padding.</p></div><div class="figure"><figure class="s-tag-media"><div class="media"><img alt="" src="https://storage.googleapis.com/material-design/publish/material_v_10/assets/0Bzhp5Z4wHba3bG0tNkIyNDhJZEU/components_cards28.png"/></div></figure></div></section><section class="module-figure col-2"><div class="module"><h1><strong>Card collections </strong></h1><p><strong>Card margins on mobile</strong></p><p>Padding from edge of screen to card: 8dp<br>
-Space between cards: 8dp</p><p><strong>Responsive UI</strong></p><p>Card gutters and margins may vary on larger screen sizes, as long as they follow Material Design 8dp grid. Card margins and gutters can be 8, 16, 24, or 40dp wide.</p><p>Margins and gutters don’t need to be equal. For example, both 40dp margins and 24dp gutters can be used in the same layout.</p></div><div class="figure"><figure class="s-tag-media"><div class="media">
-<div class="qp-ui" data-qp-ui="{ 'VideoPlayer': {} }">
-<video controls="" loop="" preload="metadata">
-<source src="https://storage.googleapis.com/material-design/publish/material_v_10/assets/0Bzhp5Z4wHba3Tnk1UnRodXpVZVU/layout_adaptiveUI_grid_02_margins.webm" type="video/webm">
-<source src="https://storage.googleapis.com/material-design/publish/material_v_10/assets/0Bzhp5Z4wHba3RjB4bExrR2hKY3c/layout_adaptiveUI_grid_02_margins.mp4" type="video/mp4">
-</source></source></video>
-</div>
-</div><figcaption><p> </p><p>This animation shows interactions of the following margin and gutter width variations:</p><ul class="lst-kix_cflcskz1qeuo-0 start"><li>8dp margins and gutters</li><li>16dp margins and gutters</li><li>24dp margins and gutters</li><li>40dp margins and gutters</li><li>40dp margins and 24dp gutters</li></ul></figcaption></figure></div></section></div><div class="col-list"><section class="module-figure col-2"><div class="module"><p><strong>Elevation</strong></p><p>Card resting elevation: 2dp<br>
-Card raised elevation: 8dp</p><p>Cards have a default elevation of 2dp.</p><p>On desktop, cards can have a resting elevation of 0dp and gain an elevation of 8dp on hover.</p></div><div class="figure"><figure class="s-tag-media"><div class="media"><img alt="" src="https://storage.googleapis.com/material-design/publish/material_v_10/assets/0Bzhp5Z4wHba3NzFzbnNJYmZYSnM/components_cards_elevation.png"/></div><figcaption><p>Card resting elevation of 2dp, and raised elevation of 8dp</p></figcaption></figure><figure class="s-tag-media"><div class="media"><img alt="" src="https://storage.googleapis.com/material-design/publish/material_v_10/assets/0Bzhp5Z4wHba3UlE0NklYTW95eUk/components_cards_elevation_desktop.png"/></div><figcaption><p>On desktop, cards have a resting elevation of 0dp (left), and an elevation of 8dp on hover (right)</p><p> (desktop only)</p></figcaption></figure></div></section></div><h1>Content block combinations</h1><p>The following examples illustrate some possible combinations of content blocks.</p><div class="col-list"><section class="module-figure col-2"><div class="module"><p><strong>Media area</strong></p><ul class="lst-kix_if9xk86cumf-0 start"><li>16:9 ratio </li></ul><p><strong>Supporting text</strong></p><ul class="lst-kix_lxmx7nviftrj-0 start"><li>Text: 14sp</li><li>Left and right padding: 16dp</li><li>Top padding: 16dp or 24dp (when a primary title is present)</li><li>Bottom padding: 16dp (if there are additional actions or supporting text) or 24dp (if there are no actions or supporting text)</li></ul></div><div class="figure"><figure class="s-tag-media"><div class="media"><img alt="" src="https://storage.googleapis.com/material-design/publish/material_v_10/assets/0Bzhp5Z4wHba3MzBrRFVWeUEtSWM/components_cards29.png"/></div></figure></div></section></div><div class="col-list"><section class="module-figure col-2"><div class="module"><p><strong>Avatar, Title, and Subtitle area</strong></p><ul class="lst-kix_cefnexi6519-0 start"><li>Height: 72dp</li><li>Left and right padding: 16dp</li><li>Top and bottom padding: 16dp</li></ul><p><strong>Media area</strong></p><ul class="lst-kix_fg1c5omc6rb9-0 start"><li>16:9 ratio<br>
-</li></ul><p><strong>Supporting text</strong></p><ul class="lst-kix_gep5cyd9dh7j-0 start"><li>Text: 14sp</li></ul><ul class="lst-kix_z28tg7fs7td7-0 start"><li>Left and right padding: 16dp</li><li>Top and bottom padding: 16dp</li></ul><p><strong>Actions</strong></p><ul class="lst-kix_w76qg4ak3vvk-0 start"><li>Padding: 8dp</li></ul></div><div class="figure"><figure class="s-tag-media"><div class="media"><img alt="" src="https://storage.googleapis.com/material-design/publish/material_v_10/assets/0Bzhp5Z4wHba3MnE0N0x5MDlaTk0/components_cards30.png"/></div></figure></div></section></div><div class="col-list"><section class="module-figure col-2"><div class="module"><p><strong>Avatar, Title, and Subtitle area</strong></p><ul class="lst-kix_rm1mnefsleij-0 start"><li>Height: 72dp</li><li>Left and right padding: 16dp</li><li>Top and bottom padding: 16dp</li></ul><p><strong>Media area </strong></p><ul class="lst-kix_ux2tb7wsr8t5-0 start"><li>16:9 ratio </li></ul><p><strong>Actions</strong></p><ul class="lst-kix_pojwfg8ze8io-0 start"><li>Padding: 8dp</li><li>Padding between actions: 4dp</li></ul></div><div class="figure"><figure class="s-tag-media"><div class="media"><img alt="" src="https://storage.googleapis.com/material-design/publish/material_v_10/assets/0Bzhp5Z4wHba3ZFBhbVg4UGdlc3c/components_cards31.png"/></div></figure></div></section></div><div class="col-list"><section class="module-figure col-2"><div class="module"><p><strong>Media area</strong></p><ul class="lst-kix_5gj48qvvncyt-0 start"><li>16:9 ratio </li></ul><p><strong>Primary text</strong></p><ul class="lst-kix_iwfkkor9twoy-0 start"><li>Text: 24sp</li><li>Top padding: 24dp</li><li>Bottom padding: 16dp</li><li>Right and left padding: 16dp</li></ul><p><strong>Subtext</strong></p><ul class="lst-kix_w9izyze1k8bj-0 start"><li>Text: 14sp</li><li>Bottom padding: 16dp</li><li>Right and left padding: 16dp</li></ul><p><strong>Actions</strong></p><ul class="lst-kix_s3jsuld3aqy-0 start"><li>Padding: 8dp</li></ul></div><div class="figure"><figure class="s-tag-media"><div class="media"><img alt="" src="https://storage.googleapis.com/material-design/publish/material_v_10/assets/0Bzhp5Z4wHba3MWV3emd4WEY4aG8/components_cards32.png"/></div></figure></div></section></div><div class="col-list"><section class="module-figure col-2"><div class="module"><p><strong>Media area</strong></p><ul class="lst-kix_f7h6nlvyna4c-0 start"><li>16:9 ratio </li></ul><p><strong>Primary text</strong></p><ul class="lst-kix_digc7593xoke-0 start"><li>Text: 24sp</li><li>Top padding: 24dp</li><li>Bottom padding: 16dp</li><li>Right and left padding: 16dp</li></ul><p><strong>Subtext</strong></p><ul class="lst-kix_5ekg8ne61bne-0 start"><li>Text: 14sp</li><li>Bottom padding: 16dp</li><li>Right and left padding: 16dp</li></ul><p><strong>Actions</strong></p><ul class="lst-kix_zgn73qla5hwm-0 start"><li>Padding: 8dp</li></ul><p><strong>Expanded supporting text</strong></p><ul class="lst-kix_2yb23ci78lly-0 start"><li>Text: 14sp</li><li>Top padding: 16dp</li><li>Bottom padding: 24dp</li><li>Right and left padding: 16dp</li></ul></div><div class="figure"><figure class="s-tag-media"><div class="media"><img alt="" src="https://storage.googleapis.com/material-design/publish/material_v_10/assets/0Bzhp5Z4wHba3RXpZUWE2bV9PdDQ/components_cards33.png"/></div></figure></div></section></div><div class="col-list"><section class="module-figure col-2"><div class="module"><p><strong>Primary text</strong></p><ul class="lst-kix_vy6murv76g3l-0 start"><li>Text: 24sp</li><li>Top padding: 24dp</li><li>Bottom padding: 16dp</li><li>Right and left padding: 16dp</li></ul><p><strong>Subtitle</strong></p><ul class="lst-kix_vy6murv76g3l-0"><li>Top padding: 12dp</li><li>Right and left padding: 16dp</li></ul><p><br>
-<strong>Subtext</strong></p><ul class="lst-kix_v0qc72kabkpf-0 start"><li>Text: 14sp</li><li>Bottom padding: 16dp</li><li>Right and left padding: 16dp</li></ul><p><strong>Supporting text</strong></p><ul class="lst-kix_lpp8dtqzrq8y-0 start"><li>Text: 14sp</li><li>Top padding: 16dp</li><li>Bottom padding: 16dp</li><li>Right and left padding: 16dp</li></ul><p><strong>Actions</strong></p><ul class="lst-kix_p07r11cbp05k-0 start"><li>Padding: 8dp</li></ul></div><div class="figure"><figure class="s-tag-media"><div class="media"><img alt="" src="https://storage.googleapis.com/material-design/publish/material_v_10/assets/0Bzhp5Z4wHba3MXJBM2FCcDVscjg/components_cards34.png"/></div></figure></div></section></div><div class="col-list"><section class="module-figure col-2"><div class="module"><p><strong>Media area </strong></p><ul class="lst-kix_yyji7tfee50d-0 start"><li>16:9 ratio </li></ul><p><strong>Actions</strong></p><ul class="lst-kix_zesvu8percgl-0 start"><li>Padding: 8dp</li></ul></div><div class="figure"><figure class="s-tag-media"><div class="media"><img alt="" src="https://storage.googleapis.com/material-design/publish/material_v_10/assets/0Bzhp5Z4wHba3S05CcXZFOEh5RUU/components_cards35.png"/></div></figure></div></section></div><div class="col-list"><section class="module-figure col-2"><div class="module"><p><strong>Media area </strong></p><ul class="lst-kix_22ppqiw6xto1-0 start"><li>1:1 ratio</li></ul><p><strong>Primary text</strong></p><ul class="lst-kix_s2g3ninu0noi-0 start"><li>Text: 24sp</li><li>Top padding: 24dp</li><li>Right and left padding: 16dp</li></ul><p><br>
-<strong>Subtext</strong></p><ul class="lst-kix_g561ngvd2bd0-0 start"><li>Text: 14sp</li><li>Bottom padding: 16dp</li><li>Right and left padding: 16dp</li></ul><p><strong>Actions</strong></p><ul class="lst-kix_g0sq6cfczbtd-0 start"><li>Padding: 8dp</li></ul></div><div class="figure"><figure class="s-tag-media"><div class="media"><img alt="" src="https://storage.googleapis.com/material-design/publish/material_v_10/assets/0Bzhp5Z4wHba3ajNVOVJyV2VmcXM/components_cards36.png"/></div></figure></div></section></div><div class="col-list"><section class="module-figure col-2"><div class="module"><p><strong>Media area </strong></p><ul class="lst-kix_sdzvksnsu6ns-0 start"><li>1:1 ratio</li></ul><p><strong>Primary text</strong></p><ul class="lst-kix_kejbf1otgpmx-0 start"><li>Text: 24sp</li></ul><p><strong>Actions</strong></p><ul class="lst-kix_744gqmcplfl7-0 start"><li>Padding: 8dp</li></ul></div><div class="figure"><figure class="s-tag-media"><div class="media"><img alt="" src="https://storage.googleapis.com/material-design/publish/material_v_10/assets/0Bzhp5Z4wHba3US1pR2N0OTNIaFE/components_cards37.png"/></div></figure></div></section></div><div class="col-list"><section class="module-figure col-2"><div class="module"><p><strong>Media area </strong></p><ul class="lst-kix_vcr2ibuabnm-0 start"><li>80dp</li><li>1x</li><li>Top padding: 16dp</li></ul><p><strong>Primary text</strong></p><ul class="lst-kix_bjnvkx3zoakf-0 start"><li>Text: 24sp</li><li>Top padding: 24dp</li><li>Right and left padding: 16dp<br>
-</li></ul><p><strong>Subtext</strong></p><ul class="lst-kix_lsaj3qjmnxpd-0 start"><li>Text: 14sp</li><li>Right and left padding: 16dp</li></ul><p><strong>Actions</strong></p><ul class="lst-kix_92r5yl7olvre-0 start"><li>Padding: 8dp</li></ul></div><div class="figure"><figure class="s-tag-media"><div class="media"><img alt="" src="https://storage.googleapis.com/material-design/publish/material_v_10/assets/0Bzhp5Z4wHba3UEc1OGJqUjN6U2c/components_cards24.png"/></div></figure></div></section></div><div class="col-list"><section class="module-figure col-2"><div class="module"><p><strong>Media area </strong></p><ul class="lst-kix_3zw6lupeefzt-0 start"><li>1.5x (Increment size based on 80dp media area)</li><li>Top padding: 16dp</li></ul><p><strong>Primary text</strong></p><ul class="lst-kix_ydrgs2c8vl1m-0 start"><li>Text: 24sp</li><li>Top padding: 24dp</li><li>Right and left padding: 16dp<br>
-</li></ul><p><strong>Subtext</strong></p><ul class="lst-kix_nxc0id1muc26-0 start"><li>Text: 14sp</li><li>Right and left padding: 16dp</li></ul><p><strong>Actions</strong></p><ul class="lst-kix_kbbyqhpd92r2-0 start"><li>Padding: 8dp</li></ul></div><div class="figure"><figure class="s-tag-media"><div class="media"><img alt="" src="https://storage.googleapis.com/material-design/publish/material_v_10/assets/0Bzhp5Z4wHba3ZS05Q0pzLXpFZlk/components_cards25.png"/></div></figure></div></section></div><div class="col-list"><section class="module-figure col-2"><div class="module"><p><strong>Media area </strong></p><ul class="lst-kix_13slb6m4ozvf-0 start"><li>2x (Increment size based on 80dp media area)</li><li>Top padding: 16dp</li></ul><p><strong>Primary text</strong></p><ul class="lst-kix_hlg7v54wtjda-0 start"><li>Text: 24sp</li><li>Top padding: 24dp</li><li>Right and left padding: 16dp<br>
-</li></ul><p><strong>Subtext</strong></p><ul class="lst-kix_14h6u4ajubs-0 start"><li>Text: 14sp</li><li>Right and left padding: 16dp</li></ul><p><strong>Actions</strong></p><ul class="lst-kix_p6r1xtlqczwh-0 start"><li>Padding: 8dp</li></ul></div><div class="figure"><figure class="s-tag-media"><div class="media"><img alt="" src="https://storage.googleapis.com/material-design/publish/material_v_10/assets/0Bzhp5Z4wHba3VnV5QjlBaDdMTzg/components_cards26.png"/></div></figure></div></section></div><div class="col-list"><section class="module-figure col-2"><div class="module"><p><strong>Media area </strong></p><ul class="lst-kix_qwtmfbdplfju-0 start"><li>3x (Increment size based on 80dp media area)</li><li>Padding: 16dp</li></ul><p><strong>Actions</strong></p><ul class="lst-kix_qq24fnjppxii-0 start"><li>All around padding: 8dp + 16dp</li></ul></div><div class="figure"><figure class="s-tag-media"><div class="media"><img alt="" src="https://storage.googleapis.com/material-design/publish/material_v_10/assets/0Bzhp5Z4wHba3NExsVGNHWFNONjg/components_cards41.png"/></div></figure></div></section></div><h1>Dividers in cards</h1><p>Dividers may be used to separate content areas in cards that require distinct visual separation. Dividers may also indicate seams in places where material may expand.</p><div class="col-list"><section class="module-figure col-2"><div class="module"><p>Content areas that can be expanded should use full-width dividers. Dividers can indicate seams in material where the material will expand when content is expanded.</p></div><div class="figure"><figure class="s-tag-media"><div class="media"><img alt="" src="https://storage.googleapis.com/material-design/publish/material_v_10/assets/0Bzhp5Z4wHba3RXpZUWE2bV9PdDQ/components_cards33.png"/></div><figcaption><p>This example uses a full-bleed divider. Similar to expansion of lists, this card uses a full-width divider to denote expansion.</p></figcaption></figure></div></section><section class="module-figure-module col-3"><div class="module"><p>Content areas that need more distinct visual separation should use dividers.</p></div><div class="figure"><figure class="s-tag-media"><div class="media"><img alt="" src="https://storage.googleapis.com/material-design/publish/material_v_10/assets/0Bzhp5Z4wHba3Tkh3SnNvSkp5YVU/components_cards_action6.png"/></div><figcaption><p>This example uses a full-bleed divider as a way to visually separate the slider content and list from the action below. </p></figcaption></figure></div><div class="module">
-</div></section><section class="module-figure col-2"><div class="module"><p>Use inset dividers to separate related content.  </p></div><div class="figure"><figure class="s-tag-media"><div class="media"><img alt="" src="https://storage.googleapis.com/material-design/publish/material_v_10/assets/0Bzhp5Z4wHba3VkxjZkhsWmpZNWM/components_cards_action4.png"/></div><figcaption><p>This example uses an inset divider to separate related the restaurant information from the booking section. </p></figcaption></figure></div></section></div></div>
+            <div class="article-content">
+                <div>
+                    <div class="col-list">
+                        <section class="module-figure col-2">
+                            <div class="module">
+                                <p>Cards can be constructed using blocks of content which include:</p>
+                                <ul class="lst-kix_an4kdbg3r80d-0 start">
+                                    <li>An optional header</li>
+                                    <li>A primary title</li>
+                                    <li>Rich media</li>
+                                    <li>Supporting text</li>
+                                    <li>Actions</li>
+                                </ul>
+                                <p>These blocks can be organized to promote different types of content. For example, numbers may be emphasized by increasing their typographic scale.</p>
+                                <p>On tablet/desktop<strong>, </strong>cards should follow the 24dp keyline. See <a href="../layout/metrics-keylines.html#metrics-keylines-keylines-spacing">Metrics &amp; Keylines</a> for more information.</p>
+                            </div>
+                            <div class="figure">
+                                <figure class="s-tag-media">
+                                    <div class="media"><img alt="" src="https://storage.googleapis.com/material-design/publish/material_v_10/assets/0Bzhp5Z4wHba3bElRc0xaZGR4S0E/components_cards20.png" /></div>
+                                    <figcaption>
+                                        <p>Primary title top padding: 24dp
+                                            <br> Primary title bottom padding: 16dp
+                                            <br> Action button row padding: 8dp
+                                            <br> Supporting text top padding: 16dp
+                                            <br> Supporting text bottom padding: 24dp</p>
+                                    </figcaption>
+                                </figure>
+                            </div>
+                        </section>
+                    </div>
+                    <div class="col-list">
+                        <section class="module-figure col-2">
+                            <div class="module">
+                                <h1>Content block types</h1>
+                                <p><strong>Rich media</strong></p>
+                                <p>16:9 or 1:1 aspect ratio (recommended)</p>
+                                <p><strong>Actions</strong></p>
+                                <p>Padding: 8dp</p>
+                                <p><strong>Primary title/text</strong></p>
+                                <p>Title: 24sp or 14sp
+                                    <br> Subtitle: 14sp
+                                    <br> Left and right padding: 16dp on mobile </p>
+                                <p>On tablet/desktop<strong>, </strong>cards should follow the 24dp keyline. See <a href="../layout/metrics-keylines.html#metrics-keylines-keylines-spacing">Metrics &amp; Keylines</a> for more information.</p>
+                                <p>Top padding: 16dp or 24dp (when a large primary title is present)
+                                    <br> Bottom padding: 16dp (if there are additional actions or supporting text) or 24dp (no actions or supporting text) </p>
+                                <p><strong>Supporting text</strong></p>
+                                <p>Supporting text: 14sp
+                                    <br> Left and right padding: 16dp on mobile </p>
+                                <p>On tablet/desktop<strong>, </strong>cards should follow the 24dp keyline. See <a href="../layout/metrics-keylines.html#metrics-keylines-keylines-spacing">Metrics &amp; Keylines</a> for more information.
+                                    <br> Top padding: 16dp
+                                    <br> Bottom padding: 24dp (16dp if there are additional actions or text below)</p>
+                                <p>Bullet points (but not their text), images, and buttons may extend outside of the 16dp padding.</p>
+                            </div>
+                            <div class="figure">
+                                <figure class="s-tag-media">
+                                    <div class="media"><img alt="" src="https://storage.googleapis.com/material-design/publish/material_v_10/assets/0Bzhp5Z4wHba3bG0tNkIyNDhJZEU/components_cards28.png" /></div>
+                                </figure>
+                            </div>
+                        </section>
+                        <section class="module-figure col-2">
+                            <div class="module">
+                                <h1><strong>Card collections </strong></h1>
+                                <p><strong>Card margins on mobile</strong></p>
+                                <p>Padding from edge of screen to card: 8dp
+                                    <br> Space between cards: 8dp</p>
+                                <p><strong>Responsive UI</strong></p>
+                                <p>Card gutters and margins may vary on larger screen sizes, as long as they follow Material Design 8dp grid. Card margins and gutters can be 8, 16, 24, or 40dp wide.</p>
+                                <p>Margins and gutters don’t need to be equal. For example, both 40dp margins and 24dp gutters can be used in the same layout.</p>
+                            </div>
+                            <div class="figure">
+                                <figure class="s-tag-media">
+                                    <div class="media">
+                                        <div class="qp-ui" data-qp-ui="{ 'VideoPlayer': {} }">
+                                            <video controls="" loop="" preload="metadata">
+                                                <source src="https://storage.googleapis.com/material-design/publish/material_v_10/assets/0Bzhp5Z4wHba3Tnk1UnRodXpVZVU/layout_adaptiveUI_grid_02_margins.webm" type="video/webm">
+                                                <source src="https://storage.googleapis.com/material-design/publish/material_v_10/assets/0Bzhp5Z4wHba3RjB4bExrR2hKY3c/layout_adaptiveUI_grid_02_margins.mp4" type="video/mp4">
+                                                </source>
+                                                </source>
+                                            </video>
+                                        </div>
+                                    </div>
+                                    <figcaption>
+                                        <p> </p>
+                                        <p>This animation shows interactions of the following margin and gutter width variations:</p>
+                                        <ul class="lst-kix_cflcskz1qeuo-0 start">
+                                            <li>8dp margins and gutters</li>
+                                            <li>16dp margins and gutters</li>
+                                            <li>24dp margins and gutters</li>
+                                            <li>40dp margins and gutters</li>
+                                            <li>40dp margins and 24dp gutters</li>
+                                        </ul>
+                                    </figcaption>
+                                </figure>
+                            </div>
+                        </section>
+                    </div>
+                    <div class="col-list">
+                        <section class="module-figure col-2">
+                            <div class="module">
+                                <p><strong>Elevation</strong></p>
+                                <p>Card resting elevation: 2dp
+                                    <br> Card raised elevation: 8dp</p>
+                                <p>Cards have a default elevation of 2dp.</p>
+                                <p>On desktop, cards can have a resting elevation of 0dp and gain an elevation of 8dp on hover.</p>
+                            </div>
+                            <div class="figure">
+                                <figure class="s-tag-media">
+                                    <div class="media"><img alt="" src="https://storage.googleapis.com/material-design/publish/material_v_10/assets/0Bzhp5Z4wHba3NzFzbnNJYmZYSnM/components_cards_elevation.png" /></div>
+                                    <figcaption>
+                                        <p>Card resting elevation of 2dp, and raised elevation of 8dp</p>
+                                    </figcaption>
+                                </figure>
+                                <figure class="s-tag-media">
+                                    <div class="media"><img alt="" src="https://storage.googleapis.com/material-design/publish/material_v_10/assets/0Bzhp5Z4wHba3UlE0NklYTW95eUk/components_cards_elevation_desktop.png" /></div>
+                                    <figcaption>
+                                        <p>On desktop, cards have a resting elevation of 0dp (left), and an elevation of 8dp on hover (right)</p>
+                                        <p> (desktop only)</p>
+                                    </figcaption>
+                                </figure>
+                            </div>
+                        </section>
+                    </div>
+                    <h1>Content block combinations</h1>
+                    <p>The following examples illustrate some possible combinations of content blocks.</p>
+                    <div class="col-list">
+                        <section class="module-figure col-2">
+                            <div class="module">
+                                <p><strong>Media area</strong></p>
+                                <ul class="lst-kix_if9xk86cumf-0 start">
+                                    <li>16:9 ratio </li>
+                                </ul>
+                                <p><strong>Supporting text</strong></p>
+                                <ul class="lst-kix_lxmx7nviftrj-0 start">
+                                    <li>Text: 14sp</li>
+                                    <li>Left and right padding: 16dp</li>
+                                    <li>Top padding: 16dp or 24dp (when a primary title is present)</li>
+                                    <li>Bottom padding: 16dp (if there are additional actions or supporting text) or 24dp (if there are no actions or supporting text)</li>
+                                </ul>
+                            </div>
+                            <div class="figure">
+                                <figure class="s-tag-media">
+                                    <div class="media"><img alt="" src="https://storage.googleapis.com/material-design/publish/material_v_10/assets/0Bzhp5Z4wHba3MzBrRFVWeUEtSWM/components_cards29.png" /></div>
+                                </figure>
+                            </div>
+                        </section>
+                    </div>
+                    <div class="col-list">
+                        <section class="module-figure col-2">
+                            <div class="module">
+                                <p><strong>Avatar, Title, and Subtitle area</strong></p>
+                                <ul class="lst-kix_cefnexi6519-0 start">
+                                    <li>Height: 72dp</li>
+                                    <li>Left and right padding: 16dp</li>
+                                    <li>Top and bottom padding: 16dp</li>
+                                </ul>
+                                <p><strong>Media area</strong></p>
+                                <ul class="lst-kix_fg1c5omc6rb9-0 start">
+                                    <li>16:9 ratio
+                                        <br>
+                                    </li>
+                                </ul>
+                                <p><strong>Supporting text</strong></p>
+                                <ul class="lst-kix_gep5cyd9dh7j-0 start">
+                                    <li>Text: 14sp</li>
+                                </ul>
+                                <ul class="lst-kix_z28tg7fs7td7-0 start">
+                                    <li>Left and right padding: 16dp</li>
+                                    <li>Top and bottom padding: 16dp</li>
+                                </ul>
+                                <p><strong>Actions</strong></p>
+                                <ul class="lst-kix_w76qg4ak3vvk-0 start">
+                                    <li>Padding: 8dp</li>
+                                </ul>
+                            </div>
+                            <div class="figure">
+                                <figure class="s-tag-media">
+                                    <div class="media"><img alt="" src="https://storage.googleapis.com/material-design/publish/material_v_10/assets/0Bzhp5Z4wHba3MnE0N0x5MDlaTk0/components_cards30.png" /></div>
+                                </figure>
+                            </div>
+                        </section>
+                    </div>
+                    <div class="col-list">
+                        <section class="module-figure col-2">
+                            <div class="module">
+                                <p><strong>Avatar, Title, and Subtitle area</strong></p>
+                                <ul class="lst-kix_rm1mnefsleij-0 start">
+                                    <li>Height: 72dp</li>
+                                    <li>Left and right padding: 16dp</li>
+                                    <li>Top and bottom padding: 16dp</li>
+                                </ul>
+                                <p><strong>Media area </strong></p>
+                                <ul class="lst-kix_ux2tb7wsr8t5-0 start">
+                                    <li>16:9 ratio </li>
+                                </ul>
+                                <p><strong>Actions</strong></p>
+                                <ul class="lst-kix_pojwfg8ze8io-0 start">
+                                    <li>Padding: 8dp</li>
+                                    <li>Padding between actions: 4dp</li>
+                                </ul>
+                            </div>
+                            <div class="figure">
+                                <figure class="s-tag-media">
+                                    <div class="media"><img alt="" src="https://storage.googleapis.com/material-design/publish/material_v_10/assets/0Bzhp5Z4wHba3ZFBhbVg4UGdlc3c/components_cards31.png" /></div>
+                                </figure>
+                            </div>
+                        </section>
+                    </div>
+                    <div class="col-list">
+                        <section class="module-figure col-2">
+                            <div class="module">
+                                <p><strong>Media area</strong></p>
+                                <ul class="lst-kix_5gj48qvvncyt-0 start">
+                                    <li>16:9 ratio </li>
+                                </ul>
+                                <p><strong>Primary text</strong></p>
+                                <ul class="lst-kix_iwfkkor9twoy-0 start">
+                                    <li>Text: 24sp</li>
+                                    <li>Top padding: 24dp</li>
+                                    <li>Bottom padding: 16dp</li>
+                                    <li>Right and left padding: 16dp</li>
+                                </ul>
+                                <p><strong>Subtext</strong></p>
+                                <ul class="lst-kix_w9izyze1k8bj-0 start">
+                                    <li>Text: 14sp</li>
+                                    <li>Bottom padding: 16dp</li>
+                                    <li>Right and left padding: 16dp</li>
+                                </ul>
+                                <p><strong>Actions</strong></p>
+                                <ul class="lst-kix_s3jsuld3aqy-0 start">
+                                    <li>Padding: 8dp</li>
+                                </ul>
+                            </div>
+                            <div class="figure">
+                                <figure class="s-tag-media">
+                                    <div class="media"><img alt="" src="https://storage.googleapis.com/material-design/publish/material_v_10/assets/0Bzhp5Z4wHba3MWV3emd4WEY4aG8/components_cards32.png" /></div>
+                                </figure>
+                            </div>
+                        </section>
+                    </div>
+                    <div class="col-list">
+                        <section class="module-figure col-2">
+                            <div class="module">
+                                <p><strong>Media area</strong></p>
+                                <ul class="lst-kix_f7h6nlvyna4c-0 start">
+                                    <li>16:9 ratio </li>
+                                </ul>
+                                <p><strong>Primary text</strong></p>
+                                <ul class="lst-kix_digc7593xoke-0 start">
+                                    <li>Text: 24sp</li>
+                                    <li>Top padding: 24dp</li>
+                                    <li>Bottom padding: 16dp</li>
+                                    <li>Right and left padding: 16dp</li>
+                                </ul>
+                                <p><strong>Subtext</strong></p>
+                                <ul class="lst-kix_5ekg8ne61bne-0 start">
+                                    <li>Text: 14sp</li>
+                                    <li>Bottom padding: 16dp</li>
+                                    <li>Right and left padding: 16dp</li>
+                                </ul>
+                                <p><strong>Actions</strong></p>
+                                <ul class="lst-kix_zgn73qla5hwm-0 start">
+                                    <li>Padding: 8dp</li>
+                                </ul>
+                                <p><strong>Expanded supporting text</strong></p>
+                                <ul class="lst-kix_2yb23ci78lly-0 start">
+                                    <li>Text: 14sp</li>
+                                    <li>Top padding: 16dp</li>
+                                    <li>Bottom padding: 24dp</li>
+                                    <li>Right and left padding: 16dp</li>
+                                </ul>
+                            </div>
+                            <div class="figure">
+                                <figure class="s-tag-media">
+                                    <div class="media"><img alt="" src="https://storage.googleapis.com/material-design/publish/material_v_10/assets/0Bzhp5Z4wHba3RXpZUWE2bV9PdDQ/components_cards33.png" /></div>
+                                </figure>
+                            </div>
+                        </section>
+                    </div>
+                    <div class="col-list">
+                        <section class="module-figure col-2">
+                            <div class="module">
+                                <p><strong>Primary text</strong></p>
+                                <ul class="lst-kix_vy6murv76g3l-0 start">
+                                    <li>Text: 24sp</li>
+                                    <li>Top padding: 24dp</li>
+                                    <li>Bottom padding: 16dp</li>
+                                    <li>Right and left padding: 16dp</li>
+                                </ul>
+                                <p><strong>Subtitle</strong></p>
+                                <ul class="lst-kix_vy6murv76g3l-0">
+                                    <li>Top padding: 12dp</li>
+                                    <li>Right and left padding: 16dp</li>
+                                </ul>
+                                <p>
+                                    <br>
+                                    <strong>Subtext</strong></p>
+                                <ul class="lst-kix_v0qc72kabkpf-0 start">
+                                    <li>Text: 14sp</li>
+                                    <li>Bottom padding: 16dp</li>
+                                    <li>Right and left padding: 16dp</li>
+                                </ul>
+                                <p><strong>Supporting text</strong></p>
+                                <ul class="lst-kix_lpp8dtqzrq8y-0 start">
+                                    <li>Text: 14sp</li>
+                                    <li>Top padding: 16dp</li>
+                                    <li>Bottom padding: 16dp</li>
+                                    <li>Right and left padding: 16dp</li>
+                                </ul>
+                                <p><strong>Actions</strong></p>
+                                <ul class="lst-kix_p07r11cbp05k-0 start">
+                                    <li>Padding: 8dp</li>
+                                </ul>
+                            </div>
+                            <div class="figure">
+                                <figure class="s-tag-media">
+                                    <div class="media"><img alt="" src="https://storage.googleapis.com/material-design/publish/material_v_10/assets/0Bzhp5Z4wHba3MXJBM2FCcDVscjg/components_cards34.png" /></div>
+                                </figure>
+                            </div>
+                        </section>
+                    </div>
+                    <div class="col-list">
+                        <section class="module-figure col-2">
+                            <div class="module">
+                                <p><strong>Media area </strong></p>
+                                <ul class="lst-kix_yyji7tfee50d-0 start">
+                                    <li>16:9 ratio </li>
+                                </ul>
+                                <p><strong>Actions</strong></p>
+                                <ul class="lst-kix_zesvu8percgl-0 start">
+                                    <li>Padding: 8dp</li>
+                                </ul>
+                            </div>
+                            <div class="figure">
+                                <figure class="s-tag-media">
+                                    <div class="media"><img alt="" src="https://storage.googleapis.com/material-design/publish/material_v_10/assets/0Bzhp5Z4wHba3S05CcXZFOEh5RUU/components_cards35.png" /></div>
+                                </figure>
+                            </div>
+                        </section>
+                    </div>
+                    <div class="col-list">
+                        <section class="module-figure col-2">
+                            <div class="module">
+                                <p><strong>Media area </strong></p>
+                                <ul class="lst-kix_22ppqiw6xto1-0 start">
+                                    <li>1:1 ratio</li>
+                                </ul>
+                                <p><strong>Primary text</strong></p>
+                                <ul class="lst-kix_s2g3ninu0noi-0 start">
+                                    <li>Text: 24sp</li>
+                                    <li>Top padding: 24dp</li>
+                                    <li>Right and left padding: 16dp</li>
+                                </ul>
+                                <p>
+                                    <br>
+                                    <strong>Subtext</strong></p>
+                                <ul class="lst-kix_g561ngvd2bd0-0 start">
+                                    <li>Text: 14sp</li>
+                                    <li>Bottom padding: 16dp</li>
+                                    <li>Right and left padding: 16dp</li>
+                                </ul>
+                                <p><strong>Actions</strong></p>
+                                <ul class="lst-kix_g0sq6cfczbtd-0 start">
+                                    <li>Padding: 8dp</li>
+                                </ul>
+                            </div>
+                            <div class="figure">
+                                <figure class="s-tag-media">
+                                    <div class="media"><img alt="" src="https://storage.googleapis.com/material-design/publish/material_v_10/assets/0Bzhp5Z4wHba3ajNVOVJyV2VmcXM/components_cards36.png" /></div>
+                                </figure>
+                            </div>
+                        </section>
+                    </div>
+                    <div class="col-list">
+                        <section class="module-figure col-2">
+                            <div class="module">
+                                <p><strong>Media area </strong></p>
+                                <ul class="lst-kix_sdzvksnsu6ns-0 start">
+                                    <li>1:1 ratio</li>
+                                </ul>
+                                <p><strong>Primary text</strong></p>
+                                <ul class="lst-kix_kejbf1otgpmx-0 start">
+                                    <li>Text: 24sp</li>
+                                </ul>
+                                <p><strong>Actions</strong></p>
+                                <ul class="lst-kix_744gqmcplfl7-0 start">
+                                    <li>Padding: 8dp</li>
+                                </ul>
+                            </div>
+                            <div class="figure">
+                                <figure class="s-tag-media">
+                                    <div class="media"><img alt="" src="https://storage.googleapis.com/material-design/publish/material_v_10/assets/0Bzhp5Z4wHba3US1pR2N0OTNIaFE/components_cards37.png" /></div>
+                                </figure>
+                            </div>
+                        </section>
+                    </div>
+                    <div class="col-list">
+                        <section class="module-figure col-2">
+                            <div class="module">
+                                <p><strong>Media area </strong></p>
+                                <ul class="lst-kix_vcr2ibuabnm-0 start">
+                                    <li>80dp</li>
+                                    <li>1x</li>
+                                    <li>Top padding: 16dp</li>
+                                </ul>
+                                <p><strong>Primary text</strong></p>
+                                <ul class="lst-kix_bjnvkx3zoakf-0 start">
+                                    <li>Text: 24sp</li>
+                                    <li>Top padding: 24dp</li>
+                                    <li>Right and left padding: 16dp
+                                        <br>
+                                    </li>
+                                </ul>
+                                <p><strong>Subtext</strong></p>
+                                <ul class="lst-kix_lsaj3qjmnxpd-0 start">
+                                    <li>Text: 14sp</li>
+                                    <li>Right and left padding: 16dp</li>
+                                </ul>
+                                <p><strong>Actions</strong></p>
+                                <ul class="lst-kix_92r5yl7olvre-0 start">
+                                    <li>Padding: 8dp</li>
+                                </ul>
+                            </div>
+                            <div class="figure">
+                                <figure class="s-tag-media">
+                                    <div class="media"><img alt="" src="https://storage.googleapis.com/material-design/publish/material_v_10/assets/0Bzhp5Z4wHba3UEc1OGJqUjN6U2c/components_cards24.png" /></div>
+                                </figure>
+                            </div>
+                        </section>
+                    </div>
+                    <div class="col-list">
+                        <section class="module-figure col-2">
+                            <div class="module">
+                                <p><strong>Media area </strong></p>
+                                <ul class="lst-kix_3zw6lupeefzt-0 start">
+                                    <li>1.5x (Increment size based on 80dp media area)</li>
+                                    <li>Top padding: 16dp</li>
+                                </ul>
+                                <p><strong>Primary text</strong></p>
+                                <ul class="lst-kix_ydrgs2c8vl1m-0 start">
+                                    <li>Text: 24sp</li>
+                                    <li>Top padding: 24dp</li>
+                                    <li>Right and left padding: 16dp
+                                        <br>
+                                    </li>
+                                </ul>
+                                <p><strong>Subtext</strong></p>
+                                <ul class="lst-kix_nxc0id1muc26-0 start">
+                                    <li>Text: 14sp</li>
+                                    <li>Right and left padding: 16dp</li>
+                                </ul>
+                                <p><strong>Actions</strong></p>
+                                <ul class="lst-kix_kbbyqhpd92r2-0 start">
+                                    <li>Padding: 8dp</li>
+                                </ul>
+                            </div>
+                            <div class="figure">
+                                <figure class="s-tag-media">
+                                    <div class="media"><img alt="" src="https://storage.googleapis.com/material-design/publish/material_v_10/assets/0Bzhp5Z4wHba3ZS05Q0pzLXpFZlk/components_cards25.png" /></div>
+                                </figure>
+                            </div>
+                        </section>
+                    </div>
+                    <div class="col-list">
+                        <section class="module-figure col-2">
+                            <div class="module">
+                                <p><strong>Media area </strong></p>
+                                <ul class="lst-kix_13slb6m4ozvf-0 start">
+                                    <li>2x (Increment size based on 80dp media area)</li>
+                                    <li>Top padding: 16dp</li>
+                                </ul>
+                                <p><strong>Primary text</strong></p>
+                                <ul class="lst-kix_hlg7v54wtjda-0 start">
+                                    <li>Text: 24sp</li>
+                                    <li>Top padding: 24dp</li>
+                                    <li>Right and left padding: 16dp
+                                        <br>
+                                    </li>
+                                </ul>
+                                <p><strong>Subtext</strong></p>
+                                <ul class="lst-kix_14h6u4ajubs-0 start">
+                                    <li>Text: 14sp</li>
+                                    <li>Right and left padding: 16dp</li>
+                                </ul>
+                                <p><strong>Actions</strong></p>
+                                <ul class="lst-kix_p6r1xtlqczwh-0 start">
+                                    <li>Padding: 8dp</li>
+                                </ul>
+                            </div>
+                            <div class="figure">
+                                <figure class="s-tag-media">
+                                    <div class="media"><img alt="" src="https://storage.googleapis.com/material-design/publish/material_v_10/assets/0Bzhp5Z4wHba3VnV5QjlBaDdMTzg/components_cards26.png" /></div>
+                                </figure>
+                            </div>
+                        </section>
+                    </div>
+                    <div class="col-list">
+                        <section class="module-figure col-2">
+                            <div class="module">
+                                <p><strong>Media area </strong></p>
+                                <ul class="lst-kix_qwtmfbdplfju-0 start">
+                                    <li>3x (Increment size based on 80dp media area)</li>
+                                    <li>Padding: 16dp</li>
+                                </ul>
+                                <p><strong>Actions</strong></p>
+                                <ul class="lst-kix_qq24fnjppxii-0 start">
+                                    <li>All around padding: 8dp + 16dp</li>
+                                </ul>
+                            </div>
+                            <div class="figure">
+                                <figure class="s-tag-media">
+                                    <div class="media"><img alt="" src="https://storage.googleapis.com/material-design/publish/material_v_10/assets/0Bzhp5Z4wHba3NExsVGNHWFNONjg/components_cards41.png" /></div>
+                                </figure>
+                            </div>
+                        </section>
+                    </div>
+                    <h1>Dividers in cards</h1>
+                    <p>Dividers may be used to separate content areas in cards that require distinct visual separation. Dividers may also indicate seams in places where material may expand.</p>
+                    <div class="col-list">
+                        <section class="module-figure col-2">
+                            <div class="module">
+                                <p>Content areas that can be expanded should use full-width dividers. Dividers can indicate seams in material where the material will expand when content is expanded.</p>
+                            </div>
+                            <div class="figure">
+                                <figure class="s-tag-media">
+                                    <div class="media"><img alt="" src="https://storage.googleapis.com/material-design/publish/material_v_10/assets/0Bzhp5Z4wHba3RXpZUWE2bV9PdDQ/components_cards33.png" /></div>
+                                    <figcaption>
+                                        <p>This example uses a full-bleed divider. Similar to expansion of lists, this card uses a full-width divider to denote expansion.</p>
+                                    </figcaption>
+                                </figure>
+                            </div>
+                        </section>
+                        <section class="module-figure-module col-3">
+                            <div class="module">
+                                <p>Content areas that need more distinct visual separation should use dividers.</p>
+                            </div>
+                            <div class="figure">
+                                <figure class="s-tag-media">
+                                    <div class="media"><img alt="" src="https://storage.googleapis.com/material-design/publish/material_v_10/assets/0Bzhp5Z4wHba3Tkh3SnNvSkp5YVU/components_cards_action6.png" /></div>
+                                    <figcaption>
+                                        <p>This example uses a full-bleed divider as a way to visually separate the slider content and list from the action below. </p>
+                                    </figcaption>
+                                </figure>
+                            </div>
+                            <div class="module">
+                            </div>
+                        </section>
+                        <section class="module-figure col-2">
+                            <div class="module">
+                                <p>Use inset dividers to separate related content. </p>
+                            </div>
+                            <div class="figure">
+                                <figure class="s-tag-media">
+                                    <div class="media"><img alt="" src="https://storage.googleapis.com/material-design/publish/material_v_10/assets/0Bzhp5Z4wHba3VkxjZkhsWmpZNWM/components_cards_action4.png" /></div>
+                                    <figcaption>
+                                        <p>This example uses an inset divider to separate related the restaurant information from the booking section. </p>
+                                    </figcaption>
+                                </figure>
+                            </div>
+                        </section>
+                    </div>
                 </div>
-              </div>
-            
-          <div>
-          
-
+            </div>
         </div>
-        
-      </section>
+        <div>
+        </div>
+        </section>
     </div>
-
     
-      <footer>
-        <div class="footer-grid">
-          
-          <div class="footer-L section-material-design color-indigo">&nbsp;</div>
-          <div class="footer-grid-L section-material-design color-indigo">
-            
-            <a class="footer-text" href="../components/buttons-floating-action-button.html">
-              <i class="material-icons arrow-L" aria-hidden="true">arrow_back</i>
-              <span class="direction">Previous</span><span class="screen-reader">:</span>
-              <div>
-                Buttons: Floating Action Button
-              </div>
+    
+    
+    
+    
+    
+    <footer>
+    <div class="footer-grid">
+        <div class="footer-L section-material-design color-indigo">&nbsp;</div>
+        <div class="footer-grid-L section-material-design color-cyan">
+            <a class="footer-text" href="buttons-floating-action-button.html">
+                <i class="material-icons arrow-L" aria-hidden="true">arrow_back</i>
+                <span class="direction">Previous</span><span class="screen-reader">:</span>
+                <div>
+                    按钮：浮动按钮
+                </div>
             </a>
-            
-          </div>
-
-          
-          <div class="footer-R section-what-is-material color-indigo">&nbsp;</div>
-          <div class="footer-grid-R section-what-is-material color-indigo">
-            
-            <a class="footer-text" href="../components/chips.html">
-              <i class="material-icons arrow-R" aria-hidden="true">arrow_forward</i>
-              <span class="direction">Next</span><span class="screen-reader">:</span>
-              <div>
-                Chips
-              </div>
-            </a>
-            
-          </div>
-
         </div>
-      </footer>
-    
-
-    <script src="//www.gstatic.com/external_hosted/picturefill/picturefill.min.js"></script>
-    <script src="../static/js/main.min.js"></script>
-    
-    
-    
-    <script src="//www.gstatic.com/feedback/api.js"></script>
-    
-
-  </body>
+        <div class="footer-R section-what-is-material color-indigo">&nbsp;</div>
+        <div class="footer-grid-R section-what-is-material color-indigo">
+            <a class="footer-text" href="chips.html">
+                <i class="material-icons arrow-R">arrow_forward</i>
+                <span class="direction">Next</span>
+                <div>
+                    Chips
+                </div>
+            </a>
+        </div>
+    </div>
+</footer>
+<script src="../assets/js/picturefill.min.js"></script>
+<script src="../assets/js/main.js"></script>
+</body>
 </html>

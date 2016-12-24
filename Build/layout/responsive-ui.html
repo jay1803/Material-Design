@@ -1,466 +1,253 @@
 <!DOCTYPE html>
 <html class="qp-ui" data-qp-ui="{'Futurizr': {'hasTouch': 'touch'}}">
-  <head>
+<head>
     <meta charset="utf-8">
-    <link href="../static/css/main.min.css" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700,400italic|Material+Icons" rel="stylesheet">
+    <link href="../assets/css/main.css" rel="stylesheet">
     <meta name="viewport" content="initial-scale=1, width=device-width">
-    <title>Responsive UI - Layout - Material design guidelines</title>
-    <meta itemprop="name" content="Responsive UI - Layout - Material design guidelines">
-    <meta itemprop="image" content="https://storage.googleapis.com/material-design/publish/material_v_10/share.png">
+    <title>响应式 UI - 布局 - Material design guidelines</title>
+    <meta itemprop="name" content="响应式 UI  - Material design - Material design guidelines">
+    <meta itemprop="image" content="../assets/images/share.png">
     <meta property="og:type" content="article">
-    <meta property="og:title" content="Responsive UI - Layout - Material design guidelines">
-    <meta itemprop="image" content="https://storage.googleapis.com/material-design/publish/material_v_10/share.png">
+    <meta property="og:title" content="响应式 UI  - Material design - Material design guidelines">
+    <meta itemprop="image" content="../assets/images/share.png">
     <meta property="og:site_name" content="Material design guidelines">
-    <meta property="article:section" content="Responsive UI - Layout">
-    <meta name="theme-color" content="#AD1457">
-    <link rel="icon" sizes="192x192" href="https://storage.googleapis.com/material-design/publish/material_v_10/guidelines-icon-192x192.png">
-    <link rel="shortcut icon" href="https://storage.googleapis.com/material-design/publish/material_v_10/guidelines-icon-72x72.png">
-    <link rel="apple-touch-icon" href="https://storage.googleapis.com/material-design/publish/material_v_10/guidelines-icon-72x72.png">
-    <link rel="apple-touch-icon" sizes="72x72" href="https://storage.googleapis.com/material-design/publish/material_v_10/guidelines-icon-72x72.png">
-    <link rel="apple-touch-icon" sizes="144x144" href="https://storage.googleapis.com/material-design/publish/material_v_10/guidelines-icon-144x144.png">
-    <link rel="apple-touch-icon" sizes="180x180" href="https://storage.googleapis.com/material-design/publish/material_v_10/guidelines-icon-180x180.png">
-    <meta name="msapplication-TileImage" content="https://storage.googleapis.com/material-design/publish/material_v_10/guidelines-icon-144x144.png">
+    <meta property="article:section" content="响应式 UI  - Material design">
+    <meta name="theme-color" content="#00bcd4">
+    <link rel="icon" sizes="192x192" href="../assets/images/guidelines-icon-192x192.png">
+    <link rel="shortcut icon" href="../assets/images/guidelines-icon-72x72.png">
+    <link rel="apple-touch-icon" href="../assets/images/guidelines-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="../assets/images/guidelines-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="../assets/images/guidelines-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="../assets/images/guidelines-icon-180x180.png">
+    <meta name="msapplication-TileImage" content="../assets/images/guidelines-icon-144x144.png">
     <meta name="msapplication-tap-highlight" content="no">
-    
-<!--
-<PageMap>
-    <DataObject type="document">
-      <Attribute name="uid"></Attribute>
-      <Attribute name="title">Responsive UI</Attribute>
-      <Attribute name="keywords"></Attribute>
-      <Attribute name="slug"></Attribute>
-      <Attribute name="description"></Attribute>
-      <Attribute name="section_title">Layout</Attribute>
-      <Attribute name="section_slug">layout</Attribute>
-    </DataObject>
-    <DataObject type="thumbnail">
-      <Attribute name="src" value="" />
-    </DataObject>
-</PageMap>
--->
-  </head>
+    <!--
+    <PageMap>
+        <DataObject type="document">
+          <Attribute name="uid"></Attribute>
+          <Attribute name="title">Introduction </Attribute>
+          <Attribute name="keywords"></Attribute>
+          <Attribute name="slug"></Attribute>
+          <Attribute name="description"></Attribute>
+          <Attribute name="section_title">Material design</Attribute>
+          <Attribute name="section_slug">material-design</Attribute>
+        </DataObject>
+        <DataObject type="thumbnail">
+          <Attribute name="src" value="" />
+        </DataObject>
+    </PageMap>
+    -->
+</head>
 
-  
-  
-    
-  
-
-  <body class="site-material_ext_publish section-material-design noninitial-chapter color-pink qp-ui" data-qp-ui="{ 'Mask': {} }">
-    
-    <!-- Google Tag Manager -->
-    <noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-NHRPF8"
-    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-    '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-    })(window,document,'script','dataLayer','GTM-NHRPF8');</script>
-    <!-- End Google Tag Manager -->
-    
-
-    
-
-      <header>
-        <div class="header-wrapper">
-          <div class="header-title">
-            
-              <span class="section-title">Layout</span>
-              <span class="chapter-title">
-                <span class="title-separator">–</span> Responsive UI
-              </span>
-            
-          </div>
+<body class="site-material_ext_publish section-material-design first-chapter color-pink qp-ui" data-qp-ui="{ 'Mask': {} }">
+    <header class="qp-ui" data-qp-ui="{'Peekaboo': {'mobile': 72,'desktop-sm': 72,'default': 192}}">
+        <div class="header-wrapper qp-ui" data-qp-ui="{'Peekaboo': {'mobile': 28,'desktop-sm': 28,'default': 82}}">
+            <div class="header-title">
+                <span class="section-title">布局</span>
+                <span class="chapter-title">
+              <span class="title-separator">–</span> 响应式 UI
+                </span>
+            </div>
         </div>
-      </header>
-
-    
-
+    </header>
     <nav>
-      <button class="hamburger-button qp-ui" data-qp-ui="{ 'SideNavToggle': {} }" role="tab">
-        <i class="material-icons material-spec-icon" title="Show navigation">menu</i>
-      </button>
+        <button class="hamburger-button qp-ui" data-qp-ui="{ 'SideNavToggle': {} }" role="tab">
+            <i class="material-icons material-spec-icon" title="Show navigation">menu</i>
+        </button>
     </nav>
-
-    
-      <form id="search-form" action="../search.html" method="GET">
-        <div class="search-widget qp-ui" data-qp-ui="{ 'SearchInput': {} }">
-          <button class="search-button"><i class="material-icons">search</i></button>
-          <button class="search-close-button"><i class="material-icons">close</i></button>
-          <input name="q" type="text" id="search-input" autocomplete="off">
-          <label for="search-input">Search</label>
-        </div>
-      </form>
-    
-
-    
-
-    
-
-    
-
-    
-    
-    <div id="side-nav" class="qp-ui" data-qp-ui="{ 'SideNavDrawer': {} }">
-      <div class="side-nav-wrapper ">
+<div id="side-nav" class="qp-ui qp-ui-side-nav-drawer" data-qp-ui="{ 'SideNavDrawer': {} }" data-qp-ui-data-id="qp:4">
+    <div class="side-nav-wrapper ">
         <div>
-          <span id="logo"><a href="/"><img src="../static/images/material-design.svg" alt="Logo"/></a></span>
-          <nav>
-            
-
-              
-                
-              
-
-              <dl>
-                <dt class="qp-ui" data-qp-ui="{ 'SideNavZippy': false }">Material design</dt>
-                <dd>
-                  
-                    <a  href="../material-design/introduction.html">Introduction </a>
-                  
-                    <a  href="../material-design/environment.html">Environment</a>
-                  
-                    <a  href="../material-design/material-properties.html">Material properties</a>
-                  
-                    <a  href="../material-design/elevation-shadows.html">Elevation &amp; shadows</a>
-                  
-                    <a  href="../material-design/whats-new.html">What’s new</a>
-                  
-                </dd>
-              </dl>
-
-            
-
-              
-                
-              
-
-              <dl>
-                <dt class="qp-ui" data-qp-ui="{ 'SideNavZippy': false }">Motion</dt>
-                <dd>
-                  
-                    <a  href="../motion/material-motion.html">Material motion</a>
-                  
-                    <a  href="../motion/duration-easing.html">Duration &amp; easing</a>
-                  
-                    <a  href="../motion/movement.html"> Movement</a>
-                  
-                    <a  href="../motion/transforming-material.html">Transforming material</a>
-                  
-                    <a  href="../motion/choreography.html">Choreography</a>
-                  
-                    <a  href="../motion/creative-customization.html">Creative customization</a>
-                  
-                </dd>
-              </dl>
-
-            
-
-              
-                
-              
-
-              <dl>
-                <dt class="qp-ui" data-qp-ui="{ 'SideNavZippy': false }">Style</dt>
-                <dd>
-                  
-                    <a  href="../style/color.html">Color</a>
-                  
-                    <a  href="../style/icons.html">Icons</a>
-                  
-                    <a  href="../style/imagery.html">Imagery</a>
-                  
-                    <a  href="../style/typography.html">Typography</a>
-                  
-                    <a  href="../style/writing.html">Writing</a>
-                  
-                </dd>
-              </dl>
-
-            
-
-              
-                
-              
-
-              <dl>
-                <dt class="qp-ui" data-qp-ui="{ 'SideNavZippy': true }">Layout</dt>
-                <dd>
-                  
-                    <a  href="../layout/principles.html">Principles</a>
-                  
-                    <a  href="../layout/units-measurements.html">Units &amp; measurements</a>
-                  
-                    <a  href="../layout/metrics-keylines.html">Metrics &amp; keylines</a>
-                  
-                    <a  href="../layout/structure.html">Structure</a>
-                  
-                    <a class="nav_selected" href="../layout/responsive-ui.html">Responsive UI</a>
-                  
-                    <a  href="../layout/split-screen.html">Split screen</a>
-                  
-                </dd>
-              </dl>
-
-            
-
-              
-                
-              
-
-              <dl>
-                <dt class="qp-ui" data-qp-ui="{ 'SideNavZippy': false }">Components</dt>
-                <dd>
-                  
-                    <a  href="../components/bottom-navigation.html">Bottom navigation</a>
-                  
-                    <a  href="../components/bottom-sheets.html">Bottom sheets</a>
-                  
-                    <a  href="../components/buttons.html">Buttons</a>
-                  
-                    <a  href="../components/buttons-floating-action-button.html">Buttons: Floating Action Button</a>
-                  
-                    <a  href="../components/cards.html">Cards</a>
-                  
-                    <a  href="../components/chips.html">Chips</a>
-                  
-                    <a  href="../components/data-tables.html">Data tables</a>
-                  
-                    <a  href="../components/dialogs.html">Dialogs</a>
-                  
-                    <a  href="../components/dividers.html">Dividers</a>
-                  
-                    <a  href="../components/expansion-panels.html">Expansion panels</a>
-                  
-                    <a  href="../components/grid-lists.html">Grid lists</a>
-                  
-                    <a  href="../components/lists.html">Lists</a>
-                  
-                    <a  href="../components/lists-controls.html">Lists: Controls</a>
-                  
-                    <a  href="../components/menus.html">Menus</a>
-                  
-                    <a  href="../components/pickers.html">Pickers</a>
-                  
-                    <a  href="../components/progress-activity.html">Progress &amp; activity</a>
-                  
-                    <a  href="../components/selection-controls.html">Selection controls</a>
-                  
-                    <a  href="../components/sliders.html">Sliders</a>
-                  
-                    <a  href="../components/snackbars-toasts.html">Snackbars &amp; toasts</a>
-                  
-                    <a  href="../components/steppers.html">Steppers</a>
-                  
-                    <a  href="../components/subheaders.html">Subheaders</a>
-                  
-                    <a  href="../components/tabs.html">Tabs</a>
-                  
-                    <a  href="../components/text-fields.html">Text fields</a>
-                  
-                    <a  href="../components/toolbars.html">Toolbars</a>
-                  
-                    <a  href="../components/tooltips.html">Tooltips</a>
-                  
-                    <a  href="../components/widgets.html">Widgets</a>
-                  
-                </dd>
-              </dl>
-
-            
-
-              
-                
-              
-
-              <dl>
-                <dt class="qp-ui" data-qp-ui="{ 'SideNavZippy': false }">Patterns</dt>
-                <dd>
-                  
-                    <a  href="../patterns/confirmation-acknowledgement.html">Confirmation &amp; acknowledgement</a>
-                  
-                    <a  href="../patterns/data-formats.html">Data formats</a>
-                  
-                    <a  href="../patterns/empty-states.html">Empty states</a>
-                  
-                    <a  href="../patterns/errors.html">Errors</a>
-                  
-                    <a  href="../patterns/fingerprint.html">Fingerprint</a>
-                  
-                    <a  href="../patterns/gestures.html">Gestures </a>
-                  
-                    <a  href="../patterns/help-feedback.html">Help &amp; feedback</a>
-                  
-                    <a  href="../patterns/launch-screens.html">Launch screens</a>
-                  
-                    <a  href="../patterns/loading-images.html">Loading images</a>
-                  
-                    <a  href="../patterns/navigation.html">Navigation</a>
-                  
-                    <a  href="../patterns/navigation-drawer.html">Navigation drawer</a>
-                  
-                    <a  href="../patterns/navigational-transitions.html">Navigational transitions</a>
-                  
-                    <a  href="../patterns/notifications.html">Notifications</a>
-                  
-                    <a  href="../patterns/permissions.html">Permissions</a>
-                  
-                    <a  href="../patterns/scrolling-techniques.html">Scrolling techniques</a>
-                  
-                    <a  href="../patterns/search.html">Search </a>
-                  
-                    <a  href="../patterns/selection.html">Selection </a>
-                  
-                    <a  href="../patterns/settings.html">Settings </a>
-                  
-                    <a  href="../patterns/swipe-to-refresh.html">Swipe to refresh</a>
-                  
-                </dd>
-              </dl>
-
-            
-
-              
-                
-              
-
-              <dl>
-                <dt class="qp-ui" data-qp-ui="{ 'SideNavZippy': false }">Growth &amp; communications</dt>
-                <dd>
-                  
-                    <a  href="../growth-communications/introduction.html">Introduction</a>
-                  
-                    <a  href="../growth-communications/onboarding.html">Onboarding</a>
-                  
-                    <a  href="../growth-communications/feature-discovery.html">Feature discovery</a>
-                  
-                    <a  href="../growth-communications/gesture-education.html">Gesture education</a>
-                  
-                </dd>
-              </dl>
-
-            
-
-              
-                
-              
-
-              <dl>
-                <dt class="qp-ui" data-qp-ui="{ 'SideNavZippy': false }">Usability</dt>
-                <dd>
-                  
-                    <a  href="../usability/accessibility.html">Accessibility</a>
-                  
-                    <a  href="../usability/bidirectionality.html">Bidirectionality</a>
-                  
-                </dd>
-              </dl>
-
-            
-
-              
-                
-              
-
-              <dl>
-                <dt class="qp-ui" data-qp-ui="{ 'SideNavZippy': false }">Platforms </dt>
-                <dd>
-                  
-                    <a  href="../platforms/platform-adaptation.html">Platform adaptation</a>
-                  
-                    <a  href="../platforms/android.html">Android</a>
-                  
-                </dd>
-              </dl>
-
-            
-
-              
-                
-              
-
-              <dl>
-                <dt class="qp-ui" data-qp-ui="{ 'SideNavZippy': false }">Resources</dt>
-                <dd>
-                  
-                    <a  href="../resources/color-palettes.html">Color palettes</a>
-                  
-                    <a  href="../resources/devices.html">Devices</a>
-                  
-                    <a  href="../resources/layout-templates.html">Layout templates</a>
-                  
-                    <a  href="../resources/roboto-noto-fonts.html">Roboto &amp; Noto fonts</a>
-                  
-                    <a  href="../resources/sticker-sheets-icons.html">Sticker sheets &amp; icons</a>
-                  
-                </dd>
-              </dl>
-
-            
-          </nav>
-
-
-          
-          <div class="legal">
-            <p class="copyright">Google &copy;</p>
-            <ul>
-              
-              <li>
-                <a href="javascript:void(0);" onclick="try{userfeedback.api.startFeedback({'productId': '1027542', 'bucket': 'material_spec', 'locale': 'en', 'allowNonLoggedInFeedback': true});return false;}catch(e){}" class="qp-ui-side-nav-dismiss">Site feedback</a>
-              </li>
-              
-              <li>
-                <a href="http://www.google.com/policies/privacy/">Privacy</a>
-              </li>
-              <li>
-                <a href="http://www.google.com/policies/terms/">Terms</a>
-              </li>
-            </ul>
-          </div>
-          
+            <span id="logo"><a href="../material-deisgn/introduction.html"><img src="../assets/images/material-design.svg" alt="Logo"></a></span>
+            <nav>
+                <dl>
+                    <dt class="qp-ui goog-zippy-header goog-zippy-expanded" data-qp-ui="{ 'SideNavZippy': false }" tabindex="0" role="tab" aria-expanded="false" data-qp-ui-data-id="qp:5">Material design</dt>
+                    <div style="overflow: hidden;">
+                        <dd style="margin-top: 0px;">
+                            <a href="../material-deisgn/introduction.html">概述</a>
+                            <a href="../material-deisgn/environment.html">环境</a>
+                            <a href="../material-deisgn/material-properties.html">Material 属性</a>
+                            <a href="../material-deisgn/elevation-shadows.html">层次 &amp; 阴影</a>
+                            <a href="../material-deisgn/whats-new.html">最近更新</a>
+                        </dd>
+                    </div>
+                </dl>
+                <dl>
+                    <dt class="qp-ui goog-zippy-header goog-zippy-collapsed" data-qp-ui="{ 'SideNavZippy': false }" tabindex="0" role="tab" aria-expanded="false" data-qp-ui-data-id="qp:6">动效</dt>
+                    <div style="overflow: hidden;">
+                        <dd>
+                            <a href="../motion/material-motion.html">Material 动效</a>
+                            <a href="../motion/duration-easing.html">持续时间 &amp; 缓动</a>
+                            <a href="../motion/movement.html">移动</a>
+                            <a href="../motion/transforming-material.html">材料的形变</a>
+                            <a href="../motion/choreography.html">编排</a>
+                            <a href="../motion/creative-customization.html">别出心裁</a>
+                        </dd>
+                    </div>
+                </dl>
+                <dl>
+                    <dt class="qp-ui goog-zippy-header goog-zippy-collapsed" data-qp-ui="{ 'SideNavZippy': false }" tabindex="0" role="tab" aria-expanded="false" data-qp-ui-data-id="qp:7">样式</dt>
+                    <div style="overflow: hidden;">
+                        <dd>
+                            <a href="../style/color.html">色彩</a>
+                            <a href="../style/icons.html">图标</a>
+                            <a href="../style/imagery.html">图像</a>
+                            <a href="../style/typography.html">排版</a>
+                            <a href="../style/writing.html">书写</a>
+                        </dd>
+                    </div>
+                </dl>
+                <dl>
+                    <dt class="qp-ui goog-zippy-header goog-zippy-collapsed" data-qp-ui="{ 'SideNavZippy': false }" tabindex="0" role="tab" aria-expanded="false" data-qp-ui-data-id="qp:8">布局</dt>
+                    <div style="overflow: hidden;">
+                        <dd>
+                            <a href="principles.html">原则</a>
+                            <a href="units-measurements.html">单位 &amp; 度量</a>
+                            <a href="metrics-keylines.html">度量标准 &amp; 关键线</a>
+                            <a href="structure.html">结构</a>
+                            <a class='current' href="responsive-ui.html">响应式 UI</a>
+                            <a href="split-screen.html">分屏</a>
+                        </dd>
+                    </div>
+                </dl>
+                <dl>
+                    <dt class="qp-ui goog-zippy-header goog-zippy-expanded" data-qp-ui="{ 'SideNavZippy': false }" tabindex="0" role="tab" aria-expanded="false" data-qp-ui-data-id="qp:9">组件</dt>
+                    <div style="overflow: hidden;">
+                        <dd>
+                            <a href="../components/bottom-navigation.html">底部导航栏</a>
+                            <a href="../components/bottom-sheets.html">底部 sheets</a>
+                            <a href="../components/buttons.html">按钮</a>
+                            <a href="../components/buttons-floating-action-button.html">按钮：浮动按钮</a>
+                            <a href="../components/cards.html">卡片</a>
+                            <a href="../components/chips.html">Chips</a>
+                            <a href="../components/data-tables.html">数据表格</a>
+                            <a href="../components/dialogs.html">对话框</a>
+                            <a href="../components/dividers.html">分隔符</a>
+                            <a href="../components/expansion-panels.html">Expansion panels</a>
+                            <a href="../components/grid-lists.html">网格列表</a>
+                            <a href="../components/lists.html">列表</a>
+                            <a href="../components/lists-controls.html">列表：控制器</a>
+                            <a href="../components/menus.html">Menus</a>
+                            <a href="../components/pickers.html">Pickers</a>
+                            <a href="../components/progress-activity.html">进程 &amp; 活动</a>
+                            <a href="../components/selection-controls.html">控制开关</a>
+                            <a href="../components/sliders.html">滑块</a>
+                            <a href="../components/snackbars-toasts.html">Snackbars &amp; toasts</a>
+                            <a href="../components/steppers.html">Steppers</a>
+                            <a href="../components/subheaders.html">Subheaders</a>
+                            <a href="../components/tabs.html">Tabs</a>
+                            <a href="../components/text-fields.html">文本框</a>
+                            <a href="../components/toolbars.html">工具栏</a>
+                            <a href="../components/tooltips.html">Tooltips</a>
+                            <a href="../components/widgets.html">插件</a>
+                        </dd>
+                    </div>
+                </dl>
+                <dl>
+                    <dt class="qp-ui goog-zippy-header goog-zippy-collapsed" data-qp-ui="{ 'SideNavZippy': false }" tabindex="0" role="tab" aria-expanded="false" data-qp-ui-data-id="qp:a">模式</dt>
+                    <div style="overflow: hidden;">
+                        <dd>
+                            <a href="../patterns/confirmation-acknowledgement.html">批准 &amp; 鸣谢</a>
+                            <a href="../patterns/data-formats.html">数据格式</a>
+                            <a href="../patterns/empty-states.html">空白状态</a>
+                            <a href="../patterns/errors.html">出错</a>
+                            <a href="../patterns/fingerprint.html">指纹</a>
+                            <a href="../patterns/gestures.html">手势</a>
+                            <a href="../patterns/help-feedback.html">帮助 &amp; 反馈</a>
+                            <a href="../patterns/launch-screens.html">启动页</a>
+                            <a href="../patterns/loading-images.html">图片加载</a>
+                            <a href="../patterns/navigation.html">导航</a>
+                            <a href="../patterns/navigation-drawer.html">抽屉导航</a>
+                            <a href="../patterns/navigational-transitions.html">导航的转场</a>
+                            <a href="../patterns/notifications.html">通知</a>
+                            <a href="../patterns/permissions.html">权限</a>
+                            <a href="../patterns/scrolling-techniques.html">滚动技术</a>
+                            <a href="../patterns/search.html">搜索</a>
+                            <a href="../patterns/selection.html">选择</a>
+                            <a href="../patterns/settings.html">设置</a>
+                            <a href="../patterns/swipe-to-refresh.html">滑动刷新</a>
+                        </dd>
+                    </div>
+                </dl>
+                <dl>
+                    <dt class="qp-ui goog-zippy-header goog-zippy-collapsed" data-qp-ui="{ 'SideNavZippy': false }" tabindex="0" role="tab" aria-expanded="false" data-qp-ui-data-id="qp:b">成长 &amp; 沟通</dt>
+                    <div style="overflow: hidden;">
+                        <dd>
+                            <a href="../growth-communications/introduction-2.html">引言</a>
+                            <a href="../growth-communications/onboarding.html">过程</a>
+                            <a href="../growth-communications/feature-discovery.html">探索特性</a>
+                            <a href="../growth-communications/gesture-education.html">附加手势</a>
+                        </dd>
+                    </div>
+                </dl>
+                <dl>
+                    <dt class="qp-ui goog-zippy-header goog-zippy-collapsed" data-qp-ui="{ 'SideNavZippy': false }" tabindex="0" role="tab" aria-expanded="false" data-qp-ui-data-id="qp:c">可用性</dt>
+                    <div style="overflow: hidden;">
+                        <dd>
+                            <a href="../usability/accessibility.html">可达性</a>
+                            <a href="../usability/bidirectionality.html">双向性</a>
+                        </dd>
+                    </div>
+                </dl>
+                <dl>
+                    <dt class="qp-ui goog-zippy-header goog-zippy-collapsed" data-qp-ui="{ 'SideNavZippy': false }" tabindex="0" role="tab" aria-expanded="false" data-qp-ui-data-id="qp:d">平台 </dt>
+                    <div style="overflow: hidden;">
+                        <dd>
+                            <a href="../platforms/platform-adaptation.html">平台适配</a>
+                            <a href="../platforms/android.html">Android</a>
+                        </dd>
+                    </div>
+                </dl>
+                <dl>
+                    <dt class="qp-ui goog-zippy-header goog-zippy-collapsed" data-qp-ui="{ 'SideNavZippy': false }" tabindex="0" role="tab" aria-expanded="false" data-qp-ui-data-id="qp:e">资源</dt>
+                    <div style="overflow: hidden;">
+                        <dd>
+                            <a href="../resources/color-palettes.html">调色板</a>
+                            <a href="../resources/devices.html">设备</a>
+                            <a href="../resources/layout-templates.html">布局模版</a>
+                            <a href="../resources/roboto-noto-fonts.html">Roboto &amp; Noto fonts</a>
+                            <a href="../resources/sticker-sheets-icons.html">Sticker sheets &amp; icons</a>
+                        </dd>
+                    </div>
+                </dl>
+            </nav>
+            <div class="legal">
+                <p class="copyright">Google ©</p>
+                <ul>
+                    <li>
+                        <a href="http://www.google.com/policies/privacy/">Privacy</a>
+                    </li>
+                    <li>
+                        <a href="http://www.google.com/policies/terms/">Terms</a>
+                    </li>
+                    <li>
+                        <a href="http://maxc.me">Max Design</a>
+                    </li>
+                </ul>
+            </div>
         </div>
-      </div>
-
-      
-
     </div>
-
-    <div id="grid-cont">
-      <section class="grid_outer chapter">
-        
-        <h1 class="chapter-title">Responsive UI
-          
-          
-          
-          
-          
-        </h1>
-        <div class="chapter-content">
-
-          <div class="article-content chapter-intro">
-            <div><h1>Responsive layouts in material design adapt to any possible screen size. This UI guidance includes a flexible grid that ensures consistency across layouts, breakpoint details about how content reflows on different screens, and a description of how an app can scale from small to extra-large screens.</h1></div>
-          </div>
-
-          
-          <nav class="chapter-toc">
-            <h1>Contents</h1>
-            <ul>
-              
-                <li><a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="#responsive-ui-breakpoints" data-qp-ui-data-id="qp:1">Breakpoints</a></li>
-              
-                <li><a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="#responsive-ui-grid" data-qp-ui-data-id="qp:2">Grid</a></li>
-              
-                <li><a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="#responsive-ui-surface-behaviors" data-qp-ui-data-id="qp:3">Surface behaviors</a></li>
-              
-                <li><a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="#responsive-ui-patterns" data-qp-ui-data-id="qp:4">Patterns</a></li>
-              
-            </ul>
-          </nav>
-
-          <div class="article-list">
-            
-              <div id="responsive-ui-breakpoints" class="article qp-ui" data-qp-ui="{ 'ScrollSpy': {} }" data-qp-ui-data-id="qp:1">
-                <h2 class="article-title qp-ui" data-qp-ui="{ 'ResponsiveZippy': {} }" data-qp-ui-data-id="qp:1">
+</div>
+<div id="grid-cont">
+    <section class="grid_outer chapter">
+        <h1 class="chapter-title">响应式 UI</h1>
+<div class="chapter-content">
+    <div class="article-content chapter-intro">
+        <div>
+            <h1>Responsive layouts in material design adapt to any possible screen size. This UI guidance includes a flexible grid that ensures consistency across layouts, breakpoint details about how content reflows on different screens, and a description of how an app can scale from small to extra-large screens.</h1></div>
+    </div>
+    <nav class="chapter-toc">
+        <h1>Contents</h1>
+        <ul>
+            <li><a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="#responsive-ui-breakpoints" data-qp-ui-data-id="qp:1">Breakpoints</a></li>
+            <li><a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="#responsive-ui-grid" data-qp-ui-data-id="qp:2">Grid</a></li>
+            <li><a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="#responsive-ui-surface-behaviors" data-qp-ui-data-id="qp:3">Surface behaviors</a></li>
+            <li><a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="#responsive-ui-patterns" data-qp-ui-data-id="qp:4">Patterns</a></li>
+        </ul>
+    </nav>
+    <div class="article-list">
+        <div id="responsive-ui-breakpoints" class="article qp-ui" data-qp-ui="{ 'ScrollSpy': {} }" data-qp-ui-data-id="qp:1">
+            <h2 class="article-title qp-ui" data-qp-ui="{ 'ResponsiveZippy': {} }" data-qp-ui-data-id="qp:1">
                   Breakpoints
                   
                   
@@ -471,33 +258,338 @@
                     <polygon role="presentation" points="2.5,4.167 5,6.667 7.5,4.167 6.917,3.583 5,5.5 3.083,3.583"></polygon>
                   </svg>
                 </h2>
-                <div class="article-content">
-                  <div><p>For optimal user experience, material design user interfaces should adapt layouts for the following breakpoint widths: 480, 600, 840, 960, 1280, 1440, and 1600dp.</p><div class="modulettes">
-<a class="modulette container default" href="https://www.google.com/url?q=http://design.google.com/resizer/&amp;sa=D&amp;ust=1481817966471000&amp;usg=AFQjCNGcNfKY9W0f3A-CaOySKlVR_bQN8A" target="_blank">
-<img alt="" class="icon callout-icon" src="../static/images/callouts/default.svg">
-<div class="info">
-<div class="title">Resizer</div>
-<span class="subtitle">Preview material design breakpoints with this interactive viewer across desktop, mobile, and tablet </span>
-</div>
-</img></a>
-</div><div class="col-list"><section class="figure col-1"><div class="figure"><figure class="s-tag-media"><div class="media"><img alt="" src="https://storage.googleapis.com/material-design/publish/material_v_10/assets/0B8olV15J7abPSGFxemFiQVRtb1k/layout_adaptive_breakpoints_01.png"/></div></figure></div></section></div><div class="col-list"><section class="module-module col-2"><div class="module"><p><strong>1.</strong><strong> Summary and detail view content in layouts</strong></p><ul class="lst-kix_yt2oj44xi7j7-0 start"><li>Layouts under 600dp wide may fill the screen with a single level of content hierarchy (either summary or detail content, but not both). </li><li>Layouts over 600dp wide may place two levels of content hierarchy on the screen (both summary and detail content).</li></ul></div><div class="module"><p><strong>2. Max screen widths</strong></p><p>Layouts over 1600dp wide may let the layout grow until it hits a max width. At this point, the grid may do one of the following: </p><ul class="lst-kix_8aft212gh0kb-0 start"><li>Become center aligned with increased margins</li><li>Remain left aligned while the right margin grows</li><li>Continue to grow while revealing additional content</li></ul></div></section></div><div class="col-list"><section class="module-module col-2"><div class="module"><p><strong>Breakpoint system</strong></p><p>These breakpoints describe column and width specifications for different screens, devices, and orientations.</p><p>For some measurements, the values remain the same even if a device is rotated. For that reason the smallest width in either orientation is the defining value. </p><p>* 16dp when the smallest width of the device is &lt;600</p><p>** Desktop breakpoints are 16dp below the listed values to accommodate variations in browser chrome.</p></div><div class="module"><table class="s-tag-table"><tbody><tr><td colspan="1" rowspan="1"><p>Breakpoint (dp)</p></td><td colspan="1" rowspan="1"><p>Handset / Tablet Portrait</p></td><td colspan="1" rowspan="1"><p>Handset / Tablet Landscape</p></td><td colspan="1" rowspan="1"><p>Window</p></td><td colspan="1" rowspan="1"><p>Columns</p></td><td colspan="1" rowspan="1"><p>Gutter</p></td></tr><tr><td colspan="1" rowspan="1"><p>0</p></td><td colspan="1" rowspan="1"><p>small handset</p></td><td colspan="1" rowspan="1">
-</td><td colspan="1" rowspan="1"><p>xsmall</p></td><td colspan="1" rowspan="1"><p>4</p></td><td colspan="1" rowspan="1"><p>16</p></td></tr><tr><td colspan="1" rowspan="1"><p>360</p></td><td colspan="1" rowspan="1"><p>medium handset</p></td><td colspan="1" rowspan="1">
-</td><td colspan="1" rowspan="1"><p>xsmall</p></td><td colspan="1" rowspan="1"><p>4</p></td><td colspan="1" rowspan="1"><p>16</p></td></tr><tr><td colspan="1" rowspan="1"><p>400</p></td><td colspan="1" rowspan="1"><p>large handset</p></td><td colspan="1" rowspan="1">
-</td><td colspan="1" rowspan="1"><p>xsmall</p></td><td colspan="1" rowspan="1"><p>4</p></td><td colspan="1" rowspan="1"><p>16</p></td></tr><tr><td colspan="1" rowspan="1"><p>480</p></td><td colspan="1" rowspan="1"><p>large handset</p></td><td colspan="1" rowspan="1"><p>small handset</p></td><td colspan="1" rowspan="1"><p>xsmall</p></td><td colspan="1" rowspan="1"><p>4</p></td><td colspan="1" rowspan="1"><p>16</p></td></tr><tr><td colspan="1" rowspan="1"><p>600</p></td><td colspan="1" rowspan="1"><p>small tablet</p></td><td colspan="1" rowspan="1"><p>medium handset</p></td><td colspan="1" rowspan="1"><p>small</p></td><td colspan="1" rowspan="1"><p>8</p></td><td colspan="1" rowspan="1"><p>16/24*</p></td></tr><tr><td colspan="1" rowspan="1"><p>720</p></td><td colspan="1" rowspan="1"><p>large tablet</p></td><td colspan="1" rowspan="1"><p>large handset</p></td><td colspan="1" rowspan="1"><p>small</p></td><td colspan="1" rowspan="1"><p>8</p></td><td colspan="1" rowspan="1"><p>16/24*</p></td></tr><tr><td colspan="1" rowspan="1"><p>840</p></td><td colspan="1" rowspan="1"><p>large tablet</p></td><td colspan="1" rowspan="1"><p>large handset</p></td><td colspan="1" rowspan="1"><p>small</p></td><td colspan="1" rowspan="1"><p>12</p></td><td colspan="1" rowspan="1"><p>16/24*</p></td></tr><tr><td colspan="1" rowspan="1"><p>960</p></td><td colspan="1" rowspan="1">
-</td><td colspan="1" rowspan="1"><p>small tablet</p></td><td colspan="1" rowspan="1"><p>small</p></td><td colspan="1" rowspan="1"><p>12</p></td><td colspan="1" rowspan="1"><p>24</p></td></tr><tr><td colspan="1" rowspan="1"><p>1024**</p></td><td colspan="1" rowspan="1">
-</td><td colspan="1" rowspan="1"><p>large tablet</p></td><td colspan="1" rowspan="1"><p>medium</p></td><td colspan="1" rowspan="1"><p>12</p></td><td colspan="1" rowspan="1"><p>24</p></td></tr><tr><td colspan="1" rowspan="1"><p>1280**</p></td><td colspan="1" rowspan="1">
-</td><td colspan="1" rowspan="1"><p>large tablet</p></td><td colspan="1" rowspan="1"><p>medium</p></td><td colspan="1" rowspan="1"><p>12</p></td><td colspan="1" rowspan="1"><p>24</p></td></tr><tr><td colspan="1" rowspan="1"><p>1440**</p></td><td colspan="1" rowspan="1">
-</td><td colspan="1" rowspan="1">
-</td><td colspan="1" rowspan="1"><p>large</p></td><td colspan="1" rowspan="1"><p>12</p></td><td colspan="1" rowspan="1"><p>24</p></td></tr><tr><td colspan="1" rowspan="1"><p>1600**</p></td><td colspan="1" rowspan="1">
-</td><td colspan="1" rowspan="1">
-</td><td colspan="1" rowspan="1"><p>large</p></td><td colspan="1" rowspan="1"><p>12</p></td><td colspan="1" rowspan="1"><p>24</p></td></tr><tr><td colspan="1" rowspan="1"><p>1920**</p></td><td colspan="1" rowspan="1">
-</td><td colspan="1" rowspan="1">
-</td><td colspan="1" rowspan="1"><p>xlarge</p></td><td colspan="1" rowspan="1"><p>12</p></td><td colspan="1" rowspan="1"><p>24</p></td></tr></tbody></table></div></section></div></div>
+            <div class="article-content">
+                <div>
+                    <p>For optimal user experience, material design user interfaces should adapt layouts for the following breakpoint widths: 480, 600, 840, 960, 1280, 1440, and 1600dp.</p>
+                    <div class="modulettes">
+                        <a class="modulette container default" href="https://www.google.com/url?q=http://design.google.com/resizer/&amp;sa=D&amp;ust=1481817966471000&amp;usg=AFQjCNGcNfKY9W0f3A-CaOySKlVR_bQN8A" target="_blank">
+                            <img alt="" class="icon callout-icon" src="../static/images/callouts/default.svg">
+                            <div class="info">
+                                <div class="title">Resizer</div>
+                                <span class="subtitle">Preview material design breakpoints with this interactive viewer across desktop, mobile, and tablet </span>
+                            </div>
+                            </img>
+                        </a>
+                    </div>
+                    <div class="col-list">
+                        <section class="figure col-1">
+                            <div class="figure">
+                                <figure class="s-tag-media">
+                                    <div class="media"><img alt="" src="https://storage.googleapis.com/material-design/publish/material_v_10/assets/0B8olV15J7abPSGFxemFiQVRtb1k/layout_adaptive_breakpoints_01.png" /></div>
+                                </figure>
+                            </div>
+                        </section>
+                    </div>
+                    <div class="col-list">
+                        <section class="module-module col-2">
+                            <div class="module">
+                                <p><strong>1.</strong><strong> Summary and detail view content in layouts</strong></p>
+                                <ul class="lst-kix_yt2oj44xi7j7-0 start">
+                                    <li>Layouts under 600dp wide may fill the screen with a single level of content hierarchy (either summary or detail content, but not both). </li>
+                                    <li>Layouts over 600dp wide may place two levels of content hierarchy on the screen (both summary and detail content).</li>
+                                </ul>
+                            </div>
+                            <div class="module">
+                                <p><strong>2. Max screen widths</strong></p>
+                                <p>Layouts over 1600dp wide may let the layout grow until it hits a max width. At this point, the grid may do one of the following: </p>
+                                <ul class="lst-kix_8aft212gh0kb-0 start">
+                                    <li>Become center aligned with increased margins</li>
+                                    <li>Remain left aligned while the right margin grows</li>
+                                    <li>Continue to grow while revealing additional content</li>
+                                </ul>
+                            </div>
+                        </section>
+                    </div>
+                    <div class="col-list">
+                        <section class="module-module col-2">
+                            <div class="module">
+                                <p><strong>Breakpoint system</strong></p>
+                                <p>These breakpoints describe column and width specifications for different screens, devices, and orientations.</p>
+                                <p>For some measurements, the values remain the same even if a device is rotated. For that reason the smallest width in either orientation is the defining value. </p>
+                                <p>* 16dp when the smallest width of the device is &lt;600</p>
+                                <p>** Desktop breakpoints are 16dp below the listed values to accommodate variations in browser chrome.</p>
+                            </div>
+                            <div class="module">
+                                <table class="s-tag-table">
+                                    <tbody>
+                                        <tr>
+                                            <td colspan="1" rowspan="1">
+                                                <p>Breakpoint (dp)</p>
+                                            </td>
+                                            <td colspan="1" rowspan="1">
+                                                <p>Handset / Tablet Portrait</p>
+                                            </td>
+                                            <td colspan="1" rowspan="1">
+                                                <p>Handset / Tablet Landscape</p>
+                                            </td>
+                                            <td colspan="1" rowspan="1">
+                                                <p>Window</p>
+                                            </td>
+                                            <td colspan="1" rowspan="1">
+                                                <p>Columns</p>
+                                            </td>
+                                            <td colspan="1" rowspan="1">
+                                                <p>Gutter</p>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td colspan="1" rowspan="1">
+                                                <p>0</p>
+                                            </td>
+                                            <td colspan="1" rowspan="1">
+                                                <p>small handset</p>
+                                            </td>
+                                            <td colspan="1" rowspan="1">
+                                            </td>
+                                            <td colspan="1" rowspan="1">
+                                                <p>xsmall</p>
+                                            </td>
+                                            <td colspan="1" rowspan="1">
+                                                <p>4</p>
+                                            </td>
+                                            <td colspan="1" rowspan="1">
+                                                <p>16</p>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td colspan="1" rowspan="1">
+                                                <p>360</p>
+                                            </td>
+                                            <td colspan="1" rowspan="1">
+                                                <p>medium handset</p>
+                                            </td>
+                                            <td colspan="1" rowspan="1">
+                                            </td>
+                                            <td colspan="1" rowspan="1">
+                                                <p>xsmall</p>
+                                            </td>
+                                            <td colspan="1" rowspan="1">
+                                                <p>4</p>
+                                            </td>
+                                            <td colspan="1" rowspan="1">
+                                                <p>16</p>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td colspan="1" rowspan="1">
+                                                <p>400</p>
+                                            </td>
+                                            <td colspan="1" rowspan="1">
+                                                <p>large handset</p>
+                                            </td>
+                                            <td colspan="1" rowspan="1">
+                                            </td>
+                                            <td colspan="1" rowspan="1">
+                                                <p>xsmall</p>
+                                            </td>
+                                            <td colspan="1" rowspan="1">
+                                                <p>4</p>
+                                            </td>
+                                            <td colspan="1" rowspan="1">
+                                                <p>16</p>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td colspan="1" rowspan="1">
+                                                <p>480</p>
+                                            </td>
+                                            <td colspan="1" rowspan="1">
+                                                <p>large handset</p>
+                                            </td>
+                                            <td colspan="1" rowspan="1">
+                                                <p>small handset</p>
+                                            </td>
+                                            <td colspan="1" rowspan="1">
+                                                <p>xsmall</p>
+                                            </td>
+                                            <td colspan="1" rowspan="1">
+                                                <p>4</p>
+                                            </td>
+                                            <td colspan="1" rowspan="1">
+                                                <p>16</p>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td colspan="1" rowspan="1">
+                                                <p>600</p>
+                                            </td>
+                                            <td colspan="1" rowspan="1">
+                                                <p>small tablet</p>
+                                            </td>
+                                            <td colspan="1" rowspan="1">
+                                                <p>medium handset</p>
+                                            </td>
+                                            <td colspan="1" rowspan="1">
+                                                <p>small</p>
+                                            </td>
+                                            <td colspan="1" rowspan="1">
+                                                <p>8</p>
+                                            </td>
+                                            <td colspan="1" rowspan="1">
+                                                <p>16/24*</p>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td colspan="1" rowspan="1">
+                                                <p>720</p>
+                                            </td>
+                                            <td colspan="1" rowspan="1">
+                                                <p>large tablet</p>
+                                            </td>
+                                            <td colspan="1" rowspan="1">
+                                                <p>large handset</p>
+                                            </td>
+                                            <td colspan="1" rowspan="1">
+                                                <p>small</p>
+                                            </td>
+                                            <td colspan="1" rowspan="1">
+                                                <p>8</p>
+                                            </td>
+                                            <td colspan="1" rowspan="1">
+                                                <p>16/24*</p>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td colspan="1" rowspan="1">
+                                                <p>840</p>
+                                            </td>
+                                            <td colspan="1" rowspan="1">
+                                                <p>large tablet</p>
+                                            </td>
+                                            <td colspan="1" rowspan="1">
+                                                <p>large handset</p>
+                                            </td>
+                                            <td colspan="1" rowspan="1">
+                                                <p>small</p>
+                                            </td>
+                                            <td colspan="1" rowspan="1">
+                                                <p>12</p>
+                                            </td>
+                                            <td colspan="1" rowspan="1">
+                                                <p>16/24*</p>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td colspan="1" rowspan="1">
+                                                <p>960</p>
+                                            </td>
+                                            <td colspan="1" rowspan="1">
+                                            </td>
+                                            <td colspan="1" rowspan="1">
+                                                <p>small tablet</p>
+                                            </td>
+                                            <td colspan="1" rowspan="1">
+                                                <p>small</p>
+                                            </td>
+                                            <td colspan="1" rowspan="1">
+                                                <p>12</p>
+                                            </td>
+                                            <td colspan="1" rowspan="1">
+                                                <p>24</p>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td colspan="1" rowspan="1">
+                                                <p>1024**</p>
+                                            </td>
+                                            <td colspan="1" rowspan="1">
+                                            </td>
+                                            <td colspan="1" rowspan="1">
+                                                <p>large tablet</p>
+                                            </td>
+                                            <td colspan="1" rowspan="1">
+                                                <p>medium</p>
+                                            </td>
+                                            <td colspan="1" rowspan="1">
+                                                <p>12</p>
+                                            </td>
+                                            <td colspan="1" rowspan="1">
+                                                <p>24</p>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td colspan="1" rowspan="1">
+                                                <p>1280**</p>
+                                            </td>
+                                            <td colspan="1" rowspan="1">
+                                            </td>
+                                            <td colspan="1" rowspan="1">
+                                                <p>large tablet</p>
+                                            </td>
+                                            <td colspan="1" rowspan="1">
+                                                <p>medium</p>
+                                            </td>
+                                            <td colspan="1" rowspan="1">
+                                                <p>12</p>
+                                            </td>
+                                            <td colspan="1" rowspan="1">
+                                                <p>24</p>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td colspan="1" rowspan="1">
+                                                <p>1440**</p>
+                                            </td>
+                                            <td colspan="1" rowspan="1">
+                                            </td>
+                                            <td colspan="1" rowspan="1">
+                                            </td>
+                                            <td colspan="1" rowspan="1">
+                                                <p>large</p>
+                                            </td>
+                                            <td colspan="1" rowspan="1">
+                                                <p>12</p>
+                                            </td>
+                                            <td colspan="1" rowspan="1">
+                                                <p>24</p>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td colspan="1" rowspan="1">
+                                                <p>1600**</p>
+                                            </td>
+                                            <td colspan="1" rowspan="1">
+                                            </td>
+                                            <td colspan="1" rowspan="1">
+                                            </td>
+                                            <td colspan="1" rowspan="1">
+                                                <p>large</p>
+                                            </td>
+                                            <td colspan="1" rowspan="1">
+                                                <p>12</p>
+                                            </td>
+                                            <td colspan="1" rowspan="1">
+                                                <p>24</p>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td colspan="1" rowspan="1">
+                                                <p>1920**</p>
+                                            </td>
+                                            <td colspan="1" rowspan="1">
+                                            </td>
+                                            <td colspan="1" rowspan="1">
+                                            </td>
+                                            <td colspan="1" rowspan="1">
+                                                <p>xlarge</p>
+                                            </td>
+                                            <td colspan="1" rowspan="1">
+                                                <p>12</p>
+                                            </td>
+                                            <td colspan="1" rowspan="1">
+                                                <p>24</p>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </section>
+                    </div>
                 </div>
-              </div>
-            
-              <div id="responsive-ui-grid" class="article qp-ui" data-qp-ui="{ 'ScrollSpy': {} }" data-qp-ui-data-id="qp:2">
-                <h2 class="article-title qp-ui" data-qp-ui="{ 'ResponsiveZippy': {} }" data-qp-ui-data-id="qp:2">
+            </div>
+        </div>
+        <div id="responsive-ui-grid" class="article qp-ui" data-qp-ui="{ 'ScrollSpy': {} }" data-qp-ui-data-id="qp:2">
+            <h2 class="article-title qp-ui" data-qp-ui="{ 'ResponsiveZippy': {} }" data-qp-ui-data-id="qp:2">
                   Grid
                   
                   
@@ -508,55 +600,172 @@
                     <polygon role="presentation" points="2.5,4.167 5,6.667 7.5,4.167 6.917,3.583 5,5.5 3.083,3.583"></polygon>
                   </svg>
                 </h2>
-                <div class="article-content">
-                  <div><p>Material design’s responsive UI is based on a 12-column grid layout. This grid creates visual consistency between layouts, while allowing flexibility across a wide variety of designs. The number of grid columns varies based on the breakpoint system.</p><div class="col-list"><section class="figure col-1"><div class="figure"><figure class="s-tag-media"><div class="media">
-<div class="qp-ui" data-qp-ui="{ 'VideoPlayer': {} }">
-<video controls="" loop="" preload="metadata">
-<source src="https://storage.googleapis.com/material-design/publish/material_v_10/assets/0B0nwUo5pqvmAZ3hsemplb3k0S00/layout_adaptiveUI_grid_01_hero.webm" type="video/webm">
-<source src="https://storage.googleapis.com/material-design/publish/material_v_10/assets/0B0nwUo5pqvmATmowU3BOUFR6Wk0/layout_adaptiveUI_grid_01_hero.mp4" type="video/mp4">
-</source></source></video>
-</div>
-</div><figcaption><p>This animation shows how surfaces and panels can align to influence the 12-column grid. </p></figcaption></figure></div></section></div><div class="col-list"><section class="module-figure col-2"><div class="module"><h2><strong>Margins and Gutters</strong></h2><p>The responsive grid focuses on consistent margin and gutter widths, rather than column width. Material design margins and columns follow an 8dp square baseline grid. Margins and gutters can be 8, 16, 24, or 40dp wide. </p><p>Margins and gutters don’t need to be equal. For example, it’s acceptable to use 40dp margins and 24dp gutters in the same layout.</p></div><div class="figure"><figure class="s-tag-media"><div class="media">
-<div class="qp-ui" data-qp-ui="{ 'VideoPlayer': {} }">
-<video controls="" loop="" preload="metadata">
-<source src="https://storage.googleapis.com/material-design/publish/material_v_10/assets/0B0nwUo5pqvmATEhhSmstQnNLek0/layout_adaptiveUI_grid_02_margins.webm" type="video/webm">
-<source src="https://storage.googleapis.com/material-design/publish/material_v_10/assets/0B0nwUo5pqvmAOHhfNWdvdmw1RUE/layout_adaptiveUI_grid_02_margins.mp4" type="video/mp4">
-</source></source></video>
-</div>
-</div><figcaption><p>This animation shows interactions of the following margin and gutter width variations:</p><ol class="lst-kix_l8t11msx2rv8-0 start" start="1"><li>8dp margins and gutters</li><li>16dp margins and gutters</li><li>24dp margins and gutters</li><li>40dp margins and gutters</li><li>40dp margins and 24dp gutters</li></ol></figcaption></figure></div></section><section class="module-figure col-2"><div class="module"><h2><strong>Full-width vs Centered</strong></h2><p><strong>Full-width grids</strong> use fluid columns and breakpoints to determine when a layout needs to change. </p><p><strong>Centered grids</strong> use fixed columns and reflow the layout when all columns (plus a defined margin) no longer fit on screen. </p></div><div class="figure"><figure class="s-tag-media"><div class="media">
-<div class="qp-ui" data-qp-ui="{ 'VideoPlayer': {} }">
-<video controls="" loop="" preload="metadata">
-<source src="https://storage.googleapis.com/material-design/publish/material_v_10/assets/0B0nwUo5pqvmAZ1ptYWI2ZEc4czQ/layout_adaptiveUI_grid_03_width.webm" type="video/webm">
-<source src="https://storage.googleapis.com/material-design/publish/material_v_10/assets/0B0nwUo5pqvmASzY4clJvRmNFZTA/layout_adaptiveUI_grid_03_width.mp4" type="video/mp4">
-</source></source></video>
-</div>
-</div><figcaption><ol class="lst-kix_rij772l0b5s1-0 start" start="1"><li>Full-width grids</li><li>Centered grids</li></ol></figcaption></figure></div></section></div><h2><strong>Panel Influence on the Grid</strong></h2><p>As defined in <a href="../patterns/navigation-drawer.html#navigation-drawer-behavior">Navigation patterns</a>, the side nav may be permanent, persistent, or temporary. These behaviors apply to any panel, not just a side nav. </p><div class="col-list"><section class="module-figure col-2"><div class="module"><p><strong>Permanent </strong></p><p>A permanent panel exists outside of the responsive grid. The panel appears at a defined breakpoint (when the screen can accommodate the panel) and squeezes content. There are no controls to show/hide the panel.</p></div><div class="figure"><figure class="s-tag-media"><div class="media">
-<div class="qp-ui" data-qp-ui="{ 'VideoPlayer': {} }">
-<video controls="" loop="" preload="metadata">
-<source src="https://storage.googleapis.com/material-design/publish/material_v_10/assets/0B0nwUo5pqvmAUGNyT2dNT1AwV2M/layout_adaptiveUI_grid_04_behaviorPermanent.webm" type="video/webm">
-<source src="https://storage.googleapis.com/material-design/publish/material_v_10/assets/0B0nwUo5pqvmAdlN2bVFjXy1ZUzQ/layout_adaptiveUI_grid_04_behaviorPermanent.mp4" type="video/mp4">
-</source></source></video>
-</div>
-</div><figcaption><p>The effects of a permanent panel on the responsive grid</p></figcaption></figure></div></section><section class="module-figure col-2"><div class="module"><p><strong>Side panel effects on the grid</strong></p><p>This animation happens in two phases: </p><ol class="lst-kix_v6pxnk8kyd0x-0 start" start="1"><li>A persistent side panel appears, squeezing both content and the grid. Content is accessible while the panel remains visible. The panel hides upon toggling.</li><li>A temporary side panel appears, pushing grid content off-screen. Touching either outside the panel, or an item inside the panel, hides the panel.</li></ol></div><div class="figure"><figure class="s-tag-media"><div class="media">
-<div class="qp-ui" data-qp-ui="{ 'VideoPlayer': {} }">
-<video controls="" loop="" preload="metadata">
-<source src="https://storage.googleapis.com/material-design/publish/material_v_10/assets/0B0nwUo5pqvmAV0RFaV9jWEd4c1k/layout_adaptiveUI_grid_05_behaviorSqueezePush.webm" type="video/webm">
-<source src="https://storage.googleapis.com/material-design/publish/material_v_10/assets/0B0nwUo5pqvmAX3VfWTVZZjdpSnc/layout_adaptiveUI_grid_05_behaviorSqueezePush.mp4" type="video/mp4">
-</source></source></video>
-</div>
-</div><figcaption><p>The effects of a persistent panel on the responsive grid</p></figcaption></figure></div></section><section class="module-figure col-2"><div class="module"><p><strong>Temporary overlay</strong></p><p>A temporary panel does not affect the grid or content when off-screen. When toggled to be visible, it can be hidden again by touching anywhere outside the panel or an item inside the panel.</p></div><div class="figure"><figure class="s-tag-media"><div class="media">
-<div class="qp-ui" data-qp-ui="{ 'VideoPlayer': {} }">
-<video controls="" loop="" preload="metadata">
-<source src="https://storage.googleapis.com/material-design/publish/material_v_10/assets/0B0nwUo5pqvmAY2dNZUVlZnJmT28/layout_adaptiveUI_grid_06_behaviorOverlay.webm" type="video/webm">
-<source src="https://storage.googleapis.com/material-design/publish/material_v_10/assets/0B0nwUo5pqvmAV0Fnc2xLTmljUWc/layout_adaptiveUI_grid_06_behaviorOverlay.mp4" type="video/mp4">
-</source></source></video>
-</div>
-</div><figcaption><p>The effects of a temporary panel on the responsive grid</p></figcaption></figure></div></section></div></div>
+            <div class="article-content">
+                <div>
+                    <p>Material design’s responsive UI is based on a 12-column grid layout. This grid creates visual consistency between layouts, while allowing flexibility across a wide variety of designs. The number of grid columns varies based on the breakpoint system.</p>
+                    <div class="col-list">
+                        <section class="figure col-1">
+                            <div class="figure">
+                                <figure class="s-tag-media">
+                                    <div class="media">
+                                        <div class="qp-ui" data-qp-ui="{ 'VideoPlayer': {} }">
+                                            <video controls="" loop="" preload="metadata">
+                                                <source src="https://storage.googleapis.com/material-design/publish/material_v_10/assets/0B0nwUo5pqvmAZ3hsemplb3k0S00/layout_adaptiveUI_grid_01_hero.webm" type="video/webm">
+                                                <source src="https://storage.googleapis.com/material-design/publish/material_v_10/assets/0B0nwUo5pqvmATmowU3BOUFR6Wk0/layout_adaptiveUI_grid_01_hero.mp4" type="video/mp4">
+                                                </source>
+                                                </source>
+                                            </video>
+                                        </div>
+                                    </div>
+                                    <figcaption>
+                                        <p>This animation shows how surfaces and panels can align to influence the 12-column grid. </p>
+                                    </figcaption>
+                                </figure>
+                            </div>
+                        </section>
+                    </div>
+                    <div class="col-list">
+                        <section class="module-figure col-2">
+                            <div class="module">
+                                <h2><strong>Margins and Gutters</strong></h2>
+                                <p>The responsive grid focuses on consistent margin and gutter widths, rather than column width. Material design margins and columns follow an 8dp square baseline grid. Margins and gutters can be 8, 16, 24, or 40dp wide. </p>
+                                <p>Margins and gutters don’t need to be equal. For example, it’s acceptable to use 40dp margins and 24dp gutters in the same layout.</p>
+                            </div>
+                            <div class="figure">
+                                <figure class="s-tag-media">
+                                    <div class="media">
+                                        <div class="qp-ui" data-qp-ui="{ 'VideoPlayer': {} }">
+                                            <video controls="" loop="" preload="metadata">
+                                                <source src="https://storage.googleapis.com/material-design/publish/material_v_10/assets/0B0nwUo5pqvmATEhhSmstQnNLek0/layout_adaptiveUI_grid_02_margins.webm" type="video/webm">
+                                                <source src="https://storage.googleapis.com/material-design/publish/material_v_10/assets/0B0nwUo5pqvmAOHhfNWdvdmw1RUE/layout_adaptiveUI_grid_02_margins.mp4" type="video/mp4">
+                                                </source>
+                                                </source>
+                                            </video>
+                                        </div>
+                                    </div>
+                                    <figcaption>
+                                        <p>This animation shows interactions of the following margin and gutter width variations:</p>
+                                        <ol class="lst-kix_l8t11msx2rv8-0 start" start="1">
+                                            <li>8dp margins and gutters</li>
+                                            <li>16dp margins and gutters</li>
+                                            <li>24dp margins and gutters</li>
+                                            <li>40dp margins and gutters</li>
+                                            <li>40dp margins and 24dp gutters</li>
+                                        </ol>
+                                    </figcaption>
+                                </figure>
+                            </div>
+                        </section>
+                        <section class="module-figure col-2">
+                            <div class="module">
+                                <h2><strong>Full-width vs Centered</strong></h2>
+                                <p><strong>Full-width grids</strong> use fluid columns and breakpoints to determine when a layout needs to change. </p>
+                                <p><strong>Centered grids</strong> use fixed columns and reflow the layout when all columns (plus a defined margin) no longer fit on screen. </p>
+                            </div>
+                            <div class="figure">
+                                <figure class="s-tag-media">
+                                    <div class="media">
+                                        <div class="qp-ui" data-qp-ui="{ 'VideoPlayer': {} }">
+                                            <video controls="" loop="" preload="metadata">
+                                                <source src="https://storage.googleapis.com/material-design/publish/material_v_10/assets/0B0nwUo5pqvmAZ1ptYWI2ZEc4czQ/layout_adaptiveUI_grid_03_width.webm" type="video/webm">
+                                                <source src="https://storage.googleapis.com/material-design/publish/material_v_10/assets/0B0nwUo5pqvmASzY4clJvRmNFZTA/layout_adaptiveUI_grid_03_width.mp4" type="video/mp4">
+                                                </source>
+                                                </source>
+                                            </video>
+                                        </div>
+                                    </div>
+                                    <figcaption>
+                                        <ol class="lst-kix_rij772l0b5s1-0 start" start="1">
+                                            <li>Full-width grids</li>
+                                            <li>Centered grids</li>
+                                        </ol>
+                                    </figcaption>
+                                </figure>
+                            </div>
+                        </section>
+                    </div>
+                    <h2><strong>Panel Influence on the Grid</strong></h2>
+                    <p>As defined in <a href="../patterns/navigation-drawer.html#navigation-drawer-behavior">Navigation patterns</a>, the side nav may be permanent, persistent, or temporary. These behaviors apply to any panel, not just a side nav. </p>
+                    <div class="col-list">
+                        <section class="module-figure col-2">
+                            <div class="module">
+                                <p><strong>Permanent </strong></p>
+                                <p>A permanent panel exists outside of the responsive grid. The panel appears at a defined breakpoint (when the screen can accommodate the panel) and squeezes content. There are no controls to show/hide the panel.</p>
+                            </div>
+                            <div class="figure">
+                                <figure class="s-tag-media">
+                                    <div class="media">
+                                        <div class="qp-ui" data-qp-ui="{ 'VideoPlayer': {} }">
+                                            <video controls="" loop="" preload="metadata">
+                                                <source src="https://storage.googleapis.com/material-design/publish/material_v_10/assets/0B0nwUo5pqvmAUGNyT2dNT1AwV2M/layout_adaptiveUI_grid_04_behaviorPermanent.webm" type="video/webm">
+                                                <source src="https://storage.googleapis.com/material-design/publish/material_v_10/assets/0B0nwUo5pqvmAdlN2bVFjXy1ZUzQ/layout_adaptiveUI_grid_04_behaviorPermanent.mp4" type="video/mp4">
+                                                </source>
+                                                </source>
+                                            </video>
+                                        </div>
+                                    </div>
+                                    <figcaption>
+                                        <p>The effects of a permanent panel on the responsive grid</p>
+                                    </figcaption>
+                                </figure>
+                            </div>
+                        </section>
+                        <section class="module-figure col-2">
+                            <div class="module">
+                                <p><strong>Side panel effects on the grid</strong></p>
+                                <p>This animation happens in two phases: </p>
+                                <ol class="lst-kix_v6pxnk8kyd0x-0 start" start="1">
+                                    <li>A persistent side panel appears, squeezing both content and the grid. Content is accessible while the panel remains visible. The panel hides upon toggling.</li>
+                                    <li>A temporary side panel appears, pushing grid content off-screen. Touching either outside the panel, or an item inside the panel, hides the panel.</li>
+                                </ol>
+                            </div>
+                            <div class="figure">
+                                <figure class="s-tag-media">
+                                    <div class="media">
+                                        <div class="qp-ui" data-qp-ui="{ 'VideoPlayer': {} }">
+                                            <video controls="" loop="" preload="metadata">
+                                                <source src="https://storage.googleapis.com/material-design/publish/material_v_10/assets/0B0nwUo5pqvmAV0RFaV9jWEd4c1k/layout_adaptiveUI_grid_05_behaviorSqueezePush.webm" type="video/webm">
+                                                <source src="https://storage.googleapis.com/material-design/publish/material_v_10/assets/0B0nwUo5pqvmAX3VfWTVZZjdpSnc/layout_adaptiveUI_grid_05_behaviorSqueezePush.mp4" type="video/mp4">
+                                                </source>
+                                                </source>
+                                            </video>
+                                        </div>
+                                    </div>
+                                    <figcaption>
+                                        <p>The effects of a persistent panel on the responsive grid</p>
+                                    </figcaption>
+                                </figure>
+                            </div>
+                        </section>
+                        <section class="module-figure col-2">
+                            <div class="module">
+                                <p><strong>Temporary overlay</strong></p>
+                                <p>A temporary panel does not affect the grid or content when off-screen. When toggled to be visible, it can be hidden again by touching anywhere outside the panel or an item inside the panel.</p>
+                            </div>
+                            <div class="figure">
+                                <figure class="s-tag-media">
+                                    <div class="media">
+                                        <div class="qp-ui" data-qp-ui="{ 'VideoPlayer': {} }">
+                                            <video controls="" loop="" preload="metadata">
+                                                <source src="https://storage.googleapis.com/material-design/publish/material_v_10/assets/0B0nwUo5pqvmAY2dNZUVlZnJmT28/layout_adaptiveUI_grid_06_behaviorOverlay.webm" type="video/webm">
+                                                <source src="https://storage.googleapis.com/material-design/publish/material_v_10/assets/0B0nwUo5pqvmAV0Fnc2xLTmljUWc/layout_adaptiveUI_grid_06_behaviorOverlay.mp4" type="video/mp4">
+                                                </source>
+                                                </source>
+                                            </video>
+                                        </div>
+                                    </div>
+                                    <figcaption>
+                                        <p>The effects of a temporary panel on the responsive grid</p>
+                                    </figcaption>
+                                </figure>
+                            </div>
+                        </section>
+                    </div>
                 </div>
-              </div>
-            
-              <div id="responsive-ui-surface-behaviors" class="article qp-ui" data-qp-ui="{ 'ScrollSpy': {} }" data-qp-ui-data-id="qp:3">
-                <h2 class="article-title qp-ui" data-qp-ui="{ 'ResponsiveZippy': {} }" data-qp-ui-data-id="qp:3">
+            </div>
+        </div>
+        <div id="responsive-ui-surface-behaviors" class="article qp-ui" data-qp-ui="{ 'ScrollSpy': {} }" data-qp-ui-data-id="qp:3">
+            <h2 class="article-title qp-ui" data-qp-ui="{ 'ResponsiveZippy': {} }" data-qp-ui-data-id="qp:3">
                   Surface behaviors
                   
                   
@@ -567,13 +776,209 @@
                     <polygon role="presentation" points="2.5,4.167 5,6.667 7.5,4.167 6.917,3.583 5,5.5 3.083,3.583"></polygon>
                   </svg>
                 </h2>
-                <div class="article-content">
-                  <div><p>When a screen size changes, the UI adapts using the following surface-specific behaviors. </p><div class="col-list"><section class="module-module col-2"><div class="module"><p>Visibility</p></div><div class="module"><table class="s-tag-table"><tbody><tr><td colspan="1" rowspan="1"><p>Behavior</p></td><td colspan="1" rowspan="1"><p>Definition</p></td></tr><tr><td colspan="1" rowspan="1"><p>Permanent</p></td><td colspan="1" rowspan="1"><p>When screen space is available, a surface is always visible.</p></td></tr><tr><td colspan="1" rowspan="1"><p>Persistent</p></td><td colspan="1" rowspan="1"><p>Surface visibility can be toggled between visible and hidden. When visible, interacting with other elements on the screen does not change visibility.</p></td></tr><tr><td colspan="1" rowspan="1"><p>Temporary</p></td><td colspan="1" rowspan="1"><p>Surface visibility can be toggled between visible and hidden. When visible, interacting with other elements on the screen toggles the surface to become hidden or minimized.</p></td></tr></tbody></table></div></section><section class="module-module col-2"><div class="module"><p>Width</p></div><div class="module"><table class="s-tag-table"><tbody><tr><td colspan="1" rowspan="1"><p>Behavior</p></td><td colspan="1" rowspan="1"><p>Definition</p></td></tr><tr><td colspan="1" rowspan="1"><p>Fixed</p></td><td colspan="1" rowspan="1"><p>Element width stays the same when screen size changes.</p></td></tr><tr><td colspan="1" rowspan="1"><p>Fluid</p></td><td colspan="1" rowspan="1"><p>Element width grows as screen size changes.</p></td></tr><tr><td colspan="1" rowspan="1"><p>Sticky</p></td><td colspan="1" rowspan="1"><p>Element width is fixed until influenced by another element or breakpoint.</p></td></tr><tr><td colspan="1" rowspan="1"><p>Squeeze</p></td><td colspan="1" rowspan="1"><p>Element width contracts as a panel is revealed</p></td></tr><tr><td colspan="1" rowspan="1"><p>Push</p></td><td colspan="1" rowspan="1"><p>Element width stays the same, its position changes horizontally as a panel appears, and it may be partially occluded by a screen’s edge.</p></td></tr><tr><td colspan="1" rowspan="1"><p>Overlay</p></td><td colspan="1" rowspan="1"><p>Element width and position stays the same as a panel appears over content.</p></td></tr></tbody></table></div></section><section class="module-module col-2"><div class="module"><p>Descriptors</p></div><div class="module"><table class="s-tag-table"><tbody><tr><td colspan="1" rowspan="1"><p>Behavior</p></td><td colspan="1" rowspan="1"><p>Definition</p></td></tr><tr><td colspan="1" rowspan="1"><p>Above, Below</p></td><td colspan="1" rowspan="1"><p>The y position of an element.</p></td></tr><tr><td colspan="1" rowspan="1"><p>Over, Under</p></td><td colspan="1" rowspan="1"><p>The z position of an element in motion.</p></td></tr><tr><td colspan="1" rowspan="1"><p>In Front, Behind</p></td><td colspan="1" rowspan="1"><p>The static z position of an element.</p></td></tr><tr><td colspan="1" rowspan="1"><p>Left, Right, Centered</p></td><td colspan="1" rowspan="1"><p>The x position of an element</p></td></tr><tr><td colspan="1" rowspan="1"><p>Top, Bottom</p></td><td colspan="1" rowspan="1"><p>The y position of an element and its position relative to a screen edge.</p></td></tr><tr><td colspan="1" rowspan="1"><p>Flat, Raised</p></td><td colspan="1" rowspan="1"><p>The z position, and shadow of an element. A flat element will have no shadow.</p></td></tr><tr><td colspan="1" rowspan="1"><p>Inset, Full Bleed</p></td><td colspan="1" rowspan="1"><p>The padding of an image or element</p></td></tr><tr><td colspan="1" rowspan="1"><p>Summary, Detail</p></td><td colspan="1" rowspan="1"><p>A content summary, and the full expansion of the summary</p></td></tr></tbody></table></div></section></div></div>
+            <div class="article-content">
+                <div>
+                    <p>When a screen size changes, the UI adapts using the following surface-specific behaviors. </p>
+                    <div class="col-list">
+                        <section class="module-module col-2">
+                            <div class="module">
+                                <p>Visibility</p>
+                            </div>
+                            <div class="module">
+                                <table class="s-tag-table">
+                                    <tbody>
+                                        <tr>
+                                            <td colspan="1" rowspan="1">
+                                                <p>Behavior</p>
+                                            </td>
+                                            <td colspan="1" rowspan="1">
+                                                <p>Definition</p>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td colspan="1" rowspan="1">
+                                                <p>Permanent</p>
+                                            </td>
+                                            <td colspan="1" rowspan="1">
+                                                <p>When screen space is available, a surface is always visible.</p>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td colspan="1" rowspan="1">
+                                                <p>Persistent</p>
+                                            </td>
+                                            <td colspan="1" rowspan="1">
+                                                <p>Surface visibility can be toggled between visible and hidden. When visible, interacting with other elements on the screen does not change visibility.</p>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td colspan="1" rowspan="1">
+                                                <p>Temporary</p>
+                                            </td>
+                                            <td colspan="1" rowspan="1">
+                                                <p>Surface visibility can be toggled between visible and hidden. When visible, interacting with other elements on the screen toggles the surface to become hidden or minimized.</p>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </section>
+                        <section class="module-module col-2">
+                            <div class="module">
+                                <p>Width</p>
+                            </div>
+                            <div class="module">
+                                <table class="s-tag-table">
+                                    <tbody>
+                                        <tr>
+                                            <td colspan="1" rowspan="1">
+                                                <p>Behavior</p>
+                                            </td>
+                                            <td colspan="1" rowspan="1">
+                                                <p>Definition</p>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td colspan="1" rowspan="1">
+                                                <p>Fixed</p>
+                                            </td>
+                                            <td colspan="1" rowspan="1">
+                                                <p>Element width stays the same when screen size changes.</p>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td colspan="1" rowspan="1">
+                                                <p>Fluid</p>
+                                            </td>
+                                            <td colspan="1" rowspan="1">
+                                                <p>Element width grows as screen size changes.</p>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td colspan="1" rowspan="1">
+                                                <p>Sticky</p>
+                                            </td>
+                                            <td colspan="1" rowspan="1">
+                                                <p>Element width is fixed until influenced by another element or breakpoint.</p>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td colspan="1" rowspan="1">
+                                                <p>Squeeze</p>
+                                            </td>
+                                            <td colspan="1" rowspan="1">
+                                                <p>Element width contracts as a panel is revealed</p>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td colspan="1" rowspan="1">
+                                                <p>Push</p>
+                                            </td>
+                                            <td colspan="1" rowspan="1">
+                                                <p>Element width stays the same, its position changes horizontally as a panel appears, and it may be partially occluded by a screen’s edge.</p>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td colspan="1" rowspan="1">
+                                                <p>Overlay</p>
+                                            </td>
+                                            <td colspan="1" rowspan="1">
+                                                <p>Element width and position stays the same as a panel appears over content.</p>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </section>
+                        <section class="module-module col-2">
+                            <div class="module">
+                                <p>Descriptors</p>
+                            </div>
+                            <div class="module">
+                                <table class="s-tag-table">
+                                    <tbody>
+                                        <tr>
+                                            <td colspan="1" rowspan="1">
+                                                <p>Behavior</p>
+                                            </td>
+                                            <td colspan="1" rowspan="1">
+                                                <p>Definition</p>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td colspan="1" rowspan="1">
+                                                <p>Above, Below</p>
+                                            </td>
+                                            <td colspan="1" rowspan="1">
+                                                <p>The y position of an element.</p>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td colspan="1" rowspan="1">
+                                                <p>Over, Under</p>
+                                            </td>
+                                            <td colspan="1" rowspan="1">
+                                                <p>The z position of an element in motion.</p>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td colspan="1" rowspan="1">
+                                                <p>In Front, Behind</p>
+                                            </td>
+                                            <td colspan="1" rowspan="1">
+                                                <p>The static z position of an element.</p>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td colspan="1" rowspan="1">
+                                                <p>Left, Right, Centered</p>
+                                            </td>
+                                            <td colspan="1" rowspan="1">
+                                                <p>The x position of an element</p>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td colspan="1" rowspan="1">
+                                                <p>Top, Bottom</p>
+                                            </td>
+                                            <td colspan="1" rowspan="1">
+                                                <p>The y position of an element and its position relative to a screen edge.</p>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td colspan="1" rowspan="1">
+                                                <p>Flat, Raised</p>
+                                            </td>
+                                            <td colspan="1" rowspan="1">
+                                                <p>The z position, and shadow of an element. A flat element will have no shadow.</p>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td colspan="1" rowspan="1">
+                                                <p>Inset, Full Bleed</p>
+                                            </td>
+                                            <td colspan="1" rowspan="1">
+                                                <p>The padding of an image or element</p>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td colspan="1" rowspan="1">
+                                                <p>Summary, Detail</p>
+                                            </td>
+                                            <td colspan="1" rowspan="1">
+                                                <p>A content summary, and the full expansion of the summary</p>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </section>
+                    </div>
                 </div>
-              </div>
-            
-              <div id="responsive-ui-patterns" class="article qp-ui" data-qp-ui="{ 'ScrollSpy': {} }" data-qp-ui-data-id="qp:4">
-                <h2 class="article-title qp-ui" data-qp-ui="{ 'ResponsiveZippy': {} }" data-qp-ui-data-id="qp:4">
+            </div>
+        </div>
+        <div id="responsive-ui-patterns" class="article qp-ui" data-qp-ui="{ 'ScrollSpy': {} }" data-qp-ui-data-id="qp:4">
+            <h2 class="article-title qp-ui" data-qp-ui="{ 'ResponsiveZippy': {} }" data-qp-ui-data-id="qp:4">
                   Patterns
                   
                   
@@ -584,61 +989,237 @@
                     <polygon role="presentation" points="2.5,4.167 5,6.667 7.5,4.167 6.917,3.583 5,5.5 3.083,3.583"></polygon>
                   </svg>
                 </h2>
-                <div class="article-content">
-                  <div><p>As screen space increases, the following responsive patterns may be applied:</p><ul class="lst-kix_vspbrsv9j74l-0 start"><li>Reveal</li><li>Transform</li><li>Divide</li><li>Reflow</li><li>Expand</li><li>Position</li></ul><h2><strong>Reveal</strong></h2><p>UI hidden by smaller screens may be revealed with increased available space.</p><div class="col-list"><section class="figure col-1"><div class="figure"><figure class="s-tag-media"><div class="media"><img alt="" src="https://storage.googleapis.com/material-design/publish/material_v_10/assets/0B8olV15J7abPcUUwX1I3bU0zdms/layout_adaptiveUI_patterns_01_reveal.png"/></div><figcaption><p>Elements, such as a side nav, may become visible.</p></figcaption></figure></div></section><section class="figure col-1"><div class="figure"><figure class="s-tag-media"><div class="media"><img alt="" src="https://storage.googleapis.com/material-design/publish/material_v_10/assets/0B8olV15J7abPZ2VYZjhWaF9hZVE/layout_adaptiveUI_patterns_02_reveal.png"/></div><figcaption><p>A simple UI may reveal more powerful or complex options. </p></figcaption></figure></div></section><section class="figure col-1"><div class="figure"><figure class="s-tag-media"><div class="media"><img alt="" src="https://storage.googleapis.com/material-design/publish/material_v_10/assets/0B8olV15J7abPS0FXa0ZEZy1TNUU/layout_adaptiveUI_patterns_03_reveal.png"/></div><figcaption><p>Content on a small screen that only appears after tapping an element may be revealed by default when more space is available.</p></figcaption></figure></div></section></div><h2><strong>Transform</strong></h2><p>A UI element may transform from one format to another.</p><div class="col-list"><section class="figure col-1"><div class="figure"><figure class="s-tag-media"><div class="media"><img alt="" src="https://storage.googleapis.com/material-design/publish/material_v_10/assets/0B8olV15J7abPQ3JwNlkwUkgwVlU/layout_adaptiveUI_patterns_04_transform.png"/></div><figcaption><p>Side navigation may transform into tabs.</p></figcaption></figure></div></section><section class="figure col-1"><div class="figure"><figure class="s-tag-media"><div class="media"><img alt="" src="https://storage.googleapis.com/material-design/publish/material_v_10/assets/0B8olV15J7abPeUFEVUUwNVpFWjQ/layout_adaptiveUI_patterns_05_transform.png"/></div><figcaption><p>A list may transform into a grid list.</p></figcaption></figure></div></section><section class="figure col-1"><div class="figure"><figure class="s-tag-media"><div class="media"><img alt="" src="https://storage.googleapis.com/material-design/publish/material_v_10/assets/0B8olV15J7abPdkFVaHh1elZzUlk/layout_adaptiveUI_patterns_06_transform.png"/></div><figcaption><p>Menu items may transform into icons in a toolbar.</p></figcaption></figure></div></section></div><h2><strong>Divide</strong></h2><p>A layered UI may be divided into newly available space.</p><div class="col-list"><section class="figure col-1"><div class="figure"><figure class="s-tag-media"><div class="media"><img alt="" src="https://storage.googleapis.com/material-design/publish/material_v_10/assets/0B8olV15J7abPdzR4OGMtZWJtalE/layout_adaptiveUI_patterns_07_divide.png"/></div><figcaption><p>Side navigation, list content, and detailed content divide to fill a single view.</p></figcaption></figure></div></section><section class="figure col-1"><div class="figure"><figure class="s-tag-media"><div class="media"><img alt="" src="https://storage.googleapis.com/material-design/publish/material_v_10/assets/0B8olV15J7abPTTA4bmtTRlZUZ2M/layout_adaptiveUI_patterns_08_divide.png"/></div><figcaption><p>A left panel, list content, and a right panel divide within a single view as space increases. </p></figcaption></figure></div></section><section class="figure col-1"><div class="figure"><figure class="s-tag-media"><div class="media"><img alt="" src="https://storage.googleapis.com/material-design/publish/material_v_10/assets/0B8olV15J7abPenZ3SDczaFI1eGc/layout_adaptiveUI_patterns_09_divide.png"/></div></figure> <p>Tabbed sibling content is divided within the same view.</p></div></section></div><h2><strong>Reflow</strong></h2><p>A UI may reflow into available space.</p><div class="col-list"><section class="figure col-1"><div class="figure"><figure class="s-tag-media"><div class="media"><img alt="" src="https://storage.googleapis.com/material-design/publish/material_v_10/assets/0B8olV15J7abPeExEOG1QZzZpcEE/layout_adaptiveUI_patterns_10_reflow.png"/></div><figcaption><p>Elements from a single-column format may reflow to fill the content area in various combinations.</p></figcaption></figure></div></section><section class="figure col-1"><div class="figure"><figure class="s-tag-media"><div class="media"><img alt="" src="https://storage.googleapis.com/material-design/publish/material_v_10/assets/0B8olV15J7abPSHZzMXFUejQ0UzQ/layout_adaptiveUI_patterns_11_reflow.png"/></div><figcaption><p>Horizontal tabs may reflow into a vertical list.</p></figcaption></figure></div></section><section class="figure col-1"><div class="figure"><figure class="s-tag-media"><div class="media"><img alt="" src="https://storage.googleapis.com/material-design/publish/material_v_10/assets/0B8olV15J7abPMU43UGlBaWJZYW8/layout_adaptiveUI_patterns_12_reflow.png"/></div><figcaption><p>Elements may reflow within a component based on a new screen ratio or device orientation.</p></figcaption></figure></div></section></div><h2><strong>Expand</strong></h2><p>The UI may expand across more space.</p><div class="col-list"><section class="figure col-1"><div class="figure"><figure class="s-tag-media"><div class="media"><img alt="" src="https://storage.googleapis.com/material-design/publish/material_v_10/assets/0B8olV15J7abPQ2wwdE1FQnhQdmM/layout_adaptiveUI_patterns_13_expand.png"/></div><figcaption><p>Content cards may expand to fill the new space.</p></figcaption></figure></div></section><section class="figure col-1"><div class="figure"><figure class="s-tag-media"><div class="media"><img alt="" src="https://storage.googleapis.com/material-design/publish/material_v_10/assets/0B8olV15J7abPQXlRX0xFV1ZxOW8/layout_adaptiveUI_patterns_14_expand.png"/></div><figcaption><p>Dialogs may expand proportionally with content or in specific increments. </p></figcaption></figure></div></section></div><h2><strong>Position</strong></h2><p>The position of UI components may change to more appropriate locations.</p><div class="col-list"><section class="figure col-1"><div class="figure"><figure class="s-tag-media"><div class="media"><img alt="" src="https://storage.googleapis.com/material-design/publish/material_v_10/assets/0B8olV15J7abPQzZOeW1RVmoteDg/layout_adaptiveUI_patterns_15_position.png"/></div><figcaption><p>A bottom sheet on a small screen may reposition itself as a menu.</p></figcaption></figure></div></section><section class="figure col-1"><div class="figure"><figure class="s-tag-media"><div class="media"><img alt="" src="https://storage.googleapis.com/material-design/publish/material_v_10/assets/0B8olV15J7abPOEhNdE5iRnZicXc/layout_adaptiveUI_patterns_16_position.png"/></div><figcaption><p>A floating action button (FAB) may move to a more visible location relative to other UI elements.</p></figcaption></figure></div></section></div></div>
+            <div class="article-content">
+                <div>
+                    <p>As screen space increases, the following responsive patterns may be applied:</p>
+                    <ul class="lst-kix_vspbrsv9j74l-0 start">
+                        <li>Reveal</li>
+                        <li>Transform</li>
+                        <li>Divide</li>
+                        <li>Reflow</li>
+                        <li>Expand</li>
+                        <li>Position</li>
+                    </ul>
+                    <h2><strong>Reveal</strong></h2>
+                    <p>UI hidden by smaller screens may be revealed with increased available space.</p>
+                    <div class="col-list">
+                        <section class="figure col-1">
+                            <div class="figure">
+                                <figure class="s-tag-media">
+                                    <div class="media"><img alt="" src="https://storage.googleapis.com/material-design/publish/material_v_10/assets/0B8olV15J7abPcUUwX1I3bU0zdms/layout_adaptiveUI_patterns_01_reveal.png" /></div>
+                                    <figcaption>
+                                        <p>Elements, such as a side nav, may become visible.</p>
+                                    </figcaption>
+                                </figure>
+                            </div>
+                        </section>
+                        <section class="figure col-1">
+                            <div class="figure">
+                                <figure class="s-tag-media">
+                                    <div class="media"><img alt="" src="https://storage.googleapis.com/material-design/publish/material_v_10/assets/0B8olV15J7abPZ2VYZjhWaF9hZVE/layout_adaptiveUI_patterns_02_reveal.png" /></div>
+                                    <figcaption>
+                                        <p>A simple UI may reveal more powerful or complex options. </p>
+                                    </figcaption>
+                                </figure>
+                            </div>
+                        </section>
+                        <section class="figure col-1">
+                            <div class="figure">
+                                <figure class="s-tag-media">
+                                    <div class="media"><img alt="" src="https://storage.googleapis.com/material-design/publish/material_v_10/assets/0B8olV15J7abPS0FXa0ZEZy1TNUU/layout_adaptiveUI_patterns_03_reveal.png" /></div>
+                                    <figcaption>
+                                        <p>Content on a small screen that only appears after tapping an element may be revealed by default when more space is available.</p>
+                                    </figcaption>
+                                </figure>
+                            </div>
+                        </section>
+                    </div>
+                    <h2><strong>Transform</strong></h2>
+                    <p>A UI element may transform from one format to another.</p>
+                    <div class="col-list">
+                        <section class="figure col-1">
+                            <div class="figure">
+                                <figure class="s-tag-media">
+                                    <div class="media"><img alt="" src="https://storage.googleapis.com/material-design/publish/material_v_10/assets/0B8olV15J7abPQ3JwNlkwUkgwVlU/layout_adaptiveUI_patterns_04_transform.png" /></div>
+                                    <figcaption>
+                                        <p>Side navigation may transform into tabs.</p>
+                                    </figcaption>
+                                </figure>
+                            </div>
+                        </section>
+                        <section class="figure col-1">
+                            <div class="figure">
+                                <figure class="s-tag-media">
+                                    <div class="media"><img alt="" src="https://storage.googleapis.com/material-design/publish/material_v_10/assets/0B8olV15J7abPeUFEVUUwNVpFWjQ/layout_adaptiveUI_patterns_05_transform.png" /></div>
+                                    <figcaption>
+                                        <p>A list may transform into a grid list.</p>
+                                    </figcaption>
+                                </figure>
+                            </div>
+                        </section>
+                        <section class="figure col-1">
+                            <div class="figure">
+                                <figure class="s-tag-media">
+                                    <div class="media"><img alt="" src="https://storage.googleapis.com/material-design/publish/material_v_10/assets/0B8olV15J7abPdkFVaHh1elZzUlk/layout_adaptiveUI_patterns_06_transform.png" /></div>
+                                    <figcaption>
+                                        <p>Menu items may transform into icons in a toolbar.</p>
+                                    </figcaption>
+                                </figure>
+                            </div>
+                        </section>
+                    </div>
+                    <h2><strong>Divide</strong></h2>
+                    <p>A layered UI may be divided into newly available space.</p>
+                    <div class="col-list">
+                        <section class="figure col-1">
+                            <div class="figure">
+                                <figure class="s-tag-media">
+                                    <div class="media"><img alt="" src="https://storage.googleapis.com/material-design/publish/material_v_10/assets/0B8olV15J7abPdzR4OGMtZWJtalE/layout_adaptiveUI_patterns_07_divide.png" /></div>
+                                    <figcaption>
+                                        <p>Side navigation, list content, and detailed content divide to fill a single view.</p>
+                                    </figcaption>
+                                </figure>
+                            </div>
+                        </section>
+                        <section class="figure col-1">
+                            <div class="figure">
+                                <figure class="s-tag-media">
+                                    <div class="media"><img alt="" src="https://storage.googleapis.com/material-design/publish/material_v_10/assets/0B8olV15J7abPTTA4bmtTRlZUZ2M/layout_adaptiveUI_patterns_08_divide.png" /></div>
+                                    <figcaption>
+                                        <p>A left panel, list content, and a right panel divide within a single view as space increases. </p>
+                                    </figcaption>
+                                </figure>
+                            </div>
+                        </section>
+                        <section class="figure col-1">
+                            <div class="figure">
+                                <figure class="s-tag-media">
+                                    <div class="media"><img alt="" src="https://storage.googleapis.com/material-design/publish/material_v_10/assets/0B8olV15J7abPenZ3SDczaFI1eGc/layout_adaptiveUI_patterns_09_divide.png" /></div>
+                                </figure>
+                                <p>Tabbed sibling content is divided within the same view.</p>
+                            </div>
+                        </section>
+                    </div>
+                    <h2><strong>Reflow</strong></h2>
+                    <p>A UI may reflow into available space.</p>
+                    <div class="col-list">
+                        <section class="figure col-1">
+                            <div class="figure">
+                                <figure class="s-tag-media">
+                                    <div class="media"><img alt="" src="https://storage.googleapis.com/material-design/publish/material_v_10/assets/0B8olV15J7abPeExEOG1QZzZpcEE/layout_adaptiveUI_patterns_10_reflow.png" /></div>
+                                    <figcaption>
+                                        <p>Elements from a single-column format may reflow to fill the content area in various combinations.</p>
+                                    </figcaption>
+                                </figure>
+                            </div>
+                        </section>
+                        <section class="figure col-1">
+                            <div class="figure">
+                                <figure class="s-tag-media">
+                                    <div class="media"><img alt="" src="https://storage.googleapis.com/material-design/publish/material_v_10/assets/0B8olV15J7abPSHZzMXFUejQ0UzQ/layout_adaptiveUI_patterns_11_reflow.png" /></div>
+                                    <figcaption>
+                                        <p>Horizontal tabs may reflow into a vertical list.</p>
+                                    </figcaption>
+                                </figure>
+                            </div>
+                        </section>
+                        <section class="figure col-1">
+                            <div class="figure">
+                                <figure class="s-tag-media">
+                                    <div class="media"><img alt="" src="https://storage.googleapis.com/material-design/publish/material_v_10/assets/0B8olV15J7abPMU43UGlBaWJZYW8/layout_adaptiveUI_patterns_12_reflow.png" /></div>
+                                    <figcaption>
+                                        <p>Elements may reflow within a component based on a new screen ratio or device orientation.</p>
+                                    </figcaption>
+                                </figure>
+                            </div>
+                        </section>
+                    </div>
+                    <h2><strong>Expand</strong></h2>
+                    <p>The UI may expand across more space.</p>
+                    <div class="col-list">
+                        <section class="figure col-1">
+                            <div class="figure">
+                                <figure class="s-tag-media">
+                                    <div class="media"><img alt="" src="https://storage.googleapis.com/material-design/publish/material_v_10/assets/0B8olV15J7abPQ2wwdE1FQnhQdmM/layout_adaptiveUI_patterns_13_expand.png" /></div>
+                                    <figcaption>
+                                        <p>Content cards may expand to fill the new space.</p>
+                                    </figcaption>
+                                </figure>
+                            </div>
+                        </section>
+                        <section class="figure col-1">
+                            <div class="figure">
+                                <figure class="s-tag-media">
+                                    <div class="media"><img alt="" src="https://storage.googleapis.com/material-design/publish/material_v_10/assets/0B8olV15J7abPQXlRX0xFV1ZxOW8/layout_adaptiveUI_patterns_14_expand.png" /></div>
+                                    <figcaption>
+                                        <p>Dialogs may expand proportionally with content or in specific increments. </p>
+                                    </figcaption>
+                                </figure>
+                            </div>
+                        </section>
+                    </div>
+                    <h2><strong>Position</strong></h2>
+                    <p>The position of UI components may change to more appropriate locations.</p>
+                    <div class="col-list">
+                        <section class="figure col-1">
+                            <div class="figure">
+                                <figure class="s-tag-media">
+                                    <div class="media"><img alt="" src="https://storage.googleapis.com/material-design/publish/material_v_10/assets/0B8olV15J7abPQzZOeW1RVmoteDg/layout_adaptiveUI_patterns_15_position.png" /></div>
+                                    <figcaption>
+                                        <p>A bottom sheet on a small screen may reposition itself as a menu.</p>
+                                    </figcaption>
+                                </figure>
+                            </div>
+                        </section>
+                        <section class="figure col-1">
+                            <div class="figure">
+                                <figure class="s-tag-media">
+                                    <div class="media"><img alt="" src="https://storage.googleapis.com/material-design/publish/material_v_10/assets/0B8olV15J7abPOEhNdE5iRnZicXc/layout_adaptiveUI_patterns_16_position.png" /></div>
+                                    <figcaption>
+                                        <p>A floating action button (FAB) may move to a more visible location relative to other UI elements.</p>
+                                    </figcaption>
+                                </figure>
+                            </div>
+                        </section>
+                    </div>
                 </div>
-              </div>
-            
-          <div>
-          
-
+            </div>
         </div>
-        
-      </section>
+        <div>
+        </div>
+        </section>
     </div>
 
-    
-      <footer>
-        <div class="footer-grid">
-          
-          <div class="footer-L section-material-design color-pink">&nbsp;</div>
-          <div class="footer-grid-L section-material-design color-pink">
-            
-            <a class="footer-text" href="../layout/structure.html">
-              <i class="material-icons arrow-L" aria-hidden="true">arrow_back</i>
-              <span class="direction">Previous</span><span class="screen-reader">:</span>
-              <div>
-                Structure
-              </div>
-            </a>
-            
-          </div>
 
-          
-          <div class="footer-R section-what-is-material color-pink">&nbsp;</div>
-          <div class="footer-grid-R section-what-is-material color-pink">
-            
-            <a class="footer-text" href="../layout/split-screen.html">
-              <i class="material-icons arrow-R" aria-hidden="true">arrow_forward</i>
-              <span class="direction">Next</span><span class="screen-reader">:</span>
-              <div>
-                Split screen
-              </div>
-            </a>
-            
-          </div>
 
+
+
+
+<footer>
+    <div class="footer-grid">
+        <div class="footer-L section-material-design color-pink">&nbsp;</div>
+        <div class="footer-grid-L section-material-design color-cyan">
+            <a class="footer-text" href="structure.html">
+                <i class="material-icons arrow-L" aria-hidden="true">arrow_back</i>
+                <span class="direction">Previous</span><span class="screen-reader">:</span>
+                <div>
+                    结构
+                </div>
+            </a>
         </div>
-      </footer>
-    
-
-    <script src="//www.gstatic.com/external_hosted/picturefill/picturefill.min.js"></script>
-    <script src="../static/js/main.min.js"></script>
-    
-    
-    
-    <script src="//www.gstatic.com/feedback/api.js"></script>
-    
-
-  </body>
+        <div class="footer-R section-what-is-material color-pink">&nbsp;</div>
+        <div class="footer-grid-R section-what-is-material color-pink">
+            <a class="footer-text" href="split-screen.html">
+                <i class="material-icons arrow-R">arrow_forward</i>
+                <span class="direction">Next</span>
+                <div>
+                    分屏
+                </div>
+            </a>
+        </div>
+    </div>
+</footer>
+<script src="../assets/js/picturefill.min.js"></script>
+<script src="../assets/js/main.js"></script>
+</body>
 </html>

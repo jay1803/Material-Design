@@ -1,479 +1,289 @@
 <!DOCTYPE html>
 <html class="qp-ui" data-qp-ui="{'Futurizr': {'hasTouch': 'touch'}}">
-  <head>
+<head>
     <meta charset="utf-8">
-    <link href="../static/css/main.min.css" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700,400italic|Material+Icons" rel="stylesheet">
+    <link href="../assets/css/main.css" rel="stylesheet">
     <meta name="viewport" content="initial-scale=1, width=device-width">
-    <title>Buttons - Components - Material design guidelines</title>
-    <meta itemprop="name" content="Buttons - Components - Material design guidelines">
-    <meta itemprop="image" content="https://storage.googleapis.com/material-design/publish/material_v_10/share.png">
+    <title>按钮 - 组件 - Material design guidelines</title>
+    <meta itemprop="name" content="按钮  - Material design - Material design guidelines">
+    <meta itemprop="image" content="../assets/images/share.png">
     <meta property="og:type" content="article">
-    <meta property="og:title" content="Buttons - Components - Material design guidelines">
-    <meta itemprop="image" content="https://storage.googleapis.com/material-design/publish/material_v_10/share.png">
+    <meta property="og:title" content="按钮  - Material design - Material design guidelines">
+    <meta itemprop="image" content="../assets/images/share.png">
     <meta property="og:site_name" content="Material design guidelines">
-    <meta property="article:section" content="Buttons - Components">
-    <meta name="theme-color" content="#3949AB">
-    <link rel="icon" sizes="192x192" href="https://storage.googleapis.com/material-design/publish/material_v_10/guidelines-icon-192x192.png">
-    <link rel="shortcut icon" href="https://storage.googleapis.com/material-design/publish/material_v_10/guidelines-icon-72x72.png">
-    <link rel="apple-touch-icon" href="https://storage.googleapis.com/material-design/publish/material_v_10/guidelines-icon-72x72.png">
-    <link rel="apple-touch-icon" sizes="72x72" href="https://storage.googleapis.com/material-design/publish/material_v_10/guidelines-icon-72x72.png">
-    <link rel="apple-touch-icon" sizes="144x144" href="https://storage.googleapis.com/material-design/publish/material_v_10/guidelines-icon-144x144.png">
-    <link rel="apple-touch-icon" sizes="180x180" href="https://storage.googleapis.com/material-design/publish/material_v_10/guidelines-icon-180x180.png">
-    <meta name="msapplication-TileImage" content="https://storage.googleapis.com/material-design/publish/material_v_10/guidelines-icon-144x144.png">
+    <meta property="article:section" content="按钮  - Material design">
+    <meta name="theme-color" content="#00bcd4">
+    <link rel="icon" sizes="192x192" href="../assets/images/guidelines-icon-192x192.png">
+    <link rel="shortcut icon" href="../assets/images/guidelines-icon-72x72.png">
+    <link rel="apple-touch-icon" href="../assets/images/guidelines-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="../assets/images/guidelines-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="../assets/images/guidelines-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="../assets/images/guidelines-icon-180x180.png">
+    <meta name="msapplication-TileImage" content="../assets/images/guidelines-icon-144x144.png">
     <meta name="msapplication-tap-highlight" content="no">
-    
-<!--
-<PageMap>
-    <DataObject type="document">
-      <Attribute name="uid"></Attribute>
-      <Attribute name="title">Buttons</Attribute>
-      <Attribute name="keywords"></Attribute>
-      <Attribute name="slug"></Attribute>
-      <Attribute name="description"></Attribute>
-      <Attribute name="section_title">Components</Attribute>
-      <Attribute name="section_slug">components</Attribute>
-    </DataObject>
-    <DataObject type="thumbnail">
-      <Attribute name="src" value="" />
-    </DataObject>
-</PageMap>
--->
-  </head>
+    <!--
+    <PageMap>
+        <DataObject type="document">
+          <Attribute name="uid"></Attribute>
+          <Attribute name="title">Introduction </Attribute>
+          <Attribute name="keywords"></Attribute>
+          <Attribute name="slug"></Attribute>
+          <Attribute name="description"></Attribute>
+          <Attribute name="section_title">Material design</Attribute>
+          <Attribute name="section_slug">material-design</Attribute>
+        </DataObject>
+        <DataObject type="thumbnail">
+          <Attribute name="src" value="" />
+        </DataObject>
+    </PageMap>
+    -->
+</head>
 
-  
-  
-    
-  
-
-  <body class="site-material_ext_publish section-material-design noninitial-chapter color-indigo qp-ui" data-qp-ui="{ 'Mask': {} }">
-    
-    <!-- Google Tag Manager -->
-    <noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-NHRPF8"
-    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-    '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-    })(window,document,'script','dataLayer','GTM-NHRPF8');</script>
-    <!-- End Google Tag Manager -->
-    
-
-    
-
-      <header>
-        <div class="header-wrapper">
-          <div class="header-title">
-            
-              <span class="section-title">Components</span>
-              <span class="chapter-title">
-                <span class="title-separator">–</span> Buttons
-              </span>
-            
-          </div>
+<body class="site-material_ext_publish section-material-design first-chapter color-indigo qp-ui" data-qp-ui="{ 'Mask': {} }">
+    <header class="qp-ui" data-qp-ui="{'Peekaboo': {'mobile': 72,'desktop-sm': 72,'default': 192}}">
+        <div class="header-wrapper qp-ui" data-qp-ui="{'Peekaboo': {'mobile': 28,'desktop-sm': 28,'default': 82}}">
+            <div class="header-title">
+                <span class="section-title">组件</span>
+                <span class="chapter-title">
+              <span class="title-separator">–</span> 按钮
+                </span>
+            </div>
         </div>
-      </header>
-
-    
-
+    </header>
     <nav>
-      <button class="hamburger-button qp-ui" data-qp-ui="{ 'SideNavToggle': {} }" role="tab">
-        <i class="material-icons material-spec-icon" title="Show navigation">menu</i>
-      </button>
+        <button class="hamburger-button qp-ui" data-qp-ui="{ 'SideNavToggle': {} }" role="tab">
+            <i class="material-icons material-spec-icon" title="Show navigation">menu</i>
+        </button>
     </nav>
-
-    
-      <form id="search-form" action="../search.html" method="GET">
-        <div class="search-widget qp-ui" data-qp-ui="{ 'SearchInput': {} }">
-          <button class="search-button"><i class="material-icons">search</i></button>
-          <button class="search-close-button"><i class="material-icons">close</i></button>
-          <input name="q" type="text" id="search-input" autocomplete="off">
-          <label for="search-input">Search</label>
-        </div>
-      </form>
-    
-
-    
-
-    
-
-    
-
-    
-    
-    <div id="side-nav" class="qp-ui" data-qp-ui="{ 'SideNavDrawer': {} }">
-      <div class="side-nav-wrapper ">
+<div id="side-nav" class="qp-ui qp-ui-side-nav-drawer" data-qp-ui="{ 'SideNavDrawer': {} }" data-qp-ui-data-id="qp:4">
+    <div class="side-nav-wrapper ">
         <div>
-          <span id="logo"><a href="/"><img src="../static/images/material-design.svg" alt="Logo"/></a></span>
-          <nav>
-            
-
-              
-                
-              
-
-              <dl>
-                <dt class="qp-ui" data-qp-ui="{ 'SideNavZippy': false }">Material design</dt>
-                <dd>
-                  
-                    <a  href="../material-design/introduction.html">Introduction </a>
-                  
-                    <a  href="../material-design/environment.html">Environment</a>
-                  
-                    <a  href="../material-design/material-properties.html">Material properties</a>
-                  
-                    <a  href="../material-design/elevation-shadows.html">Elevation &amp; shadows</a>
-                  
-                    <a  href="../material-design/whats-new.html">What’s new</a>
-                  
-                </dd>
-              </dl>
-
-            
-
-              
-                
-              
-
-              <dl>
-                <dt class="qp-ui" data-qp-ui="{ 'SideNavZippy': false }">Motion</dt>
-                <dd>
-                  
-                    <a  href="../motion/material-motion.html">Material motion</a>
-                  
-                    <a  href="../motion/duration-easing.html">Duration &amp; easing</a>
-                  
-                    <a  href="../motion/movement.html"> Movement</a>
-                  
-                    <a  href="../motion/transforming-material.html">Transforming material</a>
-                  
-                    <a  href="../motion/choreography.html">Choreography</a>
-                  
-                    <a  href="../motion/creative-customization.html">Creative customization</a>
-                  
-                </dd>
-              </dl>
-
-            
-
-              
-                
-              
-
-              <dl>
-                <dt class="qp-ui" data-qp-ui="{ 'SideNavZippy': false }">Style</dt>
-                <dd>
-                  
-                    <a  href="../style/color.html">Color</a>
-                  
-                    <a  href="../style/icons.html">Icons</a>
-                  
-                    <a  href="../style/imagery.html">Imagery</a>
-                  
-                    <a  href="../style/typography.html">Typography</a>
-                  
-                    <a  href="../style/writing.html">Writing</a>
-                  
-                </dd>
-              </dl>
-
-            
-
-              
-                
-              
-
-              <dl>
-                <dt class="qp-ui" data-qp-ui="{ 'SideNavZippy': false }">Layout</dt>
-                <dd>
-                  
-                    <a  href="../layout/principles.html">Principles</a>
-                  
-                    <a  href="../layout/units-measurements.html">Units &amp; measurements</a>
-                  
-                    <a  href="../layout/metrics-keylines.html">Metrics &amp; keylines</a>
-                  
-                    <a  href="../layout/structure.html">Structure</a>
-                  
-                    <a  href="../layout/responsive-ui.html">Responsive UI</a>
-                  
-                    <a  href="../layout/split-screen.html">Split screen</a>
-                  
-                </dd>
-              </dl>
-
-            
-
-              
-                
-              
-
-              <dl>
-                <dt class="qp-ui" data-qp-ui="{ 'SideNavZippy': true }">Components</dt>
-                <dd>
-                  
-                    <a  href="../components/bottom-navigation.html">Bottom navigation</a>
-                  
-                    <a  href="../components/bottom-sheets.html">Bottom sheets</a>
-                  
-                    <a class="nav_selected" href="../components/buttons.html">Buttons</a>
-                  
-                    <a  href="../components/buttons-floating-action-button.html">Buttons: Floating Action Button</a>
-                  
-                    <a  href="../components/cards.html">Cards</a>
-                  
-                    <a  href="../components/chips.html">Chips</a>
-                  
-                    <a  href="../components/data-tables.html">Data tables</a>
-                  
-                    <a  href="../components/dialogs.html">Dialogs</a>
-                  
-                    <a  href="../components/dividers.html">Dividers</a>
-                  
-                    <a  href="../components/expansion-panels.html">Expansion panels</a>
-                  
-                    <a  href="../components/grid-lists.html">Grid lists</a>
-                  
-                    <a  href="../components/lists.html">Lists</a>
-                  
-                    <a  href="../components/lists-controls.html">Lists: Controls</a>
-                  
-                    <a  href="../components/menus.html">Menus</a>
-                  
-                    <a  href="../components/pickers.html">Pickers</a>
-                  
-                    <a  href="../components/progress-activity.html">Progress &amp; activity</a>
-                  
-                    <a  href="../components/selection-controls.html">Selection controls</a>
-                  
-                    <a  href="../components/sliders.html">Sliders</a>
-                  
-                    <a  href="../components/snackbars-toasts.html">Snackbars &amp; toasts</a>
-                  
-                    <a  href="../components/steppers.html">Steppers</a>
-                  
-                    <a  href="../components/subheaders.html">Subheaders</a>
-                  
-                    <a  href="../components/tabs.html">Tabs</a>
-                  
-                    <a  href="../components/text-fields.html">Text fields</a>
-                  
-                    <a  href="../components/toolbars.html">Toolbars</a>
-                  
-                    <a  href="../components/tooltips.html">Tooltips</a>
-                  
-                    <a  href="../components/widgets.html">Widgets</a>
-                  
-                </dd>
-              </dl>
-
-            
-
-              
-                
-              
-
-              <dl>
-                <dt class="qp-ui" data-qp-ui="{ 'SideNavZippy': false }">Patterns</dt>
-                <dd>
-                  
-                    <a  href="../patterns/confirmation-acknowledgement.html">Confirmation &amp; acknowledgement</a>
-                  
-                    <a  href="../patterns/data-formats.html">Data formats</a>
-                  
-                    <a  href="../patterns/empty-states.html">Empty states</a>
-                  
-                    <a  href="../patterns/errors.html">Errors</a>
-                  
-                    <a  href="../patterns/fingerprint.html">Fingerprint</a>
-                  
-                    <a  href="../patterns/gestures.html">Gestures </a>
-                  
-                    <a  href="../patterns/help-feedback.html">Help &amp; feedback</a>
-                  
-                    <a  href="../patterns/launch-screens.html">Launch screens</a>
-                  
-                    <a  href="../patterns/loading-images.html">Loading images</a>
-                  
-                    <a  href="../patterns/navigation.html">Navigation</a>
-                  
-                    <a  href="../patterns/navigation-drawer.html">Navigation drawer</a>
-                  
-                    <a  href="../patterns/navigational-transitions.html">Navigational transitions</a>
-                  
-                    <a  href="../patterns/notifications.html">Notifications</a>
-                  
-                    <a  href="../patterns/permissions.html">Permissions</a>
-                  
-                    <a  href="../patterns/scrolling-techniques.html">Scrolling techniques</a>
-                  
-                    <a  href="../patterns/search.html">Search </a>
-                  
-                    <a  href="../patterns/selection.html">Selection </a>
-                  
-                    <a  href="../patterns/settings.html">Settings </a>
-                  
-                    <a  href="../patterns/swipe-to-refresh.html">Swipe to refresh</a>
-                  
-                </dd>
-              </dl>
-
-            
-
-              
-                
-              
-
-              <dl>
-                <dt class="qp-ui" data-qp-ui="{ 'SideNavZippy': false }">Growth &amp; communications</dt>
-                <dd>
-                  
-                    <a  href="../growth-communications/introduction.html">Introduction</a>
-                  
-                    <a  href="../growth-communications/onboarding.html">Onboarding</a>
-                  
-                    <a  href="../growth-communications/feature-discovery.html">Feature discovery</a>
-                  
-                    <a  href="../growth-communications/gesture-education.html">Gesture education</a>
-                  
-                </dd>
-              </dl>
-
-            
-
-              
-                
-              
-
-              <dl>
-                <dt class="qp-ui" data-qp-ui="{ 'SideNavZippy': false }">Usability</dt>
-                <dd>
-                  
-                    <a  href="../usability/accessibility.html">Accessibility</a>
-                  
-                    <a  href="../usability/bidirectionality.html">Bidirectionality</a>
-                  
-                </dd>
-              </dl>
-
-            
-
-              
-                
-              
-
-              <dl>
-                <dt class="qp-ui" data-qp-ui="{ 'SideNavZippy': false }">Platforms </dt>
-                <dd>
-                  
-                    <a  href="../platforms/platform-adaptation.html">Platform adaptation</a>
-                  
-                    <a  href="../platforms/android.html">Android</a>
-                  
-                </dd>
-              </dl>
-
-            
-
-              
-                
-              
-
-              <dl>
-                <dt class="qp-ui" data-qp-ui="{ 'SideNavZippy': false }">Resources</dt>
-                <dd>
-                  
-                    <a  href="../resources/color-palettes.html">Color palettes</a>
-                  
-                    <a  href="../resources/devices.html">Devices</a>
-                  
-                    <a  href="../resources/layout-templates.html">Layout templates</a>
-                  
-                    <a  href="../resources/roboto-noto-fonts.html">Roboto &amp; Noto fonts</a>
-                  
-                    <a  href="../resources/sticker-sheets-icons.html">Sticker sheets &amp; icons</a>
-                  
-                </dd>
-              </dl>
-
-            
-          </nav>
-
-
-          
-          <div class="legal">
-            <p class="copyright">Google &copy;</p>
-            <ul>
-              
-              <li>
-                <a href="javascript:void(0);" onclick="try{userfeedback.api.startFeedback({'productId': '1027542', 'bucket': 'material_spec', 'locale': 'en', 'allowNonLoggedInFeedback': true});return false;}catch(e){}" class="qp-ui-side-nav-dismiss">Site feedback</a>
-              </li>
-              
-              <li>
-                <a href="http://www.google.com/policies/privacy/">Privacy</a>
-              </li>
-              <li>
-                <a href="http://www.google.com/policies/terms/">Terms</a>
-              </li>
-            </ul>
-          </div>
-          
+            <span id="logo"><a href="../material-deisgn/introduction.html"><img src="../assets/images/material-design.svg" alt="Logo"></a></span>
+            <nav>
+                <dl>
+                    <dt class="qp-ui goog-zippy-header goog-zippy-expanded" data-qp-ui="{ 'SideNavZippy': false }" tabindex="0" role="tab" aria-expanded="false" data-qp-ui-data-id="qp:5">Material design</dt>
+                    <div style="overflow: hidden;">
+                        <dd style="margin-top: 0px;">
+                            <a href="../material-deisgn/introduction.html">概述</a>
+                            <a href="../material-deisgn/environment.html">环境</a>
+                            <a href="../material-deisgn/material-properties.html">Material 属性</a>
+                            <a href="../material-deisgn/elevation-shadows.html">层次 &amp; 阴影</a>
+                            <a href="../material-deisgn/whats-new.html">最近更新</a>
+                        </dd>
+                    </div>
+                </dl>
+                <dl>
+                    <dt class="qp-ui goog-zippy-header goog-zippy-collapsed" data-qp-ui="{ 'SideNavZippy': false }" tabindex="0" role="tab" aria-expanded="false" data-qp-ui-data-id="qp:6">动效</dt>
+                    <div style="overflow: hidden;">
+                        <dd>
+                            <a href="../motion/material-motion.html">Material 动效</a>
+                            <a href="../motion/duration-easing.html">持续时间 &amp; 缓动</a>
+                            <a href="../motion/movement.html">移动</a>
+                            <a href="../motion/transforming-material.html">材料的形变</a>
+                            <a href="../motion/choreography.html">编排</a>
+                            <a href="../motion/creative-customization.html">别出心裁</a>
+                        </dd>
+                    </div>
+                </dl>
+                <dl>
+                    <dt class="qp-ui goog-zippy-header goog-zippy-collapsed" data-qp-ui="{ 'SideNavZippy': false }" tabindex="0" role="tab" aria-expanded="false" data-qp-ui-data-id="qp:7">样式</dt>
+                    <div style="overflow: hidden;">
+                        <dd>
+                            <a href="../style/color.html">色彩</a>
+                            <a href="../style/icons.html">图标</a>
+                            <a href="../style/imagery.html">图像</a>
+                            <a href="../style/typography.html">排版</a>
+                            <a href="../style/writing.html">书写</a>
+                        </dd>
+                    </div>
+                </dl>
+                <dl>
+                    <dt class="qp-ui goog-zippy-header goog-zippy-collapsed" data-qp-ui="{ 'SideNavZippy': false }" tabindex="0" role="tab" aria-expanded="false" data-qp-ui-data-id="qp:8">布局</dt>
+                    <div style="overflow: hidden;">
+                        <dd>
+                            <a href="../layout/principles.html">原则</a>
+                            <a href="../layout/units-measurements.html">单位 &amp; 度量</a>
+                            <a href="../layout/metrics-keylines.html">度量标准 &amp; 关键线</a>
+                            <a href="../layout/structure.html">结构</a>
+                            <a href="../layout/responsive-ui.html">响应式 UI</a>
+                            <a href="../layout/split-screen.html">分屏</a>
+                        </dd>
+                    </div>
+                </dl>
+                <dl>
+                    <dt class="qp-ui goog-zippy-header goog-zippy-expanded" data-qp-ui="{ 'SideNavZippy': false }" tabindex="0" role="tab" aria-expanded="false" data-qp-ui-data-id="qp:9">组件</dt>
+                    <div style="overflow: hidden;">
+                        <dd>
+                            <a href="bottom-navigation.html">底部导航栏</a>
+                            <a href="bottom-sheets.html">底部 sheets</a>
+                            <a class='current' href="buttons.html">按钮</a>
+                            <a href="buttons-floating-action-button.html">按钮：浮动按钮</a>
+                            <a href="cards.html">卡片</a>
+                            <a href="chips.html">Chips</a>
+                            <a href="data-tables.html">数据表格</a>
+                            <a href="dialogs.html">对话框</a>
+                            <a href="dividers.html">分隔符</a>
+                            <a href="expansion-panels.html">Expansion panels</a>
+                            <a href="grid-lists.html">网格列表</a>
+                            <a href="lists.html">列表</a>
+                            <a href="lists-controls.html">列表：控制器</a>
+                            <a href="menus.html">Menus</a>
+                            <a href="pickers.html">Pickers</a>
+                            <a href="progress-activity.html">进程 &amp; 活动</a>
+                            <a href="selection-controls.html">控制开关</a>
+                            <a href="sliders.html">滑块</a>
+                            <a href="snackbars-toasts.html">Snackbars &amp; toasts</a>
+                            <a href="steppers.html">Steppers</a>
+                            <a href="subheaders.html">Subheaders</a>
+                            <a href="tabs.html">Tabs</a>
+                            <a href="text-fields.html">文本框</a>
+                            <a href="toolbars.html">工具栏</a>
+                            <a href="tooltips.html">Tooltips</a>
+                            <a href="widgets.html">插件</a>
+                        </dd>
+                    </div>
+                </dl>
+                <dl>
+                    <dt class="qp-ui goog-zippy-header goog-zippy-collapsed" data-qp-ui="{ 'SideNavZippy': false }" tabindex="0" role="tab" aria-expanded="false" data-qp-ui-data-id="qp:a">模式</dt>
+                    <div style="overflow: hidden;">
+                        <dd>
+                            <a href="../patterns/confirmation-acknowledgement.html">批准 &amp; 鸣谢</a>
+                            <a href="../patterns/data-formats.html">数据格式</a>
+                            <a href="../patterns/empty-states.html">空白状态</a>
+                            <a href="../patterns/errors.html">出错</a>
+                            <a href="../patterns/fingerprint.html">指纹</a>
+                            <a href="../patterns/gestures.html">手势</a>
+                            <a href="../patterns/help-feedback.html">帮助 &amp; 反馈</a>
+                            <a href="../patterns/launch-screens.html">启动页</a>
+                            <a href="../patterns/loading-images.html">图片加载</a>
+                            <a href="../patterns/navigation.html">导航</a>
+                            <a href="../patterns/navigation-drawer.html">抽屉导航</a>
+                            <a href="../patterns/navigational-transitions.html">导航的转场</a>
+                            <a href="../patterns/notifications.html">通知</a>
+                            <a href="../patterns/permissions.html">权限</a>
+                            <a href="../patterns/scrolling-techniques.html">滚动技术</a>
+                            <a href="../patterns/search.html">搜索</a>
+                            <a href="../patterns/selection.html">选择</a>
+                            <a href="../patterns/settings.html">设置</a>
+                            <a href="../patterns/swipe-to-refresh.html">滑动刷新</a>
+                        </dd>
+                    </div>
+                </dl>
+                <dl>
+                    <dt class="qp-ui goog-zippy-header goog-zippy-collapsed" data-qp-ui="{ 'SideNavZippy': false }" tabindex="0" role="tab" aria-expanded="false" data-qp-ui-data-id="qp:b">成长 &amp; 沟通</dt>
+                    <div style="overflow: hidden;">
+                        <dd>
+                            <a href="../growth-communications/introduction-2.html">引言</a>
+                            <a href="../growth-communications/onboarding.html">过程</a>
+                            <a href="../growth-communications/feature-discovery.html">探索特性</a>
+                            <a href="../growth-communications/gesture-education.html">附加手势</a>
+                        </dd>
+                    </div>
+                </dl>
+                <dl>
+                    <dt class="qp-ui goog-zippy-header goog-zippy-collapsed" data-qp-ui="{ 'SideNavZippy': false }" tabindex="0" role="tab" aria-expanded="false" data-qp-ui-data-id="qp:c">可用性</dt>
+                    <div style="overflow: hidden;">
+                        <dd>
+                            <a href="../usability/accessibility.html">可达性</a>
+                            <a href="../usability/bidirectionality.html">双向性</a>
+                        </dd>
+                    </div>
+                </dl>
+                <dl>
+                    <dt class="qp-ui goog-zippy-header goog-zippy-collapsed" data-qp-ui="{ 'SideNavZippy': false }" tabindex="0" role="tab" aria-expanded="false" data-qp-ui-data-id="qp:d">平台 </dt>
+                    <div style="overflow: hidden;">
+                        <dd>
+                            <a href="../platforms/platform-adaptation.html">平台适配</a>
+                            <a href="../platforms/android.html">Android</a>
+                        </dd>
+                    </div>
+                </dl>
+                <dl>
+                    <dt class="qp-ui goog-zippy-header goog-zippy-collapsed" data-qp-ui="{ 'SideNavZippy': false }" tabindex="0" role="tab" aria-expanded="false" data-qp-ui-data-id="qp:e">资源</dt>
+                    <div style="overflow: hidden;">
+                        <dd>
+                            <a href="../resources/color-palettes.html">调色板</a>
+                            <a href="../resources/devices.html">设备</a>
+                            <a href="../resources/layout-templates.html">布局模版</a>
+                            <a href="../resources/roboto-noto-fonts.html">Roboto &amp; Noto fonts</a>
+                            <a href="../resources/sticker-sheets-icons.html">Sticker sheets &amp; icons</a>
+                        </dd>
+                    </div>
+                </dl>
+            </nav>
+            <div class="legal">
+                <p class="copyright">Google ©</p>
+                <ul>
+                    <li>
+                        <a href="http://www.google.com/policies/privacy/">Privacy</a>
+                    </li>
+                    <li>
+                        <a href="http://www.google.com/policies/terms/">Terms</a>
+                    </li>
+                    <li>
+                        <a href="http://maxc.me">Max Design</a>
+                    </li>
+                </ul>
+            </div>
         </div>
-      </div>
-
-      
-
     </div>
-
-    <div id="grid-cont">
-      <section class="grid_outer chapter">
-        
-        <h1 class="chapter-title">Buttons
-          
-          
-          
-          
-          
-        </h1>
-        <div class="chapter-content">
-
-          <div class="article-content chapter-intro">
-            <div><p>Buttons communicate the action that will occur when the user touches them.</p><div class="col-list"><section class="module-module-figure col-3"><div class="module"><p>Material buttons trigger an ink reaction on press. They may display text, imagery, or both. Flat buttons and raised buttons are the most commonly used types. </p><p>Additional button types include:</p><ul class="lst-kix_cps83lvbp1jm-0 start"><li><strong>Persistent footer</strong> buttons are flat buttons that may be used in screen footers or dialogs.</li><li><strong>Dropdown buttons</strong> display multiple selections.</li><li><strong>Toggle buttons</strong> group related options. Icon toggles allow a single choice to be selected or deselected.</li></ul></div><div class="module"><h3>Flat buttons</h3><p>Flat buttons are text-only buttons. <br>
-They may be used in dialogs, toolbars, or inline.<br>
-They do not lift, but fill with color on press. </p><h3>Raised buttons</h3><p>Raised buttons are rectangular-shaped buttons.<br>
-They may be used inline. <br>
-They lift and display ink reactions on press.</p><h3>Elevation </h3><p>Flat buttons: 0dp<br>
-Raised buttons: 2dp</p></div><div class="figure"><figure class="s-tag-media"><div class="media"><img alt="" src="https://storage.googleapis.com/material-design/publish/material_v_10/assets/0B7WCemMG6e0VdDhHY0JhZF9LUkU/components_buttons.png"/></div></figure></div></section></div></div>
-          </div>
-
-          
-          <nav class="chapter-toc">
-            <h1>Contents</h1>
-            <ul>
-              
-                <li><a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="#buttons-button-types" data-qp-ui-data-id="qp:1">Button types</a></li>
-              
-                <li><a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="#buttons-usage" data-qp-ui-data-id="qp:2">Usage</a></li>
-              
-                <li><a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="#buttons-style" data-qp-ui-data-id="qp:3">Style</a></li>
-              
-                <li><a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="#buttons-flat-buttons" data-qp-ui-data-id="qp:4">Flat buttons</a></li>
-              
-                <li><a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="#buttons-raised-buttons" data-qp-ui-data-id="qp:5">Raised buttons</a></li>
-              
-                <li><a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="#buttons-persistent-footer-buttons" data-qp-ui-data-id="qp:6">Persistent footer buttons</a></li>
-              
-                <li><a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="#buttons-dropdown-buttons" data-qp-ui-data-id="qp:7">Dropdown buttons</a></li>
-              
-                <li><a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="#buttons-toggle-buttons" data-qp-ui-data-id="qp:8">Toggle buttons</a></li>
-              
-            </ul>
-          </nav>
-
-          <div class="article-list">
-            
-              <div id="buttons-button-types" class="article qp-ui" data-qp-ui="{ 'ScrollSpy': {} }" data-qp-ui-data-id="qp:1">
-                <h2 class="article-title qp-ui" data-qp-ui="{ 'ResponsiveZippy': {} }" data-qp-ui-data-id="qp:1">
+</div>
+<div id="grid-cont">
+    <section class="grid_outer chapter">
+        <h1 class="chapter-title">按钮</h1>
+<div class="chapter-content">
+    <div class="article-content chapter-intro">
+        <div>
+            <p>Buttons communicate the action that will occur when the user touches them.</p>
+            <div class="col-list">
+                <section class="module-module-figure col-3">
+                    <div class="module">
+                        <p>Material buttons trigger an ink reaction on press. They may display text, imagery, or both. Flat buttons and raised buttons are the most commonly used types. </p>
+                        <p>Additional button types include:</p>
+                        <ul class="lst-kix_cps83lvbp1jm-0 start">
+                            <li><strong>Persistent footer</strong> buttons are flat buttons that may be used in screen footers or dialogs.</li>
+                            <li><strong>Dropdown buttons</strong> display multiple selections.</li>
+                            <li><strong>Toggle buttons</strong> group related options. Icon toggles allow a single choice to be selected or deselected.</li>
+                        </ul>
+                    </div>
+                    <div class="module">
+                        <h3>Flat buttons</h3>
+                        <p>Flat buttons are text-only buttons.
+                            <br> They may be used in dialogs, toolbars, or inline.
+                            <br> They do not lift, but fill with color on press. </p>
+                        <h3>Raised buttons</h3>
+                        <p>Raised buttons are rectangular-shaped buttons.
+                            <br> They may be used inline.
+                            <br> They lift and display ink reactions on press.</p>
+                        <h3>Elevation </h3>
+                        <p>Flat buttons: 0dp
+                            <br> Raised buttons: 2dp</p>
+                    </div>
+                    <div class="figure">
+                        <figure class="s-tag-media">
+                            <div class="media"><img alt="" src="https://storage.googleapis.com/material-design/publish/material_v_10/assets/0B7WCemMG6e0VdDhHY0JhZF9LUkU/components_buttons.png" /></div>
+                        </figure>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </div>
+    <nav class="chapter-toc">
+        <h1>Contents</h1>
+        <ul>
+            <li><a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="#buttons-button-types" data-qp-ui-data-id="qp:1">Button types</a></li>
+            <li><a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="#buttons-usage" data-qp-ui-data-id="qp:2">Usage</a></li>
+            <li><a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="#buttons-style" data-qp-ui-data-id="qp:3">Style</a></li>
+            <li><a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="#buttons-flat-buttons" data-qp-ui-data-id="qp:4">Flat buttons</a></li>
+            <li><a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="#buttons-raised-buttons" data-qp-ui-data-id="qp:5">Raised buttons</a></li>
+            <li><a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="#buttons-persistent-footer-buttons" data-qp-ui-data-id="qp:6">Persistent footer buttons</a></li>
+            <li><a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="#buttons-dropdown-buttons" data-qp-ui-data-id="qp:7">Dropdown buttons</a></li>
+            <li><a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="#buttons-toggle-buttons" data-qp-ui-data-id="qp:8">Toggle buttons</a></li>
+        </ul>
+    </nav>
+    <div class="article-list">
+        <div id="buttons-button-types" class="article qp-ui" data-qp-ui="{ 'ScrollSpy': {} }" data-qp-ui-data-id="qp:1">
+            <h2 class="article-title qp-ui" data-qp-ui="{ 'ResponsiveZippy': {} }" data-qp-ui-data-id="qp:1">
                   Button types
                   
                   
@@ -484,13 +294,91 @@ Raised buttons: 2dp</p></div><div class="figure"><figure class="s-tag-media"><di
                     <polygon role="presentation" points="2.5,4.167 5,6.667 7.5,4.167 6.917,3.583 5,5.5 3.083,3.583"></polygon>
                   </svg>
                 </h2>
-                <div class="article-content">
-                  <div><p>There are three standard types of buttons: </p><ul class="lst-kix_4tql5k8r9fvj-0 start"><li> <a href="../components/buttons-floating-action-button.html">Floating action button</a>: A circular material button that lifts and displays an ink reaction on press.</li><li>Raised button: A typically rectangular material button that lifts and displays ink reactions on press.</li><li>Flat button: A button made of ink that displays ink reactions on press but does not lift.</li></ul><div class="col-list"><section class="figure-figure-figure col-3"><div class="figure"><figure class="s-tag-media"><div class="media"><img alt="" src="https://storage.googleapis.com/material-design/publish/material_v_10/assets/0B7WCemMG6e0VUl95QlVMNXJLU3c/components_buttons_usage1.png"/></div><figcaption><p>Floating action button</p></figcaption></figure></div><div class="figure"><figure class="s-tag-media"><div class="media"><img alt="" src="https://storage.googleapis.com/material-design/publish/material_v_10/assets/0B7WCemMG6e0VbDh6YmNiYVc3SHM/components_buttons_usage2.png"/></div><figcaption><p>Raised button</p></figcaption></figure></div><div class="figure"><figure class="s-tag-media"><div class="media"><img alt="" src="https://storage.googleapis.com/material-design/publish/material_v_10/assets/0B7WCemMG6e0VNDg3V3ZjU2hsNGc/components_buttons_usage3.png"/></div><figcaption><p>Flat button</p></figcaption></figure></div></section></div><div class="col-list"><section class="figure-figure-figure col-3"><div class="figure"><figure class="s-tag-media"><div class="media"><img alt="" src="https://storage.googleapis.com/material-design/publish/material_v_10/assets/0B7WCemMG6e0Vb0pRdVVtOElwTHM/components_buttons_usage4.png"/></div><figcaption><p>Example of a floating action button</p></figcaption></figure></div><div class="figure"><figure class="s-tag-media"><div class="media"><img alt="" src="https://storage.googleapis.com/material-design/publish/material_v_10/assets/0B7WCemMG6e0VTEp2XzZSTzVBMUU/components_buttons_usage5.png"/></div><figcaption><p>Example of a raised button </p></figcaption></figure></div><div class="figure"><figure class="s-tag-media"><div class="media"><img alt="" src="https://storage.googleapis.com/material-design/publish/material_v_10/assets/0B7WCemMG6e0VaDdZWXpLXzNicjg/components_buttons_usage6.png"/></div><figcaption><p>Example of a flat button</p></figcaption></figure></div></section></div><div class="col-list"><section class="module-figure col-2"><div class="module"><h1>Choosing button style</h1><p>Choosing a button style depends on the primacy of the button, the number of containers on screen, and the screen layout. </p><p><strong>Function:</strong> Is it important and ubiquitous enough to be a floating action button? </p><p><strong>Dimension:</strong> Choose raised or flat depending on the container it will be in and how many z-space layers you have on screen. There should not be many layers of objects on the screen.</p><p><strong>Layout:</strong> Use primarily one type of button per container. Only mix button types when you have a good reason to, such as emphasizing an important function.</p></div><div class="figure"><figure class="s-tag-media"><div class="media"><img alt="" src="https://storage.googleapis.com/material-design/publish/material_v_10/assets/0Bx4BSt6jniD7RHFUU2dFdmMtcm8/components_buttons_usage_main.png"/></div></figure></div></section></div></div>
+            <div class="article-content">
+                <div>
+                    <p>There are three standard types of buttons: </p>
+                    <ul class="lst-kix_4tql5k8r9fvj-0 start">
+                        <li> <a href="../components/buttons-floating-action-button.html">Floating action button</a>: A circular material button that lifts and displays an ink reaction on press.</li>
+                        <li>Raised button: A typically rectangular material button that lifts and displays ink reactions on press.</li>
+                        <li>Flat button: A button made of ink that displays ink reactions on press but does not lift.</li>
+                    </ul>
+                    <div class="col-list">
+                        <section class="figure-figure-figure col-3">
+                            <div class="figure">
+                                <figure class="s-tag-media">
+                                    <div class="media"><img alt="" src="https://storage.googleapis.com/material-design/publish/material_v_10/assets/0B7WCemMG6e0VUl95QlVMNXJLU3c/components_buttons_usage1.png" /></div>
+                                    <figcaption>
+                                        <p>Floating action button</p>
+                                    </figcaption>
+                                </figure>
+                            </div>
+                            <div class="figure">
+                                <figure class="s-tag-media">
+                                    <div class="media"><img alt="" src="https://storage.googleapis.com/material-design/publish/material_v_10/assets/0B7WCemMG6e0VbDh6YmNiYVc3SHM/components_buttons_usage2.png" /></div>
+                                    <figcaption>
+                                        <p>Raised button</p>
+                                    </figcaption>
+                                </figure>
+                            </div>
+                            <div class="figure">
+                                <figure class="s-tag-media">
+                                    <div class="media"><img alt="" src="https://storage.googleapis.com/material-design/publish/material_v_10/assets/0B7WCemMG6e0VNDg3V3ZjU2hsNGc/components_buttons_usage3.png" /></div>
+                                    <figcaption>
+                                        <p>Flat button</p>
+                                    </figcaption>
+                                </figure>
+                            </div>
+                        </section>
+                    </div>
+                    <div class="col-list">
+                        <section class="figure-figure-figure col-3">
+                            <div class="figure">
+                                <figure class="s-tag-media">
+                                    <div class="media"><img alt="" src="https://storage.googleapis.com/material-design/publish/material_v_10/assets/0B7WCemMG6e0Vb0pRdVVtOElwTHM/components_buttons_usage4.png" /></div>
+                                    <figcaption>
+                                        <p>Example of a floating action button</p>
+                                    </figcaption>
+                                </figure>
+                            </div>
+                            <div class="figure">
+                                <figure class="s-tag-media">
+                                    <div class="media"><img alt="" src="https://storage.googleapis.com/material-design/publish/material_v_10/assets/0B7WCemMG6e0VTEp2XzZSTzVBMUU/components_buttons_usage5.png" /></div>
+                                    <figcaption>
+                                        <p>Example of a raised button </p>
+                                    </figcaption>
+                                </figure>
+                            </div>
+                            <div class="figure">
+                                <figure class="s-tag-media">
+                                    <div class="media"><img alt="" src="https://storage.googleapis.com/material-design/publish/material_v_10/assets/0B7WCemMG6e0VaDdZWXpLXzNicjg/components_buttons_usage6.png" /></div>
+                                    <figcaption>
+                                        <p>Example of a flat button</p>
+                                    </figcaption>
+                                </figure>
+                            </div>
+                        </section>
+                    </div>
+                    <div class="col-list">
+                        <section class="module-figure col-2">
+                            <div class="module">
+                                <h1>Choosing button style</h1>
+                                <p>Choosing a button style depends on the primacy of the button, the number of containers on screen, and the screen layout. </p>
+                                <p><strong>Function:</strong> Is it important and ubiquitous enough to be a floating action button? </p>
+                                <p><strong>Dimension:</strong> Choose raised or flat depending on the container it will be in and how many z-space layers you have on screen. There should not be many layers of objects on the screen.</p>
+                                <p><strong>Layout:</strong> Use primarily one type of button per container. Only mix button types when you have a good reason to, such as emphasizing an important function.</p>
+                            </div>
+                            <div class="figure">
+                                <figure class="s-tag-media">
+                                    <div class="media"><img alt="" src="https://storage.googleapis.com/material-design/publish/material_v_10/assets/0Bx4BSt6jniD7RHFUU2dFdmMtcm8/components_buttons_usage_main.png" /></div>
+                                </figure>
+                            </div>
+                        </section>
+                    </div>
                 </div>
-              </div>
-            
-              <div id="buttons-usage" class="article qp-ui" data-qp-ui="{ 'ScrollSpy': {} }" data-qp-ui-data-id="qp:2">
-                <h2 class="article-title qp-ui" data-qp-ui="{ 'ResponsiveZippy': {} }" data-qp-ui-data-id="qp:2">
+            </div>
+        </div>
+        <div id="buttons-usage" class="article qp-ui" data-qp-ui="{ 'ScrollSpy': {} }" data-qp-ui-data-id="qp:2">
+            <h2 class="article-title qp-ui" data-qp-ui="{ 'ResponsiveZippy': {} }" data-qp-ui-data-id="qp:2">
                   Usage
                   
                   
@@ -501,21 +389,106 @@ Raised buttons: 2dp</p></div><div class="figure"><figure class="s-tag-media"><di
                     <polygon role="presentation" points="2.5,4.167 5,6.667 7.5,4.167 6.917,3.583 5,5.5 3.083,3.583"></polygon>
                   </svg>
                 </h2>
-                <div class="article-content">
-                  <div><div class="col-list"><section class="module-module col-2"><div class="module"><h1>Button types</h1><p>The type of button used should be suited to the  context in which it appears.</p></div><div class="module"><table class="s-tag-table"><tbody><tr><td colspan="1" rowspan="1"><p>Context </p></td><td colspan="1" rowspan="1"><p>Button type</p></td></tr><tr><td colspan="1" rowspan="1"><p>Dialogs</p></td><td colspan="1" rowspan="1"><p>Use <a href="../components/buttons.html#buttons-flat-buttons">flat buttons</a> in dialogs.</p></td></tr><tr><td colspan="1" rowspan="1"><p>Inline</p></td><td colspan="1" rowspan="1"><p>Depending on your layout, use <a href="../components/buttons.html#buttons-raised-buttons">raised buttons</a> or <a href="../components/buttons.html#buttons-flat-buttons">flat buttons</a> for inline buttons.</p></td></tr><tr><td colspan="1" rowspan="1"><p>Persistent availability</p></td><td colspan="1" rowspan="1"><p>If your app requires actions to be persistent and readily available to the user, consider using the floating action button or <a href="../components/buttons.html#buttons-persistent-footer-buttons">persistent footer buttons</a>.</p></td></tr></tbody></table></div></section></div><div class="col-list"><section class="module-module-module col-3"><div class="module"><h1>Recommended button placement</h1><p><strong>Standard dialogs </strong></p><p>Button alignment on screen: right </p><p>Place the affirmative button on the right, the dismissive button on the left.</p></div><div class="module">
-</div><div class="module">
-</div></section><section class="module-module-module col-3"><div class="module"><p><strong>Forms</strong></p><p>Button alignment on screen: Left</p><p>Place the affirmative button on the left, the dismissive button on the right.</p></div><div class="module">
-</div><div class="module">
-</div></section><section class="module-module-module col-3"><div class="module"><p><strong>Cards</strong></p><p>Buttons are best placed on the left side of a card to increase their visibility. However, as cards have flexible layouts, buttons may be placed in a location suited to the content and context, while maintaining consistency within the product.</p></div><div class="module">
-</div><div class="module">
-</div></section><section class="module-module-module col-3"><div class="module"><p><strong>Non-standard dialogs and modal windows</strong></p><p>Button placement in non-standard dialogs and modal windows depends on the complexity of the content they contain. </p><p>For dialogs with relatively simple content, it is recommended to place buttons on the right side of a dialog, with the affirmative button to the right of the dismissive button.</p><p>For lengthy or complex forms, it is recommended to place buttons on the left of the form, with the affirmative button to the left of the dismissive button.</p></div><div class="module">
-</div><div class="module">
-</div></section></div></div>
+            <div class="article-content">
+                <div>
+                    <div class="col-list">
+                        <section class="module-module col-2">
+                            <div class="module">
+                                <h1>Button types</h1>
+                                <p>The type of button used should be suited to the context in which it appears.</p>
+                            </div>
+                            <div class="module">
+                                <table class="s-tag-table">
+                                    <tbody>
+                                        <tr>
+                                            <td colspan="1" rowspan="1">
+                                                <p>Context </p>
+                                            </td>
+                                            <td colspan="1" rowspan="1">
+                                                <p>Button type</p>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td colspan="1" rowspan="1">
+                                                <p>Dialogs</p>
+                                            </td>
+                                            <td colspan="1" rowspan="1">
+                                                <p>Use <a href="../components/buttons.html#buttons-flat-buttons">flat buttons</a> in dialogs.</p>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td colspan="1" rowspan="1">
+                                                <p>Inline</p>
+                                            </td>
+                                            <td colspan="1" rowspan="1">
+                                                <p>Depending on your layout, use <a href="../components/buttons.html#buttons-raised-buttons">raised buttons</a> or <a href="../components/buttons.html#buttons-flat-buttons">flat buttons</a> for inline buttons.</p>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td colspan="1" rowspan="1">
+                                                <p>Persistent availability</p>
+                                            </td>
+                                            <td colspan="1" rowspan="1">
+                                                <p>If your app requires actions to be persistent and readily available to the user, consider using the floating action button or <a href="../components/buttons.html#buttons-persistent-footer-buttons">persistent footer buttons</a>.</p>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </section>
+                    </div>
+                    <div class="col-list">
+                        <section class="module-module-module col-3">
+                            <div class="module">
+                                <h1>Recommended button placement</h1>
+                                <p><strong>Standard dialogs </strong></p>
+                                <p>Button alignment on screen: right </p>
+                                <p>Place the affirmative button on the right, the dismissive button on the left.</p>
+                            </div>
+                            <div class="module">
+                            </div>
+                            <div class="module">
+                            </div>
+                        </section>
+                        <section class="module-module-module col-3">
+                            <div class="module">
+                                <p><strong>Forms</strong></p>
+                                <p>Button alignment on screen: Left</p>
+                                <p>Place the affirmative button on the left, the dismissive button on the right.</p>
+                            </div>
+                            <div class="module">
+                            </div>
+                            <div class="module">
+                            </div>
+                        </section>
+                        <section class="module-module-module col-3">
+                            <div class="module">
+                                <p><strong>Cards</strong></p>
+                                <p>Buttons are best placed on the left side of a card to increase their visibility. However, as cards have flexible layouts, buttons may be placed in a location suited to the content and context, while maintaining consistency within the product.</p>
+                            </div>
+                            <div class="module">
+                            </div>
+                            <div class="module">
+                            </div>
+                        </section>
+                        <section class="module-module-module col-3">
+                            <div class="module">
+                                <p><strong>Non-standard dialogs and modal windows</strong></p>
+                                <p>Button placement in non-standard dialogs and modal windows depends on the complexity of the content they contain. </p>
+                                <p>For dialogs with relatively simple content, it is recommended to place buttons on the right side of a dialog, with the affirmative button to the right of the dismissive button.</p>
+                                <p>For lengthy or complex forms, it is recommended to place buttons on the left of the form, with the affirmative button to the left of the dismissive button.</p>
+                            </div>
+                            <div class="module">
+                            </div>
+                            <div class="module">
+                            </div>
+                        </section>
+                    </div>
                 </div>
-              </div>
-            
-              <div id="buttons-style" class="article qp-ui" data-qp-ui="{ 'ScrollSpy': {} }" data-qp-ui-data-id="qp:3">
-                <h2 class="article-title qp-ui" data-qp-ui="{ 'ResponsiveZippy': {} }" data-qp-ui-data-id="qp:3">
+            </div>
+        </div>
+        <div id="buttons-style" class="article qp-ui" data-qp-ui="{ 'ScrollSpy': {} }" data-qp-ui-data-id="qp:3">
+            <h2 class="article-title qp-ui" data-qp-ui="{ 'ResponsiveZippy': {} }" data-qp-ui-data-id="qp:3">
                   Style
                   
                   
@@ -526,28 +499,116 @@ Raised buttons: 2dp</p></div><div class="figure"><figure class="s-tag-media"><di
                     <polygon role="presentation" points="2.5,4.167 5,6.667 7.5,4.167 6.917,3.583 5,5.5 3.083,3.583"></polygon>
                   </svg>
                 </h2>
-                <div class="article-content">
-                  <div><h1>Typography</h1><p>Button text should be capitalized in languages that have capitalization. For other languages, colored text on flat buttons distinguishes them from normal text.</p><div class="col-list"><section class="module-figure col-2"><div class="module"><h1>Accessibility</h1><p>To ensure usability for people with disabilities, give buttons a height of 36dp and give touchable targets a minimum height of 48dp.</p></div><div class="figure"><figure class="s-tag-media"><div class="media"><img alt="" src="https://storage.googleapis.com/material-design/publish/material_v_10/assets/0Bzhp5Z4wHba3LTRtTEtDdVpzYWM/components_buttons_keyline4.png"/></div><figcaption><p>Button height: 36dp<br>
-Touchable target height: 48dp</p></figcaption></figure></div></section></div><div class="col-list"><section class="module-figure-module col-3"><div class="module"><h1>Corner radius</h1><p>Buttons should have a 2dp corner radius.</p></div><div class="figure"><figure class="s-tag-media"><div class="media"><img alt="" src="https://storage.googleapis.com/material-design/publish/material_v_10/assets/0Bzhp5Z4wHba3eHkzSkhnbjIwRDA/components_buttons_radius.png"/></div><figcaption><p class="s-tag-caption do">Do.</p> <p>Buttons should have a 2dp corner radius </p></figcaption></figure></div><div class="module">
-</div></section></div><div class="col-list"><section class="module-figure-figure col-3"><div class="module"><h1>Density</h1><p>When mouse and keyboard are the primary input methods, button measurements can be slightly reduced to accommodate dense UIs. </p></div><div class="figure"><figure class="s-tag-media"><div class="media"><img alt="" src="https://storage.googleapis.com/material-design/publish/material_v_10/assets/0B8olV15J7abPM3QyLXVkSnpJOEE/components_buttons_main18.png"/></div><figcaption><p> Default Button</p></figcaption></figure><figure class="s-tag-media"><div class="media"><img alt="" src="https://storage.googleapis.com/material-design/publish/material_v_10/assets/0Bzhp5Z4wHba3ZXJMa1AtZnpHU1U/components_buttons_main20.png"/></div><figcaption><p>Button text: 14pt Roboto medium<br>
-Button height: 36dp<br>
-Button text left and right padding: 16dp<br>
-Corner radius: 2dp</p></figcaption></figure></div><div class="figure"><figure class="s-tag-media"><div class="media"><img alt="" src="https://storage.googleapis.com/material-design/publish/material_v_10/assets/0B8olV15J7abPdHFuQ2VaejdBQ3c/components_buttons_main19.png"/></div><figcaption><p> Dense Button</p></figcaption></figure><figure class="s-tag-media"><div class="media"><img alt="" src="https://storage.googleapis.com/material-design/publish/material_v_10/assets/0Bzhp5Z4wHba3NWNsQ1R2a19WV2M/components_buttons_main21.png"/></div><figcaption><p>Button text: 13pt Roboto medium<br>
-Button height: 32dp<br>
-Button text left and right padding: 16dp<br>
-Corner radius: 2dp</p></figcaption></figure></div></section></div><div class="col-list"><section class="module-figure-module col-3"><div class="module"><h1>Size and padding</h1></div><div class="figure"><figure class="s-tag-media"><div class="media"><img alt="" src="https://storage.googleapis.com/material-design/publish/material_v_10/assets/0B6Okdz75tqQsMjRTSi1CLWNVSDg/components_buttons_keyline1.png"/></div><figcaption><p>Examples of flat buttons in dialogs </p><p><strong>Flat Button</strong><br>
-Height: 36dp<br>
-Minimum width: 88dp<br>
-Touch target height: 48dp<br>
-Corner radius: 2dp<br>
-Horizontal margin: 8dp<br>
-Horizontal padding: 8dp </p></figcaption></figure></div><div class="module">
-</div></section></div></div>
+            <div class="article-content">
+                <div>
+                    <h1>Typography</h1>
+                    <p>Button text should be capitalized in languages that have capitalization. For other languages, colored text on flat buttons distinguishes them from normal text.</p>
+                    <div class="col-list">
+                        <section class="module-figure col-2">
+                            <div class="module">
+                                <h1>Accessibility</h1>
+                                <p>To ensure usability for people with disabilities, give buttons a height of 36dp and give touchable targets a minimum height of 48dp.</p>
+                            </div>
+                            <div class="figure">
+                                <figure class="s-tag-media">
+                                    <div class="media"><img alt="" src="https://storage.googleapis.com/material-design/publish/material_v_10/assets/0Bzhp5Z4wHba3LTRtTEtDdVpzYWM/components_buttons_keyline4.png" /></div>
+                                    <figcaption>
+                                        <p>Button height: 36dp
+                                            <br> Touchable target height: 48dp</p>
+                                    </figcaption>
+                                </figure>
+                            </div>
+                        </section>
+                    </div>
+                    <div class="col-list">
+                        <section class="module-figure-module col-3">
+                            <div class="module">
+                                <h1>Corner radius</h1>
+                                <p>Buttons should have a 2dp corner radius.</p>
+                            </div>
+                            <div class="figure">
+                                <figure class="s-tag-media">
+                                    <div class="media"><img alt="" src="https://storage.googleapis.com/material-design/publish/material_v_10/assets/0Bzhp5Z4wHba3eHkzSkhnbjIwRDA/components_buttons_radius.png" /></div>
+                                    <figcaption>
+                                        <p class="s-tag-caption do">Do.</p>
+                                        <p>Buttons should have a 2dp corner radius </p>
+                                    </figcaption>
+                                </figure>
+                            </div>
+                            <div class="module">
+                            </div>
+                        </section>
+                    </div>
+                    <div class="col-list">
+                        <section class="module-figure-figure col-3">
+                            <div class="module">
+                                <h1>Density</h1>
+                                <p>When mouse and keyboard are the primary input methods, button measurements can be slightly reduced to accommodate dense UIs. </p>
+                            </div>
+                            <div class="figure">
+                                <figure class="s-tag-media">
+                                    <div class="media"><img alt="" src="https://storage.googleapis.com/material-design/publish/material_v_10/assets/0B8olV15J7abPM3QyLXVkSnpJOEE/components_buttons_main18.png" /></div>
+                                    <figcaption>
+                                        <p> Default Button</p>
+                                    </figcaption>
+                                </figure>
+                                <figure class="s-tag-media">
+                                    <div class="media"><img alt="" src="https://storage.googleapis.com/material-design/publish/material_v_10/assets/0Bzhp5Z4wHba3ZXJMa1AtZnpHU1U/components_buttons_main20.png" /></div>
+                                    <figcaption>
+                                        <p>Button text: 14pt Roboto medium
+                                            <br> Button height: 36dp
+                                            <br> Button text left and right padding: 16dp
+                                            <br> Corner radius: 2dp</p>
+                                    </figcaption>
+                                </figure>
+                            </div>
+                            <div class="figure">
+                                <figure class="s-tag-media">
+                                    <div class="media"><img alt="" src="https://storage.googleapis.com/material-design/publish/material_v_10/assets/0B8olV15J7abPdHFuQ2VaejdBQ3c/components_buttons_main19.png" /></div>
+                                    <figcaption>
+                                        <p> Dense Button</p>
+                                    </figcaption>
+                                </figure>
+                                <figure class="s-tag-media">
+                                    <div class="media"><img alt="" src="https://storage.googleapis.com/material-design/publish/material_v_10/assets/0Bzhp5Z4wHba3NWNsQ1R2a19WV2M/components_buttons_main21.png" /></div>
+                                    <figcaption>
+                                        <p>Button text: 13pt Roboto medium
+                                            <br> Button height: 32dp
+                                            <br> Button text left and right padding: 16dp
+                                            <br> Corner radius: 2dp</p>
+                                    </figcaption>
+                                </figure>
+                            </div>
+                        </section>
+                    </div>
+                    <div class="col-list">
+                        <section class="module-figure-module col-3">
+                            <div class="module">
+                                <h1>Size and padding</h1></div>
+                            <div class="figure">
+                                <figure class="s-tag-media">
+                                    <div class="media"><img alt="" src="https://storage.googleapis.com/material-design/publish/material_v_10/assets/0B6Okdz75tqQsMjRTSi1CLWNVSDg/components_buttons_keyline1.png" /></div>
+                                    <figcaption>
+                                        <p>Examples of flat buttons in dialogs </p>
+                                        <p><strong>Flat Button</strong>
+                                            <br> Height: 36dp
+                                            <br> Minimum width: 88dp
+                                            <br> Touch target height: 48dp
+                                            <br> Corner radius: 2dp
+                                            <br> Horizontal margin: 8dp
+                                            <br> Horizontal padding: 8dp </p>
+                                    </figcaption>
+                                </figure>
+                            </div>
+                            <div class="module">
+                            </div>
+                        </section>
+                    </div>
                 </div>
-              </div>
-            
-              <div id="buttons-flat-buttons" class="article qp-ui" data-qp-ui="{ 'ScrollSpy': {} }" data-qp-ui-data-id="qp:4">
-                <h2 class="article-title qp-ui" data-qp-ui="{ 'ResponsiveZippy': {} }" data-qp-ui-data-id="qp:4">
+            </div>
+        </div>
+        <div id="buttons-flat-buttons" class="article qp-ui" data-qp-ui="{ 'ScrollSpy': {} }" data-qp-ui-data-id="qp:4">
+            <h2 class="article-title qp-ui" data-qp-ui="{ 'ResponsiveZippy': {} }" data-qp-ui-data-id="qp:4">
                   Flat buttons
                   
                   
@@ -558,40 +619,170 @@ Horizontal padding: 8dp </p></figcaption></figure></div><div class="module">
                     <polygon role="presentation" points="2.5,4.167 5,6.667 7.5,4.167 6.917,3.583 5,5.5 3.083,3.583"></polygon>
                   </svg>
                 </h2>
-                <div class="article-content">
-                  <div><div class="col-list"><section class="module-figure-figure col-3"><div class="module"><h1>Usage</h1><p>Flat buttons are printed on material. They do not lift, but fill with color on press.</p><p>Use flat buttons in the following locations:</p><ul class="lst-kix_sx4zu9flaq2f-0 start"><li>On toolbars </li><li>In dialogs, to unify the button action with the dialog content</li><li>Inline, with padding, so the user can easily find them</li></ul></div><div class="figure"><figure class="s-tag-media"><div class="media"><img alt="" src="https://storage.googleapis.com/material-design/publish/material_v_10/assets/0B6Okdz75tqQsWVJfOVpiVHYtZ00/components_buttons_main9.png"/></div><figcaption><p>Flat buttons are appropriate in dialogs.</p></figcaption></figure></div><div class="figure"><figure class="s-tag-media"><div class="media"><img alt="" src="https://storage.googleapis.com/material-design/publish/material_v_10/assets/0B6Okdz75tqQsckpmZTBwSmh1VzQ/components_buttons_main10.png"/></div><figcaption><p>Flat buttons minimize distraction from content.</p></figcaption></figure></div></section><section class="module-figure-figure col-3"><div class="module">
-</div><div class="figure"><figure class="s-tag-media"><div class="media"><img alt="" src="https://storage.googleapis.com/material-design/publish/material_v_10/assets/0B6Okdz75tqQsTDEwRlFpUmZtVm8/components_buttons_main11.png"/></div><figcaption><p class="s-tag-caption do">Do.</p><p>Correct use of flat buttons.</p></figcaption></figure></div><div class="figure"><figure class="s-tag-media"><div class="media"><img alt="" src="https://storage.googleapis.com/material-design/publish/material_v_10/assets/0B6Okdz75tqQsS2U2VUVCOVFaRlU/components_buttons_main12.png"/></div><figcaption><p class="s-tag-caption dont">Don't.</p> <p>These raised buttons appear too prominently.</p></figcaption></figure></div></section></div><div class="col-list"><section class="module-figure-figure col-3"><div class="module"><h1>Specs</h1></div><div class="figure"><figure class="s-tag-media"><div class="media"><img alt="" src="https://storage.googleapis.com/material-design/publish/material_v_10/assets/0Bx4BSt6jniD7SnA4Umw3S0pfNWs/components_buttons_main13.png"/></div><figcaption><p>Flat Light/Light theme</p><p>Minimum width: 88dp<br>
-Height: 36dp<br>
-Corner radius: 2dp<br>
-Pressed: 40% #999999<br>
-Disabled text: 26% #000000</p></figcaption></figure></div><div class="figure"><figure class="s-tag-media"><div class="media"><img alt="" src="https://storage.googleapis.com/material-design/publish/material_v_10/assets/0Bx4BSt6jniD7bEFqalRSeUJkbEU/components_buttons_main14.png"/></div><figcaption><p>Flat Dark/Dark theme</p><p>Minimum width: 88dp<br>
-Height: 36dp<br>
-Corner radius: 2dp<br>
-Pressed: 25% #CCCCCC<br>
-Disabled text: 30% #FFFFFF</p></figcaption></figure></div></section></div><div class="col-list"><section class="module-figure col-2"><div class="module">
-</div><div class="figure"><figure class="s-tag-media"><div class="media"><img alt="" src="https://storage.googleapis.com/material-design/publish/material_v_10/assets/0B6Okdz75tqQsSXNCRmd0aE5WWWs/components_buttons_usage_dialogs1.png"/></div><figcaption><p>Dialog text padding: 24dp <br>
-Dialog button container height: 52dp<br>
-Dialog buttons: 8dp padding from container edges, aligned to the right of container (for LTR scripts)</p></figcaption></figure></div></section><section class="module-figure col-2"><div class="module">
-</div><div class="figure"><figure class="s-tag-media"><div class="media"><img alt="" src="https://storage.googleapis.com/material-design/publish/material_v_10/assets/0B6Okdz75tqQsUUY1MHRaUDdDTGs/components_buttons_usage_dialogs2.png"/></div><figcaption><p>Flat buttons in dialogs </p><p><strong>Dialog buttons</strong><br>
-Button height: 36dp<br>
-Button top margin: 24dp<br>
-Button padding: 8dp<br>
-Button alignment: Right edge for LTR scripts<br>
-Button width: Varies based on button text length</p></figcaption></figure></div></section></div><div class="col-list"><section class="module-figure col-2"><div class="module">
-</div><div class="figure"><figure class="s-tag-media"><div class="media"><img alt="" src="https://storage.googleapis.com/material-design/publish/material_v_10/assets/0Bzhp5Z4wHba3VDJmNWRVMFhyQUE/components_buttons_focus_flat.png"/></div><figcaption><p>Flat buttons with 12% opacity on focus </p></figcaption></figure></div></section></div><div class="col-list"><section class="module-figure-module col-3"><div class="module"><h1>Behavior</h1></div><div class="figure"><figure class="s-tag-media"><div class="media">
-<div class="qp-ui" data-qp-ui="{ 'VideoPlayer': {} }">
-<video controls="" loop="" preload="metadata">
-<source src="https://storage.googleapis.com/material-design/publish/material_v_10/assets/0B3T7oTWa3HiFSTNhRndpWXBwRDA/components-buttons-flatbuttons.webm" type="video/webm">
-<source src="https://storage.googleapis.com/material-design/publish/material_v_10/assets/0B3T7oTWa3HiFbjE5djFGMzdKcmc/components-buttons-flatbuttons.mp4" type="video/mp4">
-</source></source></video>
-</div>
-</div><figcaption><p>Flat buttons</p></figcaption></figure></div><div class="module">
-</div></section></div></div>
+            <div class="article-content">
+                <div>
+                    <div class="col-list">
+                        <section class="module-figure-figure col-3">
+                            <div class="module">
+                                <h1>Usage</h1>
+                                <p>Flat buttons are printed on material. They do not lift, but fill with color on press.</p>
+                                <p>Use flat buttons in the following locations:</p>
+                                <ul class="lst-kix_sx4zu9flaq2f-0 start">
+                                    <li>On toolbars </li>
+                                    <li>In dialogs, to unify the button action with the dialog content</li>
+                                    <li>Inline, with padding, so the user can easily find them</li>
+                                </ul>
+                            </div>
+                            <div class="figure">
+                                <figure class="s-tag-media">
+                                    <div class="media"><img alt="" src="https://storage.googleapis.com/material-design/publish/material_v_10/assets/0B6Okdz75tqQsWVJfOVpiVHYtZ00/components_buttons_main9.png" /></div>
+                                    <figcaption>
+                                        <p>Flat buttons are appropriate in dialogs.</p>
+                                    </figcaption>
+                                </figure>
+                            </div>
+                            <div class="figure">
+                                <figure class="s-tag-media">
+                                    <div class="media"><img alt="" src="https://storage.googleapis.com/material-design/publish/material_v_10/assets/0B6Okdz75tqQsckpmZTBwSmh1VzQ/components_buttons_main10.png" /></div>
+                                    <figcaption>
+                                        <p>Flat buttons minimize distraction from content.</p>
+                                    </figcaption>
+                                </figure>
+                            </div>
+                        </section>
+                        <section class="module-figure-figure col-3">
+                            <div class="module">
+                            </div>
+                            <div class="figure">
+                                <figure class="s-tag-media">
+                                    <div class="media"><img alt="" src="https://storage.googleapis.com/material-design/publish/material_v_10/assets/0B6Okdz75tqQsTDEwRlFpUmZtVm8/components_buttons_main11.png" /></div>
+                                    <figcaption>
+                                        <p class="s-tag-caption do">Do.</p>
+                                        <p>Correct use of flat buttons.</p>
+                                    </figcaption>
+                                </figure>
+                            </div>
+                            <div class="figure">
+                                <figure class="s-tag-media">
+                                    <div class="media"><img alt="" src="https://storage.googleapis.com/material-design/publish/material_v_10/assets/0B6Okdz75tqQsS2U2VUVCOVFaRlU/components_buttons_main12.png" /></div>
+                                    <figcaption>
+                                        <p class="s-tag-caption dont">Don't.</p>
+                                        <p>These raised buttons appear too prominently.</p>
+                                    </figcaption>
+                                </figure>
+                            </div>
+                        </section>
+                    </div>
+                    <div class="col-list">
+                        <section class="module-figure-figure col-3">
+                            <div class="module">
+                                <h1>Specs</h1></div>
+                            <div class="figure">
+                                <figure class="s-tag-media">
+                                    <div class="media"><img alt="" src="https://storage.googleapis.com/material-design/publish/material_v_10/assets/0Bx4BSt6jniD7SnA4Umw3S0pfNWs/components_buttons_main13.png" /></div>
+                                    <figcaption>
+                                        <p>Flat Light/Light theme</p>
+                                        <p>Minimum width: 88dp
+                                            <br> Height: 36dp
+                                            <br> Corner radius: 2dp
+                                            <br> Pressed: 40% #999999
+                                            <br> Disabled text: 26% #000000</p>
+                                    </figcaption>
+                                </figure>
+                            </div>
+                            <div class="figure">
+                                <figure class="s-tag-media">
+                                    <div class="media"><img alt="" src="https://storage.googleapis.com/material-design/publish/material_v_10/assets/0Bx4BSt6jniD7bEFqalRSeUJkbEU/components_buttons_main14.png" /></div>
+                                    <figcaption>
+                                        <p>Flat Dark/Dark theme</p>
+                                        <p>Minimum width: 88dp
+                                            <br> Height: 36dp
+                                            <br> Corner radius: 2dp
+                                            <br> Pressed: 25% #CCCCCC
+                                            <br> Disabled text: 30% #FFFFFF</p>
+                                    </figcaption>
+                                </figure>
+                            </div>
+                        </section>
+                    </div>
+                    <div class="col-list">
+                        <section class="module-figure col-2">
+                            <div class="module">
+                            </div>
+                            <div class="figure">
+                                <figure class="s-tag-media">
+                                    <div class="media"><img alt="" src="https://storage.googleapis.com/material-design/publish/material_v_10/assets/0B6Okdz75tqQsSXNCRmd0aE5WWWs/components_buttons_usage_dialogs1.png" /></div>
+                                    <figcaption>
+                                        <p>Dialog text padding: 24dp
+                                            <br> Dialog button container height: 52dp
+                                            <br> Dialog buttons: 8dp padding from container edges, aligned to the right of container (for LTR scripts)</p>
+                                    </figcaption>
+                                </figure>
+                            </div>
+                        </section>
+                        <section class="module-figure col-2">
+                            <div class="module">
+                            </div>
+                            <div class="figure">
+                                <figure class="s-tag-media">
+                                    <div class="media"><img alt="" src="https://storage.googleapis.com/material-design/publish/material_v_10/assets/0B6Okdz75tqQsUUY1MHRaUDdDTGs/components_buttons_usage_dialogs2.png" /></div>
+                                    <figcaption>
+                                        <p>Flat buttons in dialogs </p>
+                                        <p><strong>Dialog buttons</strong>
+                                            <br> Button height: 36dp
+                                            <br> Button top margin: 24dp
+                                            <br> Button padding: 8dp
+                                            <br> Button alignment: Right edge for LTR scripts
+                                            <br> Button width: Varies based on button text length</p>
+                                    </figcaption>
+                                </figure>
+                            </div>
+                        </section>
+                    </div>
+                    <div class="col-list">
+                        <section class="module-figure col-2">
+                            <div class="module">
+                            </div>
+                            <div class="figure">
+                                <figure class="s-tag-media">
+                                    <div class="media"><img alt="" src="https://storage.googleapis.com/material-design/publish/material_v_10/assets/0Bzhp5Z4wHba3VDJmNWRVMFhyQUE/components_buttons_focus_flat.png" /></div>
+                                    <figcaption>
+                                        <p>Flat buttons with 12% opacity on focus </p>
+                                    </figcaption>
+                                </figure>
+                            </div>
+                        </section>
+                    </div>
+                    <div class="col-list">
+                        <section class="module-figure-module col-3">
+                            <div class="module">
+                                <h1>Behavior</h1></div>
+                            <div class="figure">
+                                <figure class="s-tag-media">
+                                    <div class="media">
+                                        <div class="qp-ui" data-qp-ui="{ 'VideoPlayer': {} }">
+                                            <video controls="" loop="" preload="metadata">
+                                                <source src="https://storage.googleapis.com/material-design/publish/material_v_10/assets/0B3T7oTWa3HiFSTNhRndpWXBwRDA/components-buttons-flatbuttons.webm" type="video/webm">
+                                                <source src="https://storage.googleapis.com/material-design/publish/material_v_10/assets/0B3T7oTWa3HiFbjE5djFGMzdKcmc/components-buttons-flatbuttons.mp4" type="video/mp4">
+                                                </source>
+                                                </source>
+                                            </video>
+                                        </div>
+                                    </div>
+                                    <figcaption>
+                                        <p>Flat buttons</p>
+                                    </figcaption>
+                                </figure>
+                            </div>
+                            <div class="module">
+                            </div>
+                        </section>
+                    </div>
                 </div>
-              </div>
-            
-              <div id="buttons-raised-buttons" class="article qp-ui" data-qp-ui="{ 'ScrollSpy': {} }" data-qp-ui-data-id="qp:5">
-                <h2 class="article-title qp-ui" data-qp-ui="{ 'ResponsiveZippy': {} }" data-qp-ui-data-id="qp:5">
+            </div>
+        </div>
+        <div id="buttons-raised-buttons" class="article qp-ui" data-qp-ui="{ 'ScrollSpy': {} }" data-qp-ui-data-id="qp:5">
+            <h2 class="article-title qp-ui" data-qp-ui="{ 'ResponsiveZippy': {} }" data-qp-ui-data-id="qp:5">
                   Raised buttons
                   
                   
@@ -602,37 +793,145 @@ Button width: Varies based on button text length</p></figcaption></figure></div>
                     <polygon role="presentation" points="2.5,4.167 5,6.667 7.5,4.167 6.917,3.583 5,5.5 3.083,3.583"></polygon>
                   </svg>
                 </h2>
-                <div class="article-content">
-                  <div><div class="col-list"><section class="module-figure-figure col-3"><div class="module"><h1>Usage</h1><p>Raised buttons add dimension to mostly flat layouts. They emphasize functions on busy or wide spaces.</p></div><div class="figure"><figure class="s-tag-media"><div class="media"><img alt="" src="https://storage.googleapis.com/material-design/publish/material_v_10/assets/0B6Okdz75tqQsR0hib1ExN21wWjA/components_buttons_main5.png"/></div><figcaption><p>Use raised buttons to give more prominence to actions in layouts with a lot of varying content.</p></figcaption></figure></div><div class="figure"><figure class="s-tag-media"><div class="media"><img alt="" src="https://storage.googleapis.com/material-design/publish/material_v_10/assets/0B6Okdz75tqQsX0xZMnFkR1ZOVmc/components_buttons_main6.png"/></div><figcaption><p>Raised buttons can help delineate sections of content on a page.</p></figcaption></figure></div></section><section class="module-figure-figure col-3"><div class="module">
-</div><div class="figure"><figure class="s-tag-media"><div class="media"><img alt="" src="https://storage.googleapis.com/material-design/publish/material_v_10/assets/0B6Okdz75tqQsMF8xdDNDNUc0Zk0/components_buttons_main7.png"/></div><figcaption><p class="s-tag-caption do">Do.</p><p>Raised buttons stand out more than flat buttons.</p></figcaption></figure></div><div class="figure"><figure class="s-tag-media"><div class="media"><img alt="" src="https://storage.googleapis.com/material-design/publish/material_v_10/assets/0B6Okdz75tqQsZk0xMExROVpzLWs/components_buttons_main8.png"/></div><figcaption><p class="s-tag-caption dont">Don't.</p><p>Don’t use flat buttons in UIs where they would be difficult to see.</p></figcaption></figure></div></section></div><div class="col-list"><section class="module-figure-figure col-3"><div class="module"><p>Raised buttons behave like a piece of material resting on another sheet – they lift and fill with color on press. </p></div><div class="figure"><figure class="s-tag-media"><div class="media"><img alt="" src="https://storage.googleapis.com/material-design/publish/material_v_10/assets/0Bx4BSt6jniD7WlduMk1kbTRzQWc/components_buttons_main15.png"/></div><figcaption><p>Raised Light/Light theme</p><p>Minimum width: 88dp <br>
-Height: 36dp <br>
-Corner radius: 2dp<br>
-Disabled text: 26% #000000<br>
-Disabled button: 12% #000000</p><p>Focused:12% #000000 shade over the color</p></figcaption></figure></div><div class="figure"><figure class="s-tag-media"><div class="media"><img alt="" src="https://storage.googleapis.com/material-design/publish/material_v_10/assets/0Bx4BSt6jniD7UTh2dExpSlRVWVU/components_buttons_main16.png"/></div><figcaption><p>Raised Dark/Dark theme</p><p>Minimum width: 88dp <br>
-Height: 36dp <br>
-Corner radius: 2dp<br>
-Normal color: 500 <br>
-Pressed color: 700 <br>
-Disabled text: 30% #FFFFFF <br>
-Disabled button: 12% #FFFFFF</p><p>Focused:12% #000000 shade over the color</p></figcaption></figure></div></section></div><div class="col-list"><section class="module-figure-module col-3"><div class="module"><h2><strong>Button Elevation</strong></h2><p>Raised buttons have a default elevation of 2dp.</p><p>On desktop, raised buttons can gain this elevation on hover.</p></div><div class="figure"><figure class="s-tag-media"><div class="media"><img alt="" src="https://storage.googleapis.com/material-design/publish/material_v_10/assets/0B8olV15J7abPZm1EakJMZWxSdXc/components_buttons_main17.png"/></div><figcaption><p><strong>Dark/Light</strong> <strong>theme</strong></p><p>Minimum width: 88dp <br>
-Height: 36dp <br>
-Elevation: 0dp<br>
-Disabled text: 30% #FFFFFF<br>
-Disabled button: 12% #FFFFFF</p></figcaption></figure></div><div class="module">
-</div></section></div><div class="col-list"><section class="module-module-figure col-3"><div class="module"><h1>Behavior</h1></div><div class="module">
-</div><div class="figure"><figure class="s-tag-media"><div class="media">
-<div class="qp-ui" data-qp-ui="{ 'VideoPlayer': {} }">
-<video controls="" loop="" preload="metadata">
-<source src="https://storage.googleapis.com/material-design/publish/material_v_10/assets/0B3T7oTWa3HiFRmZDbzdkSEp0ZEk/components-buttons-raisedbuttons.webm" type="video/webm">
-<source src="https://storage.googleapis.com/material-design/publish/material_v_10/assets/0B3T7oTWa3HiFMFBOTERHZFR4aDg/components-buttons-raisedbuttons.mp4" type="video/mp4">
-</source></source></video>
-</div>
-</div><figcaption><p>Raised buttons</p></figcaption></figure></div></section></div></div>
+            <div class="article-content">
+                <div>
+                    <div class="col-list">
+                        <section class="module-figure-figure col-3">
+                            <div class="module">
+                                <h1>Usage</h1>
+                                <p>Raised buttons add dimension to mostly flat layouts. They emphasize functions on busy or wide spaces.</p>
+                            </div>
+                            <div class="figure">
+                                <figure class="s-tag-media">
+                                    <div class="media"><img alt="" src="https://storage.googleapis.com/material-design/publish/material_v_10/assets/0B6Okdz75tqQsR0hib1ExN21wWjA/components_buttons_main5.png" /></div>
+                                    <figcaption>
+                                        <p>Use raised buttons to give more prominence to actions in layouts with a lot of varying content.</p>
+                                    </figcaption>
+                                </figure>
+                            </div>
+                            <div class="figure">
+                                <figure class="s-tag-media">
+                                    <div class="media"><img alt="" src="https://storage.googleapis.com/material-design/publish/material_v_10/assets/0B6Okdz75tqQsX0xZMnFkR1ZOVmc/components_buttons_main6.png" /></div>
+                                    <figcaption>
+                                        <p>Raised buttons can help delineate sections of content on a page.</p>
+                                    </figcaption>
+                                </figure>
+                            </div>
+                        </section>
+                        <section class="module-figure-figure col-3">
+                            <div class="module">
+                            </div>
+                            <div class="figure">
+                                <figure class="s-tag-media">
+                                    <div class="media"><img alt="" src="https://storage.googleapis.com/material-design/publish/material_v_10/assets/0B6Okdz75tqQsMF8xdDNDNUc0Zk0/components_buttons_main7.png" /></div>
+                                    <figcaption>
+                                        <p class="s-tag-caption do">Do.</p>
+                                        <p>Raised buttons stand out more than flat buttons.</p>
+                                    </figcaption>
+                                </figure>
+                            </div>
+                            <div class="figure">
+                                <figure class="s-tag-media">
+                                    <div class="media"><img alt="" src="https://storage.googleapis.com/material-design/publish/material_v_10/assets/0B6Okdz75tqQsZk0xMExROVpzLWs/components_buttons_main8.png" /></div>
+                                    <figcaption>
+                                        <p class="s-tag-caption dont">Don't.</p>
+                                        <p>Don’t use flat buttons in UIs where they would be difficult to see.</p>
+                                    </figcaption>
+                                </figure>
+                            </div>
+                        </section>
+                    </div>
+                    <div class="col-list">
+                        <section class="module-figure-figure col-3">
+                            <div class="module">
+                                <p>Raised buttons behave like a piece of material resting on another sheet – they lift and fill with color on press. </p>
+                            </div>
+                            <div class="figure">
+                                <figure class="s-tag-media">
+                                    <div class="media"><img alt="" src="https://storage.googleapis.com/material-design/publish/material_v_10/assets/0Bx4BSt6jniD7WlduMk1kbTRzQWc/components_buttons_main15.png" /></div>
+                                    <figcaption>
+                                        <p>Raised Light/Light theme</p>
+                                        <p>Minimum width: 88dp
+                                            <br> Height: 36dp
+                                            <br> Corner radius: 2dp
+                                            <br> Disabled text: 26% #000000
+                                            <br> Disabled button: 12% #000000</p>
+                                        <p>Focused:12% #000000 shade over the color</p>
+                                    </figcaption>
+                                </figure>
+                            </div>
+                            <div class="figure">
+                                <figure class="s-tag-media">
+                                    <div class="media"><img alt="" src="https://storage.googleapis.com/material-design/publish/material_v_10/assets/0Bx4BSt6jniD7UTh2dExpSlRVWVU/components_buttons_main16.png" /></div>
+                                    <figcaption>
+                                        <p>Raised Dark/Dark theme</p>
+                                        <p>Minimum width: 88dp
+                                            <br> Height: 36dp
+                                            <br> Corner radius: 2dp
+                                            <br> Normal color: 500
+                                            <br> Pressed color: 700
+                                            <br> Disabled text: 30% #FFFFFF
+                                            <br> Disabled button: 12% #FFFFFF</p>
+                                        <p>Focused:12% #000000 shade over the color</p>
+                                    </figcaption>
+                                </figure>
+                            </div>
+                        </section>
+                    </div>
+                    <div class="col-list">
+                        <section class="module-figure-module col-3">
+                            <div class="module">
+                                <h2><strong>Button Elevation</strong></h2>
+                                <p>Raised buttons have a default elevation of 2dp.</p>
+                                <p>On desktop, raised buttons can gain this elevation on hover.</p>
+                            </div>
+                            <div class="figure">
+                                <figure class="s-tag-media">
+                                    <div class="media"><img alt="" src="https://storage.googleapis.com/material-design/publish/material_v_10/assets/0B8olV15J7abPZm1EakJMZWxSdXc/components_buttons_main17.png" /></div>
+                                    <figcaption>
+                                        <p><strong>Dark/Light</strong> <strong>theme</strong></p>
+                                        <p>Minimum width: 88dp
+                                            <br> Height: 36dp
+                                            <br> Elevation: 0dp
+                                            <br> Disabled text: 30% #FFFFFF
+                                            <br> Disabled button: 12% #FFFFFF</p>
+                                    </figcaption>
+                                </figure>
+                            </div>
+                            <div class="module">
+                            </div>
+                        </section>
+                    </div>
+                    <div class="col-list">
+                        <section class="module-module-figure col-3">
+                            <div class="module">
+                                <h1>Behavior</h1></div>
+                            <div class="module">
+                            </div>
+                            <div class="figure">
+                                <figure class="s-tag-media">
+                                    <div class="media">
+                                        <div class="qp-ui" data-qp-ui="{ 'VideoPlayer': {} }">
+                                            <video controls="" loop="" preload="metadata">
+                                                <source src="https://storage.googleapis.com/material-design/publish/material_v_10/assets/0B3T7oTWa3HiFRmZDbzdkSEp0ZEk/components-buttons-raisedbuttons.webm" type="video/webm">
+                                                <source src="https://storage.googleapis.com/material-design/publish/material_v_10/assets/0B3T7oTWa3HiFMFBOTERHZFR4aDg/components-buttons-raisedbuttons.mp4" type="video/mp4">
+                                                </source>
+                                                </source>
+                                            </video>
+                                        </div>
+                                    </div>
+                                    <figcaption>
+                                        <p>Raised buttons</p>
+                                    </figcaption>
+                                </figure>
+                            </div>
+                        </section>
+                    </div>
                 </div>
-              </div>
-            
-              <div id="buttons-persistent-footer-buttons" class="article qp-ui" data-qp-ui="{ 'ScrollSpy': {} }" data-qp-ui-data-id="qp:6">
-                <h2 class="article-title qp-ui" data-qp-ui="{ 'ResponsiveZippy': {} }" data-qp-ui-data-id="qp:6">
+            </div>
+        </div>
+        <div id="buttons-persistent-footer-buttons" class="article qp-ui" data-qp-ui="{ 'ScrollSpy': {} }" data-qp-ui-data-id="qp:6">
+            <h2 class="article-title qp-ui" data-qp-ui="{ 'ResponsiveZippy': {} }" data-qp-ui-data-id="qp:6">
                   Persistent footer buttons
                   
                   
@@ -643,14 +942,76 @@ Disabled button: 12% #FFFFFF</p></figcaption></figure></div><div class="module">
                     <polygon role="presentation" points="2.5,4.167 5,6.667 7.5,4.167 6.917,3.583 5,5.5 3.083,3.583"></polygon>
                   </svg>
                 </h2>
-                <div class="article-content">
-                  <div><div class="col-list"><section class="module-figure-figure col-3"><div class="module"><p>If your app requires actions to be persistent and readily available to the user, consider using the floating action button or persistent footer buttons.</p></div><div class="figure"><figure class="s-tag-media"><div class="media"><img alt="" src="https://storage.googleapis.com/material-design/publish/material_v_10/assets/0Bx4BSt6jniD7Ukt1TFRVUlgxY1k/components_buttons_keyline2.png"/></div><figcaption><p>Persistent footer buttons are 48dp tall. </p></figcaption></figure></div><div class="figure"><figure class="s-tag-media"><div class="media"><img alt="" src="https://storage.googleapis.com/material-design/publish/material_v_10/assets/0B6Okdz75tqQseU1yM2R4VmhFamc/components_buttons_usage_buttons4.png"/></div><figcaption><p>Example of persistent footer buttons</p></figcaption></figure></div></section></div><div class="col-list"><section class="module-figure-module col-3"><div class="module"><p>Do not use raised buttons within persistent button areas.</p></div><div class="figure"><figure class="s-tag-media"><div class="media"><img alt="" src="https://storage.googleapis.com/material-design/publish/material_v_10/assets/0Bx4BSt6jniD7SDNoT21jRWJkZG8/components_buttons_keyline3.png"/></div><figcaption><p class="s-tag-caption dont">Don't.</p></figcaption></figure></div><div class="module">
-</div></section></div><div class="col-list"><section class="module-figure-figure col-3"><div class="module"><p>A persistent footer button may be used for scrollable dialogs when a divider is added.</p></div><div class="figure"><figure class="s-tag-media"><div class="media"><img alt="" src="https://storage.googleapis.com/material-design/publish/material_v_10/assets/0B6Okdz75tqQscWJWbkVHaDcyNEE/components_buttons_usage_buttons5.png"/></div><figcaption><p>Persistent footer button in dialog</p></figcaption></figure></div><div class="figure"><figure class="s-tag-media"><div class="media"><img alt="" src="https://storage.googleapis.com/material-design/publish/material_v_10/assets/0B6Okdz75tqQsUnd1MlhhVUw1Z28/components_buttons_usage_buttons6.png"/></div><figcaption><p>Persistent footer button in scrollable dialog</p></figcaption></figure></div></section></div></div>
+            <div class="article-content">
+                <div>
+                    <div class="col-list">
+                        <section class="module-figure-figure col-3">
+                            <div class="module">
+                                <p>If your app requires actions to be persistent and readily available to the user, consider using the floating action button or persistent footer buttons.</p>
+                            </div>
+                            <div class="figure">
+                                <figure class="s-tag-media">
+                                    <div class="media"><img alt="" src="https://storage.googleapis.com/material-design/publish/material_v_10/assets/0Bx4BSt6jniD7Ukt1TFRVUlgxY1k/components_buttons_keyline2.png" /></div>
+                                    <figcaption>
+                                        <p>Persistent footer buttons are 48dp tall. </p>
+                                    </figcaption>
+                                </figure>
+                            </div>
+                            <div class="figure">
+                                <figure class="s-tag-media">
+                                    <div class="media"><img alt="" src="https://storage.googleapis.com/material-design/publish/material_v_10/assets/0B6Okdz75tqQseU1yM2R4VmhFamc/components_buttons_usage_buttons4.png" /></div>
+                                    <figcaption>
+                                        <p>Example of persistent footer buttons</p>
+                                    </figcaption>
+                                </figure>
+                            </div>
+                        </section>
+                    </div>
+                    <div class="col-list">
+                        <section class="module-figure-module col-3">
+                            <div class="module">
+                                <p>Do not use raised buttons within persistent button areas.</p>
+                            </div>
+                            <div class="figure">
+                                <figure class="s-tag-media">
+                                    <div class="media"><img alt="" src="https://storage.googleapis.com/material-design/publish/material_v_10/assets/0Bx4BSt6jniD7SDNoT21jRWJkZG8/components_buttons_keyline3.png" /></div>
+                                    <figcaption>
+                                        <p class="s-tag-caption dont">Don't.</p>
+                                    </figcaption>
+                                </figure>
+                            </div>
+                            <div class="module">
+                            </div>
+                        </section>
+                    </div>
+                    <div class="col-list">
+                        <section class="module-figure-figure col-3">
+                            <div class="module">
+                                <p>A persistent footer button may be used for scrollable dialogs when a divider is added.</p>
+                            </div>
+                            <div class="figure">
+                                <figure class="s-tag-media">
+                                    <div class="media"><img alt="" src="https://storage.googleapis.com/material-design/publish/material_v_10/assets/0B6Okdz75tqQscWJWbkVHaDcyNEE/components_buttons_usage_buttons5.png" /></div>
+                                    <figcaption>
+                                        <p>Persistent footer button in dialog</p>
+                                    </figcaption>
+                                </figure>
+                            </div>
+                            <div class="figure">
+                                <figure class="s-tag-media">
+                                    <div class="media"><img alt="" src="https://storage.googleapis.com/material-design/publish/material_v_10/assets/0B6Okdz75tqQsUnd1MlhhVUw1Z28/components_buttons_usage_buttons6.png" /></div>
+                                    <figcaption>
+                                        <p>Persistent footer button in scrollable dialog</p>
+                                    </figcaption>
+                                </figure>
+                            </div>
+                        </section>
+                    </div>
                 </div>
-              </div>
-            
-              <div id="buttons-dropdown-buttons" class="article qp-ui" data-qp-ui="{ 'ScrollSpy': {} }" data-qp-ui-data-id="qp:7">
-                <h2 class="article-title qp-ui" data-qp-ui="{ 'ResponsiveZippy': {} }" data-qp-ui-data-id="qp:7">
+            </div>
+        </div>
+        <div id="buttons-dropdown-buttons" class="article qp-ui" data-qp-ui="{ 'ScrollSpy': {} }" data-qp-ui-data-id="qp:7">
+            <h2 class="article-title qp-ui" data-qp-ui="{ 'ResponsiveZippy': {} }" data-qp-ui-data-id="qp:7">
                   Dropdown buttons
                   
                   
@@ -661,30 +1022,124 @@ Disabled button: 12% #FFFFFF</p></figcaption></figure></div><div class="module">
                     <polygon role="presentation" points="2.5,4.167 5,6.667 7.5,4.167 6.917,3.583 5,5.5 3.083,3.583"></polygon>
                   </svg>
                 </h2>
-                <div class="article-content">
-                  <div><div class="col-list"><section class="module-figure col-2"><div class="module"><h1>Mobile dropdown buttons</h1><h2><strong>Dropdown button</strong></h2><p>A dropdown button selects between multiple selections. The button displays the current state and a down arrow. Available states may be shown as a list of strings, a palette, or icons, for example.</p><p>When a user interacts with the button, a menu covers the button and displays the possible states. Pressing a state dismisses the menu and updates the button to display this new state. </p><p>Scrolling within the dropdown behaves the same way a menu scrolls.</p></div><div class="figure"><figure class="s-tag-media"><div class="media"><img alt="" src="https://storage.googleapis.com/material-design/publish/material_v_10/assets/0Bzhp5Z4wHba3SUZmdHBlLWk1d3M/components_buttons_dropdown1.png"/></div><figcaption><p>Closed dropdown button, open dropdown menu, and selected dropdown menu</p></figcaption></figure></div></section></div><div class="col-list"><section class="module-figure-module col-3"><div class="module">
-</div><div class="figure"><figure class="s-tag-media"><div class="media"><img alt="" src="https://storage.googleapis.com/material-design/publish/material_v_10/assets/0B6Okdz75tqQsVkg5V3htMWk0OVk/components_buttons_mobile2.png"/></div><figcaption><p>Generic dropdown button with a list menu</p></figcaption></figure></div><div class="module">
-</div></section></div><div class="col-list"><section class="module-figure col-2"><div class="module"><h2><strong>Generic overflow dropdown button</strong></h2><p>The generic overflow dropdown button displays an arrow or menu button by default. When the button is pressed, the menu appears. Pressing an option on the menu navigates to further settings for that option. </p><h2><strong>Segmented dropdown button</strong></h2><p>A segmented dropdown has two sections: the current state and the dropdown arrow icon. Pressing the current state will cause that state’s action to fire within the screen. Pressing the dropdown arrow will display all the state options. Selecting one will change the displayed state. </p><h2><strong>Editable segmented dropdown button</strong></h2><p>This button has a segmented dropdown, where the displayed state is text editable, such as a font size picker. Pressing the current state causes both that state’s action to fire and makes the displayed state editable. Pressing the arrow displays all the state options. </p></div><div class="figure"><figure class="s-tag-media"><div class="media"><img alt="" src="https://storage.googleapis.com/material-design/publish/material_v_10/assets/0Bzhp5Z4wHba3RklUaGVRbl9tMDg/components_buttons_dropdown2.png"/></div><figcaption><p>Generic, segmented, and editable overflow dropdown buttons in normal, hover, focus, pressed, and selecting states </p></figcaption></figure></div></section></div><div class="col-list"><section class="module-figure-module col-3"><div class="module">
-</div><div class="figure"><figure class="s-tag-media"><div class="media">
-<div class="qp-ui" data-qp-ui="{ 'VideoPlayer': {} }">
-<video controls="" loop="" preload="metadata">
-<source src="https://storage.googleapis.com/material-design/publish/material_v_10/assets/0B3321sZLoP_HTS1LdnhrTl9TRzg/components-buttons-otherbuttons-060203_MobileDropdowns_xhdpi_006.webm" type="video/webm">
-<source src="https://storage.googleapis.com/material-design/publish/material_v_10/assets/0B3321sZLoP_HMHZFaEJvMjQxa3M/components-buttons-otherbuttons-060203_MobileDropdowns_xhdpi_006.mp4" type="video/mp4">
-</source></source></video>
-</div>
-</div><figcaption><p>Animation of dropdown button</p><p><a href="https://www.google.com/url?q=https://drive.google.com/a/google.com/file/d/0B4zh50KRqyzMVzB1bl9aZDdkZzQ/edit?usp%3Dsharing&amp;sa=D&amp;ust=1481817981708000&amp;usg=AFQjCNEWD7fWvP4qJ7clYrALLSScllR3Ow" target="_blank"> </a> </p></figcaption></figure></div><div class="module">
-</div></section></div><div class="col-list"><section class="module-figure col-2"><div class="module"><h1>Desktop dropdowns</h1><p>Desktop app bar specs<br>
- </p></div><div class="figure"><figure class="s-tag-media"><div class="media"><img alt="" src="https://storage.googleapis.com/material-design/publish/material_v_10/assets/0Bzhp5Z4wHba3U2VCaGE1YmFtQ1k/components_buttons_dropdown3.png"/></div><figcaption><p>Desktop dropdown</p><p>Top and bottom padding: 16dp<br>
-Left padding: 24dp<br>
-Right margin: 16dp<br>
-Horizontal space between font styles: 24dp</p></figcaption></figure></div></section><section class="module-module col-2"><div class="module">
-</div><div class="module">
-</div></section></div></div>
+            <div class="article-content">
+                <div>
+                    <div class="col-list">
+                        <section class="module-figure col-2">
+                            <div class="module">
+                                <h1>Mobile dropdown buttons</h1>
+                                <h2><strong>Dropdown button</strong></h2>
+                                <p>A dropdown button selects between multiple selections. The button displays the current state and a down arrow. Available states may be shown as a list of strings, a palette, or icons, for example.</p>
+                                <p>When a user interacts with the button, a menu covers the button and displays the possible states. Pressing a state dismisses the menu and updates the button to display this new state. </p>
+                                <p>Scrolling within the dropdown behaves the same way a menu scrolls.</p>
+                            </div>
+                            <div class="figure">
+                                <figure class="s-tag-media">
+                                    <div class="media"><img alt="" src="https://storage.googleapis.com/material-design/publish/material_v_10/assets/0Bzhp5Z4wHba3SUZmdHBlLWk1d3M/components_buttons_dropdown1.png" /></div>
+                                    <figcaption>
+                                        <p>Closed dropdown button, open dropdown menu, and selected dropdown menu</p>
+                                    </figcaption>
+                                </figure>
+                            </div>
+                        </section>
+                    </div>
+                    <div class="col-list">
+                        <section class="module-figure-module col-3">
+                            <div class="module">
+                            </div>
+                            <div class="figure">
+                                <figure class="s-tag-media">
+                                    <div class="media"><img alt="" src="https://storage.googleapis.com/material-design/publish/material_v_10/assets/0B6Okdz75tqQsVkg5V3htMWk0OVk/components_buttons_mobile2.png" /></div>
+                                    <figcaption>
+                                        <p>Generic dropdown button with a list menu</p>
+                                    </figcaption>
+                                </figure>
+                            </div>
+                            <div class="module">
+                            </div>
+                        </section>
+                    </div>
+                    <div class="col-list">
+                        <section class="module-figure col-2">
+                            <div class="module">
+                                <h2><strong>Generic overflow dropdown button</strong></h2>
+                                <p>The generic overflow dropdown button displays an arrow or menu button by default. When the button is pressed, the menu appears. Pressing an option on the menu navigates to further settings for that option. </p>
+                                <h2><strong>Segmented dropdown button</strong></h2>
+                                <p>A segmented dropdown has two sections: the current state and the dropdown arrow icon. Pressing the current state will cause that state’s action to fire within the screen. Pressing the dropdown arrow will display all the state options. Selecting one will change the displayed state. </p>
+                                <h2><strong>Editable segmented dropdown button</strong></h2>
+                                <p>This button has a segmented dropdown, where the displayed state is text editable, such as a font size picker. Pressing the current state causes both that state’s action to fire and makes the displayed state editable. Pressing the arrow displays all the state options. </p>
+                            </div>
+                            <div class="figure">
+                                <figure class="s-tag-media">
+                                    <div class="media"><img alt="" src="https://storage.googleapis.com/material-design/publish/material_v_10/assets/0Bzhp5Z4wHba3RklUaGVRbl9tMDg/components_buttons_dropdown2.png" /></div>
+                                    <figcaption>
+                                        <p>Generic, segmented, and editable overflow dropdown buttons in normal, hover, focus, pressed, and selecting states </p>
+                                    </figcaption>
+                                </figure>
+                            </div>
+                        </section>
+                    </div>
+                    <div class="col-list">
+                        <section class="module-figure-module col-3">
+                            <div class="module">
+                            </div>
+                            <div class="figure">
+                                <figure class="s-tag-media">
+                                    <div class="media">
+                                        <div class="qp-ui" data-qp-ui="{ 'VideoPlayer': {} }">
+                                            <video controls="" loop="" preload="metadata">
+                                                <source src="https://storage.googleapis.com/material-design/publish/material_v_10/assets/0B3321sZLoP_HTS1LdnhrTl9TRzg/components-buttons-otherbuttons-060203_MobileDropdowns_xhdpi_006.webm" type="video/webm">
+                                                <source src="https://storage.googleapis.com/material-design/publish/material_v_10/assets/0B3321sZLoP_HMHZFaEJvMjQxa3M/components-buttons-otherbuttons-060203_MobileDropdowns_xhdpi_006.mp4" type="video/mp4">
+                                                </source>
+                                                </source>
+                                            </video>
+                                        </div>
+                                    </div>
+                                    <figcaption>
+                                        <p>Animation of dropdown button</p>
+                                        <p>
+                                            <a href="https://www.google.com/url?q=https://drive.google.com/a/google.com/file/d/0B4zh50KRqyzMVzB1bl9aZDdkZzQ/edit?usp%3Dsharing&amp;sa=D&amp;ust=1481817981708000&amp;usg=AFQjCNEWD7fWvP4qJ7clYrALLSScllR3Ow" target="_blank"> </a>
+                                        </p>
+                                    </figcaption>
+                                </figure>
+                            </div>
+                            <div class="module">
+                            </div>
+                        </section>
+                    </div>
+                    <div class="col-list">
+                        <section class="module-figure col-2">
+                            <div class="module">
+                                <h1>Desktop dropdowns</h1>
+                                <p>Desktop app bar specs
+                                    <br>
+                                </p>
+                            </div>
+                            <div class="figure">
+                                <figure class="s-tag-media">
+                                    <div class="media"><img alt="" src="https://storage.googleapis.com/material-design/publish/material_v_10/assets/0Bzhp5Z4wHba3U2VCaGE1YmFtQ1k/components_buttons_dropdown3.png" /></div>
+                                    <figcaption>
+                                        <p>Desktop dropdown</p>
+                                        <p>Top and bottom padding: 16dp
+                                            <br> Left padding: 24dp
+                                            <br> Right margin: 16dp
+                                            <br> Horizontal space between font styles: 24dp</p>
+                                    </figcaption>
+                                </figure>
+                            </div>
+                        </section>
+                        <section class="module-module col-2">
+                            <div class="module">
+                            </div>
+                            <div class="module">
+                            </div>
+                        </section>
+                    </div>
                 </div>
-              </div>
-            
-              <div id="buttons-toggle-buttons" class="article qp-ui" data-qp-ui="{ 'ScrollSpy': {} }" data-qp-ui-data-id="qp:8">
-                <h2 class="article-title qp-ui" data-qp-ui="{ 'ResponsiveZippy': {} }" data-qp-ui-data-id="qp:8">
+            </div>
+        </div>
+        <div id="buttons-toggle-buttons" class="article qp-ui" data-qp-ui="{ 'ScrollSpy': {} }" data-qp-ui-data-id="qp:8">
+            <h2 class="article-title qp-ui" data-qp-ui="{ 'ResponsiveZippy': {} }" data-qp-ui-data-id="qp:8">
                   Toggle buttons
                   
                   
@@ -695,64 +1150,127 @@ Horizontal space between font styles: 24dp</p></figcaption></figure></div></sect
                     <polygon role="presentation" points="2.5,4.167 5,6.667 7.5,4.167 6.917,3.583 5,5.5 3.083,3.583"></polygon>
                   </svg>
                 </h2>
-                <div class="article-content">
-                  <div><div class="col-list"><section class="module-figure-figure col-3"><div class="module"><p>Toggle buttons may be used to group related options. Arrange layout and spacing to convey that certain toggle buttons are part of a group.</p><p>Focus and pressed states may reinforce that toggles are part of a group.  For example, when one button segment is focused, focus may be displayed simultaneously on the rest of the segment.</p><p>Toggle button requirements:</p><ul class="lst-kix_7vmhian9fzi5-0 start"><li>Have at least three toggle buttons in a group</li><li>Label buttons with text, an icon, or both</li></ul><p>The following combinations are recommended:</p><ul class="lst-kix_7vmhian9fzi5-0"><li>Multiple and unselected</li><li>Exclusive and unselected</li><li>Exclusive only  </li></ul></div><div class="figure"><figure class="s-tag-media"><div class="media"><img alt="" src="https://storage.googleapis.com/material-design/publish/material_v_10/assets/0Bzhp5Z4wHba3V2JKWk9EbzFaMjg/components_buttons_togglebuttons1.png"/></div><figcaption><p>Exclusive selection</p><p>Text justification toggle buttons present options for left, right, center, full, and justified text with only one item available for selection at a time. Selecting one option deselects any other.</p></figcaption></figure><figure class="s-tag-media"><div class="media"><img alt="" src="https://storage.googleapis.com/material-design/publish/material_v_10/assets/0Bzhp5Z4wHba3ckVldVFCWE1INnc/components_buttons_togglebuttons3.png"/></div><figcaption><p>No options are selected</p></figcaption></figure></div><div class="figure"><figure class="s-tag-media"><div class="media"><img alt="" src="https://storage.googleapis.com/material-design/publish/material_v_10/assets/0Bzhp5Z4wHba3NzNSMUpjSkhtdXM/components_buttons_togglebuttons2.png"/></div><figcaption><p>Multiple selection</p><p>Logically-grouped options, like Bold, Italic, and Underline, allow multiple options to be selected.</p></figcaption></figure><figure class="s-tag-media"><div class="media"><img alt="" src="https://storage.googleapis.com/material-design/publish/material_v_10/assets/0Bzhp5Z4wHba3am5aV3VnUHFhQW8/components_buttons_togglebuttons4.png"/></div><figcaption><p>One option is selected</p></figcaption></figure></div></section><section class="module-module-module col-3"><div class="module">
-</div><div class="module">
-</div><div class="module">
-</div></section></div><div class="col-list"><section class="module-figure col-2"><div class="module"><h1>Icon toggles </h1><p>Icons are appropriate for toggle buttons that allow a single choice to be selected or deselected, such as adding or removing a star to an item.</p><p>They are best located in app bars, toolbars, action buttons or toggles.</p><p>Icon toggles may display bounded or unbounded ink <a href="../motion/choreography.html#choreography-radial-reaction">surface reaction</a> ripples beyond their touch-target bounds.</p></div><div class="figure"><figure class="s-tag-media"><div class="media"><img alt="" src="https://storage.googleapis.com/material-design/publish/material_v_10/assets/0B_udO5B8pzrzdXVuTlBoOTBjcU0/components_buttons_other1.png"/></div><figcaption><p>Icon toggles in normal, hover, focused, pressed, and inactive states  </p></figcaption></figure><figure class="s-tag-media"><div class="media"><img alt="" src="https://storage.googleapis.com/material-design/publish/material_v_10/assets/0Bzhp5Z4wHba3SVpCSlV4MmRERGM/inline-components_buttons_toggleicons.png"/></div><figcaption><p>The icon toggle focus indicator color and opacity are related to the color of the icon. </p></figcaption></figure></div></section></div></div>
+            <div class="article-content">
+                <div>
+                    <div class="col-list">
+                        <section class="module-figure-figure col-3">
+                            <div class="module">
+                                <p>Toggle buttons may be used to group related options. Arrange layout and spacing to convey that certain toggle buttons are part of a group.</p>
+                                <p>Focus and pressed states may reinforce that toggles are part of a group. For example, when one button segment is focused, focus may be displayed simultaneously on the rest of the segment.</p>
+                                <p>Toggle button requirements:</p>
+                                <ul class="lst-kix_7vmhian9fzi5-0 start">
+                                    <li>Have at least three toggle buttons in a group</li>
+                                    <li>Label buttons with text, an icon, or both</li>
+                                </ul>
+                                <p>The following combinations are recommended:</p>
+                                <ul class="lst-kix_7vmhian9fzi5-0">
+                                    <li>Multiple and unselected</li>
+                                    <li>Exclusive and unselected</li>
+                                    <li>Exclusive only </li>
+                                </ul>
+                            </div>
+                            <div class="figure">
+                                <figure class="s-tag-media">
+                                    <div class="media"><img alt="" src="https://storage.googleapis.com/material-design/publish/material_v_10/assets/0Bzhp5Z4wHba3V2JKWk9EbzFaMjg/components_buttons_togglebuttons1.png" /></div>
+                                    <figcaption>
+                                        <p>Exclusive selection</p>
+                                        <p>Text justification toggle buttons present options for left, right, center, full, and justified text with only one item available for selection at a time. Selecting one option deselects any other.</p>
+                                    </figcaption>
+                                </figure>
+                                <figure class="s-tag-media">
+                                    <div class="media"><img alt="" src="https://storage.googleapis.com/material-design/publish/material_v_10/assets/0Bzhp5Z4wHba3ckVldVFCWE1INnc/components_buttons_togglebuttons3.png" /></div>
+                                    <figcaption>
+                                        <p>No options are selected</p>
+                                    </figcaption>
+                                </figure>
+                            </div>
+                            <div class="figure">
+                                <figure class="s-tag-media">
+                                    <div class="media"><img alt="" src="https://storage.googleapis.com/material-design/publish/material_v_10/assets/0Bzhp5Z4wHba3NzNSMUpjSkhtdXM/components_buttons_togglebuttons2.png" /></div>
+                                    <figcaption>
+                                        <p>Multiple selection</p>
+                                        <p>Logically-grouped options, like Bold, Italic, and Underline, allow multiple options to be selected.</p>
+                                    </figcaption>
+                                </figure>
+                                <figure class="s-tag-media">
+                                    <div class="media"><img alt="" src="https://storage.googleapis.com/material-design/publish/material_v_10/assets/0Bzhp5Z4wHba3am5aV3VnUHFhQW8/components_buttons_togglebuttons4.png" /></div>
+                                    <figcaption>
+                                        <p>One option is selected</p>
+                                    </figcaption>
+                                </figure>
+                            </div>
+                        </section>
+                        <section class="module-module-module col-3">
+                            <div class="module">
+                            </div>
+                            <div class="module">
+                            </div>
+                            <div class="module">
+                            </div>
+                        </section>
+                    </div>
+                    <div class="col-list">
+                        <section class="module-figure col-2">
+                            <div class="module">
+                                <h1>Icon toggles </h1>
+                                <p>Icons are appropriate for toggle buttons that allow a single choice to be selected or deselected, such as adding or removing a star to an item.</p>
+                                <p>They are best located in app bars, toolbars, action buttons or toggles.</p>
+                                <p>Icon toggles may display bounded or unbounded ink <a href="../motion/choreography.html#choreography-radial-reaction">surface reaction</a> ripples beyond their touch-target bounds.</p>
+                            </div>
+                            <div class="figure">
+                                <figure class="s-tag-media">
+                                    <div class="media"><img alt="" src="https://storage.googleapis.com/material-design/publish/material_v_10/assets/0B_udO5B8pzrzdXVuTlBoOTBjcU0/components_buttons_other1.png" /></div>
+                                    <figcaption>
+                                        <p>Icon toggles in normal, hover, focused, pressed, and inactive states </p>
+                                    </figcaption>
+                                </figure>
+                                <figure class="s-tag-media">
+                                    <div class="media"><img alt="" src="https://storage.googleapis.com/material-design/publish/material_v_10/assets/0Bzhp5Z4wHba3SVpCSlV4MmRERGM/inline-components_buttons_toggleicons.png" /></div>
+                                    <figcaption>
+                                        <p>The icon toggle focus indicator color and opacity are related to the color of the icon. </p>
+                                    </figcaption>
+                                </figure>
+                            </div>
+                        </section>
+                    </div>
                 </div>
-              </div>
-            
-          <div>
-          
-
+            </div>
         </div>
-        
-      </section>
+        <div>
+        </div>
+        </section>
     </div>
-
     
-      <footer>
-        <div class="footer-grid">
-          
-          <div class="footer-L section-material-design color-indigo">&nbsp;</div>
-          <div class="footer-grid-L section-material-design color-indigo">
-            
-            <a class="footer-text" href="../components/bottom-sheets.html">
-              <i class="material-icons arrow-L" aria-hidden="true">arrow_back</i>
-              <span class="direction">Previous</span><span class="screen-reader">:</span>
-              <div>
-                Bottom sheets
-              </div>
+    
+    
+    
+    
+    
+    <footer>
+    <div class="footer-grid">
+        <div class="footer-L section-material-design color-indigo">&nbsp;</div>
+        <div class="footer-grid-L section-material-design color-cyan">
+            <a class="footer-text" href="bottom-sheets.html">
+                <i class="material-icons arrow-L" aria-hidden="true">arrow_back</i>
+                <span class="direction">Previous</span><span class="screen-reader">:</span>
+                <div>
+                    底部 sheets
+                </div>
             </a>
-            
-          </div>
-
-          
-          <div class="footer-R section-what-is-material color-indigo">&nbsp;</div>
-          <div class="footer-grid-R section-what-is-material color-indigo">
-            
-            <a class="footer-text" href="../components/buttons-floating-action-button.html">
-              <i class="material-icons arrow-R" aria-hidden="true">arrow_forward</i>
-              <span class="direction">Next</span><span class="screen-reader">:</span>
-              <div>
-                Buttons: Floating Action Button
-              </div>
-            </a>
-            
-          </div>
-
         </div>
-      </footer>
-    
-
-    <script src="//www.gstatic.com/external_hosted/picturefill/picturefill.min.js"></script>
-    <script src="../static/js/main.min.js"></script>
-    
-    
-    
-    <script src="//www.gstatic.com/feedback/api.js"></script>
-    
-
-  </body>
+        <div class="footer-R section-what-is-material color-indigo">&nbsp;</div>
+        <div class="footer-grid-R section-what-is-material color-indigo">
+            <a class="footer-text" href="buttons-floating-action-button.html">
+                <i class="material-icons arrow-R">arrow_forward</i>
+                <span class="direction">Next</span>
+                <div>
+                    按钮：浮动按钮
+                </div>
+            </a>
+        </div>
+    </div>
+</footer>
+<script src="../assets/js/picturefill.min.js"></script>
+<script src="../assets/js/main.js"></script>
+</body>
 </html>
