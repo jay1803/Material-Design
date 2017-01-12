@@ -6,20 +6,20 @@
 <div class="chapter-content">
     <div class="article-content chapter-intro">
         <div>
-            <h1>Objects in material design possess similar qualities to objects in the physical world. </h1>
+            <h1>Material Design 中的对象与现实物理世界中的对象有很多相似的性质。</h1>
             <div class="col-list">
                 <section class="module-module-figure col-3">
                     <div class="module">
-                        <p>In the physical world, objects can be stacked or affixed to one another, but cannot pass through each other. Objects also cast shadows and reflect light.</p>
-                        <p>Material design reflects these qualities to form a spatial model that is familiar to users and can be applied consistently across apps. </p>
+                        <p>在物理世界中，对象之间可以相互叠加和拼接，但是无法穿过彼此。对象也会投射出阴影，并且会反射光线。</p>
+                        <p>Material Design 拥有这些特性，并以此构建出用户熟悉的空间模型。这种方式也被广泛的应用在各种应用程序中。</p>
                     </div>
                     <div class="module">
-                        <h3><strong>Elevation</strong></h3>
-                        <p>Measured from the front of one surface to the front of another, an element’s elevation indicates the distance between surfaces and the depth of its shadow.</p>
-                        <h3><strong>Resting elevation</strong></h3>
-                        <p>All material elements have resting elevations. While components have consistent resting elevations across apps, they may have different resting elevations across platforms and devices.</p>
-                        <h3><strong>Dynamic elevation offsets</strong></h3>
-                        <p>Dynamic elevation offsets are the goal elevation that a component moves towards, relative to its resting state.</p>
+                        <h3><strong>高度</strong></h3>
+                        <p>高度是衡量一个表面到另一个表面之间的距离，元素的高度表明了表面之间的距离以及阴影的深度。</p>
+                        <h3><strong>静止高度</strong></h3>
+                        <p>所有的 Material 元素都有一个静止的高度。同一个组件在不同的应用程序中会保持相同的高度，但在不同的平台和设备中可能会有所差异。</p>
+                        <h3><strong>动态高度补偿</strong></h3>
+                        <p>动态高度补偿是组件从静止高度向目标高度移动的距离。</p>
                     </div>
                     <div class="figure">
                         <figure class="s-tag-media">
@@ -31,34 +31,34 @@
         </div>
     </div>
     <nav class="chapter-toc">
-        <h1>Contents</h1>
+        <h1>索引</h1>
         <ul>
-            <li><a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="#elevation-shadows-elevation-android" data-qp-ui-data-id="qp:1">Elevation (Android)</a></li>
-            <li><a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="#elevation-shadows-shadows" data-qp-ui-data-id="qp:2">Shadows</a></li>
-            <li><a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="#elevation-shadows-object-relationships" data-qp-ui-data-id="qp:3">Object relationships</a></li>
+            <li><a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="#elevation-shadows-elevation-android" data-qp-ui-data-id="qp:1">高度 (Android)</a></li>
+            <li><a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="#elevation-shadows-shadows" data-qp-ui-data-id="qp:2">阴影</a></li>
+            <li><a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="#elevation-shadows-object-relationships" data-qp-ui-data-id="qp:3">对象关系</a></li>
         </ul>
     </nav>
     <div class="article-list">
         <div id="elevation-shadows-elevation-android" class="article qp-ui" data-qp-ui="{ 'ScrollSpy': {} }" data-qp-ui-data-id="qp:1">
-            <h2 class="article-title qp-ui" data-qp-ui="{ 'ResponsiveZippy': {} }" data-qp-ui-data-id="qp:1">Elevation (Android)<!-- @include _arrow --></h2>
+            <h2 class="article-title qp-ui" data-qp-ui="{ 'ResponsiveZippy': {} }" data-qp-ui-data-id="qp:1">高度 (Android)<!-- @include _arrow --></h2>
             <div class="article-content">
                 <div>
                     <div class="col-list">
                         <section class="module-figure col-2">
                             <div class="module">
-                                <p>Elevation is the relative depth, or distance, between two surfaces along the z-axis. </p>
-                                <p><strong>Specifications:</strong></p>
+                                <p>高度是一种相对深度、距离，是两个表面在 z-轴 上的距离。</p>
+                                <p><strong>规格说明：</strong></p>
                                 <ul class="lst-kix_ywnojxagdrrs-0 start">
-                                    <li>Elevation is measured in the same units as the x and y axes, typically in density-independent pixels (dp). Because material elements have depth (all material is 1dp thick), elevation is measured in distance from the top of one surface to the top of another.</li>
-                                    <li>A child object's elevation is relative to the parent object's elevation.</li>
+                                    <li>测量高度的单位和 x、y 轴的一致，通常来说是与密度无关的像素（dp）。因为 Material 元素拥有深度（所有的 Material 都是 1dp 的厚度），所以高度被用来测量两个表面之间距离。</li>
+                                    <li>一个子对象的高度是相对于父级而言的。</li>
                                 </ul>
-                                <p>The images and values shown are for Android apps.</p>
+                                <p>这种图片和其中的高度值是针对 Android 应用的。</p>
                             </div>
                             <div class="figure">
                                 <figure class="s-tag-media">
                                     <div class="media"><img alt="" src="<!-- @path whatismaterial_3d_elevation1.png -->" /></div>
                                     <figcaption>
-                                        <p>Multiple elevation measurements for two objects</p>
+                                        <p>不同高度的两个对象。</p>
                                     </figcaption>
                                 </figure>
                             </div>
@@ -67,33 +67,33 @@
                     <div class="col-list">
                         <section class="module-module col-2">
                             <div class="module">
-                                <h1>Resting elevation</h1>
-                                <p>All material objects, regardless of size, have a resting elevation, or default elevation that does not change. If an object changes elevation, it should return to its resting elevation as soon as possible.</p>
-                                <p>Desktop resting elevation is 2dp below the listed values to accommodate mouse and non-touch environments.</p>
-                                <p><strong>Component elevations:</strong></p>
+                                <h1>静止高度</h1>
+                                <p>所有的 Material 对象，无论什么尺寸的，都有一个静止高度，或者说是发生变化之前的默认高度。如果对象的高度发生了改变，那么它会在变化之后尽快回到静止高度。</p>
+                                <p>为了适应鼠标和非触控的操作环境，桌面端的静止高度会比列表中的高度低 2dp。</p>
+                                <p><strong>组件高度：</strong></p>
                                 <ul class="lst-kix_h2btshl9z56-0 start">
-                                    <li>Components maintain consistent resting elevations across apps. For example, the floating action button’s elevation does not vary from one app to another. </li>
-                                    <li>Components may have different resting elevations across platforms and devices, depending on the depth of the environment. For instance, TV has a greater depth than desktop as it has a larger screen and is viewed from further away. Similarly, both TV and desktop have a greater depth than mobile.</li>
+                                    <li>在不同的应用程序中，同一个组件会保持相同的静止高度。比如说，浮动按钮的高度不会因为不同的应用程序而发生变化。</li>
+                                    <li>在不同的平台和设备中，组件可能会有不同的静止高度，这主要取决于环境深度。比如说，电视比桌面的深度更深，因为它的屏幕更大，用户的观看距离更远。同样的，电视和桌面都比移动设备的深度更深。</li>
                                 </ul>
                                 <p> </p>
-                                <h2>Responsive elevation and dynamic elevation offsets</h2>
-                                <p>Some component types have responsive elevation, meaning they change elevation in response to user input (e.g., normal, focused, and pressed) or system events. These elevation changes are consistently implemented using <strong>dynamic elevation offsets</strong>.</p>
-                                <p>Dynamic elevation offsets are the goal elevation that a component moves towards, relative to the component’s resting state. They ensure that elevation changes are consistent across actions and component types. For example, all components that lift on press have the same elevation change relative to their resting elevation.</p>
-                                <p>Once the input event is completed or cancelled, the component will return to its resting elevation.</p>
-                                <h2>Avoiding elevation interference</h2>
-                                <p>Components with responsive elevations may encounter other components as they move between their resting elevations and dynamic elevation offsets. Because <a href="<!-- @path material-properties.html -->#material-properties-physical-properties">material cannot pass through other material</a>, components avoid interfering with one another any number of ways, whether on a per-component basis or using the entire app layout.</p>
-                                <p>On a component level, components can move or be removed before they cause interference. For example, a floating action button (FAB) can disappear or move off-screen before a user picks up a card, or it can move if a snackbar appears.</p>
-                                <p>On the layout level, design your app layout to minimize opportunities for interference. For example, position the FAB to one side of a stream of cards so the FAB won’t interfere when a user tries to pick up one of cards.</p>
+                                <h2>响应高度和动态高度偏移</h2>
+                                <p>有些类型的组件有响应高度，也就是说它们会根据用户的输入（比如，正常、聚焦、按下）和系统事件来改变自身的高度。改变的高度通常就是<strong>动态高度补偿</strong>。</p>
+                                <p>动态高度补偿是组件从静止高度向目标高度移动的距离。以此来确保在组件在类型和动作改变时能保持一致的改变。比如所有的组件在被按下时所提升的高度都是一致的。</p>
+                                <p>一旦输入事件完成或者被取消，组件就会回到静止高度。</p>
+                                <h2>避免冲突</h2>
+                                <p>有响应高度的组件有时候会在改变高度时，会被其他组件挡住。因为<a href="<!-- @path material-properties.html -->#material-properties-physical-properties">Material 不能相互穿透</a>，因此可以通过改变冲突组件的布局或整个应用的布局来避免这些冲突。</p>
+                                <p>对于改变组件而言，在发生冲突前组件可以移动或者被移除。比如当用户激活了一个卡片时，浮动按钮（FAB）就会消失或者移出屏幕，而当一个 Snackbar 出现时，FAB 则会向上移动。</p>
+                                <p>对于整体布局而言，在设计时就要将冲突最小化。比如把 FAB 放在卡片流的旁边，这样当卡片被激活时 FAB 就不会挡住卡片。</p>
                             </div>
                             <div class="module">
                                 <table class="s-tag-table">
                                     <tbody>
                                         <tr>
                                             <td colspan="1" rowspan="1">
-                                                <p>Elevation (dp)</p>
+                                                <p>高度 (dp)</p>
                                             </td>
                                             <td colspan="1" rowspan="1">
-                                                <p>Component</p>
+                                                <p>组件</p>
                                             </td>
                                         </tr>
                                         <tr>
@@ -110,7 +110,7 @@
                                                 <p>16</p>
                                             </td>
                                             <td colspan="1" rowspan="1">
-                                                <p>Nav drawer </p>
+                                                <p>Nav drawer</p>
                                                 <p>Right drawer</p>
                                                 <p>Modal bottom Sheet</p>
                                             </td>
@@ -120,7 +120,7 @@
                                                 <p>12</p>
                                             </td>
                                             <td colspan="1" rowspan="1">
-                                                <p>Floating action button (FAB - pressed)</p>
+                                                <p>Floating action button (FAB - 按下)</p>
                                             </td>
                                         </tr>
                                         <tr>
@@ -128,7 +128,7 @@
                                                 <p>9</p>
                                             </td>
                                             <td colspan="1" rowspan="1">
-                                                <p>Sub menu (+1dp for each sub menu)</p>
+                                                <p>Sub menu (每多一层子菜单高度 +1dp)</p>
                                             </td>
                                         </tr>
                                         <tr>
@@ -136,10 +136,10 @@
                                                 <p>8</p>
                                             </td>
                                             <td colspan="1" rowspan="1">
-                                                <p>Bottom navigation bar</p>
+                                                <p>Bottom navigaton bar</p>
                                                 <p>Menu</p>
-                                                <p>Card (when picked up) </p>
-                                                <p>Raised button (pressed state)</p>
+                                                <p>Card (被激活时) </p>
+                                                <p>Raised button (按下)</p>
                                             </td>
                                         </tr>
                                         <tr>
@@ -147,7 +147,7 @@
                                                 <p>6</p>
                                             </td>
                                             <td colspan="1" rowspan="1">
-                                                <p>Floating action button (FAB - resting elevation)</p>
+                                                <p>Floating action button (FAB - 静止高度)</p>
                                                 <p>Snackbar</p>
                                             </td>
                                         </tr>
@@ -173,9 +173,9 @@
                                                 <p>2</p>
                                             </td>
                                             <td colspan="1" rowspan="1">
-                                                <p>Card (resting elevation) *</p>
-                                                <p>Raised button (resting elevation)*</p>
-                                                <p>Quick entry / Search bar (resting elevation)</p>
+                                                <p>Card (静止高度) *</p>
+                                                <p>Raised button (静止高度)*</p>
+                                                <p>Quick entry / Search bar (静止高度)</p>
                                             </td>
                                         </tr>
                                         <tr>
@@ -194,12 +194,12 @@
                     <div class="col-list">
                         <section class="figure col-1">
                             <div class="figure">
-                                <h1>Component elevation comparisons</h1>
-                                <p>The following diagram compares component resting elevations and dynamic elevation offsets. </p>
+                                <h1>组件的高度对比</h1>
+                                <p>下图中比较了组件的静止高度和动态高度补偿。</p>
                                 <figure class="s-tag-media">
                                     <div class="media"><img alt="" src="<!-- @path whatismaterial_3d_elevation2.png -->" /></div>
                                     <figcaption>
-                                        <p>In this diagram, only the elevation dimensions and layout for components are accurate. Other dimensions and overall layout of components are for illustration only.</p>
+                                        <p>上图中只有组件的高度是准确的，不要纠结图片中组件的长宽和整体布局，这些都只是为了做图而已。</p>
                                     </figcaption>
                                 </figure>
                             </div>
