@@ -6,11 +6,11 @@
 <div class="chapter-content">
     <div class="article-content chapter-intro">
         <div>
-            <h1>Material Design 中的对象与现实物理世界中的对象有很多相似的性质。</h1>
+            <h1>Material Design 中的物体与现实物理世界中的物体有很多相似的性质。</h1>
             <div class="col-list">
                 <section class="module-module-figure col-3">
                     <div class="module">
-                        <p>在物理世界中，对象之间可以相互叠加和拼接，但是无法穿过彼此。对象也会投射出阴影，并且会反射光线。</p>
+                        <p>在物理世界中，物体之间可以相互叠加和拼接，但是无法彼此交叉。物体也会投射出阴影，并且会反射光线。</p>
                         <p>Material Design 拥有这些特性，并以此构建出用户熟悉的空间模型。这种方式也被广泛的应用在各种应用程序中。</p>
                     </div>
                     <div class="module">
@@ -35,7 +35,7 @@
         <ul>
             <li><a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="#elevation-shadows-elevation-android" data-qp-ui-data-id="qp:1">高度 (Android)</a></li>
             <li><a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="#elevation-shadows-shadows" data-qp-ui-data-id="qp:2">阴影</a></li>
-            <li><a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="#elevation-shadows-object-relationships" data-qp-ui-data-id="qp:3">对象关系</a></li>
+            <li><a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="#elevation-shadows-object-relationships" data-qp-ui-data-id="qp:3">物体关系</a></li>
         </ul>
     </nav>
     <div class="article-list">
@@ -50,7 +50,7 @@
                                 <p><strong>规格说明：</strong></p>
                                 <ul class="lst-kix_ywnojxagdrrs-0 start">
                                     <li>测量高度的单位和 x、y 轴的一致，通常来说是与密度无关的像素（dp）。因为 Material 元素拥有深度（所有的 Material 都是 1dp 的厚度），所以高度被用来测量两个表面之间距离。</li>
-                                    <li>一个子对象的高度是相对于父级而言的。</li>
+                                    <li>一个子物体的高度是相对于父级而言的。</li>
                                 </ul>
                                 <p>这种图片和其中的高度值是针对 Android 应用的。</p>
                             </div>
@@ -58,7 +58,7 @@
                                 <figure class="s-tag-media">
                                     <div class="media"><img alt="" src="<!-- @path whatismaterial_3d_elevation1.png -->" /></div>
                                     <figcaption>
-                                        <p>不同高度的两个对象。</p>
+                                        <p>不同高度的两个物体。</p>
                                     </figcaption>
                                 </figure>
                             </div>
@@ -68,7 +68,7 @@
                         <section class="module-module col-2">
                             <div class="module">
                                 <h1>静止高度</h1>
-                                <p>所有的 Material 对象，无论什么尺寸的，都有一个静止高度，或者说是发生变化之前的默认高度。如果对象的高度发生了改变，那么它会在变化之后尽快回到静止高度。</p>
+                                <p>所有的 Material 物体，无论什么尺寸的，都有一个静止高度，或者说是发生变化之前的默认高度。如果物体的高度发生了改变，那么它会在变化之后尽快回到静止高度。</p>
                                 <p>为了适应鼠标和非触控的操作环境，桌面端的静止高度会比列表中的高度低 2dp。</p>
                                 <p><strong>组件高度：</strong></p>
                                 <ul class="lst-kix_h2btshl9z56-0 start">
@@ -211,7 +211,7 @@
                                 <figure class="s-tag-media">
                                     <div class="media"><img alt="" src="<!-- @path whatismaterial_3d_elevation3.png -->" /></div>
                                     <figcaption>
-                                        <p>An example app layout with cards and a floating action button, along with a cross-section diagram of its component elevations along its z-axis</p>
+                                        <p>这是一个组件的 z-轴 高度的剖面图，案例中包含了卡片和浮动按钮。</p>
                                     </figcaption>
                                 </figure>
                             </div>
@@ -223,7 +223,7 @@
                                 <figure class="s-tag-media">
                                     <div class="media"><img alt="" src="<!-- @path whatismaterial_3d_elevation4.png -->" /></div>
                                     <figcaption>
-                                        <p>An example app layout with an open navigation drawer, along with a cross-section diagram of its component elevations along its z-axis.</p>
+                                        <p>这是一个组件的 z-轴 高度的剖面图，案例中包含了一个打开的抽屉导航。</p>
                                     </figcaption>
                                 </figure>
                             </div>
@@ -233,18 +233,18 @@
             </div>
         </div>
         <div id="elevation-shadows-shadows" class="article qp-ui" data-qp-ui="{ 'ScrollSpy': {} }" data-qp-ui-data-id="qp:2">
-            <h2 class="article-title qp-ui" data-qp-ui="{ 'ResponsiveZippy': {} }" data-qp-ui-data-id="qp:2">Shadows<!-- @include _arrow --></h2>
+            <h2 class="article-title qp-ui" data-qp-ui="{ 'ResponsiveZippy': {} }" data-qp-ui-data-id="qp:2">阴影<!-- @include _arrow --></h2>
             <div class="article-content">
                 <div>
-                    <p>Shadows provide important visual cues about objects’ depth and directional movement. They are the only visual cue indicating the amount of separation between surfaces. An object’s elevation determines the appearance of its shadow.</p>
+                    <p>阴影是一个重要的视觉暗示，它暗示了物体的深度和运动方向。也是区分两个物体的唯一视觉暗示。阴影大小于物体所处的高度有关。</p>
                     <div class="col-list">
                         <section class="figure-figure-figure col-3">
                             <div class="figure">
                                 <figure class="s-tag-media">
                                     <div class="media"><img alt="" src="<!-- @path whatismaterial_3d_elevation_shadow1.png -->" /></div>
                                     <figcaption>
-                                        <p class="s-tag-caption dont">Don't.</p>
-                                        <p>Without a shadow, nothing indicates that the floating action button is separate from the background surfaces.</p>
+                                        <p class="s-tag-caption dont">错</p>
+                                        <p>没有了阴影，就无法表现出浮动按钮是独立于底部的背景的。</p>
                                     </figcaption>
                                 </figure>
                             </div>
@@ -252,8 +252,8 @@
                                 <figure class="s-tag-media">
                                     <div class="media"><img alt="" src="<!-- @path whatismaterial_3d_elevation_shadow2.png -->" /></div>
                                     <figcaption>
-                                        <p class="s-tag-caption dont">Don't.</p>
-                                        <p>Crisp shadows indicate the floating action button and the blue sheet are separate elements. However, their shadows are so similar that they imply they are both at the same elevation.</p>
+                                        <p class="s-tag-caption dont">错</p>
+                                        <p>明显的阴影区分可以暗示出浮动按钮和蓝色 sheet 是相互分离的。而上图中，浮动按钮和 sheet 的阴影大小相同，也就暗示了它们是处在同一高的。</p>
                                     </figcaption>
                                 </figure>
                             </div>
@@ -261,22 +261,22 @@
                                 <figure class="s-tag-media">
                                     <div class="media"><img alt="" src="<!-- @path whatismaterial_3d_elevation_shadow3.png -->" /></div>
                                     <figcaption>
-                                        <p class="s-tag-caption do">Do.</p>
-                                        <p>Softer, larger shadows indicate the floating action button is at a higher elevation than the blue sheet, which has a crisper shadow.</p>
+                                        <p class="s-tag-caption do">对</p>
+                                        <p>更大、更虚化的阴影暗示了浮动按钮拥有比蓝色 sheet 更高的高度。</p>
                                     </figcaption>
                                 </figure>
                             </div>
                         </section>
                     </div>
-                    <p>In motion, shadows provide useful cues about an object’s direction of movement and whether the distance between surfaces is increasing or decreasing.</p>
+                    <p>在物体的运动中，阴影可以有效的暗示出物体的运动方向，升高或者降低。</p>
                     <div class="col-list">
                         <section class="figure-figure-figure col-3">
                             <div class="figure">
                                 <figure class="s-tag-media">
                                     <div class="media"><img alt="" src="<!-- @path whatismaterial_3d_elevation_shadow4.png -->" /></div>
                                     <figcaption>
-                                        <p class="s-tag-caption dont">Don't.</p>
-                                        <p>Without a shadow to indicate elevation, it’s unclear whether this square is increasing in size or increasing its elevation.</p>
+                                        <p class="s-tag-caption dont">错</p>
+                                        <p>没有了阴影暗示高度，人们无法看出是物体的尺寸还是高度发生了变化。</p>
                                     </figcaption>
                                 </figure>
                             </div>
@@ -284,8 +284,8 @@
                                 <figure class="s-tag-media">
                                     <div class="media"><img alt="" src="<!-- @path whatismaterial_3d_elevation_shadow5.png -->" /></div>
                                     <figcaption>
-                                        <p class="s-tag-caption do">Do.</p>
-                                        <p>The shadow grows softer and larger as the object’s elevation increases and grows crisper and smaller as the elevation decreases.</p>
+                                        <p class="s-tag-caption do">对</p>
+                                        <p>更虚化、更大的阴影暗示出物体提升了高度，而更锐利、更小的阴影则暗示了物体降低了高度。</p>
                                     </figcaption>
                                 </figure>
                             </div>
@@ -293,15 +293,15 @@
                                 <figure class="s-tag-media">
                                     <div class="media"><img alt="" src="<!-- @path whatismaterial_3d_elevation_shadow6.png -->" /></div>
                                     <figcaption>
-                                        <p class="s-tag-caption do">Do.</p>
-                                        <p>In this case, the consistent shadow helps the user understand that the object is changing shape as opposed to changing elevation.</p>
+                                        <p class="s-tag-caption do">对</p>
+                                        <p>这个案例中，一致的阴影可以帮助用户理解物体改变的是形状而不是高度。</p>
                                     </figcaption>
                                 </figure>
                             </div>
                         </section>
                     </div>
-                    <h1>Component reference shadows</h1>
-                    <p>The following component shadows should be used as canonical references. If there are any differences between the following reference shadows and component shadows found elsewhere within this spec, defer to these reference shadows.</p>
+                    <h1>组件的推荐阴影</h1>
+                    <p>强烈建议按照推荐来使用以下组件的阴影。如果你在《Material Design Guideline》中发现以下组件在其他地方与这里的规范不相符，请以此为参考。</p>
                     <div class="col-list">
                         <section class="module-figure col-2">
                             <div class="module">
@@ -312,7 +312,7 @@
                                 <figure class="s-tag-media">
                                     <div class="media"><img alt="" src="<!-- @path whatismaterial_3d_elevation_component06.png -->" /></div>
                                     <figcaption>
-                                        <p>Example of an app bar </p>
+                                        <p>App bar 示例</p>
                                     </figcaption>
                                 </figure>
                             </div>
@@ -320,12 +320,12 @@
                         <section class="module-figure col-2">
                             <div class="module">
                                 <p><strong>Raised button<br>
-</strong>Resting state: 2dp
-                                    <br> Pressed state: 8dp</p>
-                                <p>For desktop only, raised buttons can have an elevation of:
-                                    <br> Resting state: 0dp
-                                    <br> Pressed state: 2dp</p>
-                                <p>See <a href="<!-- @path buttons.html -->#buttons-raised-buttons">raised buttons</a> for more information</p>
+                                </strong>静止状态: 2dp
+                                    <br> 按下状态: 8dp</p>
+                                <p>仅适用于桌面环境，浮起按钮可以有以下高度：
+                                    <br> 静止状态: 0dp
+                                    <br> 按下状态: 2dp</p>
+                                <p>更多详情可参考<a href="<!-- @path buttons.html -->#buttons-raised-buttons">raised buttons</a></p>
                             </div>
                             <div class="figure">
                                 <figure class="s-tag-media">
@@ -335,9 +335,9 @@
                         </section>
                         <section class="module-figure col-2">
                             <div class="module">
-                                <p><strong>Floating action button (FAB)</strong></p>
-                                <p>Resting state: 6dp</p>
-                                <p>Pressed state: 12dp</p>
+                                <p><strong>浮动按钮 (FAB)</strong></p>
+                                <p>静止状态: 6dp</p>
+                                <p>按下状态: 12dp</p>
                             </div>
                             <div class="figure">
                                 <figure class="s-tag-media">
@@ -347,10 +347,10 @@
                         </section>
                         <section class="module-figure col-2">
                             <div class="module">
-                                <p><strong>Card</strong></p>
-                                <p>Resting state: 2dp</p>
-                                <p>Raised state: 8dp</p>
-                                <p>For<strong> </strong>Desktop only, see <a href="<!-- @path cards.html -->#cards-content-blocks">Content blocks</a>.</p>
+                                <p><strong>卡片</strong></p>
+                                <p>静止状态: 2dp</p>
+                                <p>聚焦状态: 8dp</p>
+                                <p>了解仅适用于桌面环境的内容, 请参考<a href="<!-- @path cards.html -->#cards-content-blocks">Content blocks</a>.</p>
                             </div>
                             <div class="figure">
                                 <figure class="s-tag-media">
@@ -360,9 +360,9 @@
                         </section>
                         <section class="module-figure col-2">
                             <div class="module">
-                                <p><strong>Menus and sub menus</strong></p>
-                                <p>Menus: 8dp</p>
-                                <p>Sub menus: 9dp (+1 dp for each sub menu)</p>
+                                <p><strong>菜单以及子菜单</strong></p>
+                                <p>菜单: 8dp</p>
+                                <p>子菜单: 9dp (每多一层子菜单高度 +1dp)</p>
                             </div>
                             <div class="figure">
                                 <figure class="s-tag-media">
@@ -372,7 +372,7 @@
                         </section>
                         <section class="module-figure col-2">
                             <div class="module">
-                                <p><strong>Dialogs</strong></p>
+                                <p><strong>对话框</strong></p>
                                 <p>24dp</p>
                             </div>
                             <div class="figure">
@@ -383,7 +383,7 @@
                         </section>
                         <section class="module-figure col-2">
                             <div class="module">
-                                <p><strong>Nav Drawer &amp; Right drawer</strong></p>
+                                <p><strong>抽屉导航 &amp; 右侧抽屉</strong></p>
                                 <p>16dp</p>
                             </div>
                             <div class="figure">
@@ -453,14 +453,14 @@
             </div>
         </div>
         <div id="elevation-shadows-object-relationships" class="article qp-ui" data-qp-ui="{ 'ScrollSpy': {} }" data-qp-ui-data-id="qp:3">
-            <h2 class="article-title qp-ui" data-qp-ui="{ 'ResponsiveZippy': {} }" data-qp-ui-data-id="qp:3">Object relationships<!-- @include _arrow --><!-- @include _arrow --></h2>
+            <h2 class="article-title qp-ui" data-qp-ui="{ 'ResponsiveZippy': {} }" data-qp-ui-data-id="qp:3">物体间的相互关系<!-- @include _arrow --><!-- @include _arrow --></h2>
             <div class="article-content">
                 <div>
                     <div class="col-list">
                         <section class="module-figure col-2">
                             <div class="module">
-                                <h1>Object hierarchy</h1>
-                                <p>How you organize objects, or collections of objects, in an app determines how they move in relation to one another. Objects can move independently of each other or be constrained by objects higher in the hierarchy. </p>
+                                <h1>物体结构体系</h1>
+                                <p>你如何识别和归纳物体，在应用中这说明了How you organize objects, or collections of objects, in an app determines how they move in relation to one another. Objects can move independently of each other or be constrained by objects higher in the hierarchy. </p>
                                 <p>All objects are part of a hierarchy described in terms of a parent-child relationships. The “child” in each of these relationships refers to an element that is a subordinate to its “parent” element. Objects can be children of either the system or another object. </p>
                                 <p>Parent-child specifics:</p>
                                 <ul class="lst-kix_vujeetwcvlnf-0 start">
