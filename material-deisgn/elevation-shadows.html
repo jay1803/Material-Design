@@ -460,31 +460,31 @@
                         <section class="module-figure col-2">
                             <div class="module">
                                 <h1>物体结构体系</h1>
-                                <p>你如何识别和归纳物体，在应用中这说明了How you organize objects, or collections of objects, in an app determines how they move in relation to one another. Objects can move independently of each other or be constrained by objects higher in the hierarchy. </p>
-                                <p>All objects are part of a hierarchy described in terms of a parent-child relationships. The “child” in each of these relationships refers to an element that is a subordinate to its “parent” element. Objects can be children of either the system or another object. </p>
-                                <p>Parent-child specifics:</p>
+                                <p>在应用中物体的运动关系取决于你如何组织和归纳物体。物体可以独立运动，但也可以被父级限制在一定范围内。</p>
+                                <p>所有的物体都是父-子关系中的一员。子元素的级别比较低，因此必须服从父级。物体的父级可以是系统也可以其他物体。</p>
+                                <p>父-子关系详解:</p>
                                 <ul class="lst-kix_vujeetwcvlnf-0 start">
-                                    <li>Each object has one parent.</li>
-                                    <li>Each object may have any number of children. </li>
-                                    <li>Children inherit transformative properties from their parent, such as position, rotation, scale, and elevation. </li>
-                                    <li>Siblings are objects at the same level of hierarchy.</li>
+                                    <li>每个物体都有其父级。</li>
+                                    <li>每个物体可能会有一定数量的子级。</li>
+                                    <li>子级会继承父级的运动属性，比如位置、旋转、缩放和高度。</li>
+                                    <li>同级的物体在等级关系中处于同一水平中。</li>
                                 </ul>
-                                <h2><strong><strong>Exceptions</strong></strong></h2>
-                                <p>Items parented to the root, such as primary UI elements, move independently of other objects. For example, the floating action button does not scroll with content. Other elements include:</p>
+                                <h2><strong><strong>例外</strong></strong></h2>
+                                <p>根目录的子级（比如主要的 UI 元素）可以独立的移动。比如浮动按钮不会随着内容的滚动而移动。其他元素包括：</p>
                                 <ul class="lst-kix_q1k9qrwkv05c-0 start">
-                                    <li>An app’s side nav drawer</li>
-                                    <li>The action bar </li>
-                                    <li>Dialogs</li>
+                                    <li>应用的抽屉导航</li>
+                                    <li>工具栏</li>
+                                    <li>对话框</li>
                                 </ul>
-                                <h2><strong><strong>Interaction</strong></strong></h2>
-                                <p>How objects interact with one another is determined by their place in the parent-child hierarchy. </p>
-                                <p>For example:</p>
+                                <h2><strong><strong>交互</strong></strong></h2>
+                                <p>物体之间如何交互，取决于它们处在父-子等级关系中的位置。</p>
+                                <p>比如：</p>
                                 <ul class="lst-kix_lr0wngj8xi4f-0 start">
-                                    <li>Children have minimal z-axis separation from their parent; other objects do not get inserted between parents and children. </li>
-                                    <li>In a scrolling card collection, the cards are siblings of each other, so they all move together in tandem. They are children of the card collection object that controls their movement.</li>
+                                    <li>子元素是距离父元素最近的元素；也就是说，在子元素和父元素之间不能插入其他元素。</li>
+                                    <li>当卡片集合的滚动时，卡片之间是同级关系，所以它们按顺序一起滚动。而卡片内部的元素则被卡片自身所控制。</li>
                                 </ul>
-                                <h2><strong><strong>Elevation</strong></strong></h2>
-                                <p>How you determine the elevation of objects – their position in z-space – depends on the content hierarchy you want to express and whether an object needs to move independently of other objects. </p>
+                                <h2><strong><strong>高度</strong></strong></h2>
+                                <p>你如何确定一个物体的高度 —— 也就是在 z-轴 的位置 —— 取决于物体在等级关系中的位置，以及它是否需要独立移动。</p>
                             </div>
                             <div class="figure">
                                 <figure class="s-tag-media">
@@ -499,7 +499,7 @@
                                         </div>
                                     </div>
                                     <figcaption>
-                                        <p>As the parent sheet scrolls, the raised button (its child) scrolls off screen with it.</p>
+                                        <p>当父级滚动时，浮起的按钮（子元素）会跟着一起滚动。</p>
                                     </figcaption>
                                 </figure>
                                 <figure class="s-tag-media">
@@ -514,7 +514,7 @@
                                         </div>
                                     </div>
                                     <figcaption>
-                                        <p>As the card collection scrolls off-screen, its child cards scroll off-screen with it. The floating action button remains in place because its parent is not being scrolled.</p>
+                                        <p>当卡片集合滚动时，所有的卡片都会跟着一起滚动。但是浮动按钮却保持原有的位置。</p>
                                     </figcaption>
                                 </figure>
                             </div>
