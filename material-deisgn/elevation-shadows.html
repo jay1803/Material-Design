@@ -6,12 +6,12 @@
 <div class="chapter-content">
     <div class="article-content chapter-intro">
         <div>
-            <h1>Material Design 中的物体与现实物理世界中的物体有很多相似的性质。</h1>
+            <h1>Material Design 中的物体与物理世界中的物体有很多相似的性质。</h1>
             <div class="col-list">
                 <section class="module-module-figure col-3">
                     <div class="module">
                         <p>在物理世界中，物体之间可以相互叠加和拼接，但是无法彼此交叉。物体也会投射出阴影，并且会反射光线。</p>
-                        <p>Material Design 拥有这些特性，并以此构建出用户熟悉的空间模型。这种方式也被广泛的应用在各种应用程序中。</p>
+                        <p>Material Design 的物体也拥有这些特性，并以此构建出用户熟悉的空间模型。这种方式也被广泛的应用在应用程序的设计中。</p>
                     </div>
                     <div class="module">
                         <h3><strong>高度</strong></h3>
@@ -50,9 +50,9 @@
                                 <p><strong>规格说明：</strong></p>
                                 <ul class="lst-kix_ywnojxagdrrs-0 start">
                                     <li>测量高度的单位和 x、y 轴的一致，通常来说是与密度无关的像素（dp）。因为 Material 元素拥有深度（所有的 Material 都是 1dp 的厚度），所以高度被用来测量两个表面之间距离。</li>
-                                    <li>一个子物体的高度是相对于父级而言的。</li>
+                                    <li>一个子元素的高度是相对于父级而言的。</li>
                                 </ul>
-                                <p>这种图片和其中的高度值是针对 Android 应用的。</p>
+                                <p>这张图片和其中的高度值是针对 Android 应用的。</p>
                             </div>
                             <div class="figure">
                                 <figure class="s-tag-media">
@@ -76,12 +76,12 @@
                                     <li>在不同的平台和设备中，组件可能会有不同的静止高度，这主要取决于环境深度。比如说，电视比桌面的深度更深，因为它的屏幕更大，用户的观看距离更远。同样的，电视和桌面都比移动设备的深度更深。</li>
                                 </ul>
                                 <p> </p>
-                                <h2>响应高度和动态高度偏移</h2>
+                                <h2>响应高度和动态高度补偿</h2>
                                 <p>有些类型的组件有响应高度，也就是说它们会根据用户的输入（比如，正常、聚焦、按下）和系统事件来改变自身的高度。改变的高度通常就是<strong>动态高度补偿</strong>。</p>
-                                <p>动态高度补偿是组件从静止高度向目标高度移动的距离。以此来确保在组件在类型和动作改变时能保持一致的改变。比如所有的组件在被按下时所提升的高度都是一致的。</p>
+                                <p>动态高度补偿是组件从静止高度向目标高度移动的距离。以此来确保在组件的类型或发生操作时的改变能保持一致。比如所有的组件在被按下时所提升的高度都是一致的。</p>
                                 <p>一旦输入事件完成或者被取消，组件就会回到静止高度。</p>
                                 <h2>避免冲突</h2>
-                                <p>有响应高度的组件有时候会在改变高度时，会被其他组件挡住。因为<a href="<!-- @path material-properties.html -->#material-properties-physical-properties">Material 不能相互穿透</a>，因此可以通过改变冲突组件的布局或整个应用的布局来避免这些冲突。</p>
+                                <p>有响应高度的组件有时候在改变高度时，会被其他组件挡住。因为<a href="<!-- @path material-properties.html -->#material-properties-physical-properties">Material 的物体不能彼此交叉</a>，因此可以通过改变冲突组件的布局或整个应用的布局来避免这些冲突。</p>
                                 <p>对于改变组件而言，在发生冲突前组件可以移动或者被移除。比如当用户激活了一个卡片时，浮动按钮（FAB）就会消失或者移出屏幕，而当一个 Snackbar 出现时，FAB 则会向上移动。</p>
                                 <p>对于整体布局而言，在设计时就要将冲突最小化。比如把 FAB 放在卡片流的旁边，这样当卡片被激活时 FAB 就不会挡住卡片。</p>
                             </div>
@@ -101,7 +101,7 @@
                                                 <p>24</p>
                                             </td>
                                             <td colspan="1" rowspan="1">
-                                                <p>Dialog</p>
+                                                <p>对话框</p>
                                                 <p>Picker</p>
                                             </td>
                                         </tr>
@@ -110,8 +110,8 @@
                                                 <p>16</p>
                                             </td>
                                             <td colspan="1" rowspan="1">
-                                                <p>Nav drawer</p>
-                                                <p>Right drawer</p>
+                                                <p>导航抽屉</p>
+                                                <p>右侧抽屉</p>
                                                 <p>Modal bottom Sheet</p>
                                             </td>
                                         </tr>
@@ -120,7 +120,7 @@
                                                 <p>12</p>
                                             </td>
                                             <td colspan="1" rowspan="1">
-                                                <p>Floating action button (FAB - 按下)</p>
+                                                <p>浮动按钮 (FAB - 按下)</p>
                                             </td>
                                         </tr>
                                         <tr>
@@ -128,7 +128,7 @@
                                                 <p>9</p>
                                             </td>
                                             <td colspan="1" rowspan="1">
-                                                <p>Sub menu (每多一层子菜单高度 +1dp)</p>
+                                                <p>子菜单（每多一层子菜单高度 +1dp）</p>
                                             </td>
                                         </tr>
                                         <tr>
@@ -136,10 +136,10 @@
                                                 <p>8</p>
                                             </td>
                                             <td colspan="1" rowspan="1">
-                                                <p>Bottom navigaton bar</p>
-                                                <p>Menu</p>
-                                                <p>Card (被激活时) </p>
-                                                <p>Raised button (按下)</p>
+                                                <p>底部导航栏</p>
+                                                <p>菜单</p>
+                                                <p>卡片（被激活时）</p>
+                                                <p>Raised button（按下时）</p>
                                             </td>
                                         </tr>
                                         <tr>
@@ -147,7 +147,7 @@
                                                 <p>6</p>
                                             </td>
                                             <td colspan="1" rowspan="1">
-                                                <p>Floating action button (FAB - 静止高度)</p>
+                                                <p>浮动按钮（FAB - 静止高度）</p>
                                                 <p>Snackbar</p>
                                             </td>
                                         </tr>
@@ -156,7 +156,7 @@
                                                 <p>4</p>
                                             </td>
                                             <td colspan="1" rowspan="1">
-                                                <p>App Bar</p>
+                                                <p>应用栏</p>
                                             </td>
                                         </tr>
                                         <tr>
@@ -173,9 +173,9 @@
                                                 <p>2</p>
                                             </td>
                                             <td colspan="1" rowspan="1">
-                                                <p>Card (静止高度) *</p>
-                                                <p>Raised button (静止高度)*</p>
-                                                <p>Quick entry / Search bar (静止高度)</p>
+                                                <p>卡片（静止高度）*</p>
+                                                <p>Raised button（静止高度）*</p>
+                                                <p>Quick entry / Search bar（静止高度）</p>
                                             </td>
                                         </tr>
                                         <tr>
@@ -183,7 +183,7 @@
                                                 <p>1</p>
                                             </td>
                                             <td colspan="1" rowspan="1">
-                                                <p>Switch</p>
+                                                <p>开关</p>
                                             </td>
                                         </tr>
                                     </tbody>
@@ -301,7 +301,7 @@
                         </section>
                     </div>
                     <h1>组件的推荐阴影</h1>
-                    <p>强烈建议按照推荐来使用以下组件的阴影。如果你在《Material Design Guideline》中发现以下组件在其他地方与这里的规范不相符，请以此为参考。</p>
+                    <p>强烈建议按照推荐的阴影来使用以下组件。如果你在《Material Design Guideline》中发现以下组件在其他地方与这里的规范不相符，请以此为参考。</p>
                     <div class="col-list">
                         <section class="module-figure col-2">
                             <div class="module">
@@ -325,7 +325,7 @@
                                 <p>仅适用于桌面环境，浮起按钮可以有以下高度：
                                     <br> 静止状态: 0dp
                                     <br> 按下状态: 2dp</p>
-                                <p>更多详情可参考<a href="<!-- @path buttons.html -->#buttons-raised-buttons">raised buttons</a></p>
+                                <p>更多详情可参考 <a href="<!-- @path buttons.html -->#buttons-raised-buttons">raised buttons</a></p>
                             </div>
                             <div class="figure">
                                 <figure class="s-tag-media">
@@ -350,7 +350,7 @@
                                 <p><strong>卡片</strong></p>
                                 <p>静止状态: 2dp</p>
                                 <p>聚焦状态: 8dp</p>
-                                <p>了解仅适用于桌面环境的内容, 请参考<a href="<!-- @path cards.html -->#cards-content-blocks">Content blocks</a>.</p>
+                                <p>了解仅适用于桌面环境的内容, 请参考 <a href="<!-- @path cards.html -->#cards-content-blocks">Content blocks</a>.</p>
                             </div>
                             <div class="figure">
                                 <figure class="s-tag-media">
@@ -439,7 +439,7 @@
                         </section>
                         <section class="module-figure col-2">
                             <div class="module">
-                                <p><strong>Switch</strong></p>
+                                <p><strong>开关</strong></p>
                                 <p>1dp</p>
                             </div>
                             <div class="figure">
@@ -467,7 +467,7 @@
                                     <li>每个物体都有其父级。</li>
                                     <li>每个物体可能会有一定数量的子级。</li>
                                     <li>子级会继承父级的运动属性，比如位置、旋转、缩放和高度。</li>
-                                    <li>同级的物体在等级关系中处于同一水平中。</li>
+                                    <li>同级的物体在等级关系中处于同一水平。</li>
                                 </ul>
                                 <h2><strong><strong>例外</strong></strong></h2>
                                 <p>根目录的子级（比如主要的 UI 元素）可以独立的移动。比如浮动按钮不会随着内容的滚动而移动。其他元素包括：</p>
@@ -481,10 +481,10 @@
                                 <p>比如：</p>
                                 <ul class="lst-kix_lr0wngj8xi4f-0 start">
                                     <li>子元素是距离父元素最近的元素；也就是说，在子元素和父元素之间不能插入其他元素。</li>
-                                    <li>当卡片集合的滚动时，卡片之间是同级关系，所以它们按顺序一起滚动。而卡片内部的元素则被卡片自身所控制。</li>
+                                    <li>当卡片集合滚动时，卡片之间是同级关系，所以它们一起滚动。而卡片内部的元素则被卡片自身所控制。</li>
                                 </ul>
                                 <h2><strong><strong>高度</strong></strong></h2>
-                                <p>你如何确定一个物体的高度 —— 也就是在 z-轴 的位置 —— 取决于物体在等级关系中的位置，以及它是否需要独立移动。</p>
+                                <p>你如何确定一个物体的高度（z-轴 的位置）取决于物体在等级关系中的位置，以及它是否需要独立移动。</p>
                             </div>
                             <div class="figure">
                                 <figure class="s-tag-media">
