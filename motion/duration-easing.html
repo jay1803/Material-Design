@@ -1,4 +1,4 @@
-<!-- $title 持续时间 &amp; 缓动 -->
+<!-- $title 过渡时长 &amp; 缓动 -->
 <!-- $theme 动画 -->
 <!-- $currentColor purple -->
 <!-- @include header -->
@@ -9,14 +9,15 @@
             <div class="col-list">
                 <section class="module-module-figure col-3">
                     <div class="module">
-                        <p>Material in motion is responsive and natural. Use these easing curves and duration patterns to create smooth and consistent motion.</p>
+                        <p>Material 的动画反应灵敏并且自然。使用模式化的缓动曲线和过渡时长可以创建平滑、连贯的动画。</p>
                     </div>
                     <div class="module">
-                        <h3>Easing curves</h3>
-                        <p>Standard curve
-                            <br> Deceleration curve
-                            <br> Acceleration curve
-                            <br> Sharp curve</p>
+                        <h3>缓动曲线</h3>
+                        <p>标准曲线
+                            <br> 减速曲线
+                            <br> 加速曲线
+                            <br> sharp curve</p>
+                            <!-- @todo 翻译 Sharpe Curve -->
                     </div>
                     <div class="figure">
                         <figure class="s-tag-media">
@@ -28,25 +29,25 @@
         </div>
     </div>
     <nav class="chapter-toc">
-        <h1>Contents</h1>
+        <h1>索引</h1>
         <ul>
-            <li><a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="#duration-easing-speed" data-qp-ui-data-id="qp:1">Speed</a></li>
-            <li><a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="#duration-easing-dynamic-durations" data-qp-ui-data-id="qp:2">Dynamic durations</a></li>
-            <li><a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="#duration-easing-common-durations" data-qp-ui-data-id="qp:3">Common durations</a></li>
-            <li><a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="#duration-easing-natural-easing-curves" data-qp-ui-data-id="qp:4">Natural easing curves</a></li>
+            <li><a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="#duration-easing-speed" data-qp-ui-data-id="qp:1">速度</a></li>
+            <li><a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="#duration-easing-dynamic-durations" data-qp-ui-data-id="qp:2">动态过渡时长</a></li>
+            <li><a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="#duration-easing-common-durations" data-qp-ui-data-id="qp:3">常用过渡时长</a></li>
+            <li><a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="#duration-easing-natural-easing-curves" data-qp-ui-data-id="qp:4">自然缓动曲线</a></li>
         </ul>
     </nav>
     <div class="article-list">
         <div id="duration-easing-speed" class="article qp-ui" data-qp-ui="{ 'ScrollSpy': {} }" data-qp-ui-data-id="qp:1">
             <h2 class="article-title qp-ui" data-qp-ui="{ 'ResponsiveZippy': {} }" data-qp-ui-data-id="qp:1">
-                  Speed<!-- @include _arrow -->
+                  速度<!-- @include _arrow -->
                 </h2>
             <div class="article-content">
                 <div>
                     <div class="col-list">
                         <section class="module-figure-figure col-3">
                             <div class="module">
-                                <p>When elements move between positions or states, the movement should be fast enough that it doesn't cause waiting, but slow enough that the transition can be understood. Keep transitions short as users will see them frequently.</p>
+                                <p>当元素在移动或者形变的时候，速度应当足够快，快到可以避免用户等待，但同时也要足够慢，慢到让过度动画可以被理解。</p>
                             </div>
                             <div class="figure">
                                 <figure class="s-tag-media">
@@ -61,8 +62,8 @@
                                         </div>
                                     </div>
                                     <figcaption>
-                                        <p class="s-tag-caption do">Do.</p>
-                                        <p>Animate quickly so that the user doesn’t have to wait for the animation to finish.</p>
+                                        <p class="s-tag-caption do">对</p>
+                                        <p>动画要足够快，这样在动画结束前用户就可以看到内容。</p>
                                     </figcaption>
                                 </figure>
                             </div>
@@ -79,8 +80,8 @@
                                         </div>
                                     </div>
                                     <figcaption>
-                                        <p class="s-tag-caption dont">Don't.</p>
-                                        <p>Don’t animate slowly as it creates unnecessary lag.</p>
+                                        <p class="s-tag-caption dont">错</p>
+                                        <p>太慢的动画会制造不必要的等待间隔。</p>
                                     </figcaption>
                                 </figure>
                             </div>
@@ -91,15 +92,15 @@
         </div>
         <div id="duration-easing-dynamic-durations" class="article qp-ui" data-qp-ui="{ 'ScrollSpy': {} }" data-qp-ui-data-id="qp:2">
             <h2 class="article-title qp-ui" data-qp-ui="{ 'ResponsiveZippy': {} }" data-qp-ui-data-id="qp:2">
-                  Dynamic durations<!-- @include _arrow -->
+                  动态持续时间<!-- @include _arrow -->
                 </h2>
             <div class="article-content">
                 <div>
                     <div class="col-list">
                         <section class="module-figure col-2">
                             <div class="module">
-                                <p>Rather than using a single duration for all animations, adjust each duration to accommodate the distance travelled, an element's velocity, and surface changes.</p>
-                                <p><a href="../motion/movement.html#movement-movement-in-out-of-screen-bounds">Objects leaving the screen</a> may have shorter durations, as they require less attention.</p>
+                                <p>与其对所有的动画都使用同样的持续时间，不如根据移动距离、物体的速度以及形变来适配每个动画。</p>
+                                <p><a href="<!-- @path movement.html -->#movement-movement-in-out-of-screen-bounds">元素离开屏幕时</a>不需要引起用户的注意，应当使用较短的过渡时长。</p>
                             </div>
                             <div class="figure">
                                 <figure class="s-tag-media">
@@ -114,7 +115,7 @@
                                         </div>
                                     </div>
                                     <figcaption>
-                                        <p>Use longer durations when objects need to travel large distances or have dramatic changes in surface area.</p>
+                                        <p>物体移动的距离较长，或者面积的变化较大时，就需要使用较长的过渡时长。</p>
                                     </figcaption>
                                 </figure>
                             </div>
@@ -135,7 +136,7 @@
                                         </div>
                                     </div>
                                     <figcaption>
-                                        <p>Use shorter durations when objects travel short distances or have minor changes in surface area, so that the movement doesn't appear too slow.</p>
+                                        <p>物体移动的距离较短，或者面积的变化较小时，就需要使用较短的过渡时长。这样动画看起来就不会显得很缓慢。</p>
                                     </figcaption>
                                 </figure>
                             </div>
@@ -146,27 +147,27 @@
         </div>
         <div id="duration-easing-common-durations" class="article qp-ui" data-qp-ui="{ 'ScrollSpy': {} }" data-qp-ui-data-id="qp:3">
             <h2 class="article-title qp-ui" data-qp-ui="{ 'ResponsiveZippy': {} }" data-qp-ui-data-id="qp:3">
-                  Common durations<!-- @include _arrow -->
+                  常用过渡时长<!-- @include _arrow -->
                 </h2>
             <div class="article-content">
                 <div>
                     <div class="col-list">
                         <section class="module-figure col-2">
                             <div class="module">
-                                <h2>Mobile </h2>
-                                <p>Transitions on mobile typically occur over 300ms, within this margin of variance: </p>
+                                <h2>手机</h2>
+                                <p>手机上的过渡时长通常为 300ms 上下，根据情况可做以下调整：</p>
                                 <ul class="lst-kix_j29t0uw7155t-0 start">
-                                    <li>Large, complex, full-screen transitions may have longer durations, occurring over 375ms</li>
-                                    <li>Elements entering the screen occur over 225ms</li>
-                                    <li>Elements leaving the screen occur over 195ms</li>
+                                    <li>幅度很大、复杂、影响整个屏幕的动画需要更长的持续时间，可以长达 375ms</li>
+                                    <li>元素进入屏幕需要的时长为 225ms</li>
+                                    <li>元素离开屏幕需要的时长为 195ms</li>
                                 </ul>
-                                <p>Transitions that exceed 400ms may feel too slow.</p>
-                                <h2>Larger screens</h2>
-                                <p>Elements travelling longer distances on larger screens have higher peak velocities than those going shorter distances over the same time period. Larger screens should have longer durations so that movements aren't too fast. </p>
-                                <h2>Tablets</h2>
-                                <p>Durations on tablet should be about 30% longer than on mobile. For example, a 300ms mobile duration would increase to 390ms on tablet.</p>
-                                <h2>Wearables</h2>
-                                <p>Durations on wearables should be about 30% shorter than those on mobile. For example, a 300ms mobile duration would be 210ms on wearables.</p>
+                                <p>超过 400ms 的过渡动画可能会让用户觉得太慢。</p>
+                                <h2>大屏手机</h2>
+                                <p>元素在进行长距离移动时，速度的峰值会比短距离移动更大。更大的屏幕需要更长的过渡时长，以确保元素不会移动的太快。</p>
+                                <h2>平板电脑</h2>
+                                <p>平板上的过渡时长会比手机上的长 30%。比如手机上需要 300ms 的过渡时长，平板上会增加到 390ms。</p>
+                                <h2>可穿戴设备</h2>
+                                <p>可穿戴设备上的过渡时长会比手机上的短 30%。比如手机上需要 300ms 的过渡时长，可穿戴设备上会变成 210ms。</p>
                             </div>
                             <div class="figure">
                                 <figure class="s-tag-media">
@@ -181,7 +182,7 @@
                                         </div>
                                     </div>
                                     <figcaption>
-                                        <p>Because material must move greater distances on larger devices, transitions may have slightly slower durations than on smaller devices.</p>
+                                        <p>屏幕越大，元素移动的距离就越长，因此大屏设备上的过渡动画看起来会稍微慢一点。</p>
                                     </figcaption>
                                 </figure>
                             </div>
@@ -190,10 +191,10 @@
                     <div class="col-list">
                         <section class="module-figure col-2">
                             <div class="module">
-                                <h2>Desktop</h2>
-                                <p>Desktop animations should be faster and simpler than their mobile counterparts. These animations should last 150ms to 200ms.</p>
-                                <p>Because desktop transitions may be less noticeable, they should be immediately responsive and faster than their mobile counterparts.</p>
-                                <p>Complex web transitions often result in dropped frames (unless they are built for GPU acceleration). Shorter durations will make these less noticeable because the animation completes faster.</p>
+                                <h2>桌面设备</h2>
+                                <p>相对于手机来说，相同的动画在桌面设备上应当更快、更简单。动画的持续时间应当保持在 150ms 到 200ms 之间。</p>
+                                <p>相对于手机来说，桌面设备的过渡不需要太过明显，所以动画要尽可能的敏捷和快速。</p>
+                                <p>复杂的网页动画通常会掉帧（除非使用了显卡加速）。更短的持续时间可以让动画不那么引人注目。</p>
                             </div>
                             <div class="figure">
                                 <figure class="s-tag-media">
@@ -208,7 +209,7 @@
                                         </div>
                                     </div>
                                     <figcaption>
-                                        <p>Transitions appear much faster on desktop. </p>
+                                        <p>桌面设备上的过渡动画要足够快。</p>
                                     </figcaption>
                                 </figure>
                             </div>
@@ -219,15 +220,15 @@
         </div>
         <div id="duration-easing-natural-easing-curves" class="article qp-ui" data-qp-ui="{ 'ScrollSpy': {} }" data-qp-ui-data-id="qp:4">
             <h2 class="article-title qp-ui" data-qp-ui="{ 'ResponsiveZippy': {} }" data-qp-ui-data-id="qp:4">
-                  Natural easing curves<!-- @include _arrow -->
+                  自然缓动曲线<!-- @include _arrow -->
                 </h2>
             <div class="article-content">
                 <div>
-                    <p>These natural easing curves affect an element’s speed, opacity, and scale.</p>
+                    <p>自然缓动曲线可以影响物体的速度、透明度和比例。</p>
                     <div class="col-list">
                         <section class="module-figure col-2">
                             <div class="module">
-                                <p>Acceleration and deceleration changes should be smooth across the duration of an animation so that movement doesn't appear mechanical.</p>
+                                <p>物体在动画中加速或减速时应当显得很平滑，这样才不会显得很呆板。</p>
                             </div>
                             <div class="figure">
                                 <figure class="s-tag-media">
@@ -246,7 +247,7 @@
                         </section>
                         <section class="module-figure col-2">
                             <div class="module">
-                                <p>Motion appears more natural and delightful when acceleration and deceleration occur asymmetrically. </p>
+                                <p>使用不对称的加速和减速会让动画显得更自然、更愉悦。</p>
                             </div>
                             <div class="figure">
                                 <figure class="s-tag-media">
@@ -267,17 +268,17 @@
                     <div class="col-list">
                         <section class="module col-1">
                             <div class="module">
-                                <h1>Easing curves</h1>
-                                <p>Easing curves may be named differently depending on the platform or software used. These guidelines will refer to them as standard, deceleration, acceleration, and sharp curves.</p>
+                                <h1>缓动曲线</h1>
+                                <p>不同的平台对于缓动曲线的叫法不同。本文参考了标准曲线、减速曲线、加速曲线和 sharp curve。</p>
                             </div>
                         </section>
                     </div>
                     <div class="col-list">
                         <section class="module-figure col-2">
                             <div class="module">
-                                <h1>Standard curve</h1>
-                                <p>The standard curve (also referred to as “ease in out”) is the most common easing curve. Elements quickly accelerate and slowly decelerate between on-screen locations. It applies to growing and shrinking material, among other property changes.</p>
-                                <p>See more in <a href="<!-- @path movement.html -->#movement-movement-within-screen-bounds">Movement within screen bounds</a>.</p>
+                                <h1>标准曲线</h1>
+                                <p>标准曲线（也被称为「ease in out」）是最常用的缓动曲线。物体加速开始，减速停止。主要用在物体变大或变小的动画，与此同时还有其他的动画。</p>
+                                <p>更多详情可参考<a href="<!-- @path movement.html -->#movement-movement-within-screen-bounds">屏幕内的移动</a>.</p>
                             </div>
                             <div class="figure">
                                 <figure class="s-tag-media">
@@ -347,10 +348,10 @@
                         </section>
                         <section class="module-figure col-2">
                             <div class="module">
-                                <h1>Deceleration curve </h1>
-                                <p>Using the deceleration curve (also referred to as “ease out”) elements enter the screen at full velocity and slowly decelerate to a resting point. </p>
-                                <p>During deceleration, elements may scale up either in size (to 100%) or opacity (to 100%). In some cases, when elements enter the screen at 0% opacity, they may slightly shrink from a larger size upon entry.</p>
-                                <p>See more in <a href="<!-- @path movement.html -->#movement-movement-in-out-of-screen-bounds">Movement in and out of screen bounds</a>.</p>
+                                <h1>减速曲线</h1>
+                                <p>使用减速曲线（也被称为「ease out」）时，物体全速进入屏幕，在靠近目标位置时缓慢的停下来。</p>
+                                <p>减速期间物体可能会增大尺寸（到 100%）或者不透明度（到 100%）。有时候物体会以 0% 的不透明度进入屏幕，这时物体的尺寸会稍微增加一些。</p>
+                                <p>更多详情可参考<a href="<!-- @path movement.html -->#movement-movement-in-out-of-screen-bounds">进出屏幕的移动</a>.</p>
                             </div>
                             <div class="figure">
                                 <figure class="s-tag-media">
@@ -420,10 +421,10 @@
                         </section>
                         <section class="module-figure col-2">
                             <div class="module">
-                                <h1>Acceleration curve</h1>
-                                <p>Using the acceleration curve (also referred to as “ease in”) elements leave the screen at full velocity. They do not decelerate when off-screen. </p>
-                                <p>They accelerate at the beginning of the animation and may scale down in either size (to 0%) or opacity (to 0%). In some cases, when elements leave the screen at 0% opacity, they may also slightly scale up or down in size. </p>
-                                <p>See more in <a href="../motion/movement.html#movement-movement-in-out-of-screen-bounds">Movement in and out of screen bounds</a>.</p>
+                                <h1>加速曲线</h1>
+                                <p>使用加速曲线（也被称为「ease in」）时，元素会以全速离开屏幕，退出屏幕时也不会减速。</p>
+                                <p>物体在动画刚开始的时候加速，同时可能会降低尺寸（到 0%）或不透明度（到 0%）。有时候物体会以 0% 的不透明度退出屏幕，同时可能会增加或降低尺寸。</p>
+                                <p>更多详情可参考<a href="../motion/movement.html#movement-movement-in-out-of-screen-bounds">进出屏幕的移动</a>.</p>
                             </div>
                             <div class="figure">
                                 <figure class="s-tag-media">
@@ -499,9 +500,9 @@
                             <div class="module">
                                 <h1>Sharp curve<br>
 </h1>
-                                <p>Using the sharp curve (also referred to as “ease in out”) elements quickly accelerate and decelerate. It is used by exiting elements that may return to the screen at any time. </p>
-                                <p>Elements may quickly accelerate from a starting point on-screen, then quickly decelerate in a symmetrical curve to a resting point immediately off-screen. The deceleration is faster than the standard curve since it doesn't follow an exact path to the off-screen point. Elements may return from that point at any time.</p>
-                                <p>See more in <a href="<!-- @path movement.html -->#movement-movement-in-out-of-screen-bounds">Movement in and out of screen bounds</a>.</p>
+                                <p>使用 sharp curve（也被称为「ease in out」）时，元素会很快的加速和减速。主要用在已有的元素离开屏幕后重新返回时。</p>
+                                <p>元素可以在屏幕某点很快的加速，在离开屏幕之后的某点在以对称的曲线立即减速。它的减速会比标准曲线的减速更快，因为在屏幕之外并不存在一个明确的路径。元素可以在任何时候返回最初的地方。</p>
+                                <p>更多详情可参考<a href="<!-- @path movement.html -->#movement-movement-in-out-of-screen-bounds">进出屏幕的移动</a>.</p>
                             </div>
                             <div class="figure">
                                 <figure class="s-tag-media">
