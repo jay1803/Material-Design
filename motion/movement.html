@@ -81,7 +81,7 @@
                                     </div>
                                     <figcaption>
                                         <p class="s-tag-caption dont">错</p>
-                                        <p>上升时，刚开始的坡度不应该如此陡峭。</p>
+                                        <p>不要在刚开始的时候使用陡峭的坡度。</p>
                                     </figcaption>
                                 </figure>
                             </div>
@@ -107,7 +107,7 @@
                                     </div>
                                     <figcaption>
                                         <p class="s-tag-caption do">对</p>
-                                        <p>当元素向斜下方运动时，一开始的曲线会比较陡峭。</p>
+                                        <p>当元素向斜下方运动时，开始的曲线会比较陡峭，结束时会比较平坦。</p>
                                     </figcaption>
                                 </figure>
                             </div>
@@ -125,7 +125,7 @@
                                     </div>
                                     <figcaption>
                                         <p class="s-tag-caption dont">错</p>
-                                        <p>斜下方运动时，刚开的曲线不要如此平坦。</p>
+                                        <p>不要在斜下方运动刚开始的时候使用平坦的曲线。</p>
                                     </figcaption>
                                 </figure>
                             </div>
@@ -226,15 +226,14 @@
             <div class="article-content">
                 <div>
                     <h1>独立移动</h1>
-                    <p>元素进入或者退出屏幕的动作时完全独立，不会对屏幕内的其他内容产生影响。</p>
+                    <p>元素进入或者退出屏幕时完全独立移动，不会对屏幕内的其他内容产生影响。</p>
                     <div class="col-list">
                         <section class="module-figure-figure col-3">
                             <div class="module">
                                 <h2>进入屏幕</h2>
-                                <p>进入屏幕的元素使用
-                                Elements entering the screen use the <a href="<!-- @path duration-easing.html -->#duration-easing-natural-easing-curves">减速曲线</a>，暗示出元素并不是从屏幕边缘进入的，而是在此之前已经移动了一段距离。</p>
+                                <p>进入屏幕的元素使用<a href="<!-- @path duration-easing.html -->#duration-easing-natural-easing-curves">减速曲线</a>，暗示出元素的起始位置与屏幕边缘存在一段距离。</p>
                                 <h2>永久性的离开屏幕</h2>
-                                <p>当元素<strong>永久性的</strong>离开屏幕时会使用<a href="<!-- @path duration-easing.html -->#duration-easing-natural-easing-curves">加速曲线</a>来快速离开屏幕，因为它不会再返回屏幕，而且也不需要用户太过注意。</p>
+                                <p>当元素<strong>永久性的</strong>离开屏幕时会使用<a href="<!-- @path duration-easing.html -->#duration-easing-natural-easing-curves">加速曲线</a>，因为它不会再返回屏幕，而且用户也不需要太过注意。</p>
                             </div>
                             <div class="figure">
                                 <figure class="s-tag-media">
@@ -250,7 +249,7 @@
                                     </div>
                                     <figcaption>
                                         <p class="s-tag-caption do">对</p>
-                                        <p>当元素进入屏幕对周围的其他元素没有影响时，会使用减速曲线。在手机上，这个行为转换通常会持续 225ms。而当元素永久性的离开屏幕时，应当使用加速曲线。在手机上，这个行为转换通常会持续 195ms。</p>
+                                        <p>当元素进入屏幕并且对周围的其他元素没有影响时，应当使用减速曲线。在手机上，这个行为转换通常会持续 225ms。而当元素永久性的离开屏幕时，应当使用加速曲线。在手机上，这个行为转换通常会持续 195ms。</p>
                                     </figcaption>
                                 </figure>
                             </div>
@@ -268,7 +267,7 @@
                                     </div>
                                     <figcaption>
                                         <p class="s-tag-caption dont">错</p>
-                                        <p>不要在以上两种情况中使用标准曲线。对出场来说，缓慢的加速是没有必要的，因为用户的焦点需要集中在元素最终停下来的地方。对于退场，缓慢的减速同样是没有必要，因为元素最终是要消失的。</p>
+                                        <p>不要在以上两种情况中使用标准曲线。对入场来说，缓慢的加速是没有必要的，因为用户的焦点需要集中在元素最终停下来的地方。对于退场，缓慢的减速同样是没有必要，因为元素最终是要消失的。</p>
                                     </figcaption>
                                 </figure>
                             </div>
@@ -276,7 +275,7 @@
                         <section class="module-figure-figure col-3">
                             <div class="module">
                                 <h2>暂时性的离开屏幕</h2>
-                                <p>当元素<strong>暂时性的</strong>离开屏幕时会使用<a href="<!-- @path duration-easing.html -->#duration-easing-natural-easing-curves">sharp curve</a>，因为元素需要再次返回屏幕，因此在屏幕之外的停留点不会距离太远。</p>
+                                <p>当元素<strong>暂时性的</strong>离开屏幕时会使用<a href="<!-- @path duration-easing.html -->#duration-easing-natural-easing-curves">sharp curve</a>，因为元素需要再次返回屏幕，因此在屏幕之外的停留点不会太远。</p>
                             </div>
                             <div class="figure">
                                 <figure class="s-tag-media">
@@ -292,7 +291,7 @@
                                     </div>
                                     <figcaption>
                                         <p class="s-tag-caption do">对</p>
-                                        <p>当元素暂时性的离开屏幕时应当使用 sharp curve，因为元素会从离开的地方再次返回。当元素返回时，使用减速曲线。在手机上，这个行为转换通常持续 300ms。</p>
+                                        <p>当元素暂时性的离开屏幕时应当使用 sharp curve，因为元素会再次返回离开的地方。当元素返回时，使用减速曲线。在手机上，这个行为转换通常持续 300ms。</p>
                                     </figcaption>
                                 </figure>
                             </div>
@@ -355,7 +354,7 @@
                                     </div>
                                     <figcaption>
                                         <p class="s-tag-caption dont">错</p>
-                                        <p>在向上和向下移动时使用减速和加速曲线会让屏幕内浮动按钮的移动显得特别唐突。整个移动过程显得非常的粗糙和混乱。</p>
+                                        <p>在向上和向下移动时使用减速和加速曲线会让屏幕内浮动按钮的移动显得特别唐突。整个移动过程显得非常的粗糙且混乱。</p>
                                     </figcaption>
                                 </figure>
                             </div>
