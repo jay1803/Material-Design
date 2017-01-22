@@ -1,5 +1,5 @@
-<!-- $title 概述 -->
-<!-- $theme 动画 -->
+<!-- $title 移动 -->
+<!-- $theme 运动 -->
 <!-- $currentColor purple -->
 <!-- @include header -->
 <!-- @include navigation_drawer -->
@@ -9,15 +9,15 @@
             <div class="col-list">
                 <section class="module-module-figure col-3">
                     <div class="module">
-                        <p>Material in motion abides by forces similar to those of the real world, like gravity. </p>
+                        <p>Material 中的运动遵循现实中的力学，比如重力。</p>
                     </div>
                     <div class="module">
-                        <h3><strong>On-screen movement</strong></h3>
-                        <p>Arc upward
-                            <br> Arc downward</p>
-                        <h3><strong>In-and-out screen movement</strong></h3>
-                        <p>Independent movement
-                            <br> Relative movement</p>
+                        <h3><strong>屏幕上的移动</strong></h3>
+                        <p>上升弧线
+                        <br>下降弧线</p>
+                        <h3><strong>进出屏幕的移动</strong></h3>
+                        <p>独立移动
+                        <br>关联移动</p>
                     </div>
                     <div class="figure">
                         <figure class="s-tag-media">
@@ -29,25 +29,25 @@
         </div>
     </div>
     <nav class="chapter-toc">
-        <h1>Contents</h1>
+        <h1>索引</h1>
         <ul>
-            <li><a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="#movement-movement-within-screen-bounds" data-qp-ui-data-id="qp:1">Movement within screen bounds</a></li>
-            <li><a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="#movement-movement-in-out-of-screen-bounds" data-qp-ui-data-id="qp:2">Movement in and out of screen bounds </a></li>
+            <li><a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="#movement-movement-within-screen-bounds" data-qp-ui-data-id="qp:1">屏幕内的移动</a></li>
+            <li><a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="#movement-movement-in-out-of-screen-bounds" data-qp-ui-data-id="qp:2">进出屏幕的移动</a></li>
         </ul>
     </nav>
     <div class="article-list">
         <div id="movement-movement-within-screen-bounds" class="article qp-ui" data-qp-ui="{ 'ScrollSpy': {} }" data-qp-ui-data-id="qp:1">
             <h2 class="article-title qp-ui" data-qp-ui="{ 'ResponsiveZippy': {} }" data-qp-ui-data-id="qp:1">
-                  Movement within screen bounds<!-- @include _arrow -->
+                  屏幕内的移动<!-- @include _arrow -->
                 </h2>
             <div class="article-content">
                 <div>
-                    <p>The movement of an element between two points within the bounds of the screen follows a natural, concave arc. All on-screen movements use the <a href="<!-- @path duration-easing.html -->#duration-easing-natural-easing-curves">standard curve</a>.</p>
+                    <p>元素在屏幕内两点之间移动时遵循一条自然、下凹的弧线。所有屏幕内的移动都遵循<a href="<!-- @path duration-easing.html -->#duration-easing-natural-easing-curves">标准曲线</a>。</p>
                     <div class="col-list">
                         <section class="module-figure-figure col-3">
                             <div class="module">
-                                <h1>Arc upward</h1>
-                                <p>Rising against gravity in the real world requires effort. Elements moving upward on the screen should similarly depict effort during acceleration through a slower upward movement.</p>
+                                <h1>上升弧线</h1>
+                                <p>现实世界中，上升中的物体需要外力来克服重力。Material 中的元素向上移动与现实类似，元素会从一个较慢的速度开始加速。</p>
                             </div>
                             <div class="figure">
                                 <figure class="s-tag-media">
@@ -62,8 +62,8 @@
                                         </div>
                                     </div>
                                     <figcaption>
-                                        <p class="s-tag-caption do">Do.</p>
-                                        <p>When moving diagonally upward, begin with a shallow ascent and end with a steep ascent. </p>
+                                        <p class="s-tag-caption do">对</p>
+                                        <p>元素向斜上方移动时，刚开始坡度较缓，结束时坡度较陡。</p>
                                     </figcaption>
                                 </figure>
                             </div>
@@ -80,8 +80,8 @@
                                         </div>
                                     </div>
                                     <figcaption>
-                                        <p class="s-tag-caption dont">Don't.</p>
-                                        <p>Don’t start an element’s upward movement with a steep ascent.</p>
+                                        <p class="s-tag-caption dont">错</p>
+                                        <p>上升时，刚开始的坡度不应该如此陡峭。</p>
                                     </figcaption>
                                 </figure>
                             </div>
@@ -90,8 +90,8 @@
                     <div class="col-list">
                         <section class="module-figure-figure col-3">
                             <div class="module">
-                                <h1>Arc downward</h1>
-                                <p>Falling elements in the real world are accelerated by gravity. Elements moving downward on screen should depict less effort through a faster downward movement.</p>
+                                <h1>下降弧线</h1>
+                                <p>现实中物体降落时会受到重力的作用而产生加速度。屏幕内的元素在下降时会受到较少的外力作用，刚开始会快速下降。</p>
                             </div>
                             <div class="figure">
                                 <figure class="s-tag-media">
@@ -106,8 +106,8 @@
                                         </div>
                                     </div>
                                     <figcaption>
-                                        <p class="s-tag-caption do">Do.</p>
-                                        <p>When moving diagonally downward, descent should begin steeply and end shallowly.</p>
+                                        <p class="s-tag-caption do">对</p>
+                                        <p>当元素向斜下方运动时，一开始的曲线会比较陡峭。</p>
                                     </figcaption>
                                 </figure>
                             </div>
@@ -124,8 +124,8 @@
                                         </div>
                                     </div>
                                     <figcaption>
-                                        <p class="s-tag-caption dont">Don't.</p>
-                                        <p>Don’t start an element’s downward movement with a shallow descent.</p>
+                                        <p class="s-tag-caption dont">错</p>
+                                        <p>斜下方运动时，刚开的曲线不要如此平坦。</p>
                                     </figcaption>
                                 </figure>
                             </div>
@@ -134,8 +134,8 @@
                     <div class="col-list">
                         <section class="module-figure-figure col-3">
                             <div class="module">
-                                <h1>When not to arc</h1>
-                                <p>Elements moving along a single axis (either horizontally or vertically, but not both) do not follow an arc. These movements are simpler and may move at a slightly faster speed.</p>
+                                <h1>何时使用直线轨迹</h1>
+                                <p>当元素朝着一个方向运动时（水平或者垂直）不需要遵循弧线轨迹。这种移动非常简单，而且速度可能会稍快一些。</p>
                             </div>
                             <div class="figure">
                                 <figure class="s-tag-media">
@@ -150,8 +150,8 @@
                                         </div>
                                     </div>
                                     <figcaption>
-                                        <p class="s-tag-caption do">Do.</p>
-                                        <p>Keep the path for single-axis movement straight.</p>
+                                        <p class="s-tag-caption do">对</p>
+                                        <p>单方向运动时使用直线轨迹。</p>
                                     </figcaption>
                                 </figure>
                             </div>
@@ -168,15 +168,15 @@
                                         </div>
                                     </div>
                                     <figcaption>
-                                        <p class="s-tag-caption dont">Don't.</p>
-                                        <p>Don’t apply an unnatural arc to single-axis movement.</p>
+                                        <p class="s-tag-caption dont">错</p>
+                                        <p>单向运动时使用弧线会显得很不自然。</p>
                                     </figcaption>
                                 </figure>
                             </div>
                         </section>
                         <section class="module-figure-figure col-3">
                             <div class="module">
-                                <p>Elements entering and exiting the screen also move along a single axis.</p>
+                                <p>元素进出屏幕时的运动也是单方向的。</p>
                             </div>
                             <div class="figure">
                                 <figure class="s-tag-media">
@@ -191,8 +191,8 @@
                                         </div>
                                     </div>
                                     <figcaption>
-                                        <p class="s-tag-caption do">Do.</p>
-                                        <p>Linear entrances are easy to follow with a clearly defined entry point.</p>
+                                        <p class="s-tag-caption do">对</p>
+                                        <p>直线进入屏幕可以很清楚的感知到入口的位置。</p>
                                     </figcaption>
                                 </figure>
                             </div>
@@ -209,8 +209,8 @@
                                         </div>
                                     </div>
                                     <figcaption>
-                                        <p class="s-tag-caption dont">Don't.</p>
-                                        <p>Don’t arc the path of an element if it is moving off-screen, as it complicates the entry point.</p>
+                                        <p class="s-tag-caption dont">错</p>
+                                        <p>不要在脱离屏幕的运动中使用弧线，这会让入口显得复杂。</p>
                                     </figcaption>
                                 </figure>
                             </div>
@@ -221,19 +221,20 @@
         </div>
         <div id="movement-movement-in-out-of-screen-bounds" class="article qp-ui" data-qp-ui="{ 'ScrollSpy': {} }" data-qp-ui-data-id="qp:2">
             <h2 class="article-title qp-ui" data-qp-ui="{ 'ResponsiveZippy': {} }" data-qp-ui-data-id="qp:2">
-                  Movement in and out of screen bounds <!-- @include _arrow -->
+                  进出屏幕的移动<!-- @include _arrow -->
                 </h2>
             <div class="article-content">
                 <div>
-                    <h1>Independent movement</h1>
-                    <p>Elements entering and exiting the screen are referred to as independent elements as they don't affect the position of other on-screen content.</p>
+                    <h1>独立移动</h1>
+                    <p>元素进入或者退出屏幕的动作时完全独立，不会对屏幕内的其他内容产生影响。</p>
                     <div class="col-list">
                         <section class="module-figure-figure col-3">
                             <div class="module">
-                                <h2>Entering the screen</h2>
-                                <p>Elements entering the screen use the <a href="<!-- @path duration-easing.html -->#duration-easing-natural-easing-curves">deceleration curve</a> for a speedy entrance, indicating that they had been travelling at peak velocity.</p>
-                                <h2>Permanently leaving the screen</h2>
-                                <p>Elements <strong>permanently</strong> leaving the screen use the <a href="<!-- @path duration-easing.html -->#duration-easing-natural-easing-curves">acceleration curve</a> to speed off-screen over a slightly shorter duration, as they will not be returning and require less user focus.</p>
+                                <h2>进入屏幕</h2>
+                                <p>进入屏幕的元素使用
+                                Elements entering the screen use the <a href="<!-- @path duration-easing.html -->#duration-easing-natural-easing-curves">减速曲线</a>，暗示出元素并不是从屏幕边缘进入的，而是在此之前已经移动了一段距离。</p>
+                                <h2>永久性的离开屏幕</h2>
+                                <p>当元素<strong>永久性的</strong>离开屏幕时会使用<a href="<!-- @path duration-easing.html -->#duration-easing-natural-easing-curves">加速曲线</a>来快速离开屏幕，因为它不会再返回屏幕，而且也不需要用户太过注意。</p>
                             </div>
                             <div class="figure">
                                 <figure class="s-tag-media">
@@ -248,8 +249,8 @@
                                         </div>
                                     </div>
                                     <figcaption>
-                                        <p class="s-tag-caption do">Do.</p>
-                                        <p>Apply the deceleration curve to items entering the screen that do not affect the position of any other elements around it. On mobile, this transition typically occurs over 225ms. Apply the acceleration curve to these same items when they permanently leave the screen. On mobile, this transition typically occurs over 195ms.</p>
+                                        <p class="s-tag-caption do">对</p>
+                                        <p>当元素进入屏幕对周围的其他元素没有影响时，会使用减速曲线。在手机上，这个行为转换通常会持续 225ms。而当元素永久性的离开屏幕时，应当使用加速曲线。在手机上，这个行为转换通常会持续 195ms。</p>
                                     </figcaption>
                                 </figure>
                             </div>
@@ -266,16 +267,16 @@
                                         </div>
                                     </div>
                                     <figcaption>
-                                        <p class="s-tag-caption dont">Don't.</p>
-                                        <p>Don’t use the standard curve for either these cases. For entrances, slow acceleration is unnecessary as focus should be on the final resting point. For exits, slow deceleration is unnecessary as the ending point isn’t visible.</p>
+                                        <p class="s-tag-caption dont">错</p>
+                                        <p>不要在以上两种情况中使用标准曲线。对出场来说，缓慢的加速是没有必要的，因为用户的焦点需要集中在元素最终停下来的地方。对于退场，缓慢的减速同样是没有必要，因为元素最终是要消失的。</p>
                                     </figcaption>
                                 </figure>
                             </div>
                         </section>
                         <section class="module-figure-figure col-3">
                             <div class="module">
-                                <h2>Temporarily leaving the screen</h2>
-                                <p>Elements <strong>temporarily</strong> leaving the screen should use the <a href="<!-- @path duration-easing.html -->#duration-easing-natural-easing-curves">sharp curve</a>, as they may return to the screen at any time and should appear nearby and within reach.</p>
+                                <h2>暂时性的离开屏幕</h2>
+                                <p>当元素<strong>暂时性的</strong>离开屏幕时会使用<a href="<!-- @path duration-easing.html -->#duration-easing-natural-easing-curves">sharp curve</a>，因为元素需要再次返回屏幕，因此在屏幕之外的停留点不会距离太远。</p>
                             </div>
                             <div class="figure">
                                 <figure class="s-tag-media">
@@ -290,8 +291,8 @@
                                         </div>
                                     </div>
                                     <figcaption>
-                                        <p class="s-tag-caption do">Do.</p>
-                                        <p>Apply the sharp curve to items temporarily leaving the screen that may return from the same exit point. When they return, use the deceleration curve. On mobile, this transition typically occurs over 300ms.</p>
+                                        <p class="s-tag-caption do">对</p>
+                                        <p>当元素暂时性的离开屏幕时应当使用 sharp curve，因为元素会从离开的地方再次返回。当元素返回时，使用减速曲线。在手机上，这个行为转换通常持续 300ms。</p>
                                     </figcaption>
                                 </figure>
                             </div>
@@ -308,19 +309,19 @@
                                         </div>
                                     </div>
                                     <figcaption>
-                                        <p class="s-tag-caption dont">Don't.</p>
-                                        <p>Apply the acceleration curve to items permanently leaving the screen, or if they are to return from a different location. If they return, use the deceleration curve.</p>
+                                        <p class="s-tag-caption dont">错</p>
+                                        <p>当元素永久性的离开屏幕时才使用加速曲线，否则当元素返回时无法回到原来的位置。而当元素返回时，应当使用减速曲线。</p>
                                     </figcaption>
                                 </figure>
                             </div>
                         </section>
                     </div>
-                    <h1>Relative movement</h1>
-                    <p>Entering or exiting elements that move other on-screen elements do so along a smooth easing curve, so that they remain minimally disruptive and avoid eye-catching, dramatic movement.</p>
+                    <h1>关联移动</h1>
+                    <p>进入屏幕的元素如果对屏幕内的其他元素会产生影响，需要使用平滑的缓动曲线，这样才能降低混乱，避免视觉干扰和戏剧性的移动。</p>
                     <div class="col-list">
                         <section class="module-figure-figure col-3">
                             <div class="module">
-                                <p>The <a href="<!-- @path duration-easing.html -->#duration-easing-natural-easing-curves">standard curve</a> is used for moving elements both in and out of the bounds of the screen. This curve has a slightly longer duration compared to independent elements.</p>
+                                <p>对于新进入的元素和屏幕内已有的元素，都使用<a href="<!-- @path duration-easing.html -->#duration-easing-natural-easing-curves">标准曲线</a>。相对于独立运动的元素，标准曲线使用的转换时间会稍久一些。</p>
                             </div>
                             <div class="figure">
                                 <figure class="s-tag-media">
@@ -335,8 +336,8 @@
                                         </div>
                                     </div>
                                     <figcaption>
-                                        <p class="s-tag-caption do">Do.</p>
-                                        <p>Since the on-screen floating action button’s movement is influenced by the entering card, the standard curve is applied to the movement of both elements to maintain a smooth start and stop. On mobile, this transition typically occurs over 300ms.</p>
+                                        <p class="s-tag-caption do">对</p>
+                                        <p>当屏幕内的浮动按钮被入场的卡片影响时，使用标准曲线可以让两个元素保持平滑的开始和结束。在手机上，这个行为转换通常持续 300ms。</p>
                                     </figcaption>
                                 </figure>
                             </div>
@@ -353,8 +354,8 @@
                                         </div>
                                     </div>
                                     <figcaption>
-                                        <p class="s-tag-caption dont">Don't.</p>
-                                        <p>Using deceleration and acceleration curves for the upward and downward movement cause the on-screen floating action button to abruptly start moving upward and abruptly stop moving downward. This movement is harsh and disruptive.</p>
+                                        <p class="s-tag-caption dont">错</p>
+                                        <p>在向上和向下移动时使用减速和加速曲线会让屏幕内浮动按钮的移动显得特别唐突。整个移动过程显得非常的粗糙和混乱。</p>
                                     </figcaption>
                                 </figure>
                             </div>
@@ -367,9 +368,9 @@
         </div>
         </section>
     </div>
-<!-- $prePage 持续时间 &amp; 缓动 -->
+<!-- $prePage 转换时长 &amp; 缓动 -->
 <!-- $preURL duration-easing.html -->
-<!-- $nextPage 材料的形变 -->
+<!-- $nextPage 转换中的材料 -->
 <!-- $nextURL transforming-material.html -->
 <!-- $leftColor purple -->
 <!-- $rightColor purple -->
