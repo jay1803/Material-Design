@@ -6,31 +6,31 @@
 <div class="chapter-content">
     <div class="article-content chapter-intro">
         <div>
-            <h1>Responsive layouts in material design adapt to any possible screen size. This UI guidance includes a flexible grid that ensures consistency across layouts, breakpoint details about how content reflows on different screens, and a description of how an app can scale from small to extra-large screens.</h1></div>
+            <h1>Material Design 的响应式布局可以适配任何尺寸的屏幕。本文包括了利用弹性网格在不同的布局方式的一致性、不同尺寸的屏幕上内容如何展示以及描述了应用如何从小屏幕扩展到巨大的屏幕上。</h1></div>
     </div>
     <nav class="chapter-toc">
         <h1>Contents</h1>
         <ul>
-            <li><a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="#responsive-ui-breakpoints" data-qp-ui-data-id="qp:1">Breakpoints</a></li>
-            <li><a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="#responsive-ui-grid" data-qp-ui-data-id="qp:2">Grid</a></li>
-            <li><a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="#responsive-ui-surface-behaviors" data-qp-ui-data-id="qp:3">Surface behaviors</a></li>
-            <li><a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="#responsive-ui-patterns" data-qp-ui-data-id="qp:4">Patterns</a></li>
+            <li><a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="#responsive-ui-breakpoints" data-qp-ui-data-id="qp:1">断电</a></li>
+            <li><a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="#responsive-ui-grid" data-qp-ui-data-id="qp:2">网格</a></li>
+            <li><a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="#responsive-ui-surface-behaviors" data-qp-ui-data-id="qp:3">界面行为</a></li>
+            <li><a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="#responsive-ui-patterns" data-qp-ui-data-id="qp:4">模式</a></li>
         </ul>
     </nav>
     <div class="article-list">
         <div id="responsive-ui-breakpoints" class="article qp-ui" data-qp-ui="{ 'ScrollSpy': {} }" data-qp-ui-data-id="qp:1">
             <h2 class="article-title qp-ui" data-qp-ui="{ 'ResponsiveZippy': {} }" data-qp-ui-data-id="qp:1">
-                  Breakpoints<!-- @include _arrow -->
+                  断点<!-- @include _arrow -->
                 </h2>
             <div class="article-content">
                 <div>
-                    <p>For optimal user experience, material design user interfaces should adapt layouts for the following breakpoint widths: 480, 600, 840, 960, 1280, 1440, and 1600dp.</p>
+                    <p>为了最佳的用户体验，Material Design 用户界面应当可以适配以下断点：480、600、840、960、1280、1440 以及 1600dp。</p>
                     <div class="modulettes">
                         <a class="modulette container default" href="https://www.google.com/url?q=http://design.google.com/resizer/&amp;sa=D&amp;ust=1481817966471000&amp;usg=AFQjCNGcNfKY9W0f3A-CaOySKlVR_bQN8A" target="_blank">
                             <img alt="" class="icon callout-icon" src="<!-- @path default.svg -->">
                             <div class="info">
                                 <div class="title">Resizer</div>
-                                <span class="subtitle">Preview material design breakpoints with this interactive viewer across desktop, mobile, and tablet </span>
+                                <span class="subtitle">利用这款跨手机、平板和桌面平台的工具来预览不同断点下的 Material Design。</span>
                             </div>
                             </img>
                         </a>
@@ -47,19 +47,19 @@
                     <div class="col-list">
                         <section class="module-module col-2">
                             <div class="module">
-                                <p><strong>1.</strong><strong> Summary and detail view content in layouts</strong></p>
+                                <p><strong>1.</strong><strong> 内容摘要和详情视图的布局</strong></p>
                                 <ul class="lst-kix_yt2oj44xi7j7-0 start">
-                                    <li>Layouts under 600dp wide may fill the screen with a single level of content hierarchy (either summary or detail content, but not both). </li>
-                                    <li>Layouts over 600dp wide may place two levels of content hierarchy on the screen (both summary and detail content).</li>
+                                    <li>在低于 600dp 的屏幕中仅展示某一层级的内容（无论是内容摘要还是详情，但不要同时展示）。</li>
+                                    <li>在大于 600dp 的屏幕中可以同时展示两级的内容（同时包括内容摘要和详情）。</li>
                                 </ul>
                             </div>
                             <div class="module">
-                                <p><strong>2. Max screen widths</strong></p>
-                                <p>Layouts over 1600dp wide may let the layout grow until it hits a max width. At this point, the grid may do one of the following: </p>
+                                <p><strong>2. 最大屏幕宽度</strong></p>
+                                <p>当布局宽度超过 1600dp 时，可以让宽度一直增加，直到达到最大宽度。此时的网格可以执行以下某一项：</p>
                                 <ul class="lst-kix_8aft212gh0kb-0 start">
-                                    <li>Become center aligned with increased margins</li>
-                                    <li>Remain left aligned while the right margin grows</li>
-                                    <li>Continue to grow while revealing additional content</li>
+                                    <li>居中对齐内容，在内容区域两侧增加外边距</li>
+                                    <li>保持内容左对齐，不断增加内容的右侧外边距</li>
+                                    <li>内容宽度持续增加，同时可以展示出额外的内容</li>
                                 </ul>
                             </div>
                         </section>
@@ -67,33 +67,33 @@
                     <div class="col-list">
                         <section class="module-module col-2">
                             <div class="module">
-                                <p><strong>Breakpoint system</strong></p>
-                                <p>These breakpoints describe column and width specifications for different screens, devices, and orientations.</p>
-                                <p>For some measurements, the values remain the same even if a device is rotated. For that reason the smallest width in either orientation is the defining value. </p>
-                                <p>* 16dp when the smallest width of the device is &lt;600</p>
-                                <p>** Desktop breakpoints are 16dp below the listed values to accommodate variations in browser chrome.</p>
+                                <p><strong>断点系统</strong></p>
+                                <p>断点系统描述了不同屏幕、设备和操作系统中的列表和宽度的规格。</p>
+                                <p>对于某些尺寸，即使设备发生了旋转也会保持相同的数值。因此任意方向上的最小宽度都是一个定义值。</p>
+                                <p>* 设备的最小宽度 &lt;600dp 时为 16dp</p>
+                                <p>** 为了适应浏览器 chrome 的变化，桌面端的断点值比列表中的小 16dp。</p>
                             </div>
                             <div class="module">
                                 <table class="s-tag-table">
                                     <tbody>
                                         <tr>
                                             <td colspan="1" rowspan="1">
-                                                <p>Breakpoint (dp)</p>
+                                                <p>断点（dp）</p>
                                             </td>
                                             <td colspan="1" rowspan="1">
-                                                <p>Handset / Tablet Portrait</p>
+                                                <p>手机／平板纵向</p>
                                             </td>
                                             <td colspan="1" rowspan="1">
-                                                <p>Handset / Tablet Landscape</p>
+                                                <p>手机／平板横向</p>
                                             </td>
                                             <td colspan="1" rowspan="1">
-                                                <p>Window</p>
+                                                <p>窗口</p>
                                             </td>
                                             <td colspan="1" rowspan="1">
-                                                <p>Columns</p>
+                                                <p>列数</p>
                                             </td>
                                             <td colspan="1" rowspan="1">
-                                                <p>Gutter</p>
+                                                <p>间隔</p>
                                             </td>
                                         </tr>
                                         <tr>
@@ -101,7 +101,7 @@
                                                 <p>0</p>
                                             </td>
                                             <td colspan="1" rowspan="1">
-                                                <p>small handset</p>
+                                                <p>小尺寸手机</p>
                                             </td>
                                             <td colspan="1" rowspan="1">
                                             </td>
@@ -120,7 +120,7 @@
                                                 <p>360</p>
                                             </td>
                                             <td colspan="1" rowspan="1">
-                                                <p>medium handset</p>
+                                                <p>中尺寸手机</p>
                                             </td>
                                             <td colspan="1" rowspan="1">
                                             </td>
@@ -139,7 +139,7 @@
                                                 <p>400</p>
                                             </td>
                                             <td colspan="1" rowspan="1">
-                                                <p>large handset</p>
+                                                <p>大尺寸手机</p>
                                             </td>
                                             <td colspan="1" rowspan="1">
                                             </td>
@@ -158,7 +158,7 @@
                                                 <p>480</p>
                                             </td>
                                             <td colspan="1" rowspan="1">
-                                                <p>large handset</p>
+                                                <p>大尺寸手机</p>
                                             </td>
                                             <td colspan="1" rowspan="1">
                                                 <p>small handset</p>
@@ -178,10 +178,10 @@
                                                 <p>600</p>
                                             </td>
                                             <td colspan="1" rowspan="1">
-                                                <p>small tablet</p>
+                                                <p>小尺寸平板</p>
                                             </td>
                                             <td colspan="1" rowspan="1">
-                                                <p>medium handset</p>
+                                                <p>中尺寸手机</p>
                                             </td>
                                             <td colspan="1" rowspan="1">
                                                 <p>small</p>
@@ -198,10 +198,10 @@
                                                 <p>720</p>
                                             </td>
                                             <td colspan="1" rowspan="1">
-                                                <p>large tablet</p>
+                                                <p>大尺寸平板</p>
                                             </td>
                                             <td colspan="1" rowspan="1">
-                                                <p>large handset</p>
+                                                <p>大尺寸手机</p>
                                             </td>
                                             <td colspan="1" rowspan="1">
                                                 <p>small</p>
@@ -218,10 +218,10 @@
                                                 <p>840</p>
                                             </td>
                                             <td colspan="1" rowspan="1">
-                                                <p>large tablet</p>
+                                                <p>大尺寸平板</p>
                                             </td>
                                             <td colspan="1" rowspan="1">
-                                                <p>large handset</p>
+                                                <p>大尺寸手机</p>
                                             </td>
                                             <td colspan="1" rowspan="1">
                                                 <p>small</p>
@@ -240,7 +240,7 @@
                                             <td colspan="1" rowspan="1">
                                             </td>
                                             <td colspan="1" rowspan="1">
-                                                <p>small tablet</p>
+                                                <p>小尺寸平板</p>
                                             </td>
                                             <td colspan="1" rowspan="1">
                                                 <p>small</p>
@@ -259,7 +259,7 @@
                                             <td colspan="1" rowspan="1">
                                             </td>
                                             <td colspan="1" rowspan="1">
-                                                <p>large tablet</p>
+                                                <p>大尺寸平板</p>
                                             </td>
                                             <td colspan="1" rowspan="1">
                                                 <p>medium</p>
@@ -278,7 +278,7 @@
                                             <td colspan="1" rowspan="1">
                                             </td>
                                             <td colspan="1" rowspan="1">
-                                                <p>large tablet</p>
+                                                <p>大尺寸平板</p>
                                             </td>
                                             <td colspan="1" rowspan="1">
                                                 <p>medium</p>
@@ -358,7 +358,7 @@
                 </h2>
             <div class="article-content">
                 <div>
-                    <p>Material design’s responsive UI is based on a 12-column grid layout. This grid creates visual consistency between layouts, while allowing flexibility across a wide variety of designs. The number of grid columns varies based on the breakpoint system.</p>
+                    <p>Material Design 的 UI 是基于 12 列的网格布局。这样的网格确保了不同布局的视觉连续性，同时可以灵活的适配多种宽度的设计。网格的列数取决于断点系统。</p>
                     <div class="col-list">
                         <section class="figure col-1">
                             <div class="figure">
@@ -374,7 +374,7 @@
                                         </div>
                                     </div>
                                     <figcaption>
-                                        <p>This animation shows how surfaces and panels can align to influence the 12-column grid. </p>
+                                        <p>动画中展示了界面和面板如何与 12 列的网格对齐。</p>
                                     </figcaption>
                                 </figure>
                             </div>
@@ -383,9 +383,9 @@
                     <div class="col-list">
                         <section class="module-figure col-2">
                             <div class="module">
-                                <h2><strong>Margins and Gutters</strong></h2>
-                                <p>The responsive grid focuses on consistent margin and gutter widths, rather than column width. Material design margins and columns follow an 8dp square baseline grid. Margins and gutters can be 8, 16, 24, or 40dp wide. </p>
-                                <p>Margins and gutters don’t need to be equal. For example, it’s acceptable to use 40dp margins and 24dp gutters in the same layout.</p>
+                                <h2><strong>外边距和间隔</strong></h2>
+                                <p>相比于网格列宽，响应式的网格更注重一致的外边距和间隔宽度。Material Design 的外边距和列都遵守 8dp 的基准网格。外边距和间隔可以是 8dp、16dp、24dp、40dp。</p>
+                                <p>外边距不需要间隔同等。例如，在同一个布局中可以使用 40dp 的外边距和 24dp 的间隔。</p>
                             </div>
                             <div class="figure">
                                 <figure class="s-tag-media">
@@ -400,13 +400,13 @@
                                         </div>
                                     </div>
                                     <figcaption>
-                                        <p>This animation shows interactions of the following margin and gutter width variations:</p>
+                                        <p>动画中展示了外边距和间隔的相互作用，动画中展示了以下宽度的布局：</p>
                                         <ol class="lst-kix_l8t11msx2rv8-0 start" start="1">
-                                            <li>8dp margins and gutters</li>
-                                            <li>16dp margins and gutters</li>
-                                            <li>24dp margins and gutters</li>
-                                            <li>40dp margins and gutters</li>
-                                            <li>40dp margins and 24dp gutters</li>
+                                            <li>8dp 的外边距和间隔</li>
+                                            <li>16dp 的外边距和间隔</li>
+                                            <li>24dp 的外边距和间隔</li>
+                                            <li>40dp 的外边距和间隔</li>
+                                            <li>40dp 的外边距和 24dp 的间隔</li>
                                         </ol>
                                     </figcaption>
                                 </figure>
@@ -414,9 +414,9 @@
                         </section>
                         <section class="module-figure col-2">
                             <div class="module">
-                                <h2><strong>Full-width vs Centered</strong></h2>
-                                <p><strong>Full-width grids</strong> use fluid columns and breakpoints to determine when a layout needs to change. </p>
-                                <p><strong>Centered grids</strong> use fixed columns and reflow the layout when all columns (plus a defined margin) no longer fit on screen. </p>
+                                <h2><strong>全宽网格 vs 中心网格</strong></h2>
+                                <p><strong>全宽网格</strong>使用流动列和布局来判断何时改变布局。</p>
+                                <p><strong>中心网格</strong>使用固定列，并且在所有列（加上定义的外边距）不再适配屏幕时重新布局。</p>
                             </div>
                             <div class="figure">
                                 <figure class="s-tag-media">
@@ -432,21 +432,21 @@
                                     </div>
                                     <figcaption>
                                         <ol class="lst-kix_rij772l0b5s1-0 start" start="1">
-                                            <li>Full-width grids</li>
-                                            <li>Centered grids</li>
+                                            <li>全宽网格</li>
+                                            <li>中心网格</li>
                                         </ol>
                                     </figcaption>
                                 </figure>
                             </div>
                         </section>
                     </div>
-                    <h2><strong>Panel Influence on the Grid</strong></h2>
-                    <p>As defined in <a href="<!-- @path navigation-drawer.html -->#navigation-drawer-behavior">Navigation patterns</a>, the side nav may be permanent, persistent, or temporary. These behaviors apply to any panel, not just a side nav. </p>
+                    <h2><strong>面板对网格的影响</strong></h2>
+                    <p>根据<a href="<!-- @path navigation-drawer.html -->#navigation-drawer-behavior">导航模式</a>的定义，侧栏导航可以是固定的、可切换的、临时的。这些行为不仅适用于侧栏导航，也适用于任何面板。</p>
                     <div class="col-list">
                         <section class="module-figure col-2">
                             <div class="module">
-                                <p><strong>Permanent </strong></p>
-                                <p>A permanent panel exists outside of the responsive grid. The panel appears at a defined breakpoint (when the screen can accommodate the panel) and squeezes content. There are no controls to show/hide the panel.</p>
+                                <p><strong>固定的</strong></p>
+                                <p>固定面板不属于响应式网格。面板会根据定义的断点（当屏幕可以容纳面板时）来展示并且会挤压内容。面板中没有显示／隐藏面板的控制器。</p>
                             </div>
                             <div class="figure">
                                 <figure class="s-tag-media">
@@ -461,18 +461,18 @@
                                         </div>
                                     </div>
                                     <figcaption>
-                                        <p>The effects of a permanent panel on the responsive grid</p>
+                                        <p>面板对响应式网格的影响</p>
                                     </figcaption>
                                 </figure>
                             </div>
                         </section>
                         <section class="module-figure col-2">
                             <div class="module">
-                                <p><strong>Side panel effects on the grid</strong></p>
-                                <p>This animation happens in two phases: </p>
+                                <p><strong>侧面板对网格的影响</strong></p>
+                                <p>动画展示了两种行为：</p>
                                 <ol class="lst-kix_v6pxnk8kyd0x-0 start" start="1">
-                                    <li>A persistent side panel appears, squeezing both content and the grid. Content is accessible while the panel remains visible. The panel hides upon toggling.</li>
-                                    <li>A temporary side panel appears, pushing grid content off-screen. Touching either outside the panel, or an item inside the panel, hides the panel.</li>
+                                    <li>可切换的侧面板出现时，会同时挤压网格和内容。当面板保持可见时，内容依然是可以被访问的。切换按钮可以隐藏面板。</li>
+                                    <li>临时侧面板出现时，会把网格和内容推出屏幕。点击面板外部的任意区域或是面板内部的项目就可以隐藏面板会。</li>
                                 </ol>
                             </div>
                             <div class="figure">
@@ -488,15 +488,15 @@
                                         </div>
                                     </div>
                                     <figcaption>
-                                        <p>The effects of a persistent panel on the responsive grid</p>
+                                        <p>可切换面板对响应式网格的影响</p>
                                     </figcaption>
                                 </figure>
                             </div>
                         </section>
                         <section class="module-figure col-2">
                             <div class="module">
-                                <p><strong>Temporary overlay</strong></p>
-                                <p>A temporary panel does not affect the grid or content when off-screen. When toggled to be visible, it can be hidden again by touching anywhere outside the panel or an item inside the panel.</p>
+                                <p><strong>临时覆盖</strong></p>
+                                <p>临时覆盖的面板不会对网格和内容产生影响。当面板出现时，点击面板外部的任意区域或是面板内部的项目就可以隐藏面板。</p>
                             </div>
                             <div class="figure">
                                 <figure class="s-tag-media">
@@ -511,7 +511,7 @@
                                         </div>
                                     </div>
                                     <figcaption>
-                                        <p>The effects of a temporary panel on the responsive grid</p>
+                                        <p>临时面板对响应式网格的影响</p>
                                     </figcaption>
                                 </figure>
                             </div>
@@ -522,49 +522,49 @@
         </div>
         <div id="responsive-ui-surface-behaviors" class="article qp-ui" data-qp-ui="{ 'ScrollSpy': {} }" data-qp-ui-data-id="qp:3">
             <h2 class="article-title qp-ui" data-qp-ui="{ 'ResponsiveZippy': {} }" data-qp-ui-data-id="qp:3">
-                  Surface behaviors<!-- @include _arrow -->
+                 界面行为<!-- @include _arrow -->
                 </h2>
             <div class="article-content">
                 <div>
-                    <p>When a screen size changes, the UI adapts using the following surface-specific behaviors. </p>
+                    <p>当屏幕尺寸发生变化时，UI 会根据特定的界面行为来适配屏幕。</p>
                     <div class="col-list">
                         <section class="module-module col-2">
                             <div class="module">
-                                <p>Visibility</p>
+                                <p>可见性</p>
                             </div>
                             <div class="module">
                                 <table class="s-tag-table">
                                     <tbody>
                                         <tr>
                                             <td colspan="1" rowspan="1">
-                                                <p>Behavior</p>
+                                                <p>行为</p>
                                             </td>
                                             <td colspan="1" rowspan="1">
-                                                <p>Definition</p>
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td colspan="1" rowspan="1">
-                                                <p>Permanent</p>
-                                            </td>
-                                            <td colspan="1" rowspan="1">
-                                                <p>When screen space is available, a surface is always visible.</p>
+                                                <p>定义</p>
                                             </td>
                                         </tr>
                                         <tr>
                                             <td colspan="1" rowspan="1">
-                                                <p>Persistent</p>
+                                                <p>固定的</p>
                                             </td>
                                             <td colspan="1" rowspan="1">
-                                                <p>Surface visibility can be toggled between visible and hidden. When visible, interacting with other elements on the screen does not change visibility.</p>
+                                                <p>当屏幕有充足的空间，界面就一直可见。</p>
                                             </td>
                                         </tr>
                                         <tr>
                                             <td colspan="1" rowspan="1">
-                                                <p>Temporary</p>
+                                                <p>可切换的</p>
                                             </td>
                                             <td colspan="1" rowspan="1">
-                                                <p>Surface visibility can be toggled between visible and hidden. When visible, interacting with other elements on the screen toggles the surface to become hidden or minimized.</p>
+                                                <p>可以切换界面是否可见。当可见时，与屏幕中的其他元素交互不会改变面板的可见性。</p>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td colspan="1" rowspan="1">
+                                                <p>临时的</p>
+                                            </td>
+                                            <td colspan="1" rowspan="1">
+                                                <p>可以切换界面是否可见。当可见时，与屏幕中的其他元素交互会隐藏或最小化面板。</p>
                                             </td>
                                         </tr>
                                     </tbody>
@@ -573,65 +573,65 @@
                         </section>
                         <section class="module-module col-2">
                             <div class="module">
-                                <p>Width</p>
+                                <p>宽度</p>
                             </div>
                             <div class="module">
                                 <table class="s-tag-table">
                                     <tbody>
                                         <tr>
                                             <td colspan="1" rowspan="1">
-                                                <p>Behavior</p>
+                                                <p>行为</p>
                                             </td>
                                             <td colspan="1" rowspan="1">
-                                                <p>Definition</p>
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td colspan="1" rowspan="1">
-                                                <p>Fixed</p>
-                                            </td>
-                                            <td colspan="1" rowspan="1">
-                                                <p>Element width stays the same when screen size changes.</p>
+                                                <p>定义</p>
                                             </td>
                                         </tr>
                                         <tr>
                                             <td colspan="1" rowspan="1">
-                                                <p>Fluid</p>
+                                                <p>固定</p>
                                             </td>
                                             <td colspan="1" rowspan="1">
-                                                <p>Element width grows as screen size changes.</p>
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td colspan="1" rowspan="1">
-                                                <p>Sticky</p>
-                                            </td>
-                                            <td colspan="1" rowspan="1">
-                                                <p>Element width is fixed until influenced by another element or breakpoint.</p>
+                                                <p>元素的宽度不随屏幕的宽度变化。</p>
                                             </td>
                                         </tr>
                                         <tr>
                                             <td colspan="1" rowspan="1">
-                                                <p>Squeeze</p>
+                                                <p>流动</p>
                                             </td>
                                             <td colspan="1" rowspan="1">
-                                                <p>Element width contracts as a panel is revealed</p>
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td colspan="1" rowspan="1">
-                                                <p>Push</p>
-                                            </td>
-                                            <td colspan="1" rowspan="1">
-                                                <p>Element width stays the same, its position changes horizontally as a panel appears, and it may be partially occluded by a screen’s edge.</p>
+                                                <p>元素的宽度会随着屏幕的宽度变化。</p>
                                             </td>
                                         </tr>
                                         <tr>
                                             <td colspan="1" rowspan="1">
-                                                <p>Overlay</p>
+                                                <p>粘着的</p>
                                             </td>
                                             <td colspan="1" rowspan="1">
-                                                <p>Element width and position stays the same as a panel appears over content.</p>
+                                                <p>元素的宽度固定的，直到受到其他元素或断点的影响。</p>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td colspan="1" rowspan="1">
+                                                <p>挤压</p>
+                                            </td>
+                                            <td colspan="1" rowspan="1">
+                                                <p>元素的宽度随着面板的出现而收窄。</p>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td colspan="1" rowspan="1">
+                                                <p>推出</p>
+                                            </td>
+                                            <td colspan="1" rowspan="1">
+                                                <p>元素的宽度保持不看，水平位置随着面板的出现而改变，有可能会超出屏幕的范围。</p>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td colspan="1" rowspan="1">
+                                                <p>覆盖</p>
+                                            </td>
+                                            <td colspan="1" rowspan="1">
+                                                <p>元素的宽度和位置在面板覆盖时保持不变。</p>
                                             </td>
                                         </tr>
                                     </tbody>
@@ -640,81 +640,81 @@
                         </section>
                         <section class="module-module col-2">
                             <div class="module">
-                                <p>Descriptors</p>
+                                <p>描述术语</p>
                             </div>
                             <div class="module">
                                 <table class="s-tag-table">
                                     <tbody>
                                         <tr>
                                             <td colspan="1" rowspan="1">
-                                                <p>Behavior</p>
+                                                <p>行为</p>
                                             </td>
                                             <td colspan="1" rowspan="1">
-                                                <p>Definition</p>
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td colspan="1" rowspan="1">
-                                                <p>Above, Below</p>
-                                            </td>
-                                            <td colspan="1" rowspan="1">
-                                                <p>The y position of an element.</p>
+                                                <p>定义</p>
                                             </td>
                                         </tr>
                                         <tr>
                                             <td colspan="1" rowspan="1">
-                                                <p>Over, Under</p>
+                                                <p>高于、低于</p>
                                             </td>
                                             <td colspan="1" rowspan="1">
-                                                <p>The z position of an element in motion.</p>
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td colspan="1" rowspan="1">
-                                                <p>In Front, Behind</p>
-                                            </td>
-                                            <td colspan="1" rowspan="1">
-                                                <p>The static z position of an element.</p>
+                                                <p>元素的 Y 坐标</p>
                                             </td>
                                         </tr>
                                         <tr>
                                             <td colspan="1" rowspan="1">
-                                                <p>Left, Right, Centered</p>
+                                                <p>向前、向后</p>
                                             </td>
                                             <td colspan="1" rowspan="1">
-                                                <p>The x position of an element</p>
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td colspan="1" rowspan="1">
-                                                <p>Top, Bottom</p>
-                                            </td>
-                                            <td colspan="1" rowspan="1">
-                                                <p>The y position of an element and its position relative to a screen edge.</p>
+                                                <p>运动中的元素 Z 坐标</p>
                                             </td>
                                         </tr>
                                         <tr>
                                             <td colspan="1" rowspan="1">
-                                                <p>Flat, Raised</p>
+                                                <p>前面、后面</p>
                                             </td>
                                             <td colspan="1" rowspan="1">
-                                                <p>The z position, and shadow of an element. A flat element will have no shadow.</p>
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td colspan="1" rowspan="1">
-                                                <p>Inset, Full Bleed</p>
-                                            </td>
-                                            <td colspan="1" rowspan="1">
-                                                <p>The padding of an image or element</p>
+                                                <p>元素的固定 Z 坐标</p>
                                             </td>
                                         </tr>
                                         <tr>
                                             <td colspan="1" rowspan="1">
-                                                <p>Summary, Detail</p>
+                                                <p>左、右、中心</p>
                                             </td>
                                             <td colspan="1" rowspan="1">
-                                                <p>A content summary, and the full expansion of the summary</p>
+                                                <p>元素的 X 坐标</p>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td colspan="1" rowspan="1">
+                                                <p>顶部、底部</p>
+                                            </td>
+                                            <td colspan="1" rowspan="1">
+                                                <p>元素的 Y 坐标相对于屏幕的边缘</p>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td colspan="1" rowspan="1">
+                                                <p>扁平、升高</p>
+                                            </td>
+                                            <td colspan="1" rowspan="1">
+                                                <p>元素的 Z 坐标和阴影。扁平的元素没有阴影</p>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td colspan="1" rowspan="1">
+                                                <p>内嵌、全出血</p>
+                                            </td>
+                                            <td colspan="1" rowspan="1">
+                                                <p>元素或图片的内边距</p>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td colspan="1" rowspan="1">
+                                                <p>摘要、详情</p>
+                                            </td>
+                                            <td colspan="1" rowspan="1">
+                                                <p>内容摘要和全文</p>
                                             </td>
                                         </tr>
                                     </tbody>
@@ -727,28 +727,28 @@
         </div>
         <div id="responsive-ui-patterns" class="article qp-ui" data-qp-ui="{ 'ScrollSpy': {} }" data-qp-ui-data-id="qp:4">
             <h2 class="article-title qp-ui" data-qp-ui="{ 'ResponsiveZippy': {} }" data-qp-ui-data-id="qp:4">
-                  Patterns<!-- @include _arrow -->
+                  模式<!-- @include _arrow -->
                 </h2>
             <div class="article-content">
                 <div>
-                    <p>As screen space increases, the following responsive patterns may be applied:</p>
+                    <p>当屏幕空间增加时，可以应用以下的响应模式：</p>
                     <ul class="lst-kix_vspbrsv9j74l-0 start">
-                        <li>Reveal</li>
-                        <li>Transform</li>
-                        <li>Divide</li>
-                        <li>Reflow</li>
-                        <li>Expand</li>
-                        <li>Position</li>
+                        <li>出现</li>
+                        <li>变形</li>
+                        <li>分隔</li>
+                        <li>重排</li>
+                        <li>扩展</li>
+                        <li>位移</li>
                     </ul>
-                    <h2><strong>Reveal</strong></h2>
-                    <p>UI hidden by smaller screens may be revealed with increased available space.</p>
+                    <h2><strong>出现</strong></h2>
+                    <p>UI 在小屏幕中会被隐藏，当屏幕的空间充足时，元素可能会出现。</p>
                     <div class="col-list">
                         <section class="figure col-1">
                             <div class="figure">
                                 <figure class="s-tag-media">
                                     <div class="media"><img alt="" src="<!-- @path layout_adaptiveUI_patterns_01_reveal.png -->" /></div>
                                     <figcaption>
-                                        <p>Elements, such as a side nav, may become visible.</p>
+                                        <p>像侧栏导航这样的元素就可能被显示。</p>
                                     </figcaption>
                                 </figure>
                             </div>
@@ -758,7 +758,7 @@
                                 <figure class="s-tag-media">
                                     <div class="media"><img alt="" src="<!-- @path layout_adaptiveUI_patterns_02_reveal.png -->" /></div>
                                     <figcaption>
-                                        <p>A simple UI may reveal more powerful or complex options. </p>
+                                        <p>简洁的 UI 可能会出现更多功能或复杂选项。</p>
                                     </figcaption>
                                 </figure>
                             </div>
@@ -768,21 +768,21 @@
                                 <figure class="s-tag-media">
                                     <div class="media"><img alt="" src="<!-- @path layout_adaptiveUI_patterns_03_reveal.png -->" /></div>
                                     <figcaption>
-                                        <p>Content on a small screen that only appears after tapping an element may be revealed by default when more space is available.</p>
+                                        <p>在小屏幕上内容需要点击某个元素之后才会出现，当有充足的空间后，内容会默认出现。</p>
                                     </figcaption>
                                 </figure>
                             </div>
                         </section>
                     </div>
-                    <h2><strong>Transform</strong></h2>
-                    <p>A UI element may transform from one format to another.</p>
+                    <h2><strong>变形</strong></h2>
+                    <p>UI 元素可能会从某种形态变成另一个。</p>
                     <div class="col-list">
                         <section class="figure col-1">
                             <div class="figure">
                                 <figure class="s-tag-media">
                                     <div class="media"><img alt="" src="<!-- @path layout_adaptiveUI_patterns_04_transform.png -->" /></div>
                                     <figcaption>
-                                        <p>Side navigation may transform into tabs.</p>
+                                        <p>侧栏导航变成 Tabs。</p>
                                     </figcaption>
                                 </figure>
                             </div>
@@ -792,7 +792,7 @@
                                 <figure class="s-tag-media">
                                     <div class="media"><img alt="" src="<!-- @path layout_adaptiveUI_patterns_05_transform.png -->" /></div>
                                     <figcaption>
-                                        <p>A list may transform into a grid list.</p>
+                                        <p>列表变成了网格列表。</p>
                                     </figcaption>
                                 </figure>
                             </div>
@@ -802,21 +802,21 @@
                                 <figure class="s-tag-media">
                                     <div class="media"><img alt="" src="<!-- @path layout_adaptiveUI_patterns_06_transform.png -->" /></div>
                                     <figcaption>
-                                        <p>Menu items may transform into icons in a toolbar.</p>
+                                        <p>菜单项变成了工具栏中的图标。</p>
                                     </figcaption>
                                 </figure>
                             </div>
                         </section>
                     </div>
-                    <h2><strong>Divide</strong></h2>
-                    <p>A layered UI may be divided into newly available space.</p>
+                    <h2><strong>分隔</strong></h2>
+                    <p>一个图层的 UI 可能会被划分到新的空间中。</p>
                     <div class="col-list">
                         <section class="figure col-1">
                             <div class="figure">
                                 <figure class="s-tag-media">
                                     <div class="media"><img alt="" src="<!-- @path layout_adaptiveUI_patterns_07_divide.png -->" /></div>
                                     <figcaption>
-                                        <p>Side navigation, list content, and detailed content divide to fill a single view.</p>
+                                        <p>侧栏导航、内容列表以及详情内容被分隔在同一个视图中。</p>
                                     </figcaption>
                                 </figure>
                             </div>
@@ -826,7 +826,7 @@
                                 <figure class="s-tag-media">
                                     <div class="media"><img alt="" src="<!-- @path layout_adaptiveUI_patterns_08_divide.png -->" /></div>
                                     <figcaption>
-                                        <p>A left panel, list content, and a right panel divide within a single view as space increases. </p>
+                                        <p>空间增加时，左侧面板、内容列表以及左侧面板被分隔在同一个视图中。</p>
                                     </figcaption>
                                 </figure>
                             </div>
@@ -836,19 +836,19 @@
                                 <figure class="s-tag-media">
                                     <div class="media"><img alt="" src="<!-- @path layout_adaptiveUI_patterns_09_divide.png -->" /></div>
                                 </figure>
-                                <p>Tabbed sibling content is divided within the same view.</p>
+                                <p>Tab 栏中的同级内容被分隔在同一个视图中。</p>
                             </div>
                         </section>
                     </div>
-                    <h2><strong>Reflow</strong></h2>
-                    <p>A UI may reflow into available space.</p>
+                    <h2><strong>重排</strong></h2>
+                    <p>当空间充足时 UI 会被重新布局。</p>
                     <div class="col-list">
                         <section class="figure col-1">
                             <div class="figure">
                                 <figure class="s-tag-media">
                                     <div class="media"><img alt="" src="<!-- @path layout_adaptiveUI_patterns_10_reflow.png -->" /></div>
                                     <figcaption>
-                                        <p>Elements from a single-column format may reflow to fill the content area in various combinations.</p>
+                                        <p>单列元素可能会重新排列成多种组合来填满内容区。</p>
                                     </figcaption>
                                 </figure>
                             </div>
@@ -858,7 +858,7 @@
                                 <figure class="s-tag-media">
                                     <div class="media"><img alt="" src="<!-- @path layout_adaptiveUI_patterns_11_reflow.png -->" /></div>
                                     <figcaption>
-                                        <p>Horizontal tabs may reflow into a vertical list.</p>
+                                        <p>水平列表可能会重新排列成垂直列表。</p>
                                     </figcaption>
                                 </figure>
                             </div>
@@ -868,21 +868,21 @@
                                 <figure class="s-tag-media">
                                     <div class="media"><img alt="" src="<!-- @path layout_adaptiveUI_patterns_12_reflow.png -->" /></div>
                                     <figcaption>
-                                        <p>Elements may reflow within a component based on a new screen ratio or device orientation.</p>
+                                        <p>组件内的元素可能会根据不同的屏幕比例或设备方向而重新排列。</p>
                                     </figcaption>
                                 </figure>
                             </div>
                         </section>
                     </div>
-                    <h2><strong>Expand</strong></h2>
-                    <p>The UI may expand across more space.</p>
+                    <h2><strong>扩展</strong></h2>
+                    <p>UI 可能会扩展成更大的区域。</p>
                     <div class="col-list">
                         <section class="figure col-1">
                             <div class="figure">
                                 <figure class="s-tag-media">
                                     <div class="media"><img alt="" src="<!-- @path layout_adaptiveUI_patterns_13_expand.png -->" /></div>
                                     <figcaption>
-                                        <p>Content cards may expand to fill the new space.</p>
+                                        <p>内容卡片可能会扩展成一个全新的区域。</p>
                                     </figcaption>
                                 </figure>
                             </div>
@@ -892,21 +892,21 @@
                                 <figure class="s-tag-media">
                                     <div class="media"><img alt="" src="<!-- @path layout_adaptiveUI_patterns_14_expand.png -->" /></div>
                                     <figcaption>
-                                        <p>Dialogs may expand proportionally with content or in specific increments. </p>
+                                        <p>对话框可能会根据内容扩展，或是特定的增量扩展。</p>
                                     </figcaption>
                                 </figure>
                             </div>
                         </section>
                     </div>
-                    <h2><strong>Position</strong></h2>
-                    <p>The position of UI components may change to more appropriate locations.</p>
+                    <h2><strong>位移</strong></h2>
+                    <p>UI 组件可能会移动到更合适的位置。</p>
                     <div class="col-list">
                         <section class="figure col-1">
                             <div class="figure">
                                 <figure class="s-tag-media">
                                     <div class="media"><img alt="" src="<!-- @path layout_adaptiveUI_patterns_15_position.png -->" /></div>
                                     <figcaption>
-                                        <p>A bottom sheet on a small screen may reposition itself as a menu.</p>
+                                        <p>小屏幕的底部 Sheet 可能会重新移动并以菜单的形式展示。</p>
                                     </figcaption>
                                 </figure>
                             </div>
@@ -916,7 +916,7 @@
                                 <figure class="s-tag-media">
                                     <div class="media"><img alt="" src="<!-- @path layout_adaptiveUI_patterns_16_position.png -->" /></div>
                                     <figcaption>
-                                        <p>A floating action button (FAB) may move to a more visible location relative to other UI elements.</p>
+                                        <p>浮动操作按钮（FAB）会根据其他 UI 元素移动到更显眼的位置。</p>
                                     </figcaption>
                                 </figure>
                             </div>
