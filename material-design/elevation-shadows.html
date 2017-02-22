@@ -6,20 +6,20 @@
 <div class="chapter-content">
     <div class="article-content chapter-intro">
         <div>
-            <h1>Material Design 中的物体与物理世界中的物体有很多相似的性质。</h1>
+            <h1>Material Design 物体与现实的物体有很多相似的性质。</h1>
             <div class="col-list">
                 <section class="module-module-figure col-3">
                     <div class="module">
-                        <p>在物理世界中，物体之间可以相互叠加和拼接，但是无法彼此交叉。物体也会投射出阴影，并且会反射光线。</p>
+                        <p>在现实中，物体之间可以相互叠加和拼接，但是无法彼此交叉。物体也会投射出阴影，并且会反射光线。</p>
                         <p>Material Design 的物体也拥有这些特性，并以此构建出用户熟悉的空间模型。这种方式也被广泛的应用在应用程序的设计中。</p>
                     </div>
                     <div class="module">
-                        <h3><strong>高度</strong></h3>
-                        <p>高度是衡量一个表面到另一个表面之间的距离，元素的高度表明了表面之间的距离以及阴影的深度。</p>
-                        <h3><strong>静止高度</strong></h3>
+                        <h3><strong>海拔</strong></h3>
+                        <p>海拔是衡量一个表面到另一个表面之间的距离，元素的海拔表明了表面之间的距离以及阴影的深度。</p>
+                        <h3><strong>静止海拔</strong></h3>
                         <p>所有的元素都有一个静止的高度。同一个组件在不同的应用程序中会保持相同的高度，但在不同的平台和设备中可能会有所差异。</p>
-                        <h3><strong>动态高度补偿</strong></h3>
-                        <p>动态高度补偿是组件从静止高度向目标高度移动的距离。</p>
+                        <h3><strong>动态海拔补偿</strong></h3>
+                        <p>动态海拔补偿是组件从静止海拔向目标海拔移动的距离。</p>
                     </div>
                     <div class="figure">
                         <figure class="s-tag-media">
@@ -33,32 +33,32 @@
     <nav class="chapter-toc">
         <h1>索引</h1>
         <ul>
-            <li><a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="#elevation-shadows-elevation-android" data-qp-ui-data-id="qp:1">高度 (Android)</a></li>
+            <li><a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="#elevation-shadows-elevation-android" data-qp-ui-data-id="qp:1">海拔（Android）</a></li>
             <li><a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="#elevation-shadows-shadows" data-qp-ui-data-id="qp:2">阴影</a></li>
             <li><a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="#elevation-shadows-object-relationships" data-qp-ui-data-id="qp:3">物体关系</a></li>
         </ul>
     </nav>
     <div class="article-list">
         <div id="elevation-shadows-elevation-android" class="article qp-ui" data-qp-ui="{ 'ScrollSpy': {} }" data-qp-ui-data-id="qp:1">
-            <h2 class="article-title qp-ui" data-qp-ui="{ 'ResponsiveZippy': {} }" data-qp-ui-data-id="qp:1">高度 (Android)<!-- @include _arrow --></h2>
+            <h2 class="article-title qp-ui" data-qp-ui="{ 'ResponsiveZippy': {} }" data-qp-ui-data-id="qp:1">海拔 (Android)<!-- @include _arrow --></h2>
             <div class="article-content">
                 <div>
                     <div class="col-list">
                         <section class="module-figure col-2">
                             <div class="module">
-                                <p>高度是一种相对深度、距离，是两个表面在 z-轴 上的距离。</p>
+                                <p>海拔是一种相对深度、距离，是两个表面在 z-轴 上的距离。</p>
                                 <p><strong>规格说明：</strong></p>
                                 <ul class="lst-kix_ywnojxagdrrs-0 start">
-                                    <li>测量高度的单位和 x、y 轴的一致，通常来说是与密度无关的像素（dp）。因为 Material 元素拥有深度（所有的材料都是 1dp 的厚度），所以高度被用来测量两个表面之间距离。</li>
-                                    <li>一个子元素的高度是相对于父级而言的。</li>
+                                    <li>测量海拔的单位和 x、y 轴的一致，通常来说是与密度无关的像素（dp）。因为材料元素有厚度（所有的材料都是 1dp 的厚度），所以海拔被用来测量两个表面之间距离。</li>
+                                    <li>一个子元素的海拔是相对于父级而言的。</li>
                                 </ul>
-                                <p>这张图片和其中的高度值是针对 Android 应用的。</p>
+                                <p>这张图片和其中的海拔值是针对 Android 平台的。</p>
                             </div>
                             <div class="figure">
                                 <figure class="s-tag-media">
                                     <div class="media"><img alt="" src="<!-- @path whatismaterial_3d_elevation1.png -->" /></div>
                                     <figcaption>
-                                        <p>不同高度的两个物体。</p>
+                                        <p>不同海拔的两个物体。</p>
                                     </figcaption>
                                 </figure>
                             </div>
@@ -67,22 +67,22 @@
                     <div class="col-list">
                         <section class="module-module col-2">
                             <div class="module">
-                                <h1>静止高度</h1>
-                                <p>所有的材料对象，无论什么尺寸的，都有一个静止高度，或者说是发生变化之前的默认高度。如果物体的高度发生了改变，那么它会在变化之后尽快回到静止高度。</p>
-                                <p>为了适应鼠标和非触控的操作环境，桌面端的静止高度会比列表中的高度低 2dp。</p>
-                                <p><strong>组件高度：</strong></p>
+                                <h1>静止海拔</h1>
+                                <p>所有的材料，无论什么尺寸的，都有一个静止海拔，或者说是发生变化之前的默认海拔。如果物体的海拔发生了改变，那么它会在变化之后尽快回到静止海拔。</p>
+                                <p>为了适应鼠标和非触控的操作环境，桌面端的静止海拔会比列表中的高度低 2dp。</p>
+                                <p><strong>组件海拔：</strong></p>
                                 <ul class="lst-kix_h2btshl9z56-0 start">
-                                    <li>在不同的应用程序中，同一个组件会保持相同的静止高度。比如说，浮动按钮的高度不会因为不同的应用程序而发生变化。</li>
-                                    <li>在不同的平台和设备中，组件可能会有不同的静止高度，这主要取决于环境深度。比如说，电视比桌面的深度更深，因为它的屏幕更大，用户的观看距离更远。同样的，电视和桌面都比移动设备的深度更深。</li>
+                                    <li>在不同的应用程序中，同一个组件会保持相同的静止海拔。比如说，浮动操作按钮的海拔不会随着应用程序而发生变化。</li>
+                                    <li>在不同的平台和设备中，组件可能会有不同的静止海拔，这主要取决于环境深度。比如说，电视的景深比桌面的更深，因为它的屏幕更大，用户的观看距离更远。同样的，电视和桌面的景深比移动设备的更深。</li>
                                 </ul>
                                 <p> </p>
-                                <h2>响应高度和动态高度补偿</h2>
-                                <p>有些类型的组件有响应高度，也就是说它们会根据用户的输入（比如，正常、聚焦、按下）和系统事件来改变自身的高度。改变的高度通常就是<strong>动态高度补偿</strong>。</p>
-                                <p>动态高度补偿是组件从静止高度向目标高度移动的距离。以此来确保在组件的类型或发生操作时的改变能保持一致。比如所有的组件在被按下时所提升的高度都是一致的。</p>
-                                <p>一旦输入事件完成或者被取消，组件就会回到静止高度。</p>
+                                <h2>响应海拔和动态海拔补偿</h2>
+                                <p>有些类型的组件有响应海拔，也就是说它们会根据用户的输入（比如，正常、聚焦、按下）和系统事件来改变自身的海拔。改变的海拔通常就是<strong>动态海拔补偿</strong>。</p>
+                                <p>动态海拔补偿是组件从静止海拔向目标海拔移动的距离。以此来确保在组件的类型或发生操作时的改变能保持一致。比如所有的组件在被按下时所提升的海拔都是一致的。</p>
+                                <p>一旦输入事件完成或者被取消，组件就会回到静止海拔。</p>
                                 <h2>避免冲突</h2>
-                                <p>有响应高度的组件有时候在改变高度时，会被其他组件挡住。因为<a href="<!-- @path material-properties.html -->#material-properties-physical-properties">材料不能彼此交叉</a>，因此可以通过改变冲突组件的布局或整个应用的布局来避免这些冲突。</p>
-                                <p>对于改变组件而言，在发生冲突前组件可以移动或者被移除。比如当用户激活了一个卡片时，浮动按钮（FAB）就会消失或者移出屏幕，而当一个 Snackbar 出现时，FAB 则会向上移动。</p>
+                                <p>有响应海拔的组件有时候在改变海拔时，会被其他组件挡住。因为<a href="<!-- @path material-properties.html -->#material-properties-physical-properties">材料不能彼此交叉</a>，因此可以通过改变冲突组件的布局或整个应用的布局来避免这些冲突。</p>
+                                <p>对于改变组件而言，在发生冲突前组件可以移动或者被移除。比如当用户激活了一个卡片时，浮动操作按钮（FAB）就会消失或者移出屏幕，而当一个 Snackbar 出现时，FAB 则会向上移动。</p>
                                 <p>对于整体布局而言，在设计时就要将冲突最小化。比如把 FAB 放在卡片流的旁边，这样当卡片被激活时 FAB 就不会挡住卡片。</p>
                             </div>
                             <div class="module">
@@ -90,7 +90,7 @@
                                     <tbody>
                                         <tr>
                                             <td colspan="1" rowspan="1">
-                                                <p>高度 (dp)</p>
+                                                <p>海拔 (dp)</p>
                                             </td>
                                             <td colspan="1" rowspan="1">
                                                 <p>组件</p>
@@ -102,7 +102,7 @@
                                             </td>
                                             <td colspan="1" rowspan="1">
                                                 <p>对话框</p>
-                                                <p>Picker</p>
+                                                <p>选择器</p>
                                             </td>
                                         </tr>
                                         <tr>
@@ -112,7 +112,7 @@
                                             <td colspan="1" rowspan="1">
                                                 <p>导航抽屉</p>
                                                 <p>右侧抽屉</p>
-                                                <p>Modal bottom Sheet</p>
+                                                <p>底部 Sheet 模态框</p>
                                             </td>
                                         </tr>
                                         <tr>
@@ -139,7 +139,7 @@
                                                 <p>底部导航栏</p>
                                                 <p>菜单</p>
                                                 <p>卡片（被激活时）</p>
-                                                <p>Raised button（按下时）</p>
+                                                <p>升高的按钮（按下时）</p>
                                             </td>
                                         </tr>
                                         <tr>
@@ -147,7 +147,7 @@
                                                 <p>6</p>
                                             </td>
                                             <td colspan="1" rowspan="1">
-                                                <p>浮动按钮（FAB - 静止高度）</p>
+                                                <p>浮动操作按钮（FAB - 静止海拔）</p>
                                                 <p>Snackbar</p>
                                             </td>
                                         </tr>
@@ -164,8 +164,8 @@
                                                 <p>3</p>
                                             </td>
                                             <td colspan="1" rowspan="1">
-                                                <p>Refresh indicator</p>
-                                                <p>Quick entry / Search bar (scrolled state)</p>
+                                                <p>刷新指示器</p>
+                                                <p>快速入口／搜索栏（滚动状态）</p>
                                             </td>
                                         </tr>
                                         <tr>
@@ -173,9 +173,9 @@
                                                 <p>2</p>
                                             </td>
                                             <td colspan="1" rowspan="1">
-                                                <p>卡片（静止高度）*</p>
-                                                <p>Raised button（静止高度）*</p>
-                                                <p>Quick entry / Search bar（静止高度）</p>
+                                                <p>卡片（静止海拔）*</p>
+                                                <p>升高的按钮（静止海拔）*</p>
+                                                <p>快速入口／搜索栏（静止海拔）</p>
                                             </td>
                                         </tr>
                                         <tr>
@@ -194,12 +194,12 @@
                     <div class="col-list">
                         <section class="figure col-1">
                             <div class="figure">
-                                <h1>组件的高度对比</h1>
-                                <p>下图中比较了组件的静止高度和动态高度补偿。</p>
+                                <h1>组件的海拔对比</h1>
+                                <p>下图中比较了组件的静止海拔和动态海拔补偿。</p>
                                 <figure class="s-tag-media">
                                     <div class="media"><img alt="" src="<!-- @path whatismaterial_3d_elevation2.png -->" /></div>
                                     <figcaption>
-                                        <p>上图中只有组件的高度是准确的，不要纠结图片中组件的长宽和整体布局，这些都只是为了做图而已。</p>
+                                        <p>上图中只有组件的海拔是准确的，不要纠结图片中组件的长宽和整体布局，这些都只是为了做图而已。</p>
                                     </figcaption>
                                 </figure>
                             </div>
@@ -211,7 +211,7 @@
                                 <figure class="s-tag-media">
                                     <div class="media"><img alt="" src="<!-- @path whatismaterial_3d_elevation3.png -->" /></div>
                                     <figcaption>
-                                        <p>这是一个组件的 z-轴 高度的剖面图，案例中包含了卡片和浮动按钮。</p>
+                                        <p>这是一个组件的 z-轴 海拔的剖面图，案例中包含了卡片和浮动操作按钮。</p>
                                     </figcaption>
                                 </figure>
                             </div>
@@ -223,7 +223,7 @@
                                 <figure class="s-tag-media">
                                     <div class="media"><img alt="" src="<!-- @path whatismaterial_3d_elevation4.png -->" /></div>
                                     <figcaption>
-                                        <p>这是一个组件的 z-轴 高度的剖面图，案例中包含了一个打开的抽屉导航。</p>
+                                        <p>这是一个组件的 z-轴 海拔的剖面图，案例中包含了一个打开的抽屉导航。</p>
                                     </figcaption>
                                 </figure>
                             </div>
@@ -236,7 +236,7 @@
             <h2 class="article-title qp-ui" data-qp-ui="{ 'ResponsiveZippy': {} }" data-qp-ui-data-id="qp:2">阴影<!-- @include _arrow --></h2>
             <div class="article-content">
                 <div>
-                    <p>阴影是一个重要的视觉暗示，它暗示了物体的深度和运动方向。也是区分两个物体的唯一视觉元素。阴影大小与物体所处的高度有关。</p>
+                    <p>阴影是一个重要的视觉暗示，它暗示了物体的深度和运动方向。也是区分两个物体的唯一视觉元素。阴影大小与物体所处的海拔有关。</p>
                     <div class="col-list">
                         <section class="figure-figure-figure col-3">
                             <div class="figure">
@@ -244,7 +244,7 @@
                                     <div class="media"><img alt="" src="<!-- @path whatismaterial_3d_elevation_shadow1.png -->" /></div>
                                     <figcaption>
                                         <p class="s-tag-caption dont">错</p>
-                                        <p>没有了阴影，就无法表现出浮动按钮是独立于底部的背景的。</p>
+                                        <p>没有了阴影，就无法表现出浮动操作按钮是独立于底部的背景的。</p>
                                     </figcaption>
                                 </figure>
                             </div>
@@ -262,7 +262,7 @@
                                     <div class="media"><img alt="" src="<!-- @path whatismaterial_3d_elevation_shadow3.png -->" /></div>
                                     <figcaption>
                                         <p class="s-tag-caption do">对</p>
-                                        <p>更大、更虚化的阴影暗示了浮动按钮拥有比蓝色 sheet 更高的高度。</p>
+                                        <p>更大、更虚化的阴影暗示了浮动操作按钮拥有比蓝色 Sheet 更高的海拔。</p>
                                     </figcaption>
                                 </figure>
                             </div>
@@ -276,7 +276,7 @@
                                     <div class="media"><img alt="" src="<!-- @path whatismaterial_3d_elevation_shadow4.png -->" /></div>
                                     <figcaption>
                                         <p class="s-tag-caption dont">错</p>
-                                        <p>没有了阴影暗示高度，人们无法看出是物体的尺寸还是高度发生了变化。</p>
+                                        <p>没有了阴影暗示海拔，人们无法看出是物体的尺寸还是海拔发生了变化。</p>
                                     </figcaption>
                                 </figure>
                             </div>
@@ -285,7 +285,7 @@
                                     <div class="media"><img alt="" src="<!-- @path whatismaterial_3d_elevation_shadow5.png -->" /></div>
                                     <figcaption>
                                         <p class="s-tag-caption do">对</p>
-                                        <p>更虚化、更大的阴影暗示出物体提升了高度，而更锐利、更小的阴影则暗示了物体降低了高度。</p>
+                                        <p>更虚化、更大的阴影暗示出物体提升了海拔，而更锐利、更小的阴影则暗示了物体降低了海拔。</p>
                                     </figcaption>
                                 </figure>
                             </div>
@@ -294,7 +294,7 @@
                                     <div class="media"><img alt="" src="<!-- @path whatismaterial_3d_elevation_shadow6.png -->" /></div>
                                     <figcaption>
                                         <p class="s-tag-caption do">对</p>
-                                        <p>这个案例中，一致的阴影可以帮助用户理解物体改变的是形状而不是高度。</p>
+                                        <p>这个案例中，一致的阴影可以帮助用户理解物体改变的是形状而不是海拔。</p>
                                     </figcaption>
                                 </figure>
                             </div>
@@ -305,24 +305,24 @@
                     <div class="col-list">
                         <section class="module-figure col-2">
                             <div class="module">
-                                <p><strong>App bar</strong></p>
+                                <p><strong>应用栏</strong></p>
                                 <p>4dp</p>
                             </div>
                             <div class="figure">
                                 <figure class="s-tag-media">
                                     <div class="media"><img alt="" src="<!-- @path whatismaterial_3d_elevation_component06.png -->" /></div>
                                     <figcaption>
-                                        <p>App bar 示例</p>
+                                        <p>应用栏示例</p>
                                     </figcaption>
                                 </figure>
                             </div>
                         </section>
                         <section class="module-figure col-2">
                             <div class="module">
-                                <p><strong>Raised button<br>
+                                <p><strong>升高的按钮<br>
                                 </strong>静止状态: 2dp
                                     <br> 按下状态: 8dp</p>
-                                <p>仅适用于桌面环境，浮起按钮可以有以下高度：
+                                <p>仅适用于桌面环境，升高的按钮可以有以下高度：
                                     <br> 静止状态: 0dp
                                     <br> 按下状态: 2dp</p>
                                 <p>更多详情可参考 <a href="<!-- @path buttons.html -->#buttons-raised-buttons">raised buttons</a></p>
@@ -335,7 +335,7 @@
                         </section>
                         <section class="module-figure col-2">
                             <div class="module">
-                                <p><strong>浮动按钮 (FAB)</strong></p>
+                                <p><strong>浮动操作按钮 (FAB)</strong></p>
                                 <p>静止状态: 6dp</p>
                                 <p>按下状态: 12dp</p>
                             </div>
@@ -350,7 +350,7 @@
                                 <p><strong>卡片</strong></p>
                                 <p>静止状态: 2dp</p>
                                 <p>聚焦状态: 8dp</p>
-                                <p>了解仅适用于桌面环境的内容, 请参考 <a href="<!-- @path cards.html -->#cards-content-blocks">Content blocks</a>.</p>
+                                <p>了解仅适用于桌面环境的内容, 请参考 <a href="<!-- @path cards.html -->#cards-content-blocks">内容区块</a>.</p>
                             </div>
                             <div class="figure">
                                 <figure class="s-tag-media">
@@ -394,7 +394,7 @@
                         </section>
                         <section class="module-figure col-2">
                             <div class="module">
-                                <p><strong>Modal bottom sheet</strong></p>
+                                <p><strong>底部 Sheet 模态框</strong></p>
                                 <p>16dp</p>
                             </div>
                             <div class="figure">
@@ -405,7 +405,7 @@
                         </section>
                         <section class="module-figure col-2">
                             <div class="module">
-                                <p><strong>Refresh indicator</strong></p>
+                                <p><strong>刷新指示器</strong></p>
                                 <p>3dp</p>
                             </div>
                             <div class="figure">
@@ -416,9 +416,9 @@
                         </section>
                         <section class="module-figure col-2">
                             <div class="module">
-                                <p><strong>Quick entry/Search bar</strong></p>
-                                <p>Resting state: 2dp</p>
-                                <p>Scrolled state: 3dp</p>
+                                <p><strong>快速入口／搜索栏</strong></p>
+                                <p>静止状态：2dp</p>
+                                <p>滚动状态：3dp</p>
                             </div>
                             <div class="figure">
                                 <figure class="s-tag-media">
@@ -470,7 +470,7 @@
                                     <li>同级的物体在等级关系中处于同一水平。</li>
                                 </ul>
                                 <h2><strong><strong>例外</strong></strong></h2>
-                                <p>根目录的子级（比如主要的 UI 元素）可以独立的移动。比如浮动按钮不会随着内容的滚动而移动。其他元素包括：</p>
+                                <p>根目录的子级（比如主要的 UI 元素）可以独立的移动。比如浮动操作按钮不会随着内容的滚动而移动。其他元素包括：</p>
                                 <ul class="lst-kix_q1k9qrwkv05c-0 start">
                                     <li>应用的抽屉导航</li>
                                     <li>工具栏</li>
@@ -483,8 +483,8 @@
                                     <li>子元素是距离父元素最近的元素；也就是说，在子元素和父元素之间不能插入其他元素。</li>
                                     <li>当卡片集合滚动时，卡片之间是同级关系，所以它们一起滚动。而卡片内部的元素则被卡片自身所控制。</li>
                                 </ul>
-                                <h2><strong><strong>高度</strong></strong></h2>
-                                <p>你如何确定一个物体的高度（z-轴 的位置）取决于物体在等级关系中的位置，以及它是否需要独立移动。</p>
+                                <h2><strong><strong>海拔</strong></strong></h2>
+                                <p>你如何确定一个物体的海拔（z-轴 的位置）取决于物体在等级关系中的位置，以及它是否需要独立移动。</p>
                             </div>
                             <div class="figure">
                                 <figure class="s-tag-media">
@@ -499,7 +499,7 @@
                                         </div>
                                     </div>
                                     <figcaption>
-                                        <p>当父级滚动时，浮起的按钮（子元素）会跟着一起滚动。</p>
+                                        <p>当父级滚动时，升高的按钮（子元素）会跟着一起滚动。</p>
                                     </figcaption>
                                 </figure>
                                 <figure class="s-tag-media">
