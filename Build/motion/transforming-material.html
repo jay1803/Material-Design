@@ -4,14 +4,14 @@
     <meta charset="utf-8">
     <link href="../assets/css/main.css" rel="stylesheet">
     <meta name="viewport" content="initial-scale=1, width=device-width">
-    <title>材料的形变 - 动效 - Material design guidelines</title>
-    <meta itemprop="name" content="材料的形变  - Material design - Material design guidelines">
+    <title>材料转换 - 运动 - Material Design 中文指南</title>
+    <meta itemprop="name" content="材料转换  - 运动 - Material Design 中文指南">
     <meta itemprop="image" content="../assets/images/share.png">
     <meta property="og:type" content="article">
-    <meta property="og:title" content="材料的形变  - Material design - Material design guidelines">
+    <meta property="og:title" content="材料转换  - 运动 - Material Design 中文指南">
     <meta itemprop="image" content="../assets/images/share.png">
-    <meta property="og:site_name" content="Material design guidelines">
-    <meta property="article:section" content="材料的形变  - Material design">
+    <meta property="og:site_name" content="Material design 中文指南">
+    <meta property="article:section" content="材料转换  - Material design">
     <meta name="theme-color" content="#00bcd4">
     <link rel="icon" sizes="192x192" href="../assets/images/guidelines-icon-192x192.png">
     <link rel="shortcut icon" href="../assets/images/guidelines-icon-72x72.png">
@@ -37,15 +37,24 @@
         </DataObject>
     </PageMap>
     -->
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-53975718-3', 'auto');
+      ga('send', 'pageview');
+    </script>
 </head>
 
 <body class="site-material_ext_publish section-material-design first-chapter color-purple qp-ui" data-qp-ui="{ 'Mask': {} }">
     <header class="qp-ui" data-qp-ui="{'Peekaboo': {'mobile': 72,'desktop-sm': 72,'default': 192}}">
         <div class="header-wrapper qp-ui" data-qp-ui="{'Peekaboo': {'mobile': 28,'desktop-sm': 28,'default': 82}}">
             <div class="header-title">
-                <span class="section-title">动效</span>
+                <span class="section-title">运动</span>
                 <span class="chapter-title">
-              <span class="title-separator">–</span> 材料的形变
+              <span class="title-separator">–</span> 材料转换
                 </span>
             </div>
         </div>
@@ -55,33 +64,35 @@
             <i class="material-icons material-spec-icon" title="Show navigation">menu</i>
         </button>
     </nav>
+  
 <div id="side-nav" class="qp-ui qp-ui-side-nav-drawer" data-qp-ui="{ 'SideNavDrawer': {} }" data-qp-ui-data-id="qp:4">
     <div class="side-nav-wrapper ">
         <div>
-            <span id="logo"><a href="../material-deisgn/introduction.html"><img src="../assets/images/material-design.svg" alt="Logo"></a></span>
+            <span id="logo"><a href="../material-design/introduction.html"><img src="../assets/images/material-design.svg" alt="Logo"></a></span>
+            <!-- @todo 修改为 Max Design LOGO 和 链接 -->
             <nav>
                 <dl>
-                    <dt class="qp-ui goog-zippy-header goog-zippy-expanded" data-qp-ui="{ 'SideNavZippy': false }" tabindex="0" role="tab" aria-expanded="false" data-qp-ui-data-id="qp:5">Material design</dt>
+                    <dt class="qp-ui goog-zippy-header goog-zippy-expanded" data-qp-ui="{ 'SideNavZippy': false }" tabindex="0" role="tab" aria-expanded="false" data-qp-ui-data-id="qp:5">Material Design</dt>
                     <div style="overflow: hidden;">
                         <dd style="margin-top: 0px;">
-                            <a href="../material-deisgn/introduction.html">概述</a>
-                            <a href="../material-deisgn/environment.html">环境</a>
-                            <a href="../material-deisgn/material-properties.html">Material 属性</a>
-                            <a href="../material-deisgn/elevation-shadows.html">层次 &amp; 阴影</a>
-                            <a href="../material-deisgn/whats-new.html">最近更新</a>
+                            <a href="../material-design/introduction.html">概述</a>
+                            <a href="../material-design/environment.html">环境</a>
+                            <a href="../material-design/material-properties.html">材料属性</a>
+                            <a href="../material-design/elevation-shadows.html">海拔 &amp; 阴影</a>
+                            <a href="../material-design/whats-new.html">最近更新</a>
                         </dd>
                     </div>
                 </dl>
                 <dl>
-                    <dt class="qp-ui goog-zippy-header goog-zippy-collapsed" data-qp-ui="{ 'SideNavZippy': false }" tabindex="0" role="tab" aria-expanded="false" data-qp-ui-data-id="qp:6">动效</dt>
+                    <dt class="qp-ui goog-zippy-header goog-zippy-collapsed" data-qp-ui="{ 'SideNavZippy': false }" tabindex="0" role="tab" aria-expanded="false" data-qp-ui-data-id="qp:6">运动</dt>
                     <div style="overflow: hidden;">
                         <dd>
-                            <a href="material-motion.html">Material 动效</a>
-                            <a href="duration-easing.html">持续时间 &amp; 缓动</a>
+                            <a href="material-motion.html">材料运动</a>
+                            <a href="duration-easing.html">转换时长 &amp; 缓动</a>
                             <a href="movement.html">移动</a>
-                            <a class='current' href="transforming-material.html">材料的形变</a>
+                            <a class='current' href="transforming-material.html">材料转换</a>
                             <a href="choreography.html">编排</a>
-                            <a href="creative-customization.html">别出心裁</a>
+                            <a href="creative-customization.html">创意定制</a>
                         </dd>
                     </div>
                 </dl>
@@ -89,11 +100,11 @@
                     <dt class="qp-ui goog-zippy-header goog-zippy-collapsed" data-qp-ui="{ 'SideNavZippy': false }" tabindex="0" role="tab" aria-expanded="false" data-qp-ui-data-id="qp:7">样式</dt>
                     <div style="overflow: hidden;">
                         <dd>
-                            <a href="../style/color.html">色彩</a>
+                            <a href="../style/color.html">颜色</a>
                             <a href="../style/icons.html">图标</a>
                             <a href="../style/imagery.html">图像</a>
                             <a href="../style/typography.html">排版</a>
-                            <a href="../style/writing.html">书写</a>
+                            <a href="../style/writing.html">书面用语</a>
                         </dd>
                     </div>
                 </dl>
@@ -115,31 +126,31 @@
                     <div style="overflow: hidden;">
                         <dd>
                             <a href="../components/bottom-navigation.html">底部导航栏</a>
-                            <a href="../components/bottom-sheets.html">底部 sheets</a>
+                            <a href="../components/bottom-sheets.html">底部列表</a>
                             <a href="../components/buttons.html">按钮</a>
-                            <a href="../components/buttons-floating-action-button.html">按钮：浮动按钮</a>
+                            <a href="../components/buttons-floating-action-button.html">按钮：浮动操作按钮</a>
                             <a href="../components/cards.html">卡片</a>
-                            <a href="../components/chips.html">Chips</a>
+                            <a href="../components/chips.html">片段</a>
                             <a href="../components/data-tables.html">数据表格</a>
                             <a href="../components/dialogs.html">对话框</a>
-                            <a href="../components/dividers.html">分隔符</a>
-                            <a href="../components/expansion-panels.html">Expansion panels</a>
+                            <a href="../components/dividers.html">分隔线</a>
+                            <a href="../components/expansion-panels.html">扩展面板</a>
                             <a href="../components/grid-lists.html">网格列表</a>
                             <a href="../components/lists.html">列表</a>
-                            <a href="../components/lists-controls.html">列表：控制器</a>
-                            <a href="../components/menus.html">Menus</a>
-                            <a href="../components/pickers.html">Pickers</a>
+                            <a href="../components/lists-controls.html">列表：控件</a>
+                            <a href="../components/menus.html">菜单</a>
+                            <a href="../components/pickers.html">选择器</a>
                             <a href="../components/progress-activity.html">进程 &amp; 活动</a>
-                            <a href="../components/selection-controls.html">控制开关</a>
+                            <a href="../components/selection-controls.html">选择控件</a>
                             <a href="../components/sliders.html">滑块</a>
                             <a href="../components/snackbars-toasts.html">Snackbars &amp; toasts</a>
-                            <a href="../components/steppers.html">Steppers</a>
-                            <a href="../components/subheaders.html">Subheaders</a>
-                            <a href="../components/tabs.html">Tabs</a>
+                            <a href="../components/steppers.html">步进器</a>
+                            <a href="../components/subheaders.html">子标题</a>
+                            <a href="../components/tabs.html">选项卡</a>
                             <a href="../components/text-fields.html">文本框</a>
                             <a href="../components/toolbars.html">工具栏</a>
-                            <a href="../components/tooltips.html">Tooltips</a>
-                            <a href="../components/widgets.html">插件</a>
+                            <a href="../components/tooltips.html">提示信息</a>
+                            <a href="../components/widgets.html">桌面小部件</a>
                         </dd>
                     </div>
                 </dl>
@@ -147,7 +158,7 @@
                     <dt class="qp-ui goog-zippy-header goog-zippy-collapsed" data-qp-ui="{ 'SideNavZippy': false }" tabindex="0" role="tab" aria-expanded="false" data-qp-ui-data-id="qp:a">模式</dt>
                     <div style="overflow: hidden;">
                         <dd>
-                            <a href="../patterns/confirmation-acknowledgement.html">批准 &amp; 鸣谢</a>
+                            <a href="../patterns/confirmation-acknowledgement.html">确认 &amp; 确知</a>
                             <a href="../patterns/data-formats.html">数据格式</a>
                             <a href="../patterns/empty-states.html">空白状态</a>
                             <a href="../patterns/errors.html">出错</a>
@@ -184,7 +195,7 @@
                     <dt class="qp-ui goog-zippy-header goog-zippy-collapsed" data-qp-ui="{ 'SideNavZippy': false }" tabindex="0" role="tab" aria-expanded="false" data-qp-ui-data-id="qp:c">可用性</dt>
                     <div style="overflow: hidden;">
                         <dd>
-                            <a href="../usability/accessibility.html">可达性</a>
+                            <a href="../usability/accessibility.html">无障碍</a>
                             <a href="../usability/bidirectionality.html">双向性</a>
                         </dd>
                     </div>
@@ -221,7 +232,7 @@
                         <a href="http://www.google.com/policies/terms/">Terms</a>
                     </li>
                     <li>
-                        <a href="http://maxc.me">MxD</a>
+                        <a href="http://maxoxo.design">Max Design</a>
                     </li>
                 </ul>
             </div>
@@ -230,22 +241,22 @@
 </div>
 <div id="grid-cont">
     <section class="grid_outer chapter">
-        <h1 class="chapter-title">材料的形变</h1>
+        <h1 class="chapter-title">材料转换</h1>
 <div class="chapter-content">
     <div class="article-content chapter-intro">
         <div>
             <div class="col-list">
                 <section class="module-module-figure col-3">
                     <div class="module">
-                        <p>Material can make surfaces feel alive by multiplying and dividing them, and changing their shape and size.</p>
+                        <p>材料的表面可以合并和分裂，可以改变形状和尺寸，这些特性让材料更富生命力。</p>
                     </div>
                     <div class="module">
-                        <h3><strong>Rectangular transformation </strong></h3>
-                        <p>Asymmetric
-                            <br> Symmetric
+                        <h3><strong>矩形转换</strong></h3>
+                        <p>不对称转换
+                            <br> 对称转换
                         </p>
-                        <h3><strong>Radial transformation</strong></h3>
-                        <p>Symmetrical and circular</p>
+                        <h3><strong>散射转换</strong></h3>
+                        <p>圆形转换</p>
                     </div>
                     <div class="figure">
                         <figure class="s-tag-media">
@@ -257,17 +268,17 @@
         </div>
     </div>
     <nav class="chapter-toc">
-        <h1>Contents</h1>
+        <h1>索引</h1>
         <ul>
-            <li><a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="#transforming-material-rectangular-transformation" data-qp-ui-data-id="qp:1">Rectangular transformation</a></li>
-            <li><a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="#transforming-material-radial-transformation" data-qp-ui-data-id="qp:2">Radial transformation</a></li>
-            <li><a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="#transforming-material-joining-dividing" data-qp-ui-data-id="qp:3">Joining &amp; Dividing</a></li>
+            <li><a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="#transforming-material-rectangular-transformation" data-qp-ui-data-id="qp:1">矩形转换</a></li>
+            <li><a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="#transforming-material-radial-transformation" data-qp-ui-data-id="qp:2">径向转换</a></li>
+            <li><a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="#transforming-material-joining-dividing" data-qp-ui-data-id="qp:3">加入 &amp; 分离</a></li>
         </ul>
     </nav>
     <div class="article-list">
         <div id="transforming-material-rectangular-transformation" class="article qp-ui" data-qp-ui="{ 'ScrollSpy': {} }" data-qp-ui-data-id="qp:1">
             <h2 class="article-title qp-ui" data-qp-ui="{ 'ResponsiveZippy': {} }" data-qp-ui-data-id="qp:1">
-                  Rectangular transformation<svg xmlns="http://www.w3.org/2000/svg" version="1.1" class="icon icon-expand-collapse" role="img" viewBox="0 0 10 10" aria-labelledby="title desc">
+                  矩形转换<svg xmlns="http://www.w3.org/2000/svg" version="1.1" class="icon icon-expand-collapse" role="img" viewBox="0 0 10 10" aria-labelledby="title desc">
     <title>展开或收起内容</title>
     <desc>当内容收起时，箭头向下，当内容展开时，箭头向上。</desc>
     <polygon role="presentation" points="2.5,4.167 5,6.667 7.5,4.167 6.917,3.583 5,5.5 3.083,3.583"></polygon>
@@ -275,14 +286,14 @@
                 </h2>
             <div class="article-content">
                 <div>
-                    <p>When material changes shape and size, its width and height change asynchronously along a motion curve. These changes are <a href="choreography.html">choreographed</a> with nearby surfaces inside or around the changing element.</p>
-                    <p>All surface transformations that occur on-screen, such as the ones below, use the <a href="duration-easing.html#duration-easing-natural-easing-curves">standard curve</a>. </p>
+                    <p>当材料改变形状和尺寸时，它的宽高也会沿着运动曲线异步变化。这就会影响内部和周围的其他元素，因此这种转换需要<a href="choreography.html">精心编排</a>。</p>
+                    <p>所有表面的转换都会立即呈现在屏幕上，比如以下这些，因此也都使用<a href="duration-easing.html#duration-easing-natural-easing-curves">标准曲线</a>。</p>
                     <div class="col-list">
                         <section class="module-figure col-2">
                             <div class="module">
-                                <h1>Transforming width and height</h1>
-                                <p>Elements may be expanded or collapsed using either asymmetric or symmetrical width and height changes.</p>
-                                <p><strong>Asymmetric transformations</strong> involve the width and height changes at different rates. They work best when multiple elements or position changes are involved.</p>
+                                <h1>宽高的转换</h1>
+                                <p>材料可以通过对称或不对称的宽高变化来扩展或收缩。</p>
+                                <p><strong>不对称转换</strong>会让宽高按照不同的比例发生变化。当多个元素参与改变，或者元素的位置也发生变化时，这种转换方式就非常合适。</p>
                             </div>
                             <div class="figure">
                                 <figure class="s-tag-media">
@@ -297,15 +308,15 @@
                                         </div>
                                     </div>
                                     <figcaption>
-                                        <p>Asymmetric transformation</p>
-                                        <p>To expand an elements’ size, begin transforming the width of an element slightly before transforming the height. To collapse an element’s size, begin transforming the height slightly before the width. </p>
+                                        <p>不对称转换</p>
+                                        <p>元素在扩展时，宽度的转换会先于高度，收缩时则相反。</p>
                                     </figcaption>
                                 </figure>
                             </div>
                         </section>
                         <section class="module-figure col-2">
                             <div class="module">
-                                <p><strong>Symmetrical transformations</strong> involve width and height changes occurring at the same rate. They are better for changes to a single element that occur along a single axis.</p>
+                                <p><strong>对称转换</strong>会让宽高按照相同的比例发生变化。当单个元素沿着单个轴发生变化时，这种转换方式就非常合适。</p>
                             </div>
                             <div class="figure">
                                 <figure class="s-tag-media">
@@ -320,8 +331,8 @@
                                         </div>
                                     </div>
                                     <figcaption>
-                                        <p>Symmetric transformation</p>
-                                        <p>Transforming width and height at the same time is a less detailed animation approach best suited to simple shape changes. These transformations can have slightly shorter durations than asymmetric ones.</p>
+                                        <p>对称转换</p>
+                                        <p>宽高同时改变会让动画的细节更少，非常适合简单的改变形状。这种转换的时长比不对称转换稍短一些。</p>
                                     </figcaption>
                                 </figure>
                             </div>
@@ -330,7 +341,7 @@
                     <div class="col-list">
                         <section class="module-figure-figure col-3">
                             <div class="module">
-                                <p>When an element expands asynchronously, the items it contains (such as text or images) change size at a constant aspect ratio to prevent unnatural stretching. For more information on how to transition content within a surface, see <a href="choreography.html">Choreography</a>.</p>
+                                <p>当元素异步展开时，它的内容（文字或图片）也会按照恒定的比例转换，以防止内容被拉伸。了解内容如何跟随表面转换可参考<a href="choreography.html">编排</a>.</p>
                             </div>
                             <div class="figure">
                                 <figure class="s-tag-media">
@@ -345,7 +356,7 @@
                                         </div>
                                     </div>
                                     <figcaption>
-                                        <p>Content (such as a full-width image) transforms at a constant aspect ratio, even as its container (such as a larger card) transforms asynchronously along a motion curve.</p>
+                                        <p>内容（比如全宽的图片）按照恒定的比例发生转换，与容器（比如超大的卡片）按照运动曲线异步转换。</p>
                                     </figcaption>
                                 </figure>
                             </div>
@@ -362,7 +373,7 @@
                                         </div>
                                     </div>
                                     <figcaption>
-                                        <p>Containers with full-bleed content (such as a full-bleed image) may expand synchronously.</p>
+                                        <p>容器内的出血内容（比如出血图片）也可以异步展开。</p>
                                     </figcaption>
                                 </figure>
                             </div>
@@ -373,7 +384,7 @@
         </div>
         <div id="transforming-material-radial-transformation" class="article qp-ui" data-qp-ui="{ 'ScrollSpy': {} }" data-qp-ui-data-id="qp:2">
             <h2 class="article-title qp-ui" data-qp-ui="{ 'ResponsiveZippy': {} }" data-qp-ui-data-id="qp:2">
-                  Radial transformation<svg xmlns="http://www.w3.org/2000/svg" version="1.1" class="icon icon-expand-collapse" role="img" viewBox="0 0 10 10" aria-labelledby="title desc">
+                  径向转换<svg xmlns="http://www.w3.org/2000/svg" version="1.1" class="icon icon-expand-collapse" role="img" viewBox="0 0 10 10" aria-labelledby="title desc">
     <title>展开或收起内容</title>
     <desc>当内容收起时，箭头向下，当内容展开时，箭头向上。</desc>
     <polygon role="presentation" points="2.5,4.167 5,6.667 7.5,4.167 6.917,3.583 5,5.5 3.083,3.583"></polygon>
@@ -384,7 +395,7 @@
                     <div class="col-list">
                         <section class="module-figure-figure col-3">
                             <div class="module">
-                                <p>Radial transformations are symmetrical, circular visualizations that originate from a user’s point of touch. They are commonly used on circular surfaces that morph into other shapes.</p>
+                                <p>径向转换是对称的圆形的转换效果，从用户的触控点开始向四周扩散。通常应用在一个圆形的表面转换成其他形状。</p>
                             </div>
                             <div class="figure">
                                 <figure class="s-tag-media">
@@ -399,8 +410,8 @@
                                         </div>
                                     </div>
                                     <figcaption>
-                                        <p class="s-tag-caption do">Do.</p>
-                                        <p>Radial transformation should be used on circular surfaces that morph into rectangular surfaces, or for creating new surfaces from the point of input.</p>
+                                        <p class="s-tag-caption do">对</p>
+                                        <p>在圆形的表面转换成其他形状，或者是从某个点新建了一个表面时，应当使用径向转换。</p>
                                     </figcaption>
                                 </figure>
                             </div>
@@ -417,8 +428,8 @@
                                         </div>
                                     </div>
                                     <figcaption>
-                                        <p class="s-tag-caption dont">Don't.</p>
-                                        <p>Don’t use a radial transformation when transforming between two rectangular shapes.</p>
+                                        <p class="s-tag-caption dont">错</p>
+                                        <p>两个矩形相互转换时请不要使用径向转换。</p>
                                     </figcaption>
                                 </figure>
                             </div>
@@ -439,8 +450,8 @@
                                         </div>
                                     </div>
                                     <figcaption>
-                                        <p class="s-tag-caption dont">Don't.</p>
-                                        <p>Don’t expand an oval’s width and height asynchronously.</p>
+                                        <p class="s-tag-caption dont">错</p>
+                                        <p>不要对圆形的宽高使用异步转换。</p>
                                     </figcaption>
                                 </figure>
                             </div>
@@ -457,15 +468,15 @@
                                         </div>
                                     </div>
                                     <figcaption>
-                                        <p class="s-tag-caption dont">Don't.</p>
-                                        <p>Don’t transform complex shapes.</p>
+                                        <p class="s-tag-caption dont">错</p>
+                                        <p>不要转换复杂的形状。</p>
                                     </figcaption>
                                 </figure>
                             </div>
                         </section>
                         <section class="module-figure-figure col-3">
                             <div class="module">
-                                <p>Transformations can originate either from the object’s current location or from the center of the final surface being formed. </p>
+                                <p>转换的起点可以是对象当前所在的位置中心，也可以是表面最终出现的位置中心。</p>
                             </div>
                             <div class="figure">
                                 <figure class="s-tag-media">
@@ -480,7 +491,7 @@
                                         </div>
                                     </div>
                                     <figcaption>
-                                        <p>During expansion, the floating action button moves in an arc towards its destination as it expands into a card.</p>
+                                        <p>在转换期间，浮动操作按钮沿着一条弧线前进到目的地，然后扩展成一张卡片。</p>
                                     </figcaption>
                                 </figure>
                             </div>
@@ -497,7 +508,7 @@
                                         </div>
                                     </div>
                                     <figcaption>
-                                        <p>The center of the floating action button stays in place during the transformation, creating a subtler expansion effect.</p>
+                                        <p>在转换期间，浮动操作按钮的中心保持原有的位置，创造了一种更微妙的扩展效果。</p>
                                     </figcaption>
                                 </figure>
                             </div>
@@ -508,7 +519,7 @@
         </div>
         <div id="transforming-material-joining-dividing" class="article qp-ui" data-qp-ui="{ 'ScrollSpy': {} }" data-qp-ui-data-id="qp:3">
             <h2 class="article-title qp-ui" data-qp-ui="{ 'ResponsiveZippy': {} }" data-qp-ui-data-id="qp:3">
-                  Joining &amp; Dividing<svg xmlns="http://www.w3.org/2000/svg" version="1.1" class="icon icon-expand-collapse" role="img" viewBox="0 0 10 10" aria-labelledby="title desc">
+                  加入 &amp; 分离<svg xmlns="http://www.w3.org/2000/svg" version="1.1" class="icon icon-expand-collapse" role="img" viewBox="0 0 10 10" aria-labelledby="title desc">
     <title>展开或收起内容</title>
     <desc>当内容收起时，箭头向下，当内容展开时，箭头向上。</desc>
     <polygon role="presentation" points="2.5,4.167 5,6.667 7.5,4.167 6.917,3.583 5,5.5 3.083,3.583"></polygon>
@@ -519,12 +530,12 @@
                     <div class="col-list">
                         <section class="module-figure-module col-3">
                             <div class="module">
-                                <h2>Joining</h2>
-                                <p>Material may join with other material, or it may divide into multiple pieces. As two pieces of material approach one other, their edges meet and margins overlap before the movement completes. </p>
-                                <h2>Dividing</h2>
-                                <p>When material divides into multiple pieces, the pieces begin separation at the start of the movement. </p>
-                                <h2>Shadows</h2>
-                                <p>Shadows from separated material do not appear above sibling elements.</p>
+                                <h2>加入</h2>
+                                <p>一个材料可以加入另一个材料，或者分裂成多个。两个材料也可以合并成一个，在移动结束前，它们的边缘相互靠近，然后重叠留白区域。</p>
+                                <h2>分离</h2>
+                                <p>材料在转换刚开始的时候就分离了。</p>
+                                <h2>阴影</h2>
+                                <p>分离元素的阴影不会重叠在同级的其他元素上。</p>
                             </div>
                             <div class="figure">
                                 <figure class="s-tag-media">
@@ -539,7 +550,7 @@
                                         </div>
                                     </div>
                                     <figcaption>
-                                        <p>Example of material joining and dividing</p>
+                                        <p>加入和分离的案例。</p>
                                     </figcaption>
                                 </figure>
                             </div>
@@ -586,5 +597,19 @@
 </footer>
 <script src="../assets/js/picturefill.min.js"></script>
 <script src="../assets/js/main.js"></script>
+<script>
+(function(){
+    var bp = document.createElement('script');
+    var curProtocol = window.location.protocol.split(':')[0];
+    if (curProtocol === 'https') {
+        bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';        
+    }
+    else {
+        bp.src = 'http://push.zhanzhang.baidu.com/push.js';
+    }
+    var s = document.getElementsByTagName("script")[0];
+    s.parentNode.insertBefore(bp, s);
+})();
+</script>
 </body>
 </html>

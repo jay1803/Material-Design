@@ -4,14 +4,14 @@
     <meta charset="utf-8">
     <link href="../assets/css/main.css" rel="stylesheet">
     <meta name="viewport" content="initial-scale=1, width=device-width">
-    <title>按钮：浮动按钮 - 组件 - Material design guidelines</title>
-    <meta itemprop="name" content="按钮：浮动按钮  - Material design - Material design guidelines">
+    <title>按钮：浮动操作按钮 - 组件 - Material Design 中文指南</title>
+    <meta itemprop="name" content="按钮：浮动操作按钮  - 组件 - Material Design 中文指南">
     <meta itemprop="image" content="../assets/images/share.png">
     <meta property="og:type" content="article">
-    <meta property="og:title" content="按钮：浮动按钮  - Material design - Material design guidelines">
+    <meta property="og:title" content="按钮：浮动操作按钮  - 组件 - Material Design 中文指南">
     <meta itemprop="image" content="../assets/images/share.png">
-    <meta property="og:site_name" content="Material design guidelines">
-    <meta property="article:section" content="按钮：浮动按钮  - Material design">
+    <meta property="og:site_name" content="Material design 中文指南">
+    <meta property="article:section" content="按钮：浮动操作按钮  - Material design">
     <meta name="theme-color" content="#00bcd4">
     <link rel="icon" sizes="192x192" href="../assets/images/guidelines-icon-192x192.png">
     <link rel="shortcut icon" href="../assets/images/guidelines-icon-72x72.png">
@@ -37,6 +37,15 @@
         </DataObject>
     </PageMap>
     -->
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-53975718-3', 'auto');
+      ga('send', 'pageview');
+    </script>
 </head>
 
 <body class="site-material_ext_publish section-material-design first-chapter color-indigo qp-ui" data-qp-ui="{ 'Mask': {} }">
@@ -45,7 +54,7 @@
             <div class="header-title">
                 <span class="section-title">组件</span>
                 <span class="chapter-title">
-              <span class="title-separator">–</span> 按钮：浮动按钮
+              <span class="title-separator">–</span> 按钮：浮动操作按钮
                 </span>
             </div>
         </div>
@@ -55,33 +64,35 @@
             <i class="material-icons material-spec-icon" title="Show navigation">menu</i>
         </button>
     </nav>
+  
 <div id="side-nav" class="qp-ui qp-ui-side-nav-drawer" data-qp-ui="{ 'SideNavDrawer': {} }" data-qp-ui-data-id="qp:4">
     <div class="side-nav-wrapper ">
         <div>
-            <span id="logo"><a href="../material-deisgn/introduction.html"><img src="../assets/images/material-design.svg" alt="Logo"></a></span>
+            <span id="logo"><a href="../material-design/introduction.html"><img src="../assets/images/material-design.svg" alt="Logo"></a></span>
+            <!-- @todo 修改为 Max Design LOGO 和 链接 -->
             <nav>
                 <dl>
-                    <dt class="qp-ui goog-zippy-header goog-zippy-expanded" data-qp-ui="{ 'SideNavZippy': false }" tabindex="0" role="tab" aria-expanded="false" data-qp-ui-data-id="qp:5">Material design</dt>
+                    <dt class="qp-ui goog-zippy-header goog-zippy-expanded" data-qp-ui="{ 'SideNavZippy': false }" tabindex="0" role="tab" aria-expanded="false" data-qp-ui-data-id="qp:5">Material Design</dt>
                     <div style="overflow: hidden;">
                         <dd style="margin-top: 0px;">
-                            <a href="../material-deisgn/introduction.html">概述</a>
-                            <a href="../material-deisgn/environment.html">环境</a>
-                            <a href="../material-deisgn/material-properties.html">Material 属性</a>
-                            <a href="../material-deisgn/elevation-shadows.html">层次 &amp; 阴影</a>
-                            <a href="../material-deisgn/whats-new.html">最近更新</a>
+                            <a href="../material-design/introduction.html">概述</a>
+                            <a href="../material-design/environment.html">环境</a>
+                            <a href="../material-design/material-properties.html">材料属性</a>
+                            <a href="../material-design/elevation-shadows.html">海拔 &amp; 阴影</a>
+                            <a href="../material-design/whats-new.html">最近更新</a>
                         </dd>
                     </div>
                 </dl>
                 <dl>
-                    <dt class="qp-ui goog-zippy-header goog-zippy-collapsed" data-qp-ui="{ 'SideNavZippy': false }" tabindex="0" role="tab" aria-expanded="false" data-qp-ui-data-id="qp:6">动效</dt>
+                    <dt class="qp-ui goog-zippy-header goog-zippy-collapsed" data-qp-ui="{ 'SideNavZippy': false }" tabindex="0" role="tab" aria-expanded="false" data-qp-ui-data-id="qp:6">运动</dt>
                     <div style="overflow: hidden;">
                         <dd>
-                            <a href="../motion/material-motion.html">Material 动效</a>
-                            <a href="../motion/duration-easing.html">持续时间 &amp; 缓动</a>
+                            <a href="../motion/material-motion.html">材料运动</a>
+                            <a href="../motion/duration-easing.html">转换时长 &amp; 缓动</a>
                             <a href="../motion/movement.html">移动</a>
-                            <a href="../motion/transforming-material.html">材料的形变</a>
+                            <a href="../motion/transforming-material.html">材料转换</a>
                             <a href="../motion/choreography.html">编排</a>
-                            <a href="../motion/creative-customization.html">别出心裁</a>
+                            <a href="../motion/creative-customization.html">创意定制</a>
                         </dd>
                     </div>
                 </dl>
@@ -89,11 +100,11 @@
                     <dt class="qp-ui goog-zippy-header goog-zippy-collapsed" data-qp-ui="{ 'SideNavZippy': false }" tabindex="0" role="tab" aria-expanded="false" data-qp-ui-data-id="qp:7">样式</dt>
                     <div style="overflow: hidden;">
                         <dd>
-                            <a href="../style/color.html">色彩</a>
+                            <a href="../style/color.html">颜色</a>
                             <a href="../style/icons.html">图标</a>
                             <a href="../style/imagery.html">图像</a>
                             <a href="../style/typography.html">排版</a>
-                            <a href="../style/writing.html">书写</a>
+                            <a href="../style/writing.html">书面用语</a>
                         </dd>
                     </div>
                 </dl>
@@ -115,31 +126,31 @@
                     <div style="overflow: hidden;">
                         <dd>
                             <a href="bottom-navigation.html">底部导航栏</a>
-                            <a href="bottom-sheets.html">底部 sheets</a>
+                            <a href="bottom-sheets.html">底部列表</a>
                             <a href="buttons.html">按钮</a>
-                            <a class='current' href="buttons-floating-action-button.html">按钮：浮动按钮</a>
+                            <a class='current' href="buttons-floating-action-button.html">按钮：浮动操作按钮</a>
                             <a href="cards.html">卡片</a>
-                            <a href="chips.html">Chips</a>
+                            <a href="chips.html">片段</a>
                             <a href="data-tables.html">数据表格</a>
                             <a href="dialogs.html">对话框</a>
-                            <a href="dividers.html">分隔符</a>
-                            <a href="expansion-panels.html">Expansion panels</a>
+                            <a href="dividers.html">分隔线</a>
+                            <a href="expansion-panels.html">扩展面板</a>
                             <a href="grid-lists.html">网格列表</a>
                             <a href="lists.html">列表</a>
-                            <a href="lists-controls.html">列表：控制器</a>
-                            <a href="menus.html">Menus</a>
-                            <a href="pickers.html">Pickers</a>
+                            <a href="lists-controls.html">列表：控件</a>
+                            <a href="menus.html">菜单</a>
+                            <a href="pickers.html">选择器</a>
                             <a href="progress-activity.html">进程 &amp; 活动</a>
-                            <a href="selection-controls.html">控制开关</a>
+                            <a href="selection-controls.html">选择控件</a>
                             <a href="sliders.html">滑块</a>
                             <a href="snackbars-toasts.html">Snackbars &amp; toasts</a>
-                            <a href="steppers.html">Steppers</a>
-                            <a href="subheaders.html">Subheaders</a>
-                            <a href="tabs.html">Tabs</a>
+                            <a href="steppers.html">步进器</a>
+                            <a href="subheaders.html">子标题</a>
+                            <a href="tabs.html">选项卡</a>
                             <a href="text-fields.html">文本框</a>
                             <a href="toolbars.html">工具栏</a>
-                            <a href="tooltips.html">Tooltips</a>
-                            <a href="widgets.html">插件</a>
+                            <a href="tooltips.html">提示信息</a>
+                            <a href="widgets.html">桌面小部件</a>
                         </dd>
                     </div>
                 </dl>
@@ -147,7 +158,7 @@
                     <dt class="qp-ui goog-zippy-header goog-zippy-collapsed" data-qp-ui="{ 'SideNavZippy': false }" tabindex="0" role="tab" aria-expanded="false" data-qp-ui-data-id="qp:a">模式</dt>
                     <div style="overflow: hidden;">
                         <dd>
-                            <a href="../patterns/confirmation-acknowledgement.html">批准 &amp; 鸣谢</a>
+                            <a href="../patterns/confirmation-acknowledgement.html">确认 &amp; 确知</a>
                             <a href="../patterns/data-formats.html">数据格式</a>
                             <a href="../patterns/empty-states.html">空白状态</a>
                             <a href="../patterns/errors.html">出错</a>
@@ -184,7 +195,7 @@
                     <dt class="qp-ui goog-zippy-header goog-zippy-collapsed" data-qp-ui="{ 'SideNavZippy': false }" tabindex="0" role="tab" aria-expanded="false" data-qp-ui-data-id="qp:c">可用性</dt>
                     <div style="overflow: hidden;">
                         <dd>
-                            <a href="../usability/accessibility.html">可达性</a>
+                            <a href="../usability/accessibility.html">无障碍</a>
                             <a href="../usability/bidirectionality.html">双向性</a>
                         </dd>
                     </div>
@@ -221,7 +232,7 @@
                         <a href="http://www.google.com/policies/terms/">Terms</a>
                     </li>
                     <li>
-                        <a href="http://maxc.me">MxD</a>
+                        <a href="http://maxoxo.design">Max Design</a>
                     </li>
                 </ul>
             </div>
@@ -230,25 +241,25 @@
 </div>
 <div id="grid-cont">
     <section class="grid_outer chapter">
-        <h1 class="chapter-title">按钮：浮动按钮</h1>
+        <h1 class="chapter-title">按钮：浮动操作按钮</h1>
 <div class="chapter-content">
     <div class="article-content chapter-intro">
         <div>
-            <p>A floating action button represents the primary action in an application.</p>
+            <p>浮动操作按钮代表着应用中的主要操作。</p>
             <div class="col-list">
                 <section class="module-module-figure col-3">
                     <div class="module">
-                        <p>A floating action button is used for a promoted action. </p>
-                        <p>Shaped like a circled icon floating above the UI, it changes color upon focus and lifts upon selection. When pressed, it may contain more related actions.</p>
+                        <p>浮动操作按钮是提升操作的优先级。</p>
+                        <p>就像一个圆形的图标漂浮在界面上，它会在聚焦时改变颜色，在选中时提升海拔。按下时，它可能会展开更多相关的操作。</p>
                     </div>
                     <div class="module">
-                        <h3><strong>Usage</strong></h3>
-                        <p>Only one floating action button is recommended per screen to represent the most common action.</p>
-                        <h3><strong>Behavior</strong></h3>
-                        <p>It animates onto the screen as an expanding piece of material, by default. </p>
-                        <h3><strong>Sizes </strong></h3>
-                        <p>Default: 56 x 56dp
-                            <br> Mini: 40 x 40dp</p>
+                        <h3><strong>用法</strong></h3>
+                        <p>一个屏幕上建议只使用一个浮动操作按钮，它代表最常用的操作。</p>
+                        <h3><strong>行为</strong></h3>
+                        <p>默认情况下，它的动画就像是一片材料在屏幕上展开。</p>
+                        <h3><strong>尺寸</strong></h3>
+                        <p>默认：56x56dp
+                            <br>小型：40x40dp</p>
                     </div>
                     <div class="figure">
                         <figure class="s-tag-media">
@@ -260,18 +271,18 @@
         </div>
     </div>
     <nav class="chapter-toc">
-        <h1>Contents</h1>
+        <h1>索引</h1>
         <ul>
-            <li><a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="#buttons-floating-action-button-floating-action-button" data-qp-ui-data-id="qp:1">Floating action button</a></li>
-            <li><a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="#buttons-floating-action-button-behavior" data-qp-ui-data-id="qp:2">Behavior</a></li>
-            <li><a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="#buttons-floating-action-button-transitions" data-qp-ui-data-id="qp:3">Transitions</a></li>
-            <li><a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="#buttons-floating-action-button-large-screens" data-qp-ui-data-id="qp:4">Large Screens</a></li>
+            <li><a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="#buttons-floating-action-button-floating-action-button" data-qp-ui-data-id="qp:1">浮动操作按钮</a></li>
+            <li><a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="#buttons-floating-action-button-behavior" data-qp-ui-data-id="qp:2">行为</a></li>
+            <li><a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="#buttons-floating-action-button-transitions" data-qp-ui-data-id="qp:3">转场</a></li>
+            <li><a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="#buttons-floating-action-button-large-screens" data-qp-ui-data-id="qp:4">大屏幕</a></li>
         </ul>
     </nav>
     <div class="article-list">
         <div id="buttons-floating-action-button-floating-action-button" class="article qp-ui" data-qp-ui="{ 'ScrollSpy': {} }" data-qp-ui-data-id="qp:1">
             <h2 class="article-title qp-ui" data-qp-ui="{ 'ResponsiveZippy': {} }" data-qp-ui-data-id="qp:1">
-                  Floating action button<svg xmlns="http://www.w3.org/2000/svg" version="1.1" class="icon icon-expand-collapse" role="img" viewBox="0 0 10 10" aria-labelledby="title desc">
+                  浮动操作按钮<svg xmlns="http://www.w3.org/2000/svg" version="1.1" class="icon icon-expand-collapse" role="img" viewBox="0 0 10 10" aria-labelledby="title desc">
     <title>展开或收起内容</title>
     <desc>当内容收起时，箭头向下，当内容展开时，箭头向上。</desc>
     <polygon role="presentation" points="2.5,4.167 5,6.667 7.5,4.167 6.917,3.583 5,5.5 3.083,3.583"></polygon>
@@ -282,20 +293,21 @@
                     <div class="col-list">
                         <section class="module-figure-figure col-3">
                             <div class="module">
-                                <h1>Floating action button</h1>
-                                <p>Floating action buttons are used for a promoted action. They are distinguished by a circled icon floating above the UI and have motion behaviors that include morphing, launching, and a transferring anchor point.</p>
-                                <p>Floating action buttons come in two sizes: </p>
+                                <h1>浮动操作按钮</h1>
+                                <p>浮动操作按钮产用来放置常用的操作。它是悬浮在 UI 上的一个圆形按钮，内部包含有一个图标，浮动操作按钮还有一些运动行为，例如变形、启动以及移动锚点。</p>
+                                <!-- @todo 移动锚点是什么鬼？？ -->
+                                <p>浮动操作按钮有两种尺寸：</p>
                                 <ul class="lst-kix_spyoufbi7tcu-0 start">
-                                    <li>Default size: For most use cases</li>
-                                    <li>Mini size: Only used to create visual continuity with other screen elements </li>
+                                    <li>默认尺寸：多数情况下</li>
+                                    <li>小型尺寸：仅在需要调整视觉优先级时使用</li>
                                 </ul>
-                                <p>The button size should change from the default (56dp) to the mini size (40dp) when the screen width is 460dp or less.</p>
+                                <p>当屏幕宽度小于 460dp（*460dp 的设置看似不合理，也许应该是 360dp 才对，译者注） 时，浮动操作按钮的尺寸应该从默认尺寸（56dp）变成小型尺寸（40dp）。</p>
                             </div>
                             <div class="figure">
                                 <figure class="s-tag-media">
                                     <div class="media"><img alt="" src="../assets/images/patterns_actions_fab1.png" /></div>
                                     <figcaption>
-                                        <p>Floating action button</p>
+                                        <p>浮动操作按钮</p>
                                     </figcaption>
                                 </figure>
                             </div>
@@ -303,22 +315,22 @@
                                 <figure class="s-tag-media">
                                     <div class="media"><img alt="" src="../assets/images/patterns_actions_fab2.png" /></div>
                                     <figcaption>
-                                        <p>Mini floating action button</p>
+                                        <p>小型浮动操作按钮</p>
                                     </figcaption>
                                 </figure>
                             </div>
                         </section>
                         <section class="module-figure-figure col-3">
                             <div class="module">
-                                <p>The floating action button should be placed 16dp minimum from the edge on mobile and 24dp minimum on tablet/desktop. </p>
+                                <p>在手机端，浮动操作按钮应该被放置在距离屏幕边框至少 16dp 的地方；在平板和桌面端应该距离屏幕边框至少 24dp。</p>
                             </div>
                             <div class="figure">
                                 <figure class="s-tag-media">
                                     <div class="media"><img alt="" src="../assets/images/patterns_actions_fab3.png" /></div>
                                     <figcaption>
-                                        <p>Floating action button </p>
-                                        <p>Interior icon: 24 x 24dp
-                                            <br> Floating action button circle: 56 x 56dp</p>
+                                        <p>浮动操作按钮</p>
+                                        <p>内部图标：24x24dp
+                                            <br>浮动操作按钮圆形：56x56dp</p>
                                     </figcaption>
                                 </figure>
                             </div>
@@ -326,16 +338,16 @@
                                 <figure class="s-tag-media">
                                     <div class="media"><img alt="" src="../assets/images/patterns_actions_fab4.png" /></div>
                                     <figcaption>
-                                        <p>Mini floating action button</p>
-                                        <p>Interior icon: 24 x 24dp
-                                            <br> Floating action button circle: 40 x 40dp</p>
+                                        <p>小型浮动操作按钮</p>
+                                        <p>内部图标：24x24dp
+                                            <br> 浮动操作按钮圆形：40x40dp</p>
                                     </figcaption>
                                 </figure>
                             </div>
                         </section>
                         <section class="module-figure-figure col-3">
                             <div class="module">
-                                <p>The floating action button changes color on focus and lifts upon being selected.</p>
+                                <p>浮动操作按钮在聚焦时会改变颜色，在选中时会提升海拔。</p>
                             </div>
                             <div class="figure">
                                 <figure class="s-tag-media">
@@ -350,7 +362,7 @@
                                         </div>
                                     </div>
                                     <figcaption>
-                                        <p>Floating action button gaining focus </p>
+                                        <p>浮动操作按钮聚焦时</p>
                                     </figcaption>
                                 </figure>
                             </div>
@@ -367,7 +379,7 @@
                                         </div>
                                     </div>
                                     <figcaption>
-                                        <p>Floating action button being selected</p>
+                                        <p>浮动操作按钮选中时</p>
                                     </figcaption>
                                 </figure>
                             </div>
@@ -376,14 +388,14 @@
                     <div class="col-list">
                         <section class="module-figure-figure col-3">
                             <div class="module">
-                                <p>Not every screen needs a floating action button. A floating action button represents the primary action in an application. </p>
+                                <p>不是每个屏幕都需要浮动操作按钮。浮动操作按钮代表了应用中的主要操作。</p>
                             </div>
                             <div class="figure">
                                 <figure class="s-tag-media">
                                     <div class="media"><img alt="" src="../assets/images/patterns_actions_fab_content1.png" /></div>
                                     <figcaption>
-                                        <p class="s-tag-caption do">Do.</p>
-                                        <p>The primary action is to touch images in a gallery, so no button is needed.</p>
+                                        <p class="s-tag-caption do">对</p>
+                                        <p>主要操作是在相册中轻触图片，所以不需要任何按钮。</p>
                                     </figcaption>
                                 </figure>
                             </div>
@@ -391,21 +403,21 @@
                                 <figure class="s-tag-media">
                                     <div class="media"><img alt="" src="../assets/images/patterns_actions_fab_content2.png" /></div>
                                     <figcaption>
-                                        <p class="s-tag-caption do">Do.</p>
-                                        <p>The primary action is to add files.</p>
+                                        <p class="s-tag-caption do">对</p>
+                                        <p>主要操作是添加文件。</p>
                                     </figcaption>
                                 </figure>
                             </div>
                         </section>
                         <section class="module-figure-figure col-3">
                             <div class="module">
-                                <p>Only one floating action button is recommended per screen to increase its prominence. It should represent only the most common action. </p>
+                                <p>一个屏幕上建议只使用一个浮动操作按钮，它应该只代表最常见的操作。</p>
                             </div>
                             <div class="figure">
                                 <figure class="s-tag-media">
                                     <div class="media"><img alt="" src="../assets/images/patterns_actions_fab_content3.png" /></div>
                                     <figcaption>
-                                        <p class="s-tag-caption dont">Don't.</p>
+                                        <p class="s-tag-caption dont">错</p>
                                     </figcaption>
                                 </figure>
                             </div>
@@ -413,7 +425,7 @@
                                 <figure class="s-tag-media">
                                     <div class="media"><img alt="" src="../assets/images/patterns_actions_fab_content4.png" /></div>
                                     <figcaption>
-                                        <p class="s-tag-caption dont">Don't.</p>
+                                        <p class="s-tag-caption dont">错</p>
                                     </figcaption>
                                 </figure>
                             </div>
@@ -422,35 +434,35 @@
                     <div class="col-list">
                         <section class="module-figure col-2">
                             <div class="module">
-                                <h1>Qualities </h1>
-                                <p>Make floating action buttons positive actions like Create, Favorite, Share, Navigate, and Explore.</p>
+                                <h1>质量</h1>
+                                <p>浮动操作按钮应当用做积极的操作，如创建、收藏、分享、导航和探索。</p>
                             </div>
                             <div class="figure">
                                 <figure class="s-tag-media">
                                     <div class="media"><img alt="" src="../assets/images/patterns_actions_fab_qualities1.png" /></div>
                                     <figcaption>
-                                        <p class="s-tag-caption do">Do.</p>
+                                        <p class="s-tag-caption do">对</p>
                                     </figcaption>
                                 </figure>
                             </div>
                         </section>
                         <section class="module-figure col-2">
                             <div class="module">
-                                <p>Avoid using floating action buttons for minor and destructive actions, including the following:</p>
+                                <p>避免使用浮动操作按钮进行下面这些具有轻微破坏性的操作：</p>
                                 <ul class="lst-kix_8i3f9hl0bmlq-0 start">
-                                    <li>Archive or Trash</li>
-                                    <li>Nonspecific actions</li>
-                                    <li>Alerts or errors</li>
-                                    <li>Limited tasks like cutting text</li>
-                                    <li>Controls that should be in a toolbar, like volume control or changing a font color</li>
+                                    <li>归档或删除</li>
+                                    <li>意义不明的操作</li>
+                                    <li>提醒或出错</li>
+                                    <li>限制性的任务如剪切文本</li>
+                                    <li>控制器应该放在工具栏中，如音量控制或改变字体颜色</li>
                                 </ul>
-                                <p>Floating action buttons don’t contain app bar icons or status bar notifications. Don’t layer badges or other elements over a floating action button.</p>
+                                <p>浮动操作按钮不包含应用栏的图标或状态栏通知。不要把徽章或其他元素层叠在浮动操作按钮上。</p>
                             </div>
                             <div class="figure">
                                 <figure class="s-tag-media">
                                     <div class="media"><img alt="" src="../assets/images/patterns_actions_fab_qualities2.png" /></div>
                                     <figcaption>
-                                        <p class="s-tag-caption dont">Don't.</p>
+                                        <p class="s-tag-caption dont">错</p>
                                     </figcaption>
                                 </figure>
                             </div>
@@ -459,13 +471,13 @@
                     <div class="col-list">
                         <section class="module-figure-figure col-3">
                             <div class="module">
-                                <p>Use the circle-shaped icon consistently to enforce the primary action pattern across apps.</p>
+                                <p>所有应用中的浮动操作按钮都必须是圆形的。</p>
                             </div>
                             <div class="figure">
                                 <figure class="s-tag-media">
                                     <div class="media"><img alt="" src="../assets/images/patterns_actions_fab_qualities5.png" /></div>
                                     <figcaption>
-                                        <p class="s-tag-caption do">Do.</p>
+                                        <p class="s-tag-caption do">对</p>
                                     </figcaption>
                                 </figure>
                             </div>
@@ -473,20 +485,20 @@
                                 <figure class="s-tag-media">
                                     <div class="media"><img alt="" src="../assets/images/patterns_actions_fab_qualities6.png" /></div>
                                     <figcaption>
-                                        <p class="s-tag-caption dont">Don't.</p>
+                                        <p class="s-tag-caption dont">错</p>
                                     </figcaption>
                                 </figure>
                             </div>
                         </section>
                         <section class="module-figure-figure col-3">
                             <div class="module">
-                                <p>Don’t give the floating action button extra dimension. </p>
+                                <p>不要立体化浮动操作按钮。</p>
                             </div>
                             <div class="figure">
                                 <figure class="s-tag-media">
                                     <div class="media"><img alt="" src="../assets/images/patterns_actions_fab_qualities7.png" /></div>
                                     <figcaption>
-                                        <p class="s-tag-caption do">Do.</p>
+                                        <p class="s-tag-caption do">对</p>
                                     </figcaption>
                                 </figure>
                             </div>
@@ -494,7 +506,7 @@
                                 <figure class="s-tag-media">
                                     <div class="media"><img alt="" src="../assets/images/patterns_actions_fab_qualities8.png" /></div>
                                     <figcaption>
-                                        <p class="s-tag-caption dont">Don't.</p>
+                                        <p class="s-tag-caption dont">错</p>
                                     </figcaption>
                                 </figure>
                             </div>
@@ -505,7 +517,7 @@
         </div>
         <div id="buttons-floating-action-button-behavior" class="article qp-ui" data-qp-ui="{ 'ScrollSpy': {} }" data-qp-ui-data-id="qp:2">
             <h2 class="article-title qp-ui" data-qp-ui="{ 'ResponsiveZippy': {} }" data-qp-ui-data-id="qp:2">
-                  Behavior<svg xmlns="http://www.w3.org/2000/svg" version="1.1" class="icon icon-expand-collapse" role="img" viewBox="0 0 10 10" aria-labelledby="title desc">
+                  行为<svg xmlns="http://www.w3.org/2000/svg" version="1.1" class="icon icon-expand-collapse" role="img" viewBox="0 0 10 10" aria-labelledby="title desc">
     <title>展开或收起内容</title>
     <desc>当内容收起时，箭头向下，当内容展开时，箭头向上。</desc>
     <polygon role="presentation" points="2.5,4.167 5,6.667 7.5,4.167 6.917,3.583 5,5.5 3.083,3.583"></polygon>
@@ -516,8 +528,8 @@
                     <div class="col-list">
                         <section class="module-figure-figure col-3">
                             <div class="module">
-                                <p>The floating action button animates onto the screen as an expanding piece of material, by default. The icon within it may be animated. </p>
-                                <p>Floating action buttons may move differently than other UI elements because of their relative importance. </p>
+                                <p>默认情况下，浮动操作按钮就像一片材料悬浮在屏幕上。它里面的图标可能会有动画。</p>
+                                <p>浮动操作按钮的移动方式之所以与众不同，是因为相对来说它会更重要些。</p>
                             </div>
                             <div class="figure">
                                 <figure class="s-tag-media">
@@ -532,7 +544,7 @@
                                         </div>
                                     </div>
                                     <figcaption>
-                                        <p>Examples of moving floating action buttons</p>
+                                        <p>浮动操作按钮的移动示例</p>
                                     </figcaption>
                                 </figure>
                             </div>
@@ -553,11 +565,11 @@
                         </section>
                         <section class="module-figure-figure col-3">
                             <div class="module">
-                                <h2><strong><strong>Lateral screens</strong></strong></h2>
-                                <p>A floating action button that spans multiple lateral screens (such as tabbed screens) should briefly disappear, then reappear if its action changes. </p>
-                                <p>The button should stay on screen if its action remains the same across screens (and translate to a new position, if necessary.)</p>
-                                <h2><strong>Lists</strong></h2>
-                                <p>Lists underneath floating action buttons should have enough padding beneath them so their content isn’t blocked by the button.</p>
+                                <h2><strong><strong>界面切换</strong></strong></h2>
+                                <p>在切换界面时（比如点击选项卡切换界面），可能会连续出现多个浮动操作按钮，每个按钮在短暂的消失后又重新出现。</p>
+                                <p>当切换界面时，如果按钮的操作保持不变，就应当继续保留在界面上（必要时可以改变位置）。</p>
+                                <h2><strong>列表</strong></h2>
+                                <p>在浮动操作按钮后面的列表应当保持适当的边距，以免被按钮遮住。</p>
                             </div>
                             <div class="figure">
                                 <figure class="s-tag-media">
@@ -572,7 +584,7 @@
                                         </div>
                                     </div>
                                     <figcaption>
-                                        <p class="s-tag-caption do">Do.</p>
+                                        <p class="s-tag-caption do">对</p>
                                     </figcaption>
                                 </figure>
                             </div>
@@ -589,18 +601,18 @@
                                         </div>
                                     </div>
                                     <figcaption>
-                                        <p class="s-tag-caption do">Do.</p>
+                                        <p class="s-tag-caption do">对</p>
                                     </figcaption>
                                 </figure>
                             </div>
                         </section>
                         <section class="module-figure-figure col-3">
                             <div class="module">
-                                <h2><strong><strong>Tabbed screens</strong></strong></h2>
-                                <p>On tabbed screens, the floating action button should not exit the screen in the same direction as the content. This prevents: </p>
+                                <h2><strong><strong>有选项卡的界面</strong></strong></h2>
+                                <p>在有选项卡的界面上，浮动操作按钮跟着上个页面一起退出屏幕。否则会导致：</p>
                                 <ul class="lst-kix_31k3fqgiubnr-0 start">
-                                    <li>Floating action buttons from appearing functional when they aren’t</li>
-                                    <li>The perception that the floating action button is at the same the elevation as the content</li>
+                                    <li>屏幕上出现一个失灵的浮动操作按钮</li>
+                                    <li>错误地表明了浮动操作按钮和内容有相同的海拔</li>
                                 </ul>
                             </div>
                             <div class="figure">
@@ -616,7 +628,7 @@
                                         </div>
                                     </div>
                                     <figcaption>
-                                        <p class="s-tag-caption dont">Don't.</p>
+                                        <p class="s-tag-caption dont">错</p>
                                     </figcaption>
                                 </figure>
                             </div>
@@ -633,7 +645,7 @@
                                         </div>
                                     </div>
                                     <figcaption>
-                                        <p class="s-tag-caption dont">Don't.</p>
+                                        <p class="s-tag-caption dont">错</p>
                                     </figcaption>
                                 </figure>
                             </div>
@@ -644,7 +656,7 @@
         </div>
         <div id="buttons-floating-action-button-transitions" class="article qp-ui" data-qp-ui="{ 'ScrollSpy': {} }" data-qp-ui-data-id="qp:3">
             <h2 class="article-title qp-ui" data-qp-ui="{ 'ResponsiveZippy': {} }" data-qp-ui-data-id="qp:3">
-                  Transitions<svg xmlns="http://www.w3.org/2000/svg" version="1.1" class="icon icon-expand-collapse" role="img" viewBox="0 0 10 10" aria-labelledby="title desc">
+                  转场<svg xmlns="http://www.w3.org/2000/svg" version="1.1" class="icon icon-expand-collapse" role="img" viewBox="0 0 10 10" aria-labelledby="title desc">
     <title>展开或收起内容</title>
     <desc>当内容收起时，箭头向下，当内容展开时，箭头向上。</desc>
     <polygon role="presentation" points="2.5,4.167 5,6.667 7.5,4.167 6.917,3.583 5,5.5 3.083,3.583"></polygon>
@@ -652,14 +664,14 @@
                 </h2>
             <div class="article-content">
                 <div>
-                    <h1>Transitions </h1>
-                    <p>The floating action button is a unique example of a primary use case in an app. Take advantage of its visibility to create delightful transitions for a primary UI element. </p>
-                    <p>Common transitions include Trigger, Toolbar, Speed dial, and Morphing. This is not an exhaustive list. Floating action buttons are designed to be flexible. Experiment with transitions that best suit your app and the screens on which the button sits. </p>
+                    <h1>转场 </h1>
+                    <p>浮动操作按钮是应用中常用操作的特例。利用它的可见性为主要的 UI 元素设计出愉悦的转场动画。</p>
+                    <p>常用的转场包括触发器、工具栏、快速拨号和变换图标。当然远不止这些。浮动操作按钮非常的灵活。你可以不断的尝试以找到与整个应用以及按钮所在页面都合适的效果。</p>
                     <div class="col-list">
                         <section class="module-figure-figure col-3">
                             <div class="module">
-                                <h2><strong>Trigger </strong></h2>
-                                <p>The floating action button can simply trigger an action or navigate somewhere. The animation of the touch ripple expands outwards as the force that causes changes to the UI. </p>
+                                <h2><strong>触发器</strong></h2>
+                                <p>浮动操作按钮可以是简单的触发某个操作或是导航到某个页面的。UI 的变化可以跟随 FAB 触碰时的波纹动画。</p>
                             </div>
                             <div class="figure">
                                 <figure class="s-tag-media">
@@ -674,7 +686,7 @@
                                         </div>
                                     </div>
                                     <figcaption>
-                                        <p>A floating action button can simply trigger an action.</p>
+                                        <p>浮动操作按钮可以简单的触发某个操作</p>
                                     </figcaption>
                                 </figure>
                             </div>
@@ -691,16 +703,16 @@
                                         </div>
                                     </div>
                                     <figcaption>
-                                        <p>A floating action button recentering a map view</p>
-                                        <p>Apps typically use a single floating action button. However, this example uses two floating action buttons because they perform equally important yet distinct actions.</p>
+                                        <p>浮动操作按钮让地图视图重返屏幕中心</p>
+                                        <p>通常来说每个界面中只使用一个浮动操作按钮。本例使用了两个浮动操作按钮，是因为它们虽有不同的功能但却同等重要。</p>
                                     </figcaption>
                                 </figure>
                             </div>
                         </section>
                         <section class="module-figure-figure col-3">
                             <div class="module">
-                                <h2><strong>Toolbar </strong></h2>
-                                <p>The floating action button can transform into a toolbar upon press or from a toolbar upon scroll. The toolbar can contain related actions, text and search fields, or any other items that would be useful at hand. </p>
+                                <h2><strong>工具栏</strong></h2>
+                                <p>浮动操作按钮可以变成工具栏，反过来也可以在界面滚动时从工具栏变成浮动操作按钮。工具栏可以包含相关的操作、文本和搜索框，或任何可能用到的功能。</p>
                             </div>
                             <div class="figure">
                                 <figure class="s-tag-media">
@@ -715,7 +727,7 @@
                                         </div>
                                     </div>
                                     <figcaption>
-                                        <p>A floating action button transforming into a toolbar</p>
+                                        <p>浮动操作按钮转换为工具栏</p>
                                     </figcaption>
                                 </figure>
                             </div>
@@ -732,14 +744,14 @@
                                         </div>
                                     </div>
                                     <figcaption>
-                                        <p>A floating action button transforming into a toolbar.</p>
+                                        <p>浮动操作按钮转换为工具栏</p>
                                     </figcaption>
                                 </figure>
                             </div>
                         </section>
                         <section class="module-figure-figure col-3">
                             <div class="module">
-                                <p>A toolbar that disappears on scroll is particularly useful for screens where the full toolbar is needed upon initial entry or while at the top or bottom of a long list. This saves screen real estate when the user has signaled through scrolling that they’re interested in looking at the main content. </p>
+                                <p>屏幕滚动时隐藏工具栏，在必要时或者当页面滚动到顶部或底部时，工具栏可以再次展开。当用户在滚动时可以理解为用户的兴趣在页面内容上，这么做就可以为用户节省屏幕空间。</p>
                             </div>
                             <div class="figure">
                                 <figure class="s-tag-media">
@@ -754,7 +766,7 @@
                                         </div>
                                     </div>
                                     <figcaption>
-                                        <p>A toolbar transforming into a floating action button upon scroll</p>
+                                        <p>工具栏在滚动时变成浮动操作按钮</p>
                                     </figcaption>
                                 </figure>
                             </div>
@@ -771,21 +783,21 @@
                                         </div>
                                     </div>
                                     <figcaption>
-                                        <p>A toolbar transforming into a floating action button upon scroll</p>
+                                        <p>工具栏在滚动时变成浮动操作按钮</p>
                                     </figcaption>
                                 </figure>
                             </div>
                         </section>
                         <section class="module-figure-figure col-3">
                             <div class="module">
-                                <p>If a floating action button morphs into a toolbar, that toolbar should contain related actions. </p>
+                                <p>如果一个浮动操作按钮转换成了工具栏，那么这个工具栏应包含相关的操作功能。</p>
                             </div>
                             <div class="figure">
                                 <figure class="s-tag-media">
                                     <div class="media"><img alt="" src="../assets/images/patterns_actions_fab_actions10.png" /></div>
                                     <figcaption>
-                                        <p class="s-tag-caption do">Do.</p>
-                                        <p>In this example, the button lets the user select the media type to add.</p>
+                                        <p class="s-tag-caption do">对</p>
+                                        <p>本例中，用户可以选择想要添加的媒体类型。</p>
                                     </figcaption>
                                 </figure>
                             </div>
@@ -793,16 +805,16 @@
                                 <figure class="s-tag-media">
                                     <div class="media"><img alt="" src="../assets/images/patterns_actions_fab_actions12.png" /></div>
                                     <figcaption>
-                                        <p class="s-tag-caption dont">Don't.</p>
-                                        <p>Don’t include unrelated or confusing actions.</p>
+                                        <p class="s-tag-caption dont">错</p>
+                                        <p>不要添加意义不明或无关紧要的操作</p>
                                     </figcaption>
                                 </figure>
                             </div>
                         </section>
                         <section class="module-figure-figure col-3">
                             <div class="module">
-                                <h2><strong>Speed dial </strong></h2>
-                                <p>The floating action button can fling out related actions upon press. The button should remain on screen after the menu is invoked. Tapping in the same spot should either activate the most commonly used action or close the open menu. </p>
+                                <h2><strong>快速拨号</strong></h2>
+                                <p>浮动操作按钮可在按下时浮出相关操作，此时 FAB 应当依然留在界面上，再次点击可以激活常用的操作或者关闭菜单。</p>
                             </div>
                             <div class="figure">
                                 <figure class="s-tag-media">
@@ -817,7 +829,7 @@
                                         </div>
                                     </div>
                                     <figcaption>
-                                        <p>A floating action button flinging out related actions</p>
+                                        <p>浮动操作按钮可以浮出相关操作</p>
                                     </figcaption>
                                 </figure>
                             </div>
@@ -834,14 +846,14 @@
                                         </div>
                                     </div>
                                     <figcaption>
-                                        <p>A floating action button flinging out related actions</p>
+                                        <p>浮动操作按钮可以浮出相关操作</p>
                                     </figcaption>
                                 </figure>
                             </div>
                         </section>
                         <section class="module-figure-figure col-3">
                             <div class="module">
-                                <p>The floating action button can transform into a single sheet of material which contains all the actions. </p>
+                                <p>浮动操作按钮可以转换为包含所有操作的卡片。</p>
                             </div>
                             <div class="figure">
                                 <figure class="s-tag-media">
@@ -856,7 +868,7 @@
                                         </div>
                                     </div>
                                     <figcaption>
-                                        <p>A floating action button transforming into a single sheet of material</p>
+                                        <p>浮动操作按钮转换为卡片</p>
                                     </figcaption>
                                 </figure>
                             </div>
@@ -873,22 +885,22 @@
                                         </div>
                                     </div>
                                     <figcaption>
-                                        <p>A floating action button transforming into a single sheet of material</p>
+                                        <p>浮动操作按钮转换为卡片</p>
                                     </figcaption>
                                 </figure>
                             </div>
                         </section>
                         <section class="module-figure-figure col-3">
                             <div class="module">
-                                <p>As a general rule, have at least three options upon press but not more than six, including the original floating action button target. If you have two options – i.e. your floating action button only flings out one other choice – choose which action is most important. If you have more than six, users may have trouble reaching the furthest option. </p>
-                                <p>Reduce decision fatigue by giving users the best, most distinct, and fewest options. </p>
+                                <p>作为通用规则，按下时出现的选项应当最少为 3 个，最多不超过 6 个（包含 FAB 本身）。如果你只有两个选项（按下 FAB 后至出现一个选项），那么只留下最重要的那个。如果有超过 6 个选项，用户会很难选择距离较远的选项。</p>
+                                <p>使用最好、最独特以及最少的选项来降低用户的选择困难。</p>
                             </div>
                             <div class="figure">
                                 <figure class="s-tag-media">
                                     <div class="media"><img alt="" src="../assets/images/components_fab_flyouts_dont1.png" /></div>
                                     <figcaption>
-                                        <p class="s-tag-caption dont">Don't.</p>
-                                        <p>A floating action button should fling out at least three options.</p>
+                                        <p class="s-tag-caption dont">错</p>
+                                        <p>浮动操作按钮应该至少有 3 个选项</p>
                                     </figcaption>
                                 </figure>
                             </div>
@@ -896,22 +908,22 @@
                                 <figure class="s-tag-media">
                                     <div class="media"><img alt="" src="../assets/images/components_fab_flyouts_dont2.png" /></div>
                                     <figcaption>
-                                        <p class="s-tag-caption dont">Don't.</p>
-                                        <p>A floating action button should fling out no more than six options.</p>
+                                        <p class="s-tag-caption dont">错</p>
+                                        <p>浮动操作按钮应该最多不能超过 6 个选项</p>
                                     </figcaption>
                                 </figure>
                             </div>
                         </section>
                         <section class="module-figure-figure col-3">
                             <div class="module">
-                                <p>Don’t put overflow menus in the floating action button actions. There should be at most two taps from the initial screen to get to the intended destination. </p>
+                                <p>不要在浮动操作按钮的选项中放置额外的菜单。用户从初始页面到目标页面最多只需要两次点击。</p>
                             </div>
                             <div class="figure">
                                 <figure class="s-tag-media">
                                     <div class="media"><img alt="" src="../assets/images/components_fab_flyouts_do.png" /></div>
                                     <figcaption>
-                                        <p class="s-tag-caption do">Do.</p>
-                                        <p>Options should be specific destinations.</p>
+                                        <p class="s-tag-caption do">对</p>
+                                        <p>选项应该有确切的目标</p>
                                     </figcaption>
                                 </figure>
                             </div>
@@ -919,22 +931,22 @@
                                 <figure class="s-tag-media">
                                     <div class="media"><img alt="" src="../assets/images/components_fab_flyouts_dont4.png" /></div>
                                     <figcaption>
-                                        <p class="s-tag-caption dont">Don't.</p>
-                                        <p>Options should not include an overflow menu.</p>
+                                        <p class="s-tag-caption dont">错</p>
+                                        <p>选项不应该有额外的菜单</p>
                                     </figcaption>
                                 </figure>
                             </div>
                         </section>
                         <section class="module-figure-figure col-3">
                             <div class="module">
-                                <p>Put overflow actions in the overflow menu in toolbars, not in floating action buttons.</p>
+                                <p>将额外操作放置在工具栏的菜单中。</p>
                             </div>
                             <div class="figure">
                                 <figure class="s-tag-media">
                                     <div class="media"><img alt="" src="../assets/images/patterns_actions_fab_actions1.png" /></div>
                                     <figcaption>
-                                        <p class="s-tag-caption do">Do.</p>
-                                        <p>Overflow menus belong in toolbars.</p>
+                                        <p class="s-tag-caption do">对</p>
+                                        <p>菜单列表是工具栏的一部分</p>
                                     </figcaption>
                                 </figure>
                             </div>
@@ -942,8 +954,8 @@
                                 <figure class="s-tag-media">
                                     <div class="media"><img alt="" src="../assets/images/patterns_actions_fab_actions2.png" /></div>
                                     <figcaption>
-                                        <p class="s-tag-caption do">Do.</p>
-                                        <p>Overflow menus belong in toolbars.</p>
+                                        <p class="s-tag-caption do">对</p>
+                                        <p>菜单列表是工具栏的一部分</p>
                                     </figcaption>
                                 </figure>
                             </div>
@@ -955,8 +967,8 @@
                                 <figure class="s-tag-media">
                                     <div class="media"><img alt="" src="../assets/images/patterns_actions_fab_actions3.png" /></div>
                                     <figcaption>
-                                        <p class="s-tag-caption dont">Don't.</p>
-                                        <p>Floating action button are not overflow menus.</p>
+                                        <p class="s-tag-caption dont">错</p>
+                                        <p>浮动操作按钮不是菜单</p>
                                     </figcaption>
                                 </figure>
                             </div>
@@ -964,22 +976,22 @@
                                 <figure class="s-tag-media">
                                     <div class="media"><img alt="" src="../assets/images/patterns_actions_fab_actions4.png" /></div>
                                     <figcaption>
-                                        <p class="s-tag-caption dont">Don't.</p>
-                                        <p>Floating action buttons are not overflow menus.</p>
+                                        <p class="s-tag-caption dont">错</p>
+                                        <p>浮动操作按钮不是菜单</p>
                                     </figcaption>
                                 </figure>
                             </div>
                         </section>
                         <section class="module-figure-figure col-3">
                             <div class="module">
-                                <p>If the hallmark of the app is adding file types, a floating action button can transform into related actions after it is first touched. However, if the actions that appear are unrelated to the button, place the actions into an overflow menu.</p>
+                                <p>如果应用的主要功能是添加文件类型，浮动操作按钮可以在首次点击后转换为相关的操作。如果出现的操作是与 FAB 不相关的，应该把这些操作放到某个菜单中。</p>
                             </div>
                             <div class="figure">
                                 <figure class="s-tag-media">
                                     <div class="media"><img alt="" src="../assets/images/patterns_actions_fab_actions6.png" /></div>
                                     <figcaption>
-                                        <p class="s-tag-caption do">Do.</p>
-                                        <p>A floating action button can transform into related actions.</p>
+                                        <p class="s-tag-caption do">对</p>
+                                        <p>浮动操作按钮可以转换成相关的操作</p>
                                     </figcaption>
                                 </figure>
                             </div>
@@ -987,22 +999,22 @@
                                 <figure class="s-tag-media">
                                     <div class="media"><img alt="" src="../assets/images/patterns_actions_fab_actions8.png" /></div>
                                     <figcaption>
-                                        <p class="s-tag-caption dont">Don't.</p>
-                                        <p>A floating action button should not transform into unrelated actions.</p>
+                                        <p class="s-tag-caption dont">错</p>
+                                        <p>浮动操作按钮不应当转换成不相关的操作</p>
                                     </figcaption>
                                 </figure>
                             </div>
                         </section>
                         <section class="module-figure-figure col-3">
                             <div class="module">
-                                <p>A floating action button can contain a list of contacts. The list shouldn’t contain unrelated actions. </p>
+                                <p>浮动操作按钮可以包含联系人列表。列表中不应该出现不相关的操作。</p>
                             </div>
                             <div class="figure">
                                 <figure class="s-tag-media">
                                     <div class="media"><img alt="" src="../assets/images/patterns_actions_fab_actions14.png" /></div>
                                     <figcaption>
-                                        <p class="s-tag-caption do">Do.</p>
-                                        <p>A floating action button can transform into a list of contacts.</p>
+                                        <p class="s-tag-caption do">对</p>
+                                        <p>浮动操作按钮可以转换为联系人列表</p>
                                     </figcaption>
                                 </figure>
                             </div>
@@ -1010,18 +1022,18 @@
                                 <figure class="s-tag-media">
                                     <div class="media"><img alt="" src="../assets/images/patterns_actions_fab_actions16.png" /></div>
                                     <figcaption>
-                                        <p class="s-tag-caption dont">Don't.</p>
-                                        <p>A floating action button should not transform into unrelated actions.</p>
+                                        <p class="s-tag-caption dont">错</p>
+                                        <p>浮动操作按钮不能转换为不相关的操作</p>
                                     </figcaption>
                                 </figure>
                             </div>
                         </section>
                         <section class="module-figure-figure col-3">
                             <div class="module">
-                                <h2><strong>Morph </strong></h2>
-                                <p>The floating action button can transform into sheets of material that are part of the app structure. This dramatic transformation accentuates the action the button enables. </p>
-                                <p>When morphing the floating action button, transition between starting and ending positions in a logical way. For example, do not pass through other sheets of material.</p>
-                                <p>The morph animation should be reversible and transform the new sheet of material back into the floating action button. </p>
+                                <h2><strong>变形</strong></h2>
+                                <p>浮动操作按钮可以转变为一片材料，并成为应用结构的一部分。这个神奇的转变强调了按钮的功能。</p>
+                                <p>当浮动操作按钮变形时，在开始和结束位置之间需要以合理的方式转换。例如，不要穿过其他的薄片元素。</p>
+                                <p>变形动画应该是可逆的，材料片可以再次变回浮动操作按钮。</p>
                             </div>
                             <div class="figure">
                                 <figure class="s-tag-media">
@@ -1036,7 +1048,7 @@
                                         </div>
                                     </div>
                                     <figcaption>
-                                        <p>A floating action button can morph into a sheet of material that is part of the app structure.</p>
+                                        <p>浮动操作按钮可以转变为一片材料，并成为应用结构的一部分。</p>
                                     </figcaption>
                                 </figure>
                             </div>
@@ -1053,16 +1065,16 @@
                                         </div>
                                     </div>
                                     <figcaption>
-                                        <p>A floating action button can morph into a sheet of material that is part of the app structure.</p>
+                                        <p>浮动操作按钮可以转变为一片材料，并成为应用结构的一部分。</p>
                                     </figcaption>
                                 </figure>
                             </div>
                         </section>
                         <section class="module-figure-figure col-3">
                             <div class="module">
-                                <h2><strong>Full screen</strong></h2>
-                                <p>The floating action button can transform into a new sheet of material that spans the entire screen.</p>
-                                <p>This type of dramatic transformation is typically associated with creating new content. As a result, it does not tend to have an method of undoing the transformation or a reversible animation.</p>
+                                <h2><strong>全屏</strong></h2>
+                                <p>浮动操作按钮可以转变为一片材料，并铺满整个屏幕。</p>
+                                <p>这种类型的转变通常用来创建新的内容。这样会造成通常无法撤销的转变，或不可逆的动画。</p>
                             </div>
                             <div class="figure">
                                 <figure class="s-tag-media">
@@ -1077,7 +1089,7 @@
                                         </div>
                                     </div>
                                     <figcaption>
-                                        <p>The floating action button can transform into a new sheet of material that spans the entire screen.</p>
+                                        <p>浮动操作按钮可以转变为一片材料，并铺满整个屏幕。</p>
                                     </figcaption>
                                 </figure>
                             </div>
@@ -1094,7 +1106,7 @@
                                         </div>
                                     </div>
                                     <figcaption>
-                                        <p>The floating action button can transform into a new sheet of material that spans the entire screen.</p>
+                                        <p>浮动操作按钮可以转变为一片材料，并铺满整个屏幕。</p>
                                     </figcaption>
                                 </figure>
                             </div>
@@ -1105,7 +1117,7 @@
         </div>
         <div id="buttons-floating-action-button-large-screens" class="article qp-ui" data-qp-ui="{ 'ScrollSpy': {} }" data-qp-ui-data-id="qp:4">
             <h2 class="article-title qp-ui" data-qp-ui="{ 'ResponsiveZippy': {} }" data-qp-ui-data-id="qp:4">
-                  Large Screens<svg xmlns="http://www.w3.org/2000/svg" version="1.1" class="icon icon-expand-collapse" role="img" viewBox="0 0 10 10" aria-labelledby="title desc">
+                  大屏幕<svg xmlns="http://www.w3.org/2000/svg" version="1.1" class="icon icon-expand-collapse" role="img" viewBox="0 0 10 10" aria-labelledby="title desc">
     <title>展开或收起内容</title>
     <desc>当内容收起时，箭头向下，当内容展开时，箭头向上。</desc>
     <polygon role="presentation" points="2.5,4.167 5,6.667 7.5,4.167 6.917,3.583 5,5.5 3.083,3.583"></polygon>
@@ -1116,66 +1128,66 @@
                     <div class="col-list">
                         <section class="module-figure col-2">
                             <div class="module">
-                                <h2><strong>Large screens</strong></h2>
-                                <p>A floating action button can attach to an extended app bar.</p>
+                                <h2><strong>大屏幕</strong></h2>
+                                <p>浮动操作按钮可以附属到扩展的应用栏上。</p>
                             </div>
                             <div class="figure">
                                 <figure class="s-tag-media">
                                     <div class="media"><img alt="" src="../assets/images/patterns_actions_fab_placement7.png" /></div>
                                     <figcaption>
-                                        <p class="s-tag-caption do">Do.</p>
+                                        <p class="s-tag-caption do">对</p>
                                     </figcaption>
                                 </figure>
                             </div>
                         </section>
                         <section class="module-figure col-2">
                             <div class="module">
-                                <p>A floating action button can be attached to a toolbar or structural element within a sheet (as long as it’s not blocking other elements).</p>
+                                <p>浮动操作按钮可以附属到工具栏上，或者结构化的元素上（只要没有妨碍到其他元素）。</p>
                             </div>
                             <div class="figure">
                                 <figure class="s-tag-media">
                                     <div class="media"><img alt="" src="../assets/images/patterns_actions_fab_placement8.png" /></div>
                                     <figcaption>
-                                        <p class="s-tag-caption do">Do.</p>
+                                        <p class="s-tag-caption do">对</p>
                                     </figcaption>
                                 </figure>
                             </div>
                         </section>
                         <section class="module-figure col-2">
                             <div class="module">
-                                <p>A floating action button can be attached to the edge of a sheet.</p>
+                                <p>浮动操作按钮可以被附属到材料片的边缘。</p>
                             </div>
                             <div class="figure">
                                 <figure class="s-tag-media">
                                     <div class="media"><img alt="" src="../assets/images/patterns_actions_fab_placement9.png" /></div>
                                     <figcaption>
-                                        <p class="s-tag-caption do">Do.</p>
+                                        <p class="s-tag-caption do">对</p>
                                     </figcaption>
                                 </figure>
                             </div>
                         </section>
                         <section class="module-figure col-2">
                             <div class="module">
-                                <p>Don’t have more than one floating action button per screen.</p>
+                                <p>不要再屏幕中使用超过一个浮动操作按钮。</p>
                             </div>
                             <div class="figure">
                                 <figure class="s-tag-media">
                                     <div class="media"><img alt="" src="../assets/images/patterns_actions_fab_placement10.png" /></div>
                                     <figcaption>
-                                        <p class="s-tag-caption dont">Don't.</p>
+                                        <p class="s-tag-caption dont">错</p>
                                     </figcaption>
                                 </figure>
                             </div>
                         </section>
                         <section class="module-figure col-2">
                             <div class="module">
-                                <p>Don’t associate floating action buttons with every element on a screen.</p>
+                                <p>不要在每个元素上都关联一个浮动操作按钮。</p>
                             </div>
                             <div class="figure">
                                 <figure class="s-tag-media">
                                     <div class="media"><img alt="" src="../assets/images/patterns_actions_fab_placement12.png" /></div>
                                     <figcaption>
-                                        <p class="s-tag-caption dont">Don't.</p>
+                                        <p class="s-tag-caption dont">错</p>
                                     </figcaption>
                                 </figure>
                             </div>
@@ -1226,5 +1238,19 @@
 </footer>
 <script src="../assets/js/picturefill.min.js"></script>
 <script src="../assets/js/main.js"></script>
+<script>
+(function(){
+    var bp = document.createElement('script');
+    var curProtocol = window.location.protocol.split(':')[0];
+    if (curProtocol === 'https') {
+        bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';        
+    }
+    else {
+        bp.src = 'http://push.zhanzhang.baidu.com/push.js';
+    }
+    var s = document.getElementsByTagName("script")[0];
+    s.parentNode.insertBefore(bp, s);
+})();
+</script>
 </body>
 </html>
