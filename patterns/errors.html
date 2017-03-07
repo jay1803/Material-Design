@@ -21,7 +21,7 @@
                         <h3><strong>出错类型</strong></h3>
                         <p>用户输入出错
                             <br>应用出错
-                            <br>不兼容导致出错</p>
+                            <br>兼容性出错</p>
                         <h3><strong>具体的出错模式</strong></h3>
                         <p>表单
                             <br>普通使用出错
@@ -45,7 +45,7 @@
             <li><a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="#errors-usage" data-qp-ui-data-id="qp:1">用法</a></li>
             <li><a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="#errors-user-input-errors" data-qp-ui-data-id="qp:2">用户输入出错</a></li>
             <li><a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="#errors-app-errors" data-qp-ui-data-id="qp:3">应用出错</a></li>
-            <li><a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="#errors-incompatible-state-errors" data-qp-ui-data-id="qp:4">不兼容的状态错误</a></li>
+            <li><a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="#errors-incompatible-state-errors" data-qp-ui-data-id="qp:4">兼容性出错</a></li>
         </ul>
     </nav>
     <div class="article-list">
@@ -83,8 +83,8 @@
                             <div class="module">
                                 <h1>文本输入</h1>
                                 <p><strong>帮助文本</strong>可以出现在用户触发表单某个字段之前、期间和之后。</p>
-                                <p>仅在用户触发字段之后才显示<strong>错误文本</strong>。如果用户输入了不正确的数据，帮助文本可以转换为错误文本。</p>
-                                <p>缩减表单文本，只显示要点。不是所有文本输入框都需要帮助文本或错误文本。</p>
+                                <p>仅在用户触发字段之后才显示<strong>出错提示</strong>。如果用户输入了不正确的数据，帮助文本可以转换为出错提示。</p>
+                                <p>缩减表单文本，只显示要点。不是所有文本输入框都需要帮助文本或出错提示。</p>
                                 <p>规格：</p>
                                 <p>输入框与错误提示之间有 16dp 的垂直间距。</p>
                             </div>
@@ -111,7 +111,7 @@
                             <div class="module">
                                 <h1>表单提交</h1>
                                 <p>默认情况下，提交按钮应处于可用状态。</p>
-                                <p>如果你正在进行内联表单验证，并且已清楚地标记出出现错误的字段，在错误被修正前可以禁用提交按钮。</p>
+                                <p>如果正在进行行内表单验证，并且已清楚地标记了出错的字段，那么在错误修正前可以禁用提交按钮。</p>
                             </div>
                             <div class="module">
                             </div>
@@ -140,7 +140,7 @@
                                 <figure class="s-tag-media">
                                     <div class="media"><img alt="" src="<!-- @path patterns_errors_userinput3.png -->" /></div>
                                     <figcaption>
-                                        <p>浅色主题：带提示文本的正常状态，带错误文本的正常状态，带帮助文本的正常状态，带帮助文本和错误文本的正常状态</p>
+                                        <p>浅色主题的普通状态：带提示文本的，带出错提示的，带帮助文本的，帮助文本当作出错提示的</p>
                                     </figcaption>
                                 </figure>
                             </div>
@@ -157,7 +157,7 @@
                                 <figure class="s-tag-media">
                                     <div class="media"><img alt="" src="<!-- @path patterns_errors_userinput4.png -->" /></div>
                                     <figcaption>
-                                        <p>深色主题：带提示文本的正常状态，带错误文本的正常状态，带帮助文本的正常状态，带帮助文本和错误文本的正常状态</p>
+                                        <p>深色主题的普通状态：带提示文本的，带出错提示的，带帮助文本的，帮助文本当作出错提示的</p>
                                     </figcaption>
                                 </figure>
                             </div>
@@ -199,7 +199,7 @@
                                 <figure class="s-tag-media">
                                     <div class="media"><img alt="" src="<!-- @path patterns_errors_userinput8.png -->" /></div>
                                     <figcaption>
-                                        <p>错误文本示例</p>
+                                        <p>出错提示示例</p>
                                     </figcaption>
                                 </figure>
                             </div>
@@ -213,7 +213,7 @@
                                 <figure class="s-tag-media">
                                     <div class="media"><img alt="" src="<!-- @path patterns_errors_userinput9.png -->" /></div>
                                     <figcaption>
-                                        <p>带帮助文本的正常状态，和带帮助文本和错误文本的正常状态示例</p>
+                                        <p>带帮助文本的普通状态以及带帮助文本和出错提示的普通状态</p>
                                     </figcaption>
                                 </figure>
                             </div>
@@ -227,11 +227,11 @@
                                 <figure class="s-tag-media">
                                     <div class="media"><img alt="" src="<!-- @path patterns_errors_userinput_keyline1.png -->" /></div>
                                     <figcaption>
-                                        <p>输入文本和错误文本</p>
+                                        <p>输入文本和出错提示</p>
                                         <p>磁帖高度：64dp
                                             <br>输入文本上边距：16dp
                                             <br>输入文本下边距：8dp
-                                            <br>错误文本上下边距：4dp</p>
+                                            <br>出错提示上下边距：4dp</p>
                                     </figcaption>
                                 </figure>
                             </div>
@@ -242,12 +242,12 @@
                     <div class="col-list">
                         <section class="module-figure-figure col-3">
                             <div class="module">
-                                <h2>带浮动文本标签的错误文本</h2></div>
+                                <h2>带浮动标签的出错状态</h2></div>
                             <div class="figure">
                                 <figure class="s-tag-media">
                                     <div class="media"><img alt="" src="<!-- @path patterns_errors_userinput10.png -->" /></div>
                                     <figcaption>
-                                        <p>带输入文字的浮动文本标签示例</p>
+                                        <p>带输入文本的浮动标签</p>
                                     </figcaption>
                                 </figure>
                             </div>
@@ -255,7 +255,7 @@
                                 <figure class="s-tag-media">
                                     <div class="media"><img alt="" src="<!-- @path patterns_errors_userinput11.png -->" /></div>
                                     <figcaption>
-                                        <p>带错误文本的浮动文本标签示例</p>
+                                        <p>带出错提示的浮动标签</p>
                                     </figcaption>
                                 </figure>
                             </div>
@@ -269,7 +269,7 @@
                                 <figure class="s-tag-media">
                                     <div class="media"><img alt="" src="<!-- @path patterns_errors_userinput12.png -->" /></div>
                                     <figcaption>
-                                        <p>带提示文本的正常状态，带输入文本，标签和错误文本的正常状态示例</p>
+                                        <p>带提示文本的普通状态；带输入文本、标签和出错提示的普通状态</p>
                                     </figcaption>
                                 </figure>
                             </div>
@@ -283,7 +283,7 @@
                                 <figure class="s-tag-media">
                                     <div class="media"><img alt="" src="<!-- @path patterns_errors_userinput_keyline2.png -->" /></div>
                                     <figcaption>
-                                        <p>浮动文本标签规格</p>
+                                        <p>浮动标签规格</p>
                                         <p>磁帖高度：80dp
                                             <br>标签文本上边距：8dp
                                             <br>输入文本上下边距：8dp
@@ -296,7 +296,7 @@
                         </section>
                     </div>
                     <h1>文本框输入 - 少于/超过字符数或词数</h1>
-                    <p>字符计数器可以在用户与字段交互之前、期间和之后显示。可以在用户输入的字数接近字数限制之前不显示计数器。</p>
+                    <p>在用户输入前、输入中和输入后均可以展示字符计数器。也可以在用户输入的字数接近限制时才显示计数器。</p>
                     <ul class="lst-kix_1u8c9dhapu10-0 start">
                         <li>计数器字体是 12sp Roboto Regular</li>
                         <li>计数器字段有 16dp 的额外的底部边距</li>
@@ -309,7 +309,7 @@
                                 <figure class="s-tag-media">
                                     <div class="media"><img alt="" src="<!-- @path patterns_errors_userinput13.png -->" /></div>
                                     <figcaption>
-                                        <p>带字符计数器和输入文本的单行输入框示例</p>
+                                        <p>带字符计数器和输入文本的单行输入框</p>
                                     </figcaption>
                                 </figure>
                             </div>
@@ -317,7 +317,7 @@
                                 <figure class="s-tag-media">
                                     <div class="media"><img alt="" src="<!-- @path patterns_errors_userinput14.png -->" /></div>
                                     <figcaption>
-                                        <p>带字符计数器和错误文本的单行输入框示例</p>
+                                        <p>带字符计数器和出错提示的单行输入框</p>
                                     </figcaption>
                                 </figure>
                             </div>
@@ -329,7 +329,7 @@
                                 <figure class="s-tag-media">
                                     <div class="media"><img alt="" src="<!-- @path patterns_errors_userinput15.png -->" /></div>
                                     <figcaption>
-                                        <p>带字符计数器和已输入的文本的多行文本框示例</p>
+                                        <p>带字符计数器和已输入的文本的多行文本框</p>
                                     </figcaption>
                                 </figure>
                             </div>
@@ -337,7 +337,7 @@
                                 <figure class="s-tag-media">
                                     <div class="media"><img alt="" src="<!-- @path patterns_errors_userinput16.png -->" /></div>
                                     <figcaption>
-                                        <p>带字符计数器和错误文本的多行输入框示例</p>
+                                        <p>带字符计数器和出错提示的多行输入框</p>
                                     </figcaption>
                                 </figure>
                             </div>
@@ -351,7 +351,7 @@
                                 <figure class="s-tag-media">
                                     <div class="media"><img alt="" src="<!-- @path patterns_errors_userinput17.png -->" /></div>
                                     <figcaption>
-                                        <p>状态示例：含已输入的文本的单行输入框，含错误文本的单行输入框，含已输入文本的多行输入框，含错误文本的多行输入框</p>
+                                        <p>状态示例：带输入文本的单行输入框，带出错提示的单行输入框，带输入文本的多行输入框，带出错提示的多行输入框</p>
                                     </figcaption>
                                 </figure>
                             </div>
@@ -381,19 +381,14 @@
                         <section class="module-figure-figure col-3">
                             <div class="module">
                                 <h1>不兼容的数值</h1>
-                                <p>在用户与文本字段交互期间或之后显示不兼容值的错误。
-                                Show errors for incompatible values during or after a user interacts with a text field.</p>
-                                <p>如果有两个或多个字段存在不兼容的输入：
-                                If two or more fields have incompatible inputs:</p>
+                                <p>在用户输入时或输入后展示数据不兼容的出错信息。</p>
+                                <p>如果有两个或多个字段都有不兼容的数据：</p>
                                 <ul class="lst-kix_q3mgtx4icxgk-0 start">
-                                    <li>在文本框中，指明需要修复。在下面添加错误信息。
-                                    In the text field, indicate a fix is needed. Add an error message below. </li>
-                                    <li>在表单或屏幕顶部显示一条消息，总结出所需进行的修复和任何其他说明。
-                                    Display a message at the top of the form, or screen, summarizing the fixes needed and any additional explanation.</li>
+                                    <li>在文本框中指明需要修正，并在文本框下方显示出错信息。</li>
+                                    <li>在表单或屏幕顶部显示出错信息，对出错的地方进行统一说明。</li>
                                 </ul>
                                 <h2>提交表单时检测到错误</h2>
-                                <p>重新加载表单，显示所有的错误消息，并滚动到顶部。每个字段的错误消息都可以在用户处理完该字段后解决。
-                                Reload the form with consolidated error messages and scroll position at the top. Error messages for individual fields may be resolved as the user works through the form. </p>
+                                <p>重新加载表单并显示所有的出错信息，滚动到表单顶部。字段的出错信息可以在用户处理完该字段后消失。</p>
                             </div>
                             <div class="figure">
                                 <figure class="s-tag-media">
@@ -407,8 +402,7 @@
                                 <figure class="s-tag-media">
                                     <div class="media"><img alt="" src="<!-- @path patterns_errors_userinput19.png -->" /></div>
                                     <figcaption>
-                                        <p>提交表单后检测到错误的示例
-                                        Example of errors detected after attempted form submission</p>
+                                        <p>提交表单后检测到错误的示例</p>
                                     </figcaption>
                                 </figure>
                             </div>
@@ -416,14 +410,10 @@
                         <section class="module-figure-figure col-3">
                             <div class="module">
                                 <h1>未完成的表单</h1>
-                                <p>空的表单字段应该用文本框下面的错误文本指示。
-                                Empty form fields should be indicated by both the text field and error message below. </p>
-                                <p>显示未完成的表单错误，表示用户在填写表单时跳过了某个字段。如果无法通过表单检测到用户的输入进度，则在用户尝试提交表单后显示错误。
-                                Display incomplete form errors to indicate a user has skipped a field after they have advanced through a form. If unable to detect user progress through the form, display an error after the user has attempted to submit the form. </p>
-                                <h2>表单提交之前出现多个错误
-                                Multiple errors before form submission</h2>
-                                <p>为每一个表单字段单独添加错误消息。
-                                Individually label error messages as the user works through the form. </p>
+                                <p>空的表单字段应当在标记出文本框的同时显示出错信息。</p>
+                                <p>当用户在填写表单时，标记出用户跳过的字段，并显示出错提示。如果无法通过表单检测到用户的输入进度，则在用户尝试提交表单后显示错误。</p>
+                                <h2>提交前多处出错</h2>
+                                <p>为每个表单字段标记出错信息。</p>
                             </div>
                             <div class="figure">
                                 <figure class="s-tag-media">
@@ -471,21 +461,16 @@
                     <div class="col-list">
                         <section class="module-figure-figure col-3">
                             <div class="module">
-                                <h1>一般的应用错误
-                                General app error</h1>
-                                <p>当出现错误时，在显示错误消息之前应显示加载提示符。
-                                When an error occurs, an app should display loading indicators until the error message appears. </p>
-                                <p>不可用的功能可以在 UI 中用禁用状态表示。例如，按钮可能不能以禁用状态显示，则需要用匹配的文本来说明按钮不可用。不是每个错误都需要弹出一个新的组件。
-                                Features not available may be indicated as disabled in the UI. For example, a button not may be displayed in a disabled state, paired with text explaining it is not available. Not every error requires a new component to pop up. </p>
-                                <p>如果有可能，请为用户提供一个操作，以帮助他们解决错误。
-                                If possible, give your user an action that will help them address the error. </p>
+                                <h1>一般的应用错误</h1>
+                                <p>出错时应当在显示出错信息前先展示加载指示器。</p>
+                                <p>在 UI 中使用禁用状态来指示该功能暂不可用。例如，如果按钮可以不显示禁用状态，则需要通过文本来说明按钮不可以。并不是每次出错都要弹出对话框。</p>
+                                <p>如果有可能，向用户提供一个操作来帮助他们处理错误。</p>
                             </div>
                             <div class="figure">
                                 <figure class="s-tag-media">
                                     <div class="media"><img alt="" src="<!-- @path patterns_errors_app1.png -->" /></div>
                                     <figcaption>
-                                        <p>警告框：阻止了正常操作的错误，使用警告框来作为反馈
-                                        Alert dialog: app feedback about an error that is blocking normal operation </p>
+                                        <p>警告框：出错导致进程无法继续时</p>
                                     </figcaption>
                                 </figure>
                             </div>
@@ -493,22 +478,19 @@
                                 <figure class="s-tag-media">
                                     <div class="media"><img alt="" src="<!-- @path patterns_errors_app2.png -->" /></div>
                                 </figure>
-                                <p>snackbar 可以显示次要的错误。Snackbars 是短暂显示的。不要把 snackbar 用于重要的、需要持续显示的、或大量的错误。
-                                The snackbar contains app feedback about a peripheral error. Snackbars are transient. Don't use them for critical, persistent, or bulk errors.</p>
+                                <p>Snackbar 是临时展示，可以用来显示次要的错误。不要用 Snackbar 显示重要错误、需要持续显示的错误以及大量的错误。</p>
                             </div>
                         </section>
                         <section class="module-figure-figure col-3">
                             <div class="module">
                                 <h1>同步出错/加载失败</h1>
-                                <p>当遇到同步错误或加载失败时，应该让用户尽可能可以和应用的其余部分进行交互。
-                                When sync is down or content has failed to load, the user should be able to interact with as much of the rest of the app as possible.</p>
+                                <p>当同步出错或加载失败时，让用户可以尽可能多的与应用的其余部分进行交互。</p>
                             </div>
                             <div class="figure">
                                 <figure class="s-tag-media">
                                     <div class="media"><img alt="" src="<!-- @path patterns_errors_app3.png -->" /></div>
                                     <figcaption>
-                                        <p>内容加载失败的空状态
-                                        Empty state for the screen/content failing to load</p>
+                                        <p>内容加载失败时的空状态</p>
                                     </figcaption>
                                 </figure>
                             </div>
@@ -516,8 +498,7 @@
                                 <figure class="s-tag-media">
                                     <div class="media"><img alt="" src="<!-- @path patterns_errors_app4.png -->" /></div>
                                     <figcaption>
-                                        <p>带操作的容器/组件的特定错误
-                                        Container/component specific error with action</p>
+                                        <p>带操作的容器/组件的特定错误</p>
                                     </figcaption>
                                 </figure>
                             </div>
@@ -525,24 +506,20 @@
                         <section class="module-figure-figure col-3">
                             <div class="module">
                                 <h1>网络连接</h1>
-                                <p>当连接断开时，用户应该尽可能多的能和应用的其余部分进行交互。
-                                When connectivity is down, the user should be able to interact with as much of the rest of the app as possible. </p>
-                                <p>如果可以的话，提供一个链接来帮助用户完成任务。请提供真正能提供帮助的链接。例如，在已经检测到操作会失败的情况下，不要提供类似 “再试一次” 的选项。
-                                If appropriate, present a link to help a user accomplish their task. Only offer links that you can actually support. For example, don't offer an option like "Try again" in cases where you can detect that the operation will fail.</p>
+                                <p>当连接断开时，让用户可以尽可能多的与应用的其余部分进行交互。</p>
+                                <p>如果可以的话，提供一个链接来帮助用户完成任务。请提供真正能提供帮助的链接。例如，在已经检测到操作会失败的情况下，不要提供类似 “重试” 的操作。</p>
                             </div>
                             <div class="figure">
                                 <figure class="s-tag-media">
                                     <div class="media"><img alt="" src="<!-- @path patterns_errors_app5.png -->" /></div>
                                 </figure>
-                                <p>带操作的 Snackbar 来重试
-                                Snackbar with action to retry </p>
+                                <p>带重试操作的 Snackbar</p>
                             </div>
                             <div class="figure">
                                 <figure class="s-tag-media">
                                     <div class="media"><img alt="" src="<!-- @path patterns_errors_app6.png -->" /></div>
                                     <figcaption>
-                                        <p>只有在线状态才可用时，显示的空状态
-                                        Empty state for a screen that is only available online </p>
+                                        <p>离线时显示的空状态</p>
                                     </figcaption>
                                 </figure>
                             </div>
@@ -553,19 +530,16 @@
         </div>
         <div id="errors-incompatible-state-errors" class="article qp-ui" data-qp-ui="{ 'ScrollSpy': {} }" data-qp-ui-data-id="qp:4">
             <h2 class="article-title qp-ui" data-qp-ui="{ 'ResponsiveZippy': {} }" data-qp-ui-data-id="qp:4">
-                不兼容的状态错误<!-- @include _arrow -->
+                兼容性出错<!-- @include _arrow -->
                 </h2>
             <div class="article-content">
                 <div>
-                    <p>当用户试图进行不兼容的操作时，会发生不兼容的状态错误，例如，在飞行模式下打电话、或在受限模式下进行截屏。让用户清楚的知道他们所选择的状态以及会造成的影响，以避免用户进入这些状态。当这些错误被触发时，并不代表是用户的错误。
-                    Incompatible state errors occur when users attempt to run operations that conflict, such as making a call while in airplane mode or taking a screenshot from a restricted work account. Help prevent users from putting themselves into these situations by clearly communicating the states they are selecting and the implications for the rest of their experience. When these errors are triggered, do not imply that they are the user’s fault. </p>
+                    <p>当用户试图执行有冲突的操作时，会发生兼容性出错，例如，在飞行模式下打电话、或在受限模式下进行截屏。让用户清楚的知道他们所选择的状态以及会造成的影响，以避免用户遇到此类问题。当出错时，不要暗示这是用户的错。</p>
                     <div class="col-list">
                         <section class="module-figure-module col-3">
                             <div class="module">
-                                <h2><strong>一般的不兼容
-                                General incompatibility </strong></h2>
-                                <p>澄清产生错误的原因。
-                                Clarify the reason for and origination of the error. </p>
+                                <h2><strong>一般的兼容性问题</strong></h2>
+                                <p>澄清产生错误的原因。</p>
                                 <p>例如，在受限模式下，不允许使用截屏和高级功能。
                                 For example, screenshots and premium features are not allowed while in a restricted mode. </p>
                             </div>
@@ -573,7 +547,7 @@
                                 <figure class="s-tag-media">
                                     <div class="media"><img alt="" src="<!-- @path patterns_errors_state1.png -->" /></div>
                                     <figcaption>
-                                        <p>Snackbar + special mode indicator</p>
+                                        <p>Snackbar + 特殊指示器</p>
                                     </figcaption>
                                 </figure>
                             </div>
@@ -583,21 +557,18 @@
                         <section class="module-figure-figure col-3">
                             <div class="module">
                                 <h2><strong>离线状态</strong></h2>
-                                <p>当用户处于离线状态，但尝试执行需要联网的任务时，显示一个持续显示的、不显眼的指示符。
-                                Display an unobtrusive, persistent indicator when users are offline but try to do tasks that require being online.</p>
+                                <p>当处于离线状态的用户尝试执行需要联网的操作时，通过持久但不显眼的指示器来告知用户。</p>
                                 <p>示例：</p>
                                 <ul class="lst-kix_jj4uoi73ffco-0 start">
-                                    <li>在飞行模式下打电话
-                                    Placing a call while in airplane mode</li>
-                                    <li>离线时音乐仍然是可用的
-                                    Music availability while offline</li>
+                                    <li>在飞行模式下打电话</li>
+                                    <li>离线时音乐仍然是可用的</li>
                                 </ul>
                             </div>
                             <div class="figure">
                                 <figure class="s-tag-media">
                                     <div class="media"><img alt="" src="<!-- @path patterns_errors_state2.png -->" /></div>
                                     <figcaption>
-                                        <p>Snackbar </p>
+                                        <p>Snackbar</p>
                                     </figcaption>
                                 </figure>
                             </div>
@@ -605,25 +576,20 @@
                                 <figure class="s-tag-media">
                                     <div class="media"><img alt="" src="<!-- @path patterns_errors_state3.png -->" /></div>
                                     <figcaption>
-                                        <p>指示设备已处于飞行模式。
-                                        Indicator that the device has been placed into airplane mode. </p>
+                                        <p>指示设备已处于飞行模式</p>
                                     </figcaption>
                                 </figure>
                             </div>
                         </section>
                         <section class="module-figure-module col-3">
                             <div class="module">
-                                <h2><strong>请求权限</strong></h2>
-                                <p>如果你的应用需要用户授予权限才能继续操作，请在应用流程中包含权限申请，而不是将其视为错误。
-                                If your app requires user permission before proceeding with an action, include the permission request in the app flow instead of treating it as an error. </p>
-                                <p>如果在首次运行应用之前需要获取权限，请考虑将请求权限的操作包含在应用的首次运行体验中。
-                                If permissions are necessary before the first run of an app, consider including them into your app’s first-run experience.</p>
+                                <h2><strong>权限请求</strong></h2>
+                                <p>如果应用需要用户授予权限才能继续操作，请在应用流程中包含权限请求，不要当成错误对待。</p>
+                                <p>如果在首次运行应用之前需要获取权限，考虑将请求权限的操作包含在应用的首次运行体验中。</p>
                                 <p>示例：</p>
                                 <ul class="lst-kix_jj4uoi73ffco-0">
-                                    <li>应用的权限已变更。
-                                    An app’s permissions have changed.</li>
-                                    <li>应用内购买已停用。
-                                    In-app purchases have been disabled.</li>
+                                    <li>应用的权限已变更</li>
+                                    <li>应用内购买已停用</li>
                                 </ul>
                             </div>
                             <div class="figure">
@@ -645,7 +611,7 @@
         </div>
         </section>
     </div>
-    <!-- $prePage 空白状态 -->
+    <!-- $prePage 空状态 -->
     <!-- $preURL empty-states.html -->
     <!-- $nextPage 指纹 -->
     <!-- $nextURL fingerprint.html -->
