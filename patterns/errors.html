@@ -19,12 +19,12 @@
                     </div>
                     <div class="module">
                         <h3><strong>出错类型</strong></h3>
-                        <p>用户输入出错
+                        <p>用户输入时出错
                             <br>应用出错
-                            <br>兼容性出错</p>
+                            <br>兼容性错误</p>
                         <h3><strong>具体的出错模式</strong></h3>
                         <p>表单
-                            <br>普通使用出错
+                            <br>普通使用时出错
                             <br>同步出错
                             <br>网络连接
                             <br>权限
@@ -45,7 +45,7 @@
             <li><a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="#errors-usage" data-qp-ui-data-id="qp:1">用法</a></li>
             <li><a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="#errors-user-input-errors" data-qp-ui-data-id="qp:2">用户输入出错</a></li>
             <li><a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="#errors-app-errors" data-qp-ui-data-id="qp:3">应用出错</a></li>
-            <li><a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="#errors-incompatible-state-errors" data-qp-ui-data-id="qp:4">兼容性出错</a></li>
+            <li><a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="#errors-incompatible-state-errors" data-qp-ui-data-id="qp:4">兼容性错误</a></li>
         </ul>
     </nav>
     <div class="article-list">
@@ -477,8 +477,10 @@
                             <div class="figure">
                                 <figure class="s-tag-media">
                                     <div class="media"><img alt="" src="<!-- @path patterns_errors_app2.png -->" /></div>
+                                    <figcaption>
+                                        <p>Snackbar 是临时展示，可以用来显示次要的错误。不要用 Snackbar 显示重要错误、需要持续显示的错误以及大量的错误。</p>
+                                    </figcaption>
                                 </figure>
-                                <p>Snackbar 是临时展示，可以用来显示次要的错误。不要用 Snackbar 显示重要错误、需要持续显示的错误以及大量的错误。</p>
                             </div>
                         </section>
                         <section class="module-figure-figure col-3">
@@ -512,8 +514,10 @@
                             <div class="figure">
                                 <figure class="s-tag-media">
                                     <div class="media"><img alt="" src="<!-- @path patterns_errors_app5.png -->" /></div>
+                                    <figcaption>
+                                        <p>带重试操作的 Snackbar</p>
+                                    </figcaption>
                                 </figure>
-                                <p>带重试操作的 Snackbar</p>
                             </div>
                             <div class="figure">
                                 <figure class="s-tag-media">
@@ -530,18 +534,17 @@
         </div>
         <div id="errors-incompatible-state-errors" class="article qp-ui" data-qp-ui="{ 'ScrollSpy': {} }" data-qp-ui-data-id="qp:4">
             <h2 class="article-title qp-ui" data-qp-ui="{ 'ResponsiveZippy': {} }" data-qp-ui-data-id="qp:4">
-                兼容性出错<!-- @include _arrow -->
+                兼容性错误<!-- @include _arrow -->
                 </h2>
             <div class="article-content">
                 <div>
-                    <p>当用户试图执行有冲突的操作时，会发生兼容性出错，例如，在飞行模式下打电话、或在受限模式下进行截屏。让用户清楚的知道他们所选择的状态以及会造成的影响，以避免用户遇到此类问题。当出错时，不要暗示这是用户的错。</p>
+                    <p>当用户试图执行有冲突的操作时，会发生兼容性错误，例如，在飞行模式下打电话、或在受限模式下进行截屏。让用户清楚的知道他们所选择的状态以及会造成的影响，以避免用户遇到此类问题。当出错时，不要暗示这是用户的错。</p>
                     <div class="col-list">
                         <section class="module-figure-module col-3">
                             <div class="module">
-                                <h2><strong>一般的兼容性问题</strong></h2>
+                                <h2><strong>一般的兼容性错误</strong></h2>
                                 <p>澄清产生错误的原因。</p>
-                                <p>例如，在受限模式下，不允许使用截屏和高级功能。
-                                For example, screenshots and premium features are not allowed while in a restricted mode. </p>
+                                <p>例如，在受限模式下，不允许使用截屏和高级功能。</p>
                             </div>
                             <div class="figure">
                                 <figure class="s-tag-media">
