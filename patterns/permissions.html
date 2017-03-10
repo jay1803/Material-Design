@@ -6,22 +6,22 @@
 <div class="chapter-content">
     <div class="article-content chapter-intro">
         <div>
-            <h1>Permission requests should be simple, transparent, and understandable. </h1>
+            <h1>权限请求应当简单、坦白且易懂。</h1>
             <div class="col-list">
                 <section class="module-module-figure col-3">
                     <div class="module">
-                        <p>Apps should clarify why each permission request is needed, either through the feature name or an explanation provided.</p>
-                        <p><strong>Runtime permissions</strong> are requested at the moment a user needs to perform an action in an app.</p>
-                        <p><strong>Denied permissions</strong> should provide feedback and options.</p>
+                        <p>应用通过功能名称或解释说明来明确表明请求每个权限的原因。</p>
+                        <p><strong>执行权限</strong>会在用户需要执行应用的某个操作时出现。</p>
+                        <p><strong>禁止的权限</strong>应当提供反馈和选项。</p>
                     </div>
                     <div class="module">
-                        <h3><strong>Types of permissions</strong></h3>
-                        <p>Educate before asking
-                            <br> Ask up-front
-                            <br> Ask in context
-                            <br> Educate in context
-                            <br> Provide an immediate benefit
-                            <br> Only ask for relevant permissions</p>
+                        <h3><strong>权限类型</strong></h3>
+                        <p>自学 Educate before asking
+                            <br>直接询问 Ask up-front
+                            <br>情境中询问 Ask in context
+                            <br>情境中教育 Educate in context
+                            <br>提供直接利益 Provide an immediate benefit
+                            <br>只询问相关的权限 Only ask for relevant permissions</p>
                     </div>
                     <div class="figure">
                         <figure class="s-tag-media">
@@ -33,108 +33,108 @@
         </div>
     </div>
     <nav class="chapter-toc">
-        <h1>Contents</h1>
+        <h1>索引</h1>
         <ul>
-            <li><a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="#permissions-usage" data-qp-ui-data-id="qp:1">Usage</a></li>
-            <li><a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="#permissions-runtime-permissions" data-qp-ui-data-id="qp:2">Runtime permissions</a></li>
-            <li><a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="#permissions-request-patterns" data-qp-ui-data-id="qp:3">Request patterns</a></li>
-            <li><a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="#permissions-denied-permissions" data-qp-ui-data-id="qp:4">Denied permissions</a></li>
+            <li><a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="#permissions-usage" data-qp-ui-data-id="qp:1">用法</a></li>
+            <li><a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="#permissions-runtime-permissions" data-qp-ui-data-id="qp:2">执行权限</a></li>
+            <li><a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="#permissions-request-patterns" data-qp-ui-data-id="qp:3">请求模式</a></li>
+            <li><a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="#permissions-denied-permissions" data-qp-ui-data-id="qp:4">禁止的权限</a></li>
         </ul>
     </nav>
     <div class="article-list">
         <div id="permissions-usage" class="article qp-ui" data-qp-ui="{ 'ScrollSpy': {} }" data-qp-ui-data-id="qp:1">
             <h2 class="article-title qp-ui" data-qp-ui="{ 'ResponsiveZippy': {} }" data-qp-ui-data-id="qp:1">
-                  Usage<!-- @include _arrow -->
+                用法<!-- @include _arrow -->
                 </h2>
             <div class="article-content">
                 <div>
                     <div class="col-list">
                         <section class="module-module col-2">
                             <div class="module">
-                                <h2><strong><strong>Permission groups</strong></strong></h2>
-                                <p>Permissions are divided into nine groups, allowing users to grant all permissions encompassed by a single action. For instance, granting permission to Contacts includes the ability to both view and edit Contacts.</p>
+                                <h2><strong>权限分组</strong></h2>
+                                <p>权限被分为 9 种，允许用户通过一个操作来批准所有权限。例如，允许在批准通讯录权限时可以同时批准浏览和编辑通讯录。</p>
                             </div>
                             <div class="module">
                                 <table class="s-tag-table">
                                     <tbody>
                                         <tr>
                                             <td colspan="1" rowspan="1">
-                                                <p>Permission</p>
+                                                <p>权限</p>
                                             </td>
                                             <td colspan="1" rowspan="1">
-                                                <p>Description</p>
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td colspan="1" rowspan="1">
-                                                <p>Calendar</p>
-                                            </td>
-                                            <td colspan="1" rowspan="1">
-                                                <p>Managing calendars</p>
+                                                <p>说明</p>
                                             </td>
                                         </tr>
                                         <tr>
                                             <td colspan="1" rowspan="1">
-                                                <p>Camera</p>
+                                                <p>日历</p>
                                             </td>
                                             <td colspan="1" rowspan="1">
-                                                <p>Taking photos and recording videos</p>
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td colspan="1" rowspan="1">
-                                                <p>Contacts</p>
-                                            </td>
-                                            <td colspan="1" rowspan="1">
-                                                <p>Managing contacts</p>
+                                                <p>管理日历</p>
                                             </td>
                                         </tr>
                                         <tr>
                                             <td colspan="1" rowspan="1">
-                                                <p>Location</p>
+                                                <p>相机</p>
                                             </td>
                                             <td colspan="1" rowspan="1">
-                                                <p>Current device location</p>
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td colspan="1" rowspan="1">
-                                                <p>Microphone</p>
-                                            </td>
-                                            <td colspan="1" rowspan="1">
-                                                <p>Audio recording</p>
+                                                <p>拍摄照片和录制视频</p>
                                             </td>
                                         </tr>
                                         <tr>
                                             <td colspan="1" rowspan="1">
-                                                <p>Phone</p>
+                                                <p>通讯录</p>
                                             </td>
                                             <td colspan="1" rowspan="1">
-                                                <p>Dialing and managing phone calls</p>
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td colspan="1" rowspan="1">
-                                                <p>Body Sensors</p>
-                                            </td>
-                                            <td colspan="1" rowspan="1">
-                                                <p>Heart rate and similar data</p>
+                                                <p>管理联系人</p>
                                             </td>
                                         </tr>
                                         <tr>
                                             <td colspan="1" rowspan="1">
-                                                <p>SMS</p>
+                                                <p>位置信息</p>
                                             </td>
                                             <td colspan="1" rowspan="1">
-                                                <p>Sending and viewing messages</p>
+                                                <p>设备的当前位置</p>
                                             </td>
                                         </tr>
                                         <tr>
                                             <td colspan="1" rowspan="1">
-                                                <p>Storage</p>
+                                                <p>麦克风</p>
                                             </td>
                                             <td colspan="1" rowspan="1">
-                                                <p>Accessing photos, media, and files</p>
+                                                <p>录制音频</p>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td colspan="1" rowspan="1">
+                                                <p>电话</p>
+                                            </td>
+                                            <td colspan="1" rowspan="1">
+                                                <p>拨打电话和管理通话</p>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td colspan="1" rowspan="1">
+                                                <p>身体传感器</p>
+                                            </td>
+                                            <td colspan="1" rowspan="1">
+                                                <p>心跳记录和类似数据</p>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td colspan="1" rowspan="1">
+                                                <p>短信</p>
+                                            </td>
+                                            <td colspan="1" rowspan="1">
+                                                <p>发送和查看短信</p>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td colspan="1" rowspan="1">
+                                                <p>储存空间</p>
+                                            </td>
+                                            <td colspan="1" rowspan="1">
+                                                <p>访问照片、媒体和文件</p>
                                             </td>
                                         </tr>
                                     </tbody>
@@ -144,9 +144,9 @@
                         <section class="module-module col-2">
                             <div class="module">
                                 <h2><strong><strong>Implied permission</strong></strong></h2>
-                                <p>A user may perform an action that demonstrates clear intent, such as: </p>
+                                <p>用户在执行操作时可能已经有了清晰的意图，例如：</p>
                                 <ul class="lst-kix_em02k6y82udr-0 start">
-                                    <li>Taking a picture</li>
+                                    <li>拍照</li>
                                     <li>Selecting a contact</li>
                                     <li>Starting a call or text message</li>
                                 </ul>
