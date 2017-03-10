@@ -14,3 +14,81 @@
 
 ###### 其他补充
 另外有一张图片和一个视频因为 Google 服务器的原因，在原网页也无法打开，因此丢失了，如果以后可以拿到就在补充。
+
+***
+
+# Material Design 翻译目录
+
+### 属性
+
+**Elevation**：海拔。之所以翻译成海拔是为了区别 Width（宽） 和 Height（高），其实从三维空间中来看，Elevation 对应的应该是高度，而 Width 和 Height 应该对应的是长和宽。但手机屏幕毕竟是一个虚拟的三维空间，从视觉上来看它其实还是二维的，所以 Width 和 Height 翻译成宽和高就不会有太大的问题，而且符合它们原本的意思。而且从 Material Design 中对 Elevation 的解释其实也更符合海拔的定义。Elevation 是相对于某一平面的高度，而海拔恰好也是这样，只是海拔的这个平面是海平面，不过说起来每个国家再统计的时候，所参考的海平面也是不同的。因此 Elevation 翻译成海拔会更合适。
+
+**Redaction**：掩饰。参考了 [韦氏词典](https://www.merriam-webster.com/dictionary/redacting) 中的解释「to select or adapt (as by obscuring or removing sensitive information) for publication or release」为了公布或发表而挑选或调整（掩盖或移除敏感信息）。
+
+### 组件名称
+
+**Tiles**：磁帖。这个翻译参考了 Windows 中对于 Live Tile（动态磁帖） 的翻译。
+
+**Picker**：选择器。参考了 IXUS 在 iOS 的人机交互指南中对于 Picker 的翻译。
+
+**Tab**：选项卡。参考了 Windows 系统中对于 Tab 的翻译。
+
+**Chips**：片段。原意是碎屑，碎片。但作为元素的容器，直译会有点难以理解，因此译作片段，也是说明截取了例如「联系人」信息中的某段文本来展示的意思。
+
+**Stepper**：步进器。参考了 IXUS 在 iOS 人机交互指南中的翻译。
+
+**Ellipses**：着重号。原意为椭圆或省略号，为了符合原文的意义以及避免歧义，参考了下文中 Unicode 的编码的名称（U2022 名称为 Bullet），翻译为着重号。
+
+**Error message**：出错信息。
+
+**Character counter**：字符计数器。
+
+### 文本框和状态
+
+**Form field**：表单字段。
+
+**Text field**：文本框。
+
+**Normal**：正常。
+
+**Focus**：聚焦。
+
+**Active**：激活。
+
+**Press**：按下。
+
+**Disable**：禁用。
+
+### 手势操作
+
+**Touch**：轻触。
+
+**Double Touch**：轻触两下。
+
+**Drag**：拖拽。
+
+**Swipe**：轻扫。
+
+**Fling**：快速滑动。
+
+**Pinch**：捏合。
+
+**Pinch open**：双指张开。
+
+**Pinch closed**：双指捏合。
+
+**Press**：按下。
+
+**Long press**：长按。
+
+**Click**：点击。
+
+**Tap**：轻点。
+
+### 展示状态
+
+**Permanent**：固定展示。
+
+**Persistent**：持续展示。
+
+**Temporary**：临时展示。
