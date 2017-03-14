@@ -4,14 +4,14 @@
     <meta charset="utf-8">
     <link href="../assets/css/main.css" rel="stylesheet">
     <meta name="viewport" content="initial-scale=1, width=device-width">
-    <title>控制开关 - 组件 - Material Design 中文指南</title>
-    <meta itemprop="name" content="控制开关  - 组件 - Material Design 中文指南">
+    <title>选择控件 - 组件 - Material Design 中文指南</title>
+    <meta itemprop="name" content="选择控件  - 组件 - Material Design 中文指南">
     <meta itemprop="image" content="../assets/images/share.png">
     <meta property="og:type" content="article">
-    <meta property="og:title" content="控制开关  - 组件 - Material Design 中文指南">
+    <meta property="og:title" content="选择控件  - 组件 - Material Design 中文指南">
     <meta itemprop="image" content="../assets/images/share.png">
     <meta property="og:site_name" content="Material design 中文指南">
-    <meta property="article:section" content="控制开关  - Material design">
+    <meta property="article:section" content="选择控件  - Material design">
     <meta name="theme-color" content="#00bcd4">
     <link rel="icon" sizes="192x192" href="../assets/images/guidelines-icon-192x192.png">
     <link rel="shortcut icon" href="../assets/images/guidelines-icon-72x72.png">
@@ -54,7 +54,7 @@
             <div class="header-title">
                 <span class="section-title">组件</span>
                 <span class="chapter-title">
-              <span class="title-separator">–</span> 控制开关
+              <span class="title-separator">–</span> 选择控件
                 </span>
             </div>
         </div>
@@ -149,7 +149,7 @@
                             <a href="tabs.html">选项卡</a>
                             <a href="text-fields.html">文本框</a>
                             <a href="toolbars.html">工具栏</a>
-                            <a href="tooltips.html">提示信息</a>
+                            <a href="tooltips.html">工具提示</a>
                             <a href="widgets.html">桌面小部件</a>
                         </dd>
                     </div>
@@ -160,7 +160,7 @@
                         <dd>
                             <a href="../patterns/confirmation-acknowledgement.html">确认 &amp; 确知</a>
                             <a href="../patterns/data-formats.html">数据格式</a>
-                            <a href="../patterns/empty-states.html">空白状态</a>
+                            <a href="../patterns/empty-states.html">空状态</a>
                             <a href="../patterns/errors.html">出错</a>
                             <a href="../patterns/fingerprint.html">指纹</a>
                             <a href="../patterns/gestures.html">手势</a>
@@ -169,7 +169,7 @@
                             <a href="../patterns/loading-images.html">图片加载</a>
                             <a href="../patterns/navigation.html">导航</a>
                             <a href="../patterns/navigation-drawer.html">抽屉导航</a>
-                            <a href="../patterns/navigational-transitions.html">导航的转场</a>
+                            <a href="../patterns/navigational-transitions.html">导航转换</a>
                             <a href="../patterns/notifications.html">通知</a>
                             <a href="../patterns/permissions.html">权限</a>
                             <a href="../patterns/scrolling-techniques.html">滚动技术</a>
@@ -232,7 +232,7 @@
                         <a href="http://www.google.com/policies/terms/">Terms</a>
                     </li>
                     <li>
-                        <a href="http://maxoxo.design">Max Design</a>
+                        <a href="http://maxoxo.design">翻译说明</a>
                     </li>
                 </ul>
             </div>
@@ -241,26 +241,26 @@
 </div>
 <div id="grid-cont">
     <section class="grid_outer chapter">
-        <h1 class="chapter-title">控制开关</h1>
+        <h1 class="chapter-title">选择控件</h1>
 <div class="chapter-content">
     <div class="article-content chapter-intro">
         <div>
-            <p>Selection controls allow the user to select options. </p>
+            <p>选择控件允许用户选择选项。</p>
             <div class="col-list">
                 <section class="module-module-figure col-3">
                     <div class="module">
-                        <p>Three types of selection controls are covered in this guidance:</p>
+                        <p>本文包含了三种类型的选择控件：</p>
                         <ul class="lst-kix_5laryictleob-0 start">
-                            <li><strong>Checkboxes </strong>allow the selection of multiple options from a set. </li>
-                            <li><strong>Radio buttons</strong> allow the selection of a single option from a set.</li>
-                            <li><strong>Switches</strong> allow a selection to be turned on or off.</li>
+                            <li><strong>复选框</strong>允许从一组选项中选择多个选项。</li>
+                            <li><strong>单选按钮</strong>允许从一组选项中选择单个选项。</li>
+                            <li><strong>开关</strong>允许打开或关闭选项。</li>
                         </ul>
                     </div>
                     <div class="module">
-                        <h3><strong>Color</strong></h3>
-                        <p>Selection controls use an app’s <a href="../style/color.html#color-color-schemes">accent color</a>.</p>
-                        <h3><strong>Themes</strong></h3>
-                        <p>Selection controls are available in both dark and light themes.</p>
+                        <h3><strong>颜色</strong></h3>
+                        <p>选择控件使用应用的<a href="../style/color.html#color-color-schemes">强调色</a>。</p>
+                        <h3><strong>主题</strong></h3>
+                        <p>选择控件在暗色和亮色主题下都可以使用。</p>
                     </div>
                     <div class="figure">
                         <figure class="s-tag-media">
@@ -272,17 +272,17 @@
         </div>
     </div>
     <nav class="chapter-toc">
-        <h1>Contents</h1>
+        <h1>索引</h1>
         <ul>
-            <li><a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="#selection-controls-checkbox" data-qp-ui-data-id="qp:1">Checkbox</a></li>
-            <li><a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="#selection-controls-radio-button" data-qp-ui-data-id="qp:2">Radio button</a></li>
-            <li><a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="#selection-controls-switch" data-qp-ui-data-id="qp:3">Switch</a></li>
+            <li><a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="#selection-controls-checkbox" data-qp-ui-data-id="qp:1">复选框</a></li>
+            <li><a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="#selection-controls-radio-button" data-qp-ui-data-id="qp:2">单选按钮</a></li>
+            <li><a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="#selection-controls-switch" data-qp-ui-data-id="qp:3">开关</a></li>
         </ul>
     </nav>
     <div class="article-list">
         <div id="selection-controls-checkbox" class="article qp-ui" data-qp-ui="{ 'ScrollSpy': {} }" data-qp-ui-data-id="qp:1">
             <h2 class="article-title qp-ui" data-qp-ui="{ 'ResponsiveZippy': {} }" data-qp-ui-data-id="qp:1">
-                  Checkbox<svg xmlns="http://www.w3.org/2000/svg" version="1.1" class="icon icon-expand-collapse" role="img" viewBox="0 0 10 10" aria-labelledby="title desc">
+                  复选框<svg xmlns="http://www.w3.org/2000/svg" version="1.1" class="icon icon-expand-collapse" role="img" viewBox="0 0 10 10" aria-labelledby="title desc">
     <title>展开或收起内容</title>
     <desc>当内容收起时，箭头向下，当内容展开时，箭头向上。</desc>
     <polygon role="presentation" points="2.5,4.167 5,6.667 7.5,4.167 6.917,3.583 5,5.5 3.083,3.583"></polygon>
@@ -293,15 +293,15 @@
                     <div class="col-list">
                         <section class="module-figure-figure col-3">
                             <div class="module">
-                                <p>Checkboxes allow the user to select multiple options from a set. </p>
-                                <p>If you have multiple options appearing in a list, you can preserve space by using checkboxes instead of on/off switches. </p>
-                                <p>If you have a single option, avoid using a checkbox and use an on/off switch instead.</p>
+                                <p>复选框允许用户从一组选项中选择多个选项。</p>
+                                <p>如果列表中有多个选项，使用复选框会比开关更节省空间。</p>
+                                <p>如果只有一个选项，应该使用开关而不是复选框。</p>
                             </div>
                             <div class="figure">
                                 <figure class="s-tag-media">
                                     <div class="media"><img alt="" src="../assets/images/components_switches_check1.png" /></div>
                                     <figcaption>
-                                        <p>Light theme</p>
+                                        <p>亮色主题</p>
                                     </figcaption>
                                 </figure>
                             </div>
@@ -309,7 +309,7 @@
                                 <figure class="s-tag-media">
                                     <div class="media"><img alt="" src="../assets/images/components_switches_check2.png" /></div>
                                     <figcaption>
-                                        <p>Dark theme</p>
+                                        <p>暗色主题</p>
                                     </figcaption>
                                 </figure>
                             </div>
@@ -318,16 +318,16 @@
                     <div class="col-list">
                         <section class="module-figure col-2">
                             <div class="module">
-                                <h1>Light</h1>
-                                <p>On: Swatch 500, Opacity 100%
-                                    <br> Off: #000000, Opacity 54%
-                                    <br> Disabled: #000000, Opacity 26%</p>
+                                <h1>亮色</h1>
+                                <p>开：主色调 500，不透明度：100%
+                                    <br>关： #000000，不透明度：54%
+                                    <br>禁用：#000000，不透明度：26%</p>
                             </div>
                             <div class="figure">
                                 <figure class="s-tag-media">
                                     <div class="media"><img alt="" src="../assets/images/components_switches_check3.png" /></div>
                                     <figcaption>
-                                        <p>Light theme for checkboxes in hover, focused, pressed, disabled, and disabled focused states. </p>
+                                        <p>亮色主题的复选框在鼠标悬停、聚焦、按下、禁用以及禁用且聚焦时的状态。</p>
                                     </figcaption>
                                 </figure>
                             </div>
@@ -336,16 +336,16 @@
                     <div class="col-list">
                         <section class="module-figure col-2">
                             <div class="module">
-                                <h1>Dark</h1>
-                                <p>On: Swatch 500, Opacity 100%
-                                    <br> Off: #FFFFFF, Opacity 70%
-                                    <br> Disabled: #FFFFFF, Opacity 30%</p>
+                                <h1>暗色</h1>
+                                <p>开：主色调 500，不透明度：100%
+                                    <br>关：#FFFFFF，不透明度：70%
+                                    <br>禁用：#FFFFFF，不透明度：30%</p>
                             </div>
                             <div class="figure">
                                 <figure class="s-tag-media">
                                     <div class="media"><img alt="" src="../assets/images/components_switches_check4.png" /></div>
                                     <figcaption>
-                                        <p>Dark theme for checkboxes in hover, focused, pressed, disabled, and disabled focused states. </p>
+                                        <p>暗色主题的复选框在鼠标悬停、聚焦、按下、禁用以及禁用且聚焦时的状态。</p>
                                     </figcaption>
                                 </figure>
                             </div>
@@ -356,7 +356,7 @@
         </div>
         <div id="selection-controls-radio-button" class="article qp-ui" data-qp-ui="{ 'ScrollSpy': {} }" data-qp-ui-data-id="qp:2">
             <h2 class="article-title qp-ui" data-qp-ui="{ 'ResponsiveZippy': {} }" data-qp-ui-data-id="qp:2">
-                  Radio button<svg xmlns="http://www.w3.org/2000/svg" version="1.1" class="icon icon-expand-collapse" role="img" viewBox="0 0 10 10" aria-labelledby="title desc">
+                单选按钮<svg xmlns="http://www.w3.org/2000/svg" version="1.1" class="icon icon-expand-collapse" role="img" viewBox="0 0 10 10" aria-labelledby="title desc">
     <title>展开或收起内容</title>
     <desc>当内容收起时，箭头向下，当内容展开时，箭头向上。</desc>
     <polygon role="presentation" points="2.5,4.167 5,6.667 7.5,4.167 6.917,3.583 5,5.5 3.083,3.583"></polygon>
@@ -367,14 +367,14 @@
                     <div class="col-list">
                         <section class="module-figure-figure col-3">
                             <div class="module">
-                                <p>Radio buttons allow the user to select one option from a set. Use radio buttons for exclusive selection if you think that the user needs to see all available options side-by-side. </p>
-                                <p>Otherwise, consider a dropdown, which uses less space than displaying all options. </p>
+                                <p>单选按钮允许用户从一组选项中选择一个选项。如果用户需要并排看到所有选项的话就使用单选按钮。</p>
+                                <p>此外，如果需要节省空间则考虑使用下拉菜单。</p>
                             </div>
                             <div class="figure">
                                 <figure class="s-tag-media">
                                     <div class="media"><img alt="" src="../assets/images/components_switches_radio1.png" /></div>
                                     <figcaption>
-                                        <p>Light theme for radio buttons</p>
+                                        <p>亮色主题的单选按钮</p>
                                     </figcaption>
                                 </figure>
                             </div>
@@ -382,7 +382,7 @@
                                 <figure class="s-tag-media">
                                     <div class="media"><img alt="" src="../assets/images/components_switches_radio2.png" /></div>
                                     <figcaption>
-                                        <p>Dark theme for radio buttons</p>
+                                        <p>暗色主题的单选按钮</p>
                                     </figcaption>
                                 </figure>
                             </div>
@@ -391,16 +391,16 @@
                     <div class="col-list">
                         <section class="module-figure col-2">
                             <div class="module">
-                                <h1>Light</h1>
-                                <p>On: Swatch 500, Opacity 100%
-                                    <br> Off: #000000, Opacity 54%
-                                    <br> Disabled: #000000, Opacity 26%</p>
+                                <h1>亮色</h1>
+                                <p>开：主色调 500，不透明度：100%
+                                    <br>关：#000000，不透明度：54%
+                                    <br>禁用：#000000，不透明度：26%</p>
                             </div>
                             <div class="figure">
                                 <figure class="s-tag-media">
                                     <div class="media"><img alt="" src="../assets/images/components_switches_radio3.png" /></div>
                                     <figcaption>
-                                        <p>Light theme for radio buttons in hover, focused, pressed, disabled, and disabled focused states. </p>
+                                        <p>亮色主题的单选按钮在鼠标悬停、聚焦、按下、禁用以及禁用且聚焦时的状态。</p>
                                     </figcaption>
                                 </figure>
                             </div>
@@ -410,15 +410,15 @@
                         <section class="module-figure col-2">
                             <div class="module">
                                 <h1>Dark</h1>
-                                <p>On: Swatch 500, Opacity 100%
-                                    <br> Off: #FFFFFF, Opacity 70%
-                                    <br> Disabled: #FFFFFF, Opacity 30%</p>
+                                <p>开：主色调 500，不透明度：100%
+                                    <br>关：#FFFFFF，不透明度：70%
+                                    <br>禁用：#FFFFFF，不透明度：30%</p>
                             </div>
                             <div class="figure">
                                 <figure class="s-tag-media">
                                     <div class="media"><img alt="" src="../assets/images/components_switches_radio4.png" /></div>
                                     <figcaption>
-                                        <p>Dark theme for radio buttons in hover, focused, pressed, disabled, and disabled focused states. </p>
+                                        <p>暗色主题的单选框在鼠标悬浮、聚焦、按下、禁用以及禁用且聚焦时的状态。</p>
                                     </figcaption>
                                 </figure>
                             </div>
@@ -429,7 +429,7 @@
         </div>
         <div id="selection-controls-switch" class="article qp-ui" data-qp-ui="{ 'ScrollSpy': {} }" data-qp-ui-data-id="qp:3">
             <h2 class="article-title qp-ui" data-qp-ui="{ 'ResponsiveZippy': {} }" data-qp-ui-data-id="qp:3">
-                  Switch<svg xmlns="http://www.w3.org/2000/svg" version="1.1" class="icon icon-expand-collapse" role="img" viewBox="0 0 10 10" aria-labelledby="title desc">
+                开关<svg xmlns="http://www.w3.org/2000/svg" version="1.1" class="icon icon-expand-collapse" role="img" viewBox="0 0 10 10" aria-labelledby="title desc">
     <title>展开或收起内容</title>
     <desc>当内容收起时，箭头向下，当内容展开时，箭头向上。</desc>
     <polygon role="presentation" points="2.5,4.167 5,6.667 7.5,4.167 6.917,3.583 5,5.5 3.083,3.583"></polygon>
@@ -440,14 +440,14 @@
                     <div class="col-list">
                         <section class="module-figure-figure col-3">
                             <div class="module">
-                                <p>On/off switches toggle the state of a single settings option. The option that the switch controls, as well as the state it’s in, should be made clear from the corresponding inline label. Switches take on the same visual properties of the radio button. </p>
-                                <p>The on/off slide toggle with the text “on” and “off” included within the asset is deprecated. Use the switch shown here instead. </p>
+                                <p>开关可以切换单个选项的状态。开关的标签应当清晰的表明选项控制及其状态。开关和单选按钮视觉属性相同。</p>
+                                <p>不要使用写着「开」和「关」的滑块来切换，要使用这里的开关。</p>
                             </div>
                             <div class="figure">
                                 <figure class="s-tag-media">
                                     <div class="media"><img alt="" src="../assets/images/components_switches_switch1.png" /></div>
                                     <figcaption>
-                                        <p>Light theme</p>
+                                        <p>亮色主题</p>
                                     </figcaption>
                                 </figure>
                             </div>
@@ -455,7 +455,7 @@
                                 <figure class="s-tag-media">
                                     <div class="media"><img alt="" src="../assets/images/components_switches_switch2.png" /></div>
                                     <figcaption>
-                                        <p>Dark theme</p>
+                                        <p>暗色主题</p>
                                     </figcaption>
                                 </figure>
                             </div>
@@ -464,19 +464,19 @@
                     <div class="col-list">
                         <section class="module-figure col-2">
                             <div class="module">
-                                <h1>Light</h1>
-                                <p>Thumb On: Swatch 500, Opacity 100%
-                                    <br> Track On: Swatch 500, Opacity 50%</p>
-                                <p>Thumb Off: Grey 50, #FAFAFA, Opacity 100%
-                                    <br> Track Off: #000000, Opacity 38%</p>
-                                <p>Thumb Disabled: Grey 400, #BDBDBD, Opacity 100%
-                                    <br> Track Disabled: #000000, Opacity 12%</p>
+                                <h1>亮色</h1>
+                                <p>打开的滑块：主色调 500，不透明度：100%
+                                    <br>打开的轨道：主色调 500，不透明度：50%</p>
+                                <p>关闭的滑块：Grey 50，#FAFAFA，不透明度：100%
+                                    <br>关闭的轨道：#000000，不透明度：38%</p>
+                                <p>禁用的滑块：Grey 400，#BDBDBD，不透明度：100%
+                                    <br>禁用的轨道：#000000，不透明度：12%</p>
                             </div>
                             <div class="figure">
                                 <figure class="s-tag-media">
                                     <div class="media"><img alt="" src="../assets/images/components_switches_switch3.png" /></div>
                                     <figcaption>
-                                        <p>Light theme for switches in hover, focused, pressed, disabled, and disabled focused states. </p>
+                                        <p>亮色主题的开关在鼠标悬浮、聚焦、按下、禁用以及禁用且聚焦时的状态。</p>
                                     </figcaption>
                                 </figure>
                             </div>
@@ -485,19 +485,19 @@
                     <div class="col-list">
                         <section class="module-figure col-2">
                             <div class="module">
-                                <h1>Dark</h1>
-                                <p>Thumb On: Swatch 200, Opacity 100%
-                                    <br> Track On: Swatch 200, Opacity 50%</p>
-                                <p>Thumb Off: Grey 400, #BDBDBD, Opacity 100%
-                                    <br> Track Off: #FFFFFF, Opacity 30%</p>
-                                <p>Thumb Disabled: Grey 800, #424242, Opacity 100%</p>
-                                <p>Track Disabled: #FFFFFF, Opacity 10%</p>
+                                <h1>暗色</h1>
+                                <p>打开的滑块：主色调 200，不透明度：100%
+                                    <br>打开的轨道：主色调 200，不透明度：50%</p>
+                                <p>关闭的滑块：Grey 400，#BDBDBD，不透明度：100%
+                                    <br>关闭的轨道：#FFFFFF，不透明度：30%</p>
+                                <p>禁用的滑块：Grey 800，#424242，不透明度：100%</p>
+                                <p>禁用的轨道：#FFFFFF，不透明度：10%</p>
                             </div>
                             <div class="figure">
                                 <figure class="s-tag-media">
                                     <div class="media"><img alt="" src="../assets/images/components_switches_switch4.png" /></div>
                                     <figcaption>
-                                        <p>Dark theme for switches in hover, focused, pressed, disabled, and disabled focused states. </p>
+                                        <p>暗色主题的开关按钮在鼠标悬浮、聚焦、按下、禁用，禁用且聚焦时的状态。</p>
                                     </figcaption>
                                 </figure>
                             </div>
@@ -506,13 +506,14 @@
                     <div class="col-list">
                         <section class="module-figure-figure col-3">
                             <div class="module">
-                                <p>Use the outer radial reaction only on form factors that favor finger touch, where interaction may obstruct the element completely. For desktop usage with a mouse, you do not need this extra indication.</p>
+                                
+                                <p>只有在手指触控时才在表单的外围使用径向效果，因为在交互时手指会挡住元素。对于使用鼠标的桌面设备，没必要使用这种多余的效果。</p>
                             </div>
                             <div class="figure">
                                 <figure class="s-tag-media">
                                     <div class="media"><img alt="" src="../assets/images/components_switches_switch5.png" /></div>
                                     <figcaption>
-                                        <p>Radial reaction on mobile</p>
+                                        <p>手机上的径向效果</p>
                                     </figcaption>
                                 </figure>
                             </div>
@@ -520,7 +521,7 @@
                                 <figure class="s-tag-media">
                                     <div class="media"><img alt="" src="../assets/images/components_switches_switch6.png" /></div>
                                     <figcaption>
-                                        <p>No radial reaction on desktop</p>
+                                        <p>电脑上没有径向效果</p>
                                     </figcaption>
                                 </figure>
                             </div>

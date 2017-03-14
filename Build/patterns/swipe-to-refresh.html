@@ -4,14 +4,14 @@
     <meta charset="utf-8">
     <link href="../assets/css/main.css" rel="stylesheet">
     <meta name="viewport" content="initial-scale=1, width=device-width">
-    <title>滑动刷新 - 模式 - Material Design 中文指南</title>
-    <meta itemprop="name" content="滑动刷新  - 模式 - Material Design 中文指南">
+    <title>轻扫刷新 - 模式 - Material Design 中文指南</title>
+    <meta itemprop="name" content="轻扫刷新  - 模式 - Material Design 中文指南">
     <meta itemprop="image" content="../assets/images/share.png">
     <meta property="og:type" content="article">
-    <meta property="og:title" content="滑动刷新  - 模式 - Material Design 中文指南">
+    <meta property="og:title" content="轻扫刷新  - 模式 - Material Design 中文指南">
     <meta itemprop="image" content="../assets/images/share.png">
     <meta property="og:site_name" content="Material design 中文指南">
-    <meta property="article:section" content="滑动刷新  - Material design">
+    <meta property="article:section" content="轻扫刷新  - Material design">
     <meta name="theme-color" content="#00bcd4">
     <link rel="icon" sizes="192x192" href="../assets/images/guidelines-icon-192x192.png">
     <link rel="shortcut icon" href="../assets/images/guidelines-icon-72x72.png">
@@ -54,7 +54,7 @@
             <div class="header-title">
                 <span class="section-title">模式</span>
                 <span class="chapter-title">
-              <span class="title-separator">–</span> 滑动刷新
+              <span class="title-separator">–</span> 轻扫刷新
                 </span>
             </div>
         </div>
@@ -149,7 +149,7 @@
                             <a href="../components/tabs.html">选项卡</a>
                             <a href="../components/text-fields.html">文本框</a>
                             <a href="../components/toolbars.html">工具栏</a>
-                            <a href="../components/tooltips.html">提示信息</a>
+                            <a href="../components/tooltips.html">工具提示</a>
                             <a href="../components/widgets.html">桌面小部件</a>
                         </dd>
                     </div>
@@ -160,7 +160,7 @@
                         <dd>
                             <a href="confirmation-acknowledgement.html">确认 &amp; 确知</a>
                             <a href="data-formats.html">数据格式</a>
-                            <a href="empty-states.html">空白状态</a>
+                            <a href="empty-states.html">空状态</a>
                             <a href="errors.html">出错</a>
                             <a href="fingerprint.html">指纹</a>
                             <a href="gestures.html">手势</a>
@@ -169,7 +169,7 @@
                             <a href="loading-images.html">图片加载</a>
                             <a href="navigation.html">导航</a>
                             <a href="navigation-drawer.html">抽屉导航</a>
-                            <a href="navigational-transitions.html">导航的转场</a>
+                            <a href="navigational-transitions.html">导航转换</a>
                             <a href="notifications.html">通知</a>
                             <a href="permissions.html">权限</a>
                             <a href="scrolling-techniques.html">滚动技术</a>
@@ -232,7 +232,7 @@
                         <a href="http://www.google.com/policies/terms/">Terms</a>
                     </li>
                     <li>
-                        <a href="http://maxoxo.design">Max Design</a>
+                        <a href="http://maxoxo.design">翻译说明</a>
                     </li>
                 </ul>
             </div>
@@ -241,31 +241,31 @@
 </div>
 <div id="grid-cont">
     <section class="grid_outer chapter">
-        <h1 class="chapter-title">滑动刷新</h1>
+        <h1 class="chapter-title">轻扫刷新</h1>
 <div class="chapter-content">
     <div class="article-content chapter-intro">
         <div>
-            <h1>Swipe to refresh manually refreshes screen content with a user action or gesture. </h1>
+            <h1>轻扫以刷新可以通过用户的操作或手势来手动刷新屏幕内容。</h1>
             <div class="col-list">
                 <section class="module-module-figure col-3">
                     <div class="module">
-                        <p>There are two methods for updating content in an app: </p>
+                        <p>有两种方法可以更新应用内的内容：</p>
                         <ul class="lst-kix_8pwwe96a23b7-0 start">
-                            <li>The preferred method is to automatically update content using <strong><a href="https://www.google.com/url?q=http://developer.android.com/training/sync-adapters/index.html&amp;sa=D&amp;ust=1481818005683000&amp;usg=AFQjCNF0OM5OiZA7B0ZN7-y9JUf28ocN5g" target="_blank">sync</a></strong>, which keeps app content automatically updated.</li>
-                            <li><strong>Swipe to refresh</strong> is a <a href="gestures.html#gestures-gestures">swipe gesture</a> available at the beginning of lists, grid lists, and card collections that are sorted by recent content. </li>
+                            <li>首选方法应当是自动更新内容，使用<strong><a href="https://developer.android.com/training/sync-adapters/index.html" target="_blank">同步</a></strong>来保持应用内容自动更新。</li>
+                            <li><strong>轻扫以刷新</strong>是一种<a href="gestures.html#gestures-gestures">轻扫手势</a>，可以用在按最近更新排序的列表、网格列表、以及卡片集的开始位置。</li>
                         </ul>
-                        <p>Manual refreshing can supplement syncing. It maintains the current scroll position, as when checking for new mail in Gmail.</p>
+                        <p>手动刷新是对同步功能的补充。它可以保持当前的滚动位置，如在 Gmail 中检查新邮件时。</p>
                     </div>
                     <div class="module">
-                        <h3><strong>Icon</strong></h3>
-                        <p>The refresh indicator is represented by a <strong>circular spinner</strong><strong>, </strong>an icon with a curved arrow that spins in a circular motion.</p>
-                        <h3><strong>Position</strong></h3>
+                        <h3><strong>图标</strong></h3>
+                        <p>刷新指示器用一个<strong>圆形旋转器</strong>来表示，它是一个圆形旋转的有弯曲箭头的图标。</p>
+                        <h3><strong>位置</strong></h3>
                         <ul class="lst-kix_r9d565ze57w6-0 start">
-                            <li>The <strong>swipe to refresh gesture</strong> is available at the top or bottom of content collections.</li>
-                            <li>The <strong>refresh indicator’s</strong> resting position is centered horizontally relative to refreshing content.</li>
+                            <li><strong>轻扫以刷新手势</strong>可在内容集合的顶部或底部使用。</li>
+                            <li><strong>刷新指示器</strong>的静止位置与被刷新的内容水平居中。</li>
                         </ul>
-                        <h3><strong>Threshold</strong></h3>
-                        <p>The refresh indicator must pass a threshold before an app refreshes, as indicated by the circular spinner’s opacity, speed, and translation changes.
+                        <h3><strong>阈值</strong></h3>
+                        <p>刷新指示器必须超过阈值后才会执行刷新，此阈值由圆形旋转器的改变不透明度、速度和转换来指示。
                             <br>
                         </p>
                     </div>
@@ -279,17 +279,17 @@
         </div>
     </div>
     <nav class="chapter-toc">
-        <h1>Contents</h1>
+        <h1>索引</h1>
         <ul>
-            <li><a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="#swipe-to-refresh-usage" data-qp-ui-data-id="qp:1">Usage</a></li>
-            <li><a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="#swipe-to-refresh-positioning" data-qp-ui-data-id="qp:2">Positioning</a></li>
-            <li><a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="#swipe-to-refresh-behavior" data-qp-ui-data-id="qp:3">Behavior</a></li>
+            <li><a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="#swipe-to-refresh-usage" data-qp-ui-data-id="qp:1">用法</a></li>
+            <li><a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="#swipe-to-refresh-positioning" data-qp-ui-data-id="qp:2">定位</a></li>
+            <li><a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="#swipe-to-refresh-behavior" data-qp-ui-data-id="qp:3">行为</a></li>
         </ul>
     </nav>
     <div class="article-list">
         <div id="swipe-to-refresh-usage" class="article qp-ui" data-qp-ui="{ 'ScrollSpy': {} }" data-qp-ui-data-id="qp:1">
             <h2 class="article-title qp-ui" data-qp-ui="{ 'ResponsiveZippy': {} }" data-qp-ui-data-id="qp:1">
-                  Usage<svg xmlns="http://www.w3.org/2000/svg" version="1.1" class="icon icon-expand-collapse" role="img" viewBox="0 0 10 10" aria-labelledby="title desc">
+                用法<svg xmlns="http://www.w3.org/2000/svg" version="1.1" class="icon icon-expand-collapse" role="img" viewBox="0 0 10 10" aria-labelledby="title desc">
     <title>展开或收起内容</title>
     <desc>当内容收起时，箭头向下，当内容展开时，箭头向上。</desc>
     <polygon role="presentation" points="2.5,4.167 5,6.667 7.5,4.167 6.917,3.583 5,5.5 3.083,3.583"></polygon>
@@ -297,21 +297,21 @@
                 </h2>
             <div class="article-content">
                 <div>
-                    <p>Swipe to refresh is a <a href="gestures.html#gestures-gestures">swipe gesture</a> available at the beginning of lists, grid lists, and card collections where the most recent content appears (Index 0). </p>
-                    <p>It’s best to use this gesture with dynamic content that has frequent updates surfacing from a consistent location, where users have a high probability of seeing new content after initiating the gesture. </p>
+                    <p>轻扫以刷新是一种<a href="gestures.html#gestures-gestures">轻扫手势</a>，可以用在按最近更新排序的列表、网格列表、以及卡片集的开始位置（Index 0）。</p>
+                    <p>最好把该手势和动态内容一起使用，也就是频繁的从同一位置刷新的内容，用户在使用该手势后看到新内容的几率很高。</p>
                     <div class="col-list">
                         <section class="module-figure-module col-3">
                             <div class="module">
-                                <h1>Refresh indicator</h1>
-                                <p>The refresh indicator appears only in conjunction with a refresh gesture or action. Syncing does not display a refresh indicator. </p>
-                                <p><strong>Effects</strong></p>
-                                <p>Changes may not be immediately obvious to users when this gesture is used in views that can change significantly upon refresh. For example, the refresh may non-sequentially delete, reorder, modify, and insert items or change only off-screen items.</p>
+                                <h1>刷新指示器</h1>
+                                <p>刷新指示器只有在执行刷新手势或操作时才会显示。同步时不会出现刷新指示器。</p>
+                                <p><strong>效果</strong></p>
+                                <p>如果刷新会更新大量内容，那么用户可能不会立刻看到效果。例如，刷新可能进行乱序删除、重新排序、修改、插入项目或仅改变离开屏幕的项目。</p>
                                 <div class="modulettes">
-                                    <a class="modulette container android" href="https://www.google.com/url?q=https://developer.android.com/reference/android/support/v4/widget/SwipeRefreshLayout.html&amp;sa=D&amp;ust=1481818005820000&amp;usg=AFQjCNFmsKLzRMsBHOQ8FvmJkvq9uAyz4A" target="_blank">
+                                    <a class="modulette container android" href="https://developer.android.com/reference/android/support/v4/widget/SwipeRefreshLayout.html" target="_blank">
                                         <img alt="" class="icon callout-icon" src="../assets/images/android.svg">
                                         <div class="info">
-                                            <div class="title">Swipe to refresh layout</div>
-                                            <span class="subtitle">Refresh the contents of a view via a vertical swipe gesture</span>
+                                            <div class="title">轻扫以刷新布局</div>
+                                            <span class="subtitle">通过垂直轻扫手势刷新视图的内容</span>
                                         </div>
                                         </img>
                                     </a>
@@ -330,7 +330,7 @@
                                         </div>
                                     </div>
                                     <figcaption>
-                                        <p>Animation showing swipe to refresh</p>
+                                        <p>轻扫以刷新的动画</p>
                                     </figcaption>
                                 </figure>
                             </div>
@@ -339,19 +339,19 @@
                         </section>
                         <section class="module-figure-figure col-3">
                             <div class="module">
-                                <p>Swipe to refresh should not be used in the following situations:</p>
+                                <p>轻扫以刷新不应在以下情况下使用：</p>
                                 <ul class="lst-kix_ts8d536vx62i-0 start">
-                                    <li>Navigation drawers</li>
-                                    <li>Home screen widgets</li>
-                                    <li>Pannable content</li>
+                                    <li>抽屉导航</li>
+                                    <li>桌面小部件</li>
+                                    <li>可平移的内容</li>
                                 </ul>
                             </div>
                             <div class="figure">
                                 <figure class="s-tag-media">
                                     <div class="media"><img alt="" src="../assets/images/patterns_swipetorefresh_dont1.png" /></div>
                                     <figcaption>
-                                        <p class="s-tag-caption dont">Don't.</p>
-                                        <p>Navigation drawers (if present in an app) contain navigation destinations, not dynamic content.</p>
+                                        <p class="s-tag-caption dont">错</p>
+                                        <p>导航抽屉（如果有的话）应该包含导航的目标，而不是动态内容</p>
                                     </figcaption>
                                 </figure>
                             </div>
@@ -359,8 +359,8 @@
                                 <figure class="s-tag-media">
                                     <div class="media"><img alt="" src="../assets/images/patterns_swipetorefresh_dont2.png" /></div>
                                     <figcaption>
-                                        <p class="s-tag-caption dont">Don't.</p>
-                                        <p>Home screen widgets should update content automatically.</p>
+                                        <p class="s-tag-caption dont">错</p>
+                                        <p>桌面小部件应自动更新内容</p>
                                     </figcaption>
                                 </figure>
                             </div>
@@ -372,8 +372,8 @@
                                 <figure class="s-tag-media">
                                     <div class="media"><img alt="" src="../assets/images/patterns_swipetorefresh_dont3.png" /></div>
                                     <figcaption>
-                                        <p class="s-tag-caption dont">Don't.</p>
-                                        <p>Pannable content, like in maps, have no primary direction or content origin from which users can presume the swipe to refresh gesture will originate.</p>
+                                        <p class="s-tag-caption dont">错</p>
+                                        <p>可平移的内容（例如地图）并没有主要方向或内容的来源方向，用户无法推测出轻扫以刷新手势的方向。</p>
                                     </figcaption>
                                 </figure>
                             </div>
@@ -386,7 +386,7 @@
         </div>
         <div id="swipe-to-refresh-positioning" class="article qp-ui" data-qp-ui="{ 'ScrollSpy': {} }" data-qp-ui-data-id="qp:2">
             <h2 class="article-title qp-ui" data-qp-ui="{ 'ResponsiveZippy': {} }" data-qp-ui-data-id="qp:2">
-                  Positioning<svg xmlns="http://www.w3.org/2000/svg" version="1.1" class="icon icon-expand-collapse" role="img" viewBox="0 0 10 10" aria-labelledby="title desc">
+                定位<svg xmlns="http://www.w3.org/2000/svg" version="1.1" class="icon icon-expand-collapse" role="img" viewBox="0 0 10 10" aria-labelledby="title desc">
     <title>展开或收起内容</title>
     <desc>当内容收起时，箭头向下，当内容展开时，箭头向上。</desc>
     <polygon role="presentation" points="2.5,4.167 5,6.667 7.5,4.167 6.917,3.583 5,5.5 3.083,3.583"></polygon>
@@ -394,19 +394,19 @@
                 </h2>
             <div class="article-content">
                 <div>
-                    <h1>Gesture positioning</h1>
-                    <p>Typically, this gesture is available at the top of content collections, but it can also be at the bottom (for example, in chat applications). </p>
+                    <h1>手势定位</h1>
+                    <p>通常，轻扫手势可以在内容集合的顶部使用，但也可以用在底部（例如，在聊天应用中）。</p>
                     <div class="col-list">
                         <section class="module-figure-figure col-3">
                             <div class="module">
-                                <h1>Refresh indicator resting position</h1>
-                                <p>The refresh indicator, when resting, is centered horizontally relative to refreshing content.</p>
+                                <h1>刷新指示器静止位置</h1>
+                                <p>当刷新指示器静止时，与被刷新的内容水平居中。</p>
                             </div>
                             <div class="figure">
                                 <figure class="s-tag-media">
                                     <div class="media"><img alt="" src="../assets/images/patterns_swipetorefresh_position1.png" /></div>
                                     <figcaption>
-                                        <p class="s-tag-caption do">Do.</p>
+                                        <p class="s-tag-caption do">对</p>
                                     </figcaption>
                                 </figure>
                             </div>
@@ -414,7 +414,7 @@
                                 <figure class="s-tag-media">
                                     <div class="media"><img alt="" src="../assets/images/patterns_swipetorefresh_position2.png" /></div>
                                     <figcaption>
-                                        <p class="s-tag-caption dont">Don't.</p>
+                                        <p class="s-tag-caption dont">错</p>
                                     </figcaption>
                                 </figure>
                             </div>
@@ -428,7 +428,7 @@
                                 <figure class="s-tag-media">
                                     <div class="media"><img alt="" src="../assets/images/patterns_swipetorefresh_position3.png" /></div>
                                     <figcaption>
-                                        <p class="s-tag-caption dont">Don't.</p>
+                                        <p class="s-tag-caption dont">错</p>
                                     </figcaption>
                                 </figure>
                             </div>
@@ -437,15 +437,15 @@
                     <div class="col-list">
                         <section class="module-figure-figure col-3">
                             <div class="module">
-                                <h1>Refresh indicator  active position</h1>
-                                <p>The refresh indicator is located near the top of refreshing content.</p>
-                                <p>Its exact vertical resting position can be adjusted to promote visual harmony with the underlying layout. For example, the indicator may fall on a material edge or grid line, as long as it’s located near the top of the refreshing content.</p>
+                                <h1>刷新指示器活动位置</h1>
+                                <p>刷新指示器位于刷新内容的顶部附近。</p>
+                                <p>可以对指示器的垂直位置进行调整，与内容布局保持协调。例如，指示器可以在材料边缘或网格线上，只要其位于内容的顶部附近即可。</p>
                             </div>
                             <div class="figure">
                                 <figure class="s-tag-media">
                                     <div class="media"><img alt="" src="../assets/images/patterns_swipetorefresh_position4.png" /></div>
                                     <figcaption>
-                                        <p class="s-tag-caption do">Do.</p>
+                                        <p class="s-tag-caption do">对</p>
                                     </figcaption>
                                 </figure>
                             </div>
@@ -453,7 +453,7 @@
                                 <figure class="s-tag-media">
                                     <div class="media"><img alt="" src="../assets/images/patterns_swipetorefresh_position5.png" /></div>
                                     <figcaption>
-                                        <p class="s-tag-caption dont">Don't.</p>
+                                        <p class="s-tag-caption dont">错</p>
                                     </figcaption>
                                 </figure>
                             </div>
@@ -464,7 +464,7 @@
         </div>
         <div id="swipe-to-refresh-behavior" class="article qp-ui" data-qp-ui="{ 'ScrollSpy': {} }" data-qp-ui-data-id="qp:3">
             <h2 class="article-title qp-ui" data-qp-ui="{ 'ResponsiveZippy': {} }" data-qp-ui-data-id="qp:3">
-                  Behavior<svg xmlns="http://www.w3.org/2000/svg" version="1.1" class="icon icon-expand-collapse" role="img" viewBox="0 0 10 10" aria-labelledby="title desc">
+                行为<svg xmlns="http://www.w3.org/2000/svg" version="1.1" class="icon icon-expand-collapse" role="img" viewBox="0 0 10 10" aria-labelledby="title desc">
     <title>展开或收起内容</title>
     <desc>当内容收起时，箭头向下，当内容展开时，箭头向上。</desc>
     <polygon role="presentation" points="2.5,4.167 5,6.667 7.5,4.167 6.917,3.583 5,5.5 3.083,3.583"></polygon>
@@ -476,8 +476,8 @@
                     <div class="col-list">
                         <section class="module-figure-figure col-3">
                             <div class="module">
-                                <p>As the refresh indicator translates and/or scales into view, the circular spinner fades in while rotating.</p>
-                                <p>The refresh indicator remains visible until the refresh activity completes and any new content is visible, or the user navigates away from the refreshing content.</p>
+                                <p>当刷新指示器平移和／或缩放到视图中时，图形旋转器会在旋转时逐渐显示。</p>
+                                <p>在刷新动作完成或新内容出现之前，或者用户离开此页面之前，刷新指示器都保持可见。</p>
                             </div>
                             <div class="figure">
                                 <figure class="s-tag-media">
@@ -492,8 +492,8 @@
                                         </div>
                                     </div>
                                     <figcaption>
-                                        <p class="s-tag-caption do">Do.</p>
-                                        <p>Keeping the refresh indicator in view until the activity is completed provides feedback on the status of the refresh activity.</p>
+                                        <p class="s-tag-caption do">对</p>
+                                        <p>将刷新指示器保持在视图中, 直到活动完成，提供刷新状态的反馈。</p>
                                     </figcaption>
                                 </figure>
                             </div>
@@ -510,8 +510,8 @@
                                         </div>
                                     </div>
                                     <figcaption>
-                                        <p class="s-tag-caption dont">Don't.</p>
-                                        <p>Scrolling the refresh indicator off-screen hides the status of the refresh activity and may imply that the refresh activity is associated with a specific component within the view, such as a card, instead of the entire view.</p>
+                                        <p class="s-tag-caption dont">错</p>
+                                        <p>如果刷新指示器在滚动时离开了屏幕，隐藏了刷新活动的状态，这可能意味着刷新动作和视图内的特定组件（例如卡片）相关联，而不是和整个视图相关联。</p>
                                     </figcaption>
                                 </figure>
                             </div>
@@ -520,12 +520,13 @@
                     <div class="col-list">
                         <section class="module-figure col-2">
                             <div class="module">
-                                <h1>Refresh indicator transitions</h1>
-                                <p>When another surface is in front of the material with refreshing content, the refresh indicator translates from underneath that surface and is clipped until it is fully visible.</p>
-                                <p>The refresh indicator increases in size as it translates when: </p>
+                                <h1>刷新指示器的转换</h1>
+                                <p>当另一个表面位于刷新内容的材料前面时，刷新指示器从该表面下方平移并被裁剪，直到其完全可见。
+                                When another surface is in front of the material with refreshing content, the refresh indicator translates from underneath that surface and is clipped until it is fully visible.</p>
+                                <p>在以下情况下刷新指示器会增加尺寸：</p>
                                 <ul class="lst-kix_t6itoy50lxht-0 start">
-                                    <li>The refreshing material is at a higher elevation than all other surfaces</li>
-                                    <li>A content refresh is initiated via an app bar or overflow menu action</li>
+                                    <li>刷新内容的海拔高度高于所有其他表面</li>
+                                    <li>内容刷新是通过应用栏或弹出菜单操作执行的</li>
                                 </ul>
                             </div>
                             <div class="figure">
@@ -541,7 +542,7 @@
                                         </div>
                                     </div>
                                     <figcaption>
-                                        <p>Refreshing content that is at a higher elevation than other surfaces</p>
+                                        <p>刷新内容的海拔高度高于其他表面</p>
                                     </figcaption>
                                 </figure>
                             </div>
@@ -562,7 +563,7 @@
                                         </div>
                                     </div>
                                     <figcaption>
-                                        <p>Refreshing content that is coplanar with another surface</p>
+                                        <p>刷新内容和另一个表面处于同一海拔</p>
                                     </figcaption>
                                 </figure>
                             </div>
@@ -579,7 +580,7 @@
                                         </div>
                                     </div>
                                     <figcaption>
-                                        <p>Refreshing content that is below another surface in z-space</p>
+                                        <p>刷新内容在 Z 轴上低于另一个表面</p>
                                     </figcaption>
                                 </figure>
                             </div>
@@ -596,7 +597,7 @@
                                         </div>
                                     </div>
                                     <figcaption>
-                                        <p>Refreshing content via app bar action</p>
+                                        <p>通过应用栏的操作刷新内容</p>
                                     </figcaption>
                                 </figure>
                             </div>
@@ -605,15 +606,15 @@
                     <div class="col-list">
                         <section class="module col-1">
                             <div class="module">
-                                <h1>Threshold requirements</h1>
-                                <p>To ensure intentional usage of the swipe to refresh gesture, the refresh indicator must pass a threshold before the app will refresh. This threshold is indicated by a number of cues: </p>
+                                <h1>阈值要求</h1>
+                                <p>为了避免误操作，刷新指示器必须超过阈值才能刷新应用。此阈值由多个线索进行指示：</p>
                                 <ul class="lst-kix_b56pwaaxef79-0 start">
-                                    <li>The circular spinner reaches 100% opacity.</li>
-                                    <li>The rotation of the circular spinner slows down.</li>
-                                    <li>The rate of translation of the refresh indicator slows down.</li>
+                                    <li>圆形旋转器达到 100% 的不透明度。</li>
+                                    <li>圆形旋转器的转速减慢。</li>
+                                    <li>刷新指示器的平移速度减慢。</li>
                                 </ul>
-                                <p>After passing the threshold, completing the gesture will initiate a refresh.</p>
-                                <p>Reversing the gesture past the threshold will cancel the refresh action.</p>
+                                <p>超过阈值后，抬起手指将执行刷新。</p>
+                                <p>反方向滑动回到阈值范围后将取消刷新操作。</p>
                             </div>
                         </section>
                     </div>
