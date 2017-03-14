@@ -6,50 +6,42 @@
 <div class="chapter-content">
     <div class="article-content chapter-intro">
         <div>
-            <h1>Accessible design allows users of all abilities to navigate, understand, and use your UI successfully. </h1></div>
+            <h1>无障碍设计的目的是无论任何人都能成功地浏览、理解和使用应用。</h1></div>
     </div>
     <nav class="chapter-toc">
-        <h1>Contents</h1>
+        <h1>索引</h1>
         <ul>
             <li><a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="#accessibility-principles" data-qp-ui-data-id="qp:1">Principles</a></li>
-            <li><a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="#accessibility-color-contrast" data-qp-ui-data-id="qp:2">Color and contrast</a></li>
-            <li><a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="#accessibility-sound-motion" data-qp-ui-data-id="qp:3">Sound and motion</a></li>
+            <li><a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="#accessibility-color-contrast" data-qp-ui-data-id="qp:2">颜色 &amp; 对比度</a></li>
+            <li><a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="#accessibility-sound-motion" data-qp-ui-data-id="qp:3">声音 &amp; 运动</a></li>
             <li><a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="#accessibility-style" data-qp-ui-data-id="qp:4">Style</a></li>
-            <li><a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="#accessibility-hierarchy-focus" data-qp-ui-data-id="qp:5">Hierarchy and focus</a></li>
-            <li><a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="#accessibility-implementation" data-qp-ui-data-id="qp:6">Implementation</a></li>
-            <li><a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="#accessibility-writing" data-qp-ui-data-id="qp:7">Writing</a></li>
+            <li><a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="#accessibility-hierarchy-focus" data-qp-ui-data-id="qp:5">等级 &amp; 焦点</a></li>
+            <li><a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="#accessibility-implementation" data-qp-ui-data-id="qp:6">实施</a></li>
+            <li><a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="#accessibility-writing" data-qp-ui-data-id="qp:7">书面用语</a></li>
         </ul>
     </nav>
     <div class="article-list">
         <div id="accessibility-principles" class="article qp-ui" data-qp-ui="{ 'ScrollSpy': {} }" data-qp-ui-data-id="qp:1">
             <h2 class="article-title qp-ui" data-qp-ui="{ 'ResponsiveZippy': {} }" data-qp-ui-data-id="qp:1">
-                  Principles
-                  
-                  
-                  
-                  <svg xmlns="http://www.w3.org/2000/svg" version="1.1" class="icon icon-expand-collapse" role="img" viewBox="0 0 10 10" aria-labelledby="title desc">
-                    <title>Expand and collapse content</title>
-                    <desc>An arrow that points down when collapsed and points up when expanded.</desc>
-                    <polygon role="presentation" points="2.5,4.167 5,6.667 7.5,4.167 6.917,3.583 5,5.5 3.083,3.583"></polygon>
-                  </svg>
+                  原则<!-- @include _arrow -->
                 </h2>
             <div class="article-content">
                 <div>
-                    <p>A well-designed product is accessible to users of all abilities, including those with low vision, blindness, hearing impairments, cognitive impairments, or motor impairments. Improving your product’s accessibility enhances the usability for all users. It’s also the right thing to do. </p>
-                    <p>Material design’s built-in accessibility considerations will help you accommodate all of your users. This section primarily applies to mobile UI design. For more information on designing and developing fully accessible products, visit the <a href="https://www.google.com/url?q=https://www.google.com/accessibility/&amp;sa=D&amp;ust=1481818010690000&amp;usg=AFQjCNGE9U9SjxQHorwXVWWB6-shsgj6IQ" target="_blank">Google accessibility site</a>.</p>
+                    <p>一款设计良好的产品可供所有的用户使用，包括视力低下、失明、听力障碍、认知障碍或运动障碍的用户。改进产品的无障碍功能可以增强所有用户的可用性，这是非常值得做的事情。</p>
+                    <p>Material Design 内置的无障碍功能将帮助你的应用适应所有用户。本节内容主要适用于手机端 UI 设计。有关设计和开发完全无障碍的产品的详情，请访问<a href="https://www.google.com/accessibility/" target="_blank">Google 无障碍网站</a>。</p>
                     <div class="col-list">
                         <section class="figure-figure-figure col-3">
                             <div class="figure">
                                 <figure class="s-tag-media">
                                     <div class="media"><img alt="" src="<!-- @path accessibility_principles1.png -->" /></div>
                                     <figcaption>
-                                        <h1>Clear</h1>
-                                        <p>Help users navigate your app by designing clear layouts with distinct calls to action. Every added button, image, and line of text make the screen more complicated. Simplify your app’s UI with:</p>
+                                        <h1>明确的</h1>
+                                        <p>使用清晰的布局以及明确的行动召唤设计，来帮助用户浏览你的应用。每添加一个按钮、图片或一行文本都会使界面变得更加复杂，可以通过以下方式简化你的应用：</p>
                                         <ul class="lst-kix_k028nm5n1mm4-0 start">
-                                            <li>Clearly visible elements</li>
-                                            <li>Sufficient contrast and size</li>
-                                            <li>A clear hierarchy of importance </li>
-                                            <li>Key information discernable at a glance </li>
+                                            <li>使可见元素清晰</li>
+                                            <li>充足的对比度和尺寸</li>
+                                            <li>清晰的重要性等级</li>
+                                            <li>关键信息的辨识性一目了然</li>
                                         </ul>
                                     </figcaption>
                                 </figure>
@@ -58,12 +50,12 @@
                                 <figure class="s-tag-media">
                                     <div class="media"><img alt="" src="<!-- @path accessibility_principles2.png -->" /></div>
                                     <figcaption>
-                                        <h1>Robust </h1>
-                                        <p>Design your app to accommodate a variety of users. A user may have a short attention span, be new to your product, or use a text-only <strong>screen reader</strong> (a program that uses a speech synthesizer to read text aloud or kinesthetically using a braille display). Your app should make it easy for each user to:</p>
+                                        <h1>健全的</h1>
+                                        <p>设计应用时应尽可能的包容各种用户。当用户第一次看到应用时可能只有短暂的注意力，或者只是使用纯文本的<strong>屏幕阅读器</strong>（使用语音合成器朗读文本或使用盲文显示器产生的震动触觉）。你的应用应该方便每位用户来：</p>
                                         <ul class="lst-kix_3clj5zpaz4lj-0 start">
-                                            <li><strong>Navigate: </strong>Give users confidence in knowing where they are in your app and what is important. </li>
-                                            <li><strong>Understand important tasks: </strong>Reinforce important information through multiple visual and textual cues. Use color, shape, text, and motion to communicate what is happening.</li>
-                                            <li><strong>Access your app: </strong>Include appropriate content labelling to accommodate users who experience a text-only version of your app. </li>
+                                            <li><strong>导航</strong>：让用户清楚地知道自己在应用中所处的位置，以及哪些是重要内容。</li>
+                                            <li><strong>了解重要任务</strong>：通过多重视觉样式和文本提示来强化重要信息。使用颜色、形状、文本和运动来传达正在发生的事情。</li>
+                                            <li><strong>访问应用</strong>：为内容添加适当的标签，来适应那些使用纯文字版的用户。</li>
                                         </ul>
                                     </figcaption>
                                 </figure>
@@ -72,9 +64,9 @@
                                 <figure class="s-tag-media">
                                     <div class="media"><img alt="" src="<!-- @path accessibility_principles3.png -->" /></div>
                                     <figcaption>
-                                        <h1>Specific</h1>
-                                        <p>Support assistive technologies specific to your platform, just as you support the input methods of touch, keyboard, and mouse. For example, ensure your Android app works with Google’s screen reader, <a href="https://www.google.com/url?q=https://support.google.com/accessibility/android/answer/6283677?hl%3Den%26ref_topic%3D3529932&amp;sa=D&amp;ust=1481818010703000&amp;usg=AFQjCNH_1B31INtnE75Xbq_aknefaqpD_Q" target="_blank">TalkBack</a>. </p>
-                                        <p><strong>Assistive technology</strong> helps increase, maintain, or improve the functional capabilities of individuals with disabilities, through devices like screen readers, magnification devices, wheelchairs, hearing aids, or memory aids. </p>
+                                        <h1>具体的</h1>
+                                        <p>支持特定平台的辅助技术，就像支持触摸、键盘和鼠标的输入方式一样。例如，确保您的 Android 应用可以适配 Google 的屏幕阅读器<a href="https://support.google.com/accessibility/android/answer/6283677?hl=en&ref_topic=3529932" target="_blank">TalkBack</a>。</p>
+                                        <p><strong>辅助技术</strong>通过屏幕阅读器、放大设备、轮椅、助听器或记忆辅助设备等设备帮助增强、维持或改善残疾人使用应用的能力。</p>
                                     </figcaption>
                                 </figure>
                             </div>
@@ -85,39 +77,31 @@
         </div>
         <div id="accessibility-color-contrast" class="article qp-ui" data-qp-ui="{ 'ScrollSpy': {} }" data-qp-ui-data-id="qp:2">
             <h2 class="article-title qp-ui" data-qp-ui="{ 'ResponsiveZippy': {} }" data-qp-ui-data-id="qp:2">
-                  Color and contrast
-                  
-                  
-                  
-                  <svg xmlns="http://www.w3.org/2000/svg" version="1.1" class="icon icon-expand-collapse" role="img" viewBox="0 0 10 10" aria-labelledby="title desc">
-                    <title>Expand and collapse content</title>
-                    <desc>An arrow that points down when collapsed and points up when expanded.</desc>
-                    <polygon role="presentation" points="2.5,4.167 5,6.667 7.5,4.167 6.917,3.583 5,5.5 3.083,3.583"></polygon>
-                  </svg>
+                颜色和对比度<!-- @include _arrow -->
                 </h2>
             <div class="article-content">
                 <div>
-                    <p>Use color and contrast to help users see and interpret your app’s content, interact with the right elements, and understand actions. </p>
-                    <h1>Accessible color palette</h1>
-                    <p>Choose primary, secondary, and accent colors for your app that support usability. Ensure sufficient color contrast between elements so that users with low vision can see and use your app.</p>
+                    <p>使用颜色和对比度来帮助用户看到并解读应用的内容，与正确的元素交互，并理解操作。</p>
+                    <h1>无障碍调色板</h1>
+                    <p>为应用选择支持可用性的主色、辅助色和强调色。确保元素之间有足够的颜色对比度，以便视力低下的用户也可以使用你的应用。</p>
                     <div class="col-list">
                         <section class="module-figure-figure col-3">
                             <div class="module">
-                                <h1>Contrast ratios</h1>
-                                <p>The contrast ratio between a color and its background ranges from 1-21 based on its luminance, or intensity of light emitted, according to the <a href="https://www.google.com/url?q=https://www.w3.org/TR/UNDERSTANDING-WCAG20/visual-audio-contrast-contrast.html&amp;sa=D&amp;ust=1481818010600000&amp;usg=AFQjCNGms-qT2N209tGSJg7ILk2-OCsYyA" target="_blank">World Wide Web Consortium (W3C)</a>. </p>
-                                <p>Contrast ratios represent how different a color is from another color, commonly written as 1:1 or 21:1. The higher the difference between the two numbers in the ratio, the greater the difference in relative luminance between the colors. </p>
-                                <p>The W3C recommends the following contrast ratios for body text and image text:</p>
+                                <h1>对比度比例</h1>
+                                <p>基于亮度或光强度，颜色和它的背景色的对比度范围为 1-21，和<a href="https://www.w3.org/TR/UNDERSTANDING-WCAG20/visual-audio-contrast-contrast.html" target="_blank">万维网联盟（W3C）</a>一致。</p>
+                                <p>对比度表示两种颜色之间的差异程度，通常写为 1:1 或 21:1。两个数之间的比值越高，颜色之间的亮度差别就越大。</p>
+                                <p>W3C 推荐在正文文本和图片中使用以下对比度：</p>
                                 <ul class="lst-kix_c2xsypf5z28r-0 start">
-                                    <li>Small text should have a contrast ratio of at least 4.5:1 against its background.</li>
-                                    <li>Large text (at 14 pt bold/18 pt regular and up) should have a contrast ratio of at least 3:1 against its background.</li>
+                                    <li>小文本和它的背景色之间至少有 4.5:1 的对比度。</li>
+                                    <li>大文本（14sp bold/18sp regular 及以上）和它的背景色之间至少有 3:1 的对比度。</li>
                                 </ul>
                             </div>
                             <div class="figure">
                                 <figure class="s-tag-media">
                                     <div class="media"><img alt="" src="<!-- @path accessibility_color1_do.png -->" /></div>
                                     <figcaption>
-                                        <p class="s-tag-caption do">Do.</p>
-                                        <p>These lines of text follow the color contrast ratio recommendations and are legible against their background colors. </p>
+                                        <p class="s-tag-caption do"><!-- $do --></p>
+                                        <p>遵循推荐对比度的文本和背景色有清晰的对比</p>
                                     </figcaption>
                                 </figure>
                             </div>
@@ -125,22 +109,22 @@
                                 <figure class="s-tag-media">
                                     <div class="media"><img alt="" src="<!-- @path accessibility_color2_dont.png -->" /></div>
                                     <figcaption>
-                                        <p class="s-tag-caption dont">Don't.</p>
-                                        <p>These lines of text do not meet the color contrast ratio recommendations and are difficult to read against their background colors. </p>
+                                        <p class="s-tag-caption dont"><!-- $dont --></p>
+                                        <p>未遵循推荐对比度的文本会难以阅读</p>
                                     </figcaption>
                                 </figure>
                             </div>
                         </section>
                         <section class="module-figure-figure col-3">
                             <div class="module">
-                                <p>Icons or other critical elements should also use the above recommended contrast ratios.</p>
+                                <p>图标或其他关键元素也应使用上述推荐的对比度。</p>
                             </div>
                             <div class="figure">
                                 <figure class="s-tag-media">
                                     <div class="media"><img alt="" src="<!-- @path accessibility_color3_do.png -->" /></div>
                                     <figcaption>
-                                        <p class="s-tag-caption do">Do.</p>
-                                        <p>These icons follow the color contrast ratio recommendations and are legible against their backgrounds.</p>
+                                        <p class="s-tag-caption do"><!-- $do --></p>
+                                        <p>遵循推荐对比度的图标和背景色有清晰的对比。</p>
                                     </figcaption>
                                 </figure>
                             </div>
@@ -148,8 +132,8 @@
                                 <figure class="s-tag-media">
                                     <div class="media"><img alt="" src="<!-- @path accessibility_color4_dont.png -->" /></div>
                                     <figcaption>
-                                        <p class="s-tag-caption dont">Don't.</p>
-                                        <p>These icons do not follow the color contrast ratio recommendations and are difficult to discern against their backgrounds. </p>
+                                        <p class="s-tag-caption dont"><!-- $dont --></p>
+                                        <p>未遵循推荐对比度的图标会难以阅读。</p>
                                     </figcaption>
                                 </figure>
                             </div>
@@ -158,15 +142,15 @@
                     <div class="col-list">
                         <section class="module-figure-figure col-3">
                             <div class="module">
-                                <h1>Logos and decorative elements</h1>
-                                <p>While decorative elements (such as logos or illustrations) don’t have to meet contrast ratios, they should be distinguishable if they possess important functionality.</p>
+                                <h1>Logo 和装饰性的元素</h1>
+                                <p>虽然装饰性元素（例如 Logo 和插图）不需要满足推荐的对比度，但如果它们具有重要的功能，那么它们应当有可辨识度。</p>
                             </div>
                             <div class="figure">
                                 <figure class="s-tag-media">
                                     <div class="media"><img alt="" src="<!-- @path accessibility_color5_do.png -->" /></div>
                                     <figcaption>
-                                        <p class="s-tag-caption do">Do.</p>
-                                        <p>Decorative logos that are distinguishable don’t have to meet contrast ratios.</p>
+                                        <p class="s-tag-caption do"><!-- $do --></p>
+                                        <p>有辨识度的装饰性元素不需要满足对比度建议。</p>
                                     </figcaption>
                                 </figure>
                             </div>
@@ -174,8 +158,8 @@
                                 <figure class="s-tag-media">
                                     <div class="media"><img alt="" src="<!-- @path accessibility_color6_dont.png -->" /></div>
                                     <figcaption>
-                                        <p class="s-tag-caption dont">Don't.</p>
-                                        <p>It is not necessary to distort your logo to meet contrast ratios.</p>
+                                        <p class="s-tag-caption dont"><!-- $dont --></p>
+                                        <p>不需要为了满足推荐对比使 Logo 失真</p>
                                     </figcaption>
                                 </figure>
                             </div>
@@ -184,16 +168,16 @@
                     <div class="col-list">
                         <section class="module-figure-figure col-3">
                             <div class="module">
-                                <h1>Other visual cues</h1>
-                                <p>For users who are colorblind, or cannot see differences in color, include design elements in addition to color that ensure they receive the same amount of information. </p>
-                                <p>Colorblindness takes different forms (including red-green, blue-yellow, and monochromatic). Use multiple visual cues to communicate important states. Use elements such as strokes, indicators, patterns, texture, or text to describe actions and content. </p>
+                                <h1>其他视觉提示</h1>
+                                <p>对于色盲或看不到颜色差异的用户，在元素中添加额外的设计元素，以确保他们能接收到和正常人等量的信息。</p>
+                                <p>色盲症分不同的类型（包括红绿色盲、蓝黄色盲和单色色盲）。对于重要的状态，可以同时使用多个视觉提示。使用下划线、指示符、图案或文本等元素来描述操作和内容。</p>
                             </div>
                             <div class="figure">
                                 <figure class="s-tag-media">
                                     <div class="media"><img alt="" src="<!-- @path accessibility_color7_do.png -->" /></div>
                                     <figcaption>
-                                        <p class="s-tag-caption do">Do.</p>
-                                        <p>The text field error state is communicated through multiple cues: title color, text field stroke, and an error message below the field. </p>
+                                        <p class="s-tag-caption do"><!-- $do --></p>
+                                        <p>使用多种提示来表达文本字段的错误状态：标题颜色、文本字段下划线、文本框下面的错误提示。</p>
                                     </figcaption>
                                 </figure>
                             </div>
@@ -201,8 +185,8 @@
                                 <figure class="s-tag-media">
                                     <div class="media"><img alt="" src="<!-- @path accessibility_color8_dont.png -->" /></div>
                                     <figcaption>
-                                        <p class="s-tag-caption dont">Don't.</p>
-                                        <p>The text field error state is only communicated with a colored stroke, which would be missed by a user who cannot perceive color.</p>
+                                        <p class="s-tag-caption dont"><!-- $dont --></p>
+                                        <p>仅使用彩色下划线来表示文本字段的错误状态，可能会被色弱的用户忽略。</p>
                                     </figcaption>
                                 </figure>
                             </div>
@@ -213,55 +197,47 @@
         </div>
         <div id="accessibility-sound-motion" class="article qp-ui" data-qp-ui="{ 'ScrollSpy': {} }" data-qp-ui-data-id="qp:3">
             <h2 class="article-title qp-ui" data-qp-ui="{ 'ResponsiveZippy': {} }" data-qp-ui-data-id="qp:3">
-                  Sound and motion
-                  
-                  
-                  
-                  <svg xmlns="http://www.w3.org/2000/svg" version="1.1" class="icon icon-expand-collapse" role="img" viewBox="0 0 10 10" aria-labelledby="title desc">
-                    <title>Expand and collapse content</title>
-                    <desc>An arrow that points down when collapsed and points up when expanded.</desc>
-                    <polygon role="presentation" points="2.5,4.167 5,6.667 7.5,4.167 6.917,3.583 5,5.5 3.083,3.583"></polygon>
-                  </svg>
+                声音 &amp; 运动<!-- @include _arrow -->
                 </h2>
             <div class="article-content">
                 <div>
-                    <h1>Sound </h1>
-                    <p>Give visual alternatives to sound, and vice versa. Provide closed captions, a transcript, or another visual alternatives to critical audio elements and sound alerts. </p>
-                    <p>Allow users to navigate your app using sound by adding descriptive labels to UI elements. When using a screen reader such as TalkBack and navigating by <a href="https://www.google.com/url?q=https://support.google.com/accessibility/android/answer/6006598?hl%3Den&amp;sa=D&amp;ust=1481818010678000&amp;usg=AFQjCNEijoCgKSwVQhsz9763T9qZ_gip3w" target="_blank">touch exploration</a>, labels are spoken aloud when users touch UI elements with their fingertips.</p>
-                    <p>The following sounds should be avoided:</p>
+                    <h1>声音</h1>
+                    <p>给视觉元素添加声音作为替代方案，反之亦然。添加可隐藏的标题、文本、或其他视觉元素来作为重要声音元素和声音警报的替代方案。</p>
+                    <p>通过在 UI 元素上添加描述性的标签，使用户可以通过声音在应用中导航。当使用屏幕阅读器（如「TalkBack」），并使用<a href="https://support.google.com/accessibility/android/answer/6006598?hl=zh-Hans" target="_blank">触摸浏览</a>来导航时，当用户用手指触碰到元素时，元素的标签会被大声读出来。</p>
+                    <p>应避免使用以下声音：</p>
                     <ul class="lst-kix_8rfeeey1j8st-0 start">
-                        <li>Unnecessary sounds that play over a screen reader, such as background music that autoplays when entering a web page. If there is background sound, ensure users can safely pause or stop it.</li>
-                        <li>Extra sounds added to native elements (screen readers will be able to interpret native elements correctly).</li>
+                        <li>通过屏幕阅读器播放不必要的声音，例如打开网页时自动播放的背景音乐。如果有背景音乐，请确保用户可以安全的暂停或停止背景音乐。</li>
+                        <li>添加到原生元素上的额外的声音（屏幕阅读器能够正确的理解原生元素）。</li>
                     </ul>
                     <div class="modulettes">
                         <a class="modulette container android" href="https://www.google.com/url?q=https://developer.android.com/guide/topics/ui/accessibility/apps.html%23label-ui&amp;sa=D&amp;ust=1481818010682000&amp;usg=AFQjCNEMSxp0z9UzKoL1jiMkdv21RVe3cA" target="_blank">
                             <img alt="" class="icon callout-icon" src="<!-- @path android.svg -->">
                             <div class="info">
-                                <div class="title">Labeling User Interface Elements</div>
-                                <span class="subtitle"> Add audible descriptions to input controls and other elements</span>
+                                <div class="title">为 UI 元素添加标签</div>
+                                <span class="subtitle">给输入控件和其他元素添加描述，供屏幕阅读器等设备进行朗读</span>
                             </div>
                             </img>
                         </a>
                     </div>
-                    <h1>Motion</h1>
-                    <p>Material design uses motion to guide focus between views, which helps reduce user distraction. Surfaces transform into focal points for the user to follow, and unimportant elements are removed.</p>
-                    <p>To allow users with motion and vision sensitivities to use interfaces comfortably, adhere to the <a href="<!-- @path material-motion.html -->">material design motion spec</a>, which supports the following motion guidelines from the W3C:</p>
+                    <h1>运动</h1>
+                    <p>Material Design 使用运动来指引用户的注意力，以降低用户因试图转换而分心。用户可以跟踪视觉焦点，视觉焦点由界面转换而来，并且移除了不重要的元素。</p>
+                    <p>为了使具有运动和视觉敏感性的用户能舒适地使用界面，请遵循<a href="<!-- @path material-motion.html -->">Material Design 运动规范</a>，该规范支持 W3C 的以下运动指南：</p>
                     <ul class="lst-kix_1yj07pccvkev-0 start">
-                        <li>Enable content that moves, scrolls, or blinks automatically to be paused, stopped, or hidden if it lasts more than than five seconds.</li>
-                        <li>Limit flashing content to three times in a one-second period to meet <a href="https://www.google.com/url?q=http://www.w3.org/TR/WCAG20/%23general-thresholddef&amp;sa=D&amp;ust=1481818010688000&amp;usg=AFQjCNGHM4ziWaKFa1JeCr2O_Zn1p7KLKA" target="_blank">flash and red flash thresholds</a>.</li>
-                        <li>Avoid <a href="https://www.google.com/url?q=https://www.w3.org/TR/2015/NOTE-WCAG20-TECHS-20150226/G176&amp;sa=D&amp;ust=1481818010690000&amp;usg=AFQjCNH3h8LNSO-6Q9cl06MWh9Nx9ocdTg" target="_blank">flashing large central regions of the screen</a>.</li>
+                        <li>如果内容持续移动、滚动或闪烁的时间超过 5 秒，则会暂停、停止或隐藏。</li>
+                        <li>在 1 秒内，内容的闪烁次数限制为 3 次，以满足<a href="https://www.w3.org/TR/WCAG20/#general-thresholddef" target="_blank">闪烁和红色闪烁的阈值</a>。</li>
+                        <li>避免<a href="https://www.w3.org/TR/2015/NOTE-WCAG20-TECHS-20150226/G176" target="_blank">闪烁屏幕中较大的中心区域</a>。</li>
                     </ul>
-                    <h1>Timed controls</h1>
-                    <p>Controls in an app may be set to disappear after a certain amount of time. For example, five seconds after starting a video, playback controls may fade from the screen.</p>
-                    <p><strong>High-priority controls<br>
-</strong>Avoid using timers on controls that perform a high-priority functions, as users may not notice these controls if they fade away too quickly. For example, TalkBack reads controls out loud if they are focused on, and placing them on timers may prevent the controls from completing their task. </p>
-                    <p>For controls that enable other important functions, make sure that the user can turn on the controls again or perform the same function in other ways. Learn more in <a href="<!-- @path accessibility.html -->#accessibility-hierarchy-focus">hierarchy and focus</a>.</p>
+                    <h1>定时控件</h1>
+                    <p>应用中的控件可以设置为在一定时间后消失。例如，播放视频 5 秒后，播放按钮控件可能会从屏幕上淡出。</p>
+                    <p><strong>高优先级的控件<br>
+                    </strong>避免在非常重要的控件上使用定时器，如果控件消失的太快，用户可能不会注意到控件。例如，当焦点聚焦到控件上时， TalkBack 会大声朗读出控件，如果为其加上了定时器，可能会阻止控件完成既定的任务。</p>
+                    <p>对于有其他重要功能的控件，请确保用户可以再次启用控件、或可以通过其他途径执行相同的功能。更多详情请参考<a href="#accessibility-hierarchy-focus">等级 &amp; 焦点</a>。</p>
                     <div class="modulettes">
-                        <a class="modulette container default" href="https://www.google.com/url?q=https://codelabs.developers.google.com/codelabs/basic-android-accessibility/index.html?index%3D..%252F..%252Findex%236&amp;sa=D&amp;ust=1481818010699000&amp;usg=AFQjCNEbRXnLu995smOan2sqOXJ1dO7YNw" target="_blank">
+                        <a class="modulette container default" href="https://codelabs.developers.google.com/codelabs/basic-android-accessibility/index.html?index=..%2F..%2Findex#6" target="_blank">
                             <img alt="" class="icon callout-icon" src="<!-- @path default.svg -->">
                             <div class="info">
-                                <div class="title">Vocalizing text automatically</div>
-                                <span class="subtitle"> Read about placing text in a live region.</span>
+                                <div class="title">自动朗读文本</div>
+                                <span class="subtitle">关于在活跃区域放置文本。</span>
                             </div>
                             </img>
                         </a>
@@ -272,36 +248,28 @@
         </div>
         <div id="accessibility-style" class="article qp-ui" data-qp-ui="{ 'ScrollSpy': {} }" data-qp-ui-data-id="qp:4">
             <h2 class="article-title qp-ui" data-qp-ui="{ 'ResponsiveZippy': {} }" data-qp-ui-data-id="qp:4">
-                  Style
-                  
-                  
-                  
-                  <svg xmlns="http://www.w3.org/2000/svg" version="1.1" class="icon icon-expand-collapse" role="img" viewBox="0 0 10 10" aria-labelledby="title desc">
-                    <title>Expand and collapse content</title>
-                    <desc>An arrow that points down when collapsed and points up when expanded.</desc>
-                    <polygon role="presentation" points="2.5,4.167 5,6.667 7.5,4.167 6.917,3.583 5,5.5 3.083,3.583"></polygon>
-                  </svg>
+                样式<!-- @include _arrow -->
                 </h2>
             <div class="article-content">
                 <div>
                     <div class="col-list">
                         <section class="module-figure-figure col-3">
                             <div class="module">
-                                <h1>Layout</h1>
-                                <p>Material design’s touch target guidelines enable users who aren’t able to see the screen, or who have motor-dexterity problems, to tap elements in your app. </p>
-                                <h2>Touch targets</h2>
-                                <p>Touch targets are the parts of the screen that respond to user input. They extend beyond the visual bounds of an element. For example, an icon may appear to be 24 x 24 dp, but the padding surrounding it comprises the full 48 x 48 dp touch target. </p>
-                                <p>Touch targets should be at least 48 x 48 dp. A touch target of this size results in a physical size of about 9mm, regardless of screen size. The recommended target size for touchscreen elements is 7-10mm. It may be appropriate to use larger touch targets to accommodate a larger spectrum of users, such as children with developing motor skills. </p>
-                                <h2>Touch target spacing</h2>
-                                <p>In most cases, touch targets should be separated by 8dp of space or more to ensure balanced information density and usability. </p>
+                                <h1>布局</h1>
+                                <p>Material Design 的触控范围指南使那些无法看到屏幕、或者运动不灵活的用户能够点击应用中的元素。</p>
+                                <h2>触控范围</h2>
+                                <p>触控范围是屏幕中响应用户输入的部分。它们向外延伸，并超过元素的视觉边界。例如，图标可能显示为 24x24dp，但是加上图标周围的边距，则构成了 48x48dp 的触控范围。</p>
+                                <p>触控范围应该至少为 48x48dp。不管屏幕有多大，这种尺寸的触控范围都相当于大约 9mm 的物理尺寸。推荐的触控范围的尺寸为 7-10mm。可能需要使用更大的触控范围来适配更大范围的用户，例如运动能力还在发展中的儿童。</p>
+                                <h2>触控范围间距</h2>
+                                <p>在大多数情况下，触控范围应该以 8dp 或更大的间距进行分隔，以平衡的信息密度和可用性。</p>
                             </div>
                             <div class="figure">
                                 <figure class="s-tag-media">
                                     <div class="media"><img alt="" src="<!-- @path accessibility_layout1.png -->" /></div>
                                     <figcaption>
-                                        <p>Avatar: 40dp
-                                            <br> Icon: 24dp
-                                            <br> Touch target on both: 48dp</p>
+                                        <p>头像：40dp
+                                            <br>图标：24dp
+                                            <br>触控范围：48dp</p>
                                     </figcaption>
                                 </figure>
                             </div>
@@ -309,7 +277,7 @@
                                 <figure class="s-tag-media">
                                     <div class="media"><img alt="" src="<!-- @path accessibility_layout2.png -->" /></div>
                                     <figcaption>
-                                        <p>Examples of touch targets</p>
+                                        <p>触控范围示例</p>
                                     </figcaption>
                                 </figure>
                             </div>
@@ -321,8 +289,8 @@
                                 <figure class="s-tag-media">
                                     <div class="media"><img alt="" src="<!-- @path accessibility_layout3.png -->" /></div>
                                     <figcaption>
-                                        <p>Touch target height: 48dp
-                                            <br> Button height: 36dp</p>
+                                        <p>触控范围高度：48dp
+                                            <br>按钮高度：36dp</p>
                                     </figcaption>
                                 </figure>
                             </div>
@@ -330,24 +298,24 @@
                                 <figure class="s-tag-media">
                                     <div class="media"><img alt="" src="<!-- @path accessibility_layout4.png -->" /></div>
                                     <figcaption>
-                                        <p>Examples of touch targets and buttons</p>
+                                        <p>触控范围和按钮示例</p>
                                     </figcaption>
                                 </figure>
                             </div>
                         </section>
                         <section class="module-figure-figure col-3">
                             <div class="module">
-                                <h2>Grouping items</h2>
-                                <p>Keeping related items in proximity to one another is helpful for those who have low vision or may have trouble focusing on the screen. </p>
+                                <h2>分组项目</h2>
+                                <p>把相关的项目放在一起，对那些视力低下或者在聚焦困难的用户非常有帮助。</p>
                             </div>
                             <div class="figure">
                                 <figure class="s-tag-media">
                                     <div class="media"><img alt="" src="<!-- @path accessibility_layout5_do.png -->" /></div>
                                 </figure>
                                 <div class="text-box"> </div>
-                                <p class="s-tag-caption do">Do.</p>
+                                <p class="s-tag-caption do"><!-- $do --></p>
                                 <figcaption>
-                                    <p>The slider value is in close proximity with the slider control. </p>
+                                    <p>滑块值和滑块控件非常接近</p>
                                 </figcaption>
                             </div>
                             <div class="figure">
@@ -355,101 +323,93 @@
                                     <div class="media"><img alt="" src="<!-- @path accessibility_layout6_dont.png -->" /></div>
                                 </figure>
                                 <div class="text-box"> </div>
-                                <p class="s-tag-caption dont">Don't.</p>
+                                <p class="s-tag-caption dont"><!-- $dont --></p>
                                 <figcaption>
-                                    <p>The slider value is placed too far away from the control. A user of screen magnification may not be able to view both the slider and the value without panning back and forth. </p>
+                                    <p>滑块值和滑块控件之间的距离太远。对于使用了屏幕放大的用户，他们想要同时看到滑块和数值的时候，需要来回平移屏幕。</p>
                                 </figcaption>
                             </div>
                         </section>
                     </div>
-                    <h1>Fonts</h1>
-                    <p>To improve readability, users might increase font size. Mobile devices and browsers include features to allow users to adjust font size system-wide. To enable system font size in an Android app, mark text and their associated containers to be measured in <a href="<!-- @path units-measurements.html -->#units-measurements-scaleable-pixels-sp">scaleable pixels (sp)</a> .</p>
-                    <p>Make sure to allot enough space for large and foreign language fonts. See <a href="<!-- @path typography.html -->#typography-line-height">Line Height</a> for information on the recommended sizes of foreign language fonts. </p>
+                    <h1>字体</h1>
+                    <p>为了提高可读性，用户可能会增加字体大小。移动设备或浏览器有调整系统字体大小的功能。要在 Android 中使用系统字体大小，使用<a href="<!-- @path units-measurements.html -->#units-measurements-scaleable-pixels-sp">可缩放像素（sp）</a>来标记文本极其关联容器。</p>
+                    <p>确保为大型字体和外语字体分配了足够的空间。有关推荐的外语字体大小的信息，请参考<a href="<!-- @path typography.html -->#typography-line-height">行高</a>。</p>
                 </div>
             </div>
         </div>
         <div id="accessibility-hierarchy-focus" class="article qp-ui" data-qp-ui="{ 'ScrollSpy': {} }" data-qp-ui-data-id="qp:5">
             <h2 class="article-title qp-ui" data-qp-ui="{ 'ResponsiveZippy': {} }" data-qp-ui-data-id="qp:5">
-                  Hierarchy and focus
-                  
-                  
-                  
-                  <svg xmlns="http://www.w3.org/2000/svg" version="1.1" class="icon icon-expand-collapse" role="img" viewBox="0 0 10 10" aria-labelledby="title desc">
-                    <title>Expand and collapse content</title>
-                    <desc>An arrow that points down when collapsed and points up when expanded.</desc>
-                    <polygon role="presentation" points="2.5,4.167 5,6.667 7.5,4.167 6.917,3.583 5,5.5 3.083,3.583"></polygon>
-                  </svg>
+                等级 &amp; 焦点<!-- @include _arrow -->
                 </h2>
             <div class="article-content">
                 <div>
-                    <p>Apps should give users feedback and a sense of where they are in the app. Navigation controls should be easy to locate and clearly written. Visual feedback (such as labels, colors, and icons) and touch feedback show users what is available in the UI.</p>
-                    <p>Navigation should have clear task flows with minimal steps. Focus control, or the ability to control keyboard and reading focus, should be implemented for frequently used tasks.</p>
+                    <p>应用应当给予用户反馈，以及让用户了解在应用中所处的位置。导航控件应当易于寻找，其说明应当清晰。视觉反馈（如标签、颜色和图标）和触控反馈向用户说明了 UI 中可用的元素。</p>
+                    <p>导航中应当包含清晰的任务流程，最小化任务的步骤。对于常用的功能，应当使用焦点控制，或者控制键盘和阅读焦点。</p>
                     <div class="modulettes">
-                        <a class="modulette container android" href="https://www.google.com/url?q=https://developer.android.com/guide/topics/ui/accessibility/apps.html%23focus-nav&amp;sa=D&amp;ust=1481818010784000&amp;usg=AFQjCNGcVcgx9-v7WOQibv-e8P2-XXKniA" target="_blank">
+                        <a class="modulette container android" href="https://developer.android.com/guide/topics/ui/accessibility/apps.html#focus-nav" target="_blank">
                             <img alt="" class="icon callout-icon" src="<!-- @path android.svg -->">
                             <div class="info">
-                                <div class="title">Enabling Focus Navigation</div>
-                                <span class="subtitle"> Use focus controls for navigation</span>
+                                <div class="title">启用焦点导航</div>
+                                <span class="subtitle">使用焦点控制导航</span>
                             </div>
                             </img>
                         </a>
                     </div>
-                    <h1>Screen readers</h1>
-                    <p>Screen readers give users multiple ways to navigate a screen, including: </p>
+                    <h1>屏幕阅读器</h1>
+                    <p>屏幕阅读器为用户提供了多种屏幕导航的方法，包括：</p>
                     <ul class="lst-kix_2jhifpytt1is-0 start">
-                        <li>Touch interface screen readers allow users to <strong>run their finger over the screen </strong>to hear what is directly underneath. This provides the user a quick sense of an entire interface. Or the user can quickly move to a UI element from muscle memory. In TalkBack, this feature is called “<a href="https://www.google.com/url?q=https://support.google.com/accessibility/android/answer/6006598?hl%3Den&amp;sa=D&amp;ust=1481818010787000&amp;usg=AFQjCNFZvMJlR6Y60uh3CX7UBDebkjBgdA" target="_blank">explore by touch</a>.” To select an item, the user must double tap. </li>
-                        <li>Users may also <strong>move focus by swiping</strong> backwards or forwards on screen to read pages linearly, from top to bottom. This allows users to hone in on certain elements. In TalkBack, this is called <strong>linear navigation</strong>. </li>
+                        <li>屏幕阅读器的触摸界面允许用户<strong>在屏幕上移动手指</strong>，以听到手指正下方的内容。这使用户能快速了解整个界面。或者用户可以凭借肌肉记忆快速移动到指定 UI 元素。在 TalkBack 中，此功能被称为「<a href="https://support.google.com/accessibility/android/answer/6006598?hl=zh-Hans" target="_blank">触摸浏览</a>」 。用户必须双击才能选择一个项目。</li>
+                        <li>用户也可以在屏幕上向前或向后<strong>滑动来移动焦点</strong>，从上到下线性地阅读页面。这允许用户在某些元素上进行训练。在 TalkBack 中，这称为<strong>线性导航</strong>。</li>
                     </ul>
-                    <p>Users may switch between both “explore by touch” and “linear navigation” modes. Some assistive technologies allow users to navigate between page landmarks, such as headings, when these landmarks use the appropriate semantic markup. </p>
-                    <p>Hardware or software directional controllers (such as a D-pad, trackball, or keyboard) allow users to jump from selection to selection in a linear fashion. </p>
+                    <p>用户可以在「触摸浏览」和「线性导航」模式之间切换。当页面使用合适的语义化标签时，一些无障碍技术允许用户在页面的这些标记（例如标题）之间导航。</p>
+                    <p>硬件或软件方向控制器（例如 D-pad、轨迹球或键盘）允许用户以线性的方式从一个选择的元素跳到另一个元素。</p>
                     <div class="col-list">
                         <section class="module-figure col-2">
                             <div class="module">
-                                <h1>Hierarchy</h1>
-                                <p>Place items on the screen according to their relative level of importance. </p>
+                                <h1>等级</h1>
+                                <p>根据项目的相对重要性，将项目放置在屏幕上。</p>
                                 <ul class="lst-kix_fk2nb1jptxh6-0 start">
-                                    <li><strong>Important actions: </strong>Place important actions at the top or bottom of the screen (reachable with shortcuts). </li>
-                                    <li><strong>Related items: </strong>Place related items of a similar hierarchy next to each other.</li>
+                                    <li><strong>重要操作</strong>：将重要操作放在屏幕的顶部或底部（可以用快捷方式访问）。</li>
+                                    <li><strong>相关项目</strong>：将相似层级的相关项目放在彼此相邻的位置。</li>
                                 </ul>
                             </div>
                             <div class="figure">
                                 <figure class="s-tag-media">
                                     <div class="media"><img alt="" src="<!-- @path accessibility_hierarchy_1_do.png -->" /></div>
                                     <figcaption>
-                                        <p class="s-tag-caption do">Do.</p>
-                                        <p>By placing important actions at the top of the screen, they are given more importance in the hierarchy.</p>
+                                        <p class="s-tag-caption do"><!-- $do --></p>
+                                        <p>把重要的操作放在屏幕顶部，使它们在层次结构中显得更重要。</p>
                                     </figcaption>
                                 </figure>
                                 <figure class="s-tag-media">
                                     <div class="media"><img alt="" src="<!-- @path accessibility_hierarchy_2_dont.png -->" /></div>
                                     <figcaption>
-                                        <p class="s-tag-caption dont">Don't.</p>
-                                        <p>When important actions are embedded within other content, it’s unclear what the most important elements are on the page.</p>
+                                        <p class="s-tag-caption dont"><!-- $dont --></p>
+                                        <p>当把重要的操作嵌入到其他内容中时，就不清楚什么是页面中最重要的元素。</p>
                                     </figcaption>
                                 </figure>
                             </div>
                         </section>
                         <section class="module-figure col-2">
                             <div class="module">
-                                <h2>Focus order</h2>
-                                <p>Input focus should follow the order of the visual layout, from the top to the bottom of the screen. It should traverse from the most important to the least important item. Determine the following focus points and movements:</p>
+                                <h2>焦点顺序</h2>
+                                <p>输入焦点应当按照视觉布局的顺序排列，从屏幕顶部到底部。它应该从最重要的项目到最不重要的项目进行遍历。通过以下方式来确定的焦点和移动方式：</p>
                                 <ul class="lst-kix_l1u6j3glpnds-0 start">
-                                    <li>The order in which elements receive focus</li>
-                                    <li>The way in which elements are grouped </li>
-                                    <li>Where focus moves when the element in focus disappears</li>
+                                    <li>元素接收焦点的顺序</li>
+                                    <li>元素分组的方式</li>
+                                    <li>拥有焦点的元素消失时，焦点移动到哪里</li>
                                 </ul>
-                                <p>Clarify where the focus exists through a combination of visual indicators and accessibility text. </p>
-                                <h2>Grouping </h2>
-                                <p>Group similar items under headings that communicate what the groupings are. These groups organize content spatially. </p>
-                                <h2>Transitions </h2>
-                                <p>Focus traversal between screens and tasks should be as continuous as possible. </p>
-                                <p>If a task is interrupted and then resumed, place focus on the element that was previously focused. </p>
+                                <p>通过视觉指示器和辅助文本的组合，来阐明焦点的位置。</p>
+                                <h2>分组</h2>
+                                <p>在标题下对类似项目进行分组，以告诉用户这个分组代表什么。这些分组利用空间在来组织内容。</p>
+                                <h2>转换</h2>
+                                <p>屏幕和任务之间的焦点遍历应当尽可能的连续。</p>
+                                <p>如果任务在中断后又恢复了，请将焦点放在之前聚焦的元素上。</p>
                             </div>
                             <div class="figure">
                                 <figure class="s-tag-media">
                                     <div class="media"><img alt="" src="<!-- @path accessibility_hierarchy_3.png -->" /></div>
                                     <figcaption>
-                                        <p>The green circles indicate the order in which onscreen elements should receive focus. </p>
+                                        <p>绿色圆圈表示屏幕中的元素接收焦点的顺序。</p>
                                     </figcaption>
                                 </figure>
                             </div>
@@ -461,29 +421,21 @@
         </div>
         <div id="accessibility-implementation" class="article qp-ui" data-qp-ui="{ 'ScrollSpy': {} }" data-qp-ui-data-id="qp:6">
             <h2 class="article-title qp-ui" data-qp-ui="{ 'ResponsiveZippy': {} }" data-qp-ui-data-id="qp:6">
-                  Implementation
-                  
-                  
-                  
-                  <svg xmlns="http://www.w3.org/2000/svg" version="1.1" class="icon icon-expand-collapse" role="img" viewBox="0 0 10 10" aria-labelledby="title desc">
-                    <title>Expand and collapse content</title>
-                    <desc>An arrow that points down when collapsed and points up when expanded.</desc>
-                    <polygon role="presentation" points="2.5,4.167 5,6.667 7.5,4.167 6.917,3.583 5,5.5 3.083,3.583"></polygon>
-                  </svg>
+                实施<!-- @include _arrow -->
                 </h2>
             <div class="article-content">
                 <div>
                     <div class="col-list">
                         <section class="module-figure-figure col-3">
                             <div class="module">
-                                <p>By using standard platform controls, your app will automatically contain the markup and code needed to work well with a platform’s assistive technology. Adapt your app to meet each platform's accessibility standards and assistive technology (including shortcuts and structure) to give users an efficient experience.</p>
+                                <p>标准的平台控件中已经包含了无障碍技术所需的标记和代码，使用这些控件来让应用更好的兼容各个平台的无障碍技术（包括快捷操作和应用结构），为用户提供更高效的体验。</p>
                             </div>
                             <div class="figure">
                                 <figure class="s-tag-media">
                                     <div class="media"><img alt="" src="<!-- @path accessibility_implementation1_do.png -->" /></div>
                                     <figcaption>
-                                        <p class="s-tag-caption do">Do.</p>
-                                        <p>This screen is using the standard platform dialog. </p>
+                                        <p class="s-tag-caption do"><!-- $do --></p>
+                                        <p>使用了标准平台的对话框</p>
                                     </figcaption>
                                 </figure>
                             </div>
@@ -491,35 +443,35 @@
                                 <figure class="s-tag-media">
                                     <div class="media"><img alt="" src="<!-- @path accessibility_implementation2_dont.png -->" /></div>
                                     <figcaption>
-                                        <p class="s-tag-caption dont">Don't.</p>
-                                        <p>This screen is using a non-standard platform dialog to perform a standard dialog task. This implementation would require extra coding and testing to make this non-standard control work well with assistive technology. </p>
+                                        <p class="s-tag-caption dont"><!-- $dont --></p>
+                                        <p>使用非标准平台的对话框来执行标准的对话框任务。要适配无障碍技术需要进行额外的编码和测试。</p>
                                     </figcaption>
                                 </figure>
                             </div>
                         </section>
                         <section class="module-figure col-2">
                             <div class="module">
-                                <p>Test your design with the platform accessibility settings turned on (both during and after implementation). </p>
-                                <p>Other design considerations:</p>
+                                <p>在设计期间和设计完成后，都应当打开系统的无障碍功能来测试。</p>
+                                <p>设计时需要注意的其他事项：</p>
                                 <ul class="lst-kix_gcqkuykifz62-0 start">
-                                    <li><strong>Use scalable text and a spacious layout</strong> to accommodate users who may have large text, color correction, magnification, or other assistive settings turned on.</li>
-                                    <li><strong>Keyboard/mouse interfaces</strong> should have every task and all hover information accessible by keyboard-only.</li>
-                                    <li><strong>Touch interfaces</strong> should allow screen readers and other assistive technology devices to read all parts of your interface. The text read aloud should be both meaningful and helpful. </li>
+                                    <li><strong>使用可缩放文字和宽松的布局</strong>为部分用户兼容大号字体、色彩矫正、放大手势以及其他无障碍功能。</li>
+                                    <li><strong>键盘／鼠标界面</strong>可以仅通过键盘就能遍历所有任务和悬浮信息。</li>
+                                    <li><strong>触摸界面</strong>应允许屏幕阅读器和其他无障碍设备读取界面中的所有内容。朗读的文本应该是有意义的和有帮助的。</li>
                                 </ul>
                             </div>
                             <div class="figure">
                                 <figure class="s-tag-media">
                                     <div class="media"><img alt="" src="<!-- @path accessibility_implementation3_do.png -->" /></div>
                                     <figcaption>
-                                        <p class="s-tag-caption do">Do.</p>
-                                        <p>This UI has scaled well with magnification and large text. </p>
+                                        <p class="s-tag-caption do"><!-- $do --></p>
+                                        <p>经过缩放的 UI 能够很好的适配放大手势和大号字体模式</p>
                                     </figcaption>
                                 </figure>
                                 <figure class="s-tag-media">
                                     <div class="media"><img alt="" src="<!-- @path accessibility_implementation4_dont.png -->" /></div>
                                     <figcaption>
-                                        <p class="s-tag-caption dont">Don't.</p>
-                                        <p>This UI has not scaled well with magnification and large text. Portions of content are overlapping or cut off.</p>
+                                        <p class="s-tag-caption dont"><!-- $dont --></p>
+                                        <p>没有经过缩放的 UI 不能适配放大手势和大号字体模式。部分内容被重叠或截断。</p>
                                     </figcaption>
                                 </figure>
                             </div>
@@ -528,14 +480,14 @@
                     <div class="col-list">
                         <section class="module-figure-figure col-3">
                             <div class="module">
-                                <h1>Label visual UI elements </h1>
-                                <p>Screen-reader users need to know which UI elements are tappable on-screen. To enable screen readers to read the names of components out loud, add the <strong>contentDescription</strong> attribute to components such as buttons, icons, and tabs containing icons that have no visible text. </p>
+                                <h1>为 UI 元素添加标签</h1>
+                                <p>使用屏幕阅读器的用户需要知道屏幕中哪些元素是可以点击的。在组件（按钮、图标、只有图标没有文本的选项卡）中添加<strong>contentDescription</strong>属性，来让屏幕阅读器可以大声朗读组件的名称。</p>
                                 <div class="modulettes">
-                                    <a class="modulette container android" href="https://www.google.com/url?q=http://developer.android.com/guide/topics/ui/accessibility/apps.html%23label-ui&amp;sa=D&amp;ust=1481818010756000&amp;usg=AFQjCNH5Ns3rByzXYss4-XDz58sFR8gNsg" target="_blank">
+                                    <a class="modulette container android" href="https://developer.android.com/guide/topics/ui/accessibility/apps.html#label-ui" target="_blank">
                                         <img alt="" class="icon callout-icon" src="<!-- @path android.svg -->">
                                         <div class="info">
-                                            <div class="title">Labeling UI Elements</div>
-                                            <span class="subtitle"> Use the contentDescription attribute to set labels.</span>
+                                            <div class="title">为 UI 元素添加标签</div>
+                                            <span class="subtitle">使用 contentDescription 属性来设置标签。</span>
                                         </div>
                                         </img>
                                     </a>
@@ -545,8 +497,8 @@
                                 <figure class="s-tag-media">
                                     <div class="media"><img alt="" src="<!-- @path Accessibility_labeling1.png -->" /></div>
                                     <figcaption>
-                                        <p>1. Label the Search icon
-                                            <br> 2. Label the Microphone icon </p>
+                                        <p>1、标记搜索图标
+                                            <br> 2、标记麦克风图标</p>
                                     </figcaption>
                                 </figure>
                             </div>
@@ -554,8 +506,8 @@
                                 <figure class="s-tag-media">
                                     <div class="media"><img alt="" src="<!-- @path Accessibility_labeling2.png -->" /></div>
                                     <figcaption>
-                                        <p>1. Label the Edit icon
-                                            <br> 2. Label the Chat icon</p>
+                                        <p>1、标记编辑图标
+                                            <br> 2、标记聊天图标</p>
                                     </figcaption>
                                 </figure>
                             </div>
@@ -564,29 +516,29 @@
                     <div class="col-list">
                         <section class="module-module col-2">
                             <div class="module">
-                                <h1>Help documentation</h1>
-                                <p>Any features with special accessibility considerations should be included in help documentation. Make help documentation relevant, accessible, and discoverable. As an example, review this guide on how to use a screen reader with <a href="https://www.google.com/url?q=https://support.google.com/drive/answer/6034939?hl%3Den&amp;sa=D&amp;ust=1481818010764000&amp;usg=AFQjCNG73FZbJRcgaQsZ0qD4BJcT-spiKw" target="_blank">Google Drive.</a> </p>
+                                <h1>帮助文档</h1>
+                                <p>帮助文档中应当包含所有的无障碍功能说明。确保帮助文档的相关性、可访问性和可发现性。例如，可以参考这份指南来了解如何在 <a href="https://support.google.com/drive/answer/6034939?hl=zh-Hans" target="_blank">Google Drive</a> 中使用屏幕阅读器。</p>
                             </div>
                             <div class="module">
                             </div>
                         </section>
                         <section class="module-figure col-2">
                             <div class="module">
-                                <h1>Testing and research</h1>
-                                <p>Following these accessibility guidelines will help improve the accessibility of your app, but does not guarantee a fully accessible experience. It is recommended that you also:</p>
+                                <h1>测试和研究</h1>
+                                <p>遵循这些无障碍指南有助于提升应用的可访问性，但不能保证拥有一个完全可访问的体验。建议你也进行以下操作：</p>
                                 <ul class="lst-kix_814kni54p86l-0 start">
-                                    <li>Test your app for full task completion, beginning to end, with various assistive technologies turned on. For example, turn on Explore by Touch in TalkBack and change the speed at which text is spoken out loud. </li>
-                                    <li>Have users with impairments test your app. </li>
-                                    <li>Consider how individual elements should be accessible while also fitting together in a coherent user flow.</li>
-                                    <li>Make sure the major tasks you want your users to complete are possible for everyone.</li>
+                                    <li>打开各种无障碍功能，从头到尾来测试你的应用。例如，在 TalkBack 中打开「触摸浏览」，并改变文字转语音的语速。</li>
+                                    <li>让有障碍的用户测试你的应用。</li>
+                                    <li>考虑如何访问独立的元素，以及如何访问流程中的某个元素。</li>
+                                    <li>确保每个人都能完成应用的主要任务。</li>
                                 </ul>
-                                <p>Talk to your users, particularly those who use assistive technology, to learn about their needs, what they want out of your app, which tools they use, and how they use them. Become familiar with these tools so you can give them the best experience.</p>
+                                <p>与你的用户进行交流，尤其是使用辅助功能的用户，了解他们的需求，以及他们在应用之外的需求，包括他们使用什么工具以及如何使用。然后去了解这些工具，以此来提供最佳的用户体验。</p>
                             </div>
                             <div class="figure">
                                 <figure class="s-tag-media">
                                     <div class="media"><img alt="" src="<!-- @path accessibility_implementation5.png -->" /></div>
                                     <figcaption>
-                                        <p>People use assistive technology in different ways. </p>
+                                        <p>人们以不同的方式使用无障碍技术。</p>
                                     </figcaption>
                                 </figure>
                             </div>
@@ -597,43 +549,35 @@
         </div>
         <div id="accessibility-writing" class="article qp-ui" data-qp-ui="{ 'ScrollSpy': {} }" data-qp-ui-data-id="qp:7">
             <h2 class="article-title qp-ui" data-qp-ui="{ 'ResponsiveZippy': {} }" data-qp-ui-data-id="qp:7">
-                  Writing
-                  
-                  
-                  
-                  <svg xmlns="http://www.w3.org/2000/svg" version="1.1" class="icon icon-expand-collapse" role="img" viewBox="0 0 10 10" aria-labelledby="title desc">
-                    <title>Expand and collapse content</title>
-                    <desc>An arrow that points down when collapsed and points up when expanded.</desc>
-                    <polygon role="presentation" points="2.5,4.167 5,6.667 7.5,4.167 6.917,3.583 5,5.5 3.083,3.583"></polygon>
-                  </svg>
+                书面用语<!-- @include _arrow -->
                 </h2>
             <div class="article-content">
                 <div>
-                    <p>Clear and helpful <strong>accessibility </strong><strong>text</strong> is one of the primary ways to make UIs more accessible. Users with limited or no eyesight benefit from explicit verbal descriptions. Accessibility text refers to text that is used by screen reader accessibility software, such as TalkBack on Android, VoiceOver on iOS, and JAWS on desktop. Screen readers read all text on screen aloud, including both visible and nonvisible alternative text. </p>
-                    <p>Accessibility text includes both visible text (including labels for UI elements, text on buttons, links, and forms) and nonvisible descriptions that don’t appear onscreen (such as alternative text for buttons without text labels). Sometimes, an onscreen label may be overridden with accessibility text to provide more information for the user.</p>
-                    <p>Both visible and nonvisible text should be helpfully descriptive and independently meaningful, as some users navigate by using all the headings or links on a page. Test your app with a screen reader to identify areas that are missing or need better accessibility text. </p>
+                    <p>清晰且有帮助的<strong>无障碍文本</strong>，是让 UI 更易访问的主要方法之一。视力障碍或无视力的用户会从清晰的语言描述中获益。无障碍文本是指供屏幕阅读器软件使用的文本，例如 Android 上的 TalkBack、iOS 上的 VoiceOver、桌面端的 JAWS。屏幕阅读器会大声朗读屏幕上所有的文本，包括可见和不可见的文本。</p>
+                    <p>无障碍文本包括可见文本（包括 UI 元素中的标签、按钮中的文字、链接和表单）和不可见的描述（按钮的替代文字）。在有些情况下，可以使用无障碍文本覆盖屏幕中的标签，来为用户提供更多信息。</p>
+                    <p>有些用户会使用页面中的标题和链接进行导航，因此可见和不可见文本的描述都应当有所帮助，且有各自不同的意义。使用屏幕阅读器测试你的应用，来找出没有无障碍文本的区域，以及需要改进的区域。</p>
                     <div class="col-list">
                         <section class="module-module-module col-3">
                             <div class="module">
-                                <h1>Be succinct</h1>
-                                <p>Keep content and accessibility text short and to the point. Screen reader users hear every UI element read aloud. The shorter the text, the faster the screen reader users can navigate it. </p>
+                                <h1>保持简洁</h1>
+                                <p>保持内容和无障碍文本简短，突出重点。使用屏幕阅读器的用户会听到朗读的每个 UI 元素。文本越短，屏幕阅读器用户导航速度越快。 </p>
                             </div>
                             <div class="module">
                                 <div class="text-box">
-                                    <p>Switch to heyfromjonathan@gmail.com</p>
+                                    <p>切换到 heyfromjonathan@gmail.com</p>
                                 </div>
-                                <p class="s-tag-caption do">Do.</p>
+                                <p class="s-tag-caption do"><!-- $do --></p>
                                 <figcaption>
-                                    <p>Write clear and short accessibility text. </p>
+                                    <p>简洁明了的无障碍文本</p>
                                 </figcaption>
                             </div>
                             <div class="module">
                                 <div class="text-box">
-                                    <p>Account switcher. Switch to account heyfromjonathan@gmail.com</p>
+                                    <p>账户切换。切换到账户 heyfromjonathan@gmail.com</p>
                                 </div>
-                                <p class="s-tag-caption dont">Don't.</p>
+                                <p class="s-tag-caption dont"><!-- $dont --></p>
                                 <figcaption>
-                                    <p>Don’t write long accessibility text. </p>
+                                    <p>不要使用太长的无障碍文本</p>
                                 </figcaption>
                             </div>
                         </section>
@@ -641,37 +585,37 @@
                     <div class="col-list">
                         <section class="module-module-module col-3">
                             <div class="module">
-                                <h1>Avoid including control type or state in text</h1>
-                                <p>Screen readers may automatically announce a control’s type or state through a sound or by speaking the control name before or after the accessibility text. </p>
+                                <h1>避免在文本中包含控件类型和状态</h1>
+                                <p>屏幕阅读器会通过声音、或通过在无障碍文本前后说出控件名称，来自动声明控件的类型和状态。</p>
                             </div>
                             <div class="module">
                                 <div class="text-box">
-                                    <p>Search</p>
+                                    <p>搜索</p>
                                 </div>
-                                <p class="s-tag-caption do">Do.</p>
+                                <p class="s-tag-caption do"><!-- $do --></p>
                                 <figcaption>
-                                    <p>Use short descriptions.</p>
+                                    <p>使用简短的说明</p>
                                 </figcaption>
                             </div>
                             <div class="module">
                                 <div class="text-box">
-                                    <p>Search field</p>
+                                    <p>搜索字段</p>
                                 </div>
-                                <p class="s-tag-caption dont">Don't.</p>
+                                <p class="s-tag-caption dont"><!-- $dont --></p>
                                 <figcaption>
-                                    <p>Don’t write the control type.</p>
+                                    <p>不要解释控件类型</p>
                                 </figcaption>
                             </div>
                         </section>
                         <section class="module-module-module col-3">
                             <div class="module">
-                                <p><strong>Developer note:</strong> If the control type or state is not being read correctly, the control’s accessibility role may be improperly set or be a custom control. Every element should have an associated accessibility role on a website or be coded to be announced properly. This means a button should be set as a button, and a checkbox as a checkbox, so that the control’s type or state is communicated correctly to the user. If you extend or inherit from a native UI element, you will get the correct role. If not, you can override this information for accessibility on each platform (<a href="https://www.google.com/url?q=https://www.w3.org/WAI/intro/aria&amp;sa=D&amp;ust=1481818010714000&amp;usg=AFQjCNEQMr5NDvLBa9da-xfE9WfQWw4GwA" target="_blank">ARIA</a> for web, <a href="https://www.google.com/url?q=http://developer.android.com/reference/android/view/accessibility/AccessibilityNodeInfo.html&amp;sa=D&amp;ust=1481818010715000&amp;usg=AFQjCNG1cz2ubEf3BM2zy2s1vu9CxyYMlA" target="_blank">AccessibilityNodeInfo for Android</a>). </p>
-                                <p>On Android, set the class name field of the control’s AccessibilityNodeInfo to "android.widget.Button".</p>
+                                <p><strong>开发人员注释</strong>：如果控件类型和状态没有被正确读取，则可能是控件的无障碍角色设置不正确，或者是一个自定义控件。网站上的每个元素都应该有一个相关的无障碍角色，或者通过代码为其声明一个角色。这意味着按钮应该设置成按钮、复选框应该设置成复选框，以便将控件的类型和状态正确传达给用户。如果元素是从原生的 UI 元素上扩展或继承的，他会获得父元素的角色。如果不是，你可以在每个平台上为无障碍重写这些信息（<a href="https://www.w3.org/WAI/intro/aria" target="_blank">ARIA</a> 适用于 Web，<a href="https://developer.android.com/reference/android/view/accessibility/AccessibilityNodeInfo.html" target="_blank">AccessibilityNodeInfo 用于 Android</a>）。</p>
+                                <p>在 Android，将控件的 AccessibilityNodeInfo 类名字段设置为「android.widget.Button」。</p>
                                 <div class="modulettes">
-                                    <a class="modulette container android" href="https://www.google.com/url?q=https://developer.android.com/guide/topics/ui/accessibility/apps.html%23custom-views&amp;sa=D&amp;ust=1481818010719000&amp;usg=AFQjCNH1OZWUJCKsBHDScGoKuJr4ZCO75g" target="_blank">
+                                    <a class="modulette container android" href="https://developer.android.com/guide/topics/ui/accessibility/apps.html#custom-views" target="_blank">
                                         <img alt="" class="icon callout-icon" src="<!-- @path android.svg -->">
                                         <div class="info">
-                                            <div class="title">Building Accessible Custom Views</div>
+                                            <div class="title">构建无障碍的自定义视图</div>
                                             <span class="subtitle"></span>
                                         </div>
                                         </img>
@@ -680,20 +624,20 @@
                             </div>
                             <div class="module">
                                 <div class="text-box">
-                                    <p>Download over Wi-Fi only</p>
+                                    <p>仅通过 Wi-Fi 下载</p>
                                 </div>
-                                <p class="s-tag-caption do">Do.</p>
+                                <p class="s-tag-caption do"><!-- $do --></p>
                                 <figcaption>
-                                    <p>Use short descriptions.</p>
+                                    <p>使用简短的说明</p>
                                 </figcaption>
                             </div>
                             <div class="module">
                                 <div class="text-box">
-                                    <p>Download over Wi-Fi is selected</p>
+                                    <p>已选择通过 Wi-Fi 下载</p>
                                 </div>
-                                <p class="s-tag-caption dont">Don't.</p>
+                                <p class="s-tag-caption dont"><!-- $dont --></p>
                                 <figcaption>
-                                    <p>Don’t write out the state.</p>
+                                    <p>不要解释状态</p>
                                 </figcaption>
                             </div>
                         </section>
@@ -701,20 +645,20 @@
                     <div class="col-list">
                         <section class="module-figure-figure col-3">
                             <div class="module">
-                                <h1>Indicate what an element does</h1>
-                                <p>Use action verbs to indicate what an element or link does, not what an element looks like, so a visually impaired person can understand. Link text should:</p>
+                                <h1>指示元素的作用</h1>
+                                <p>使用操作动词来指明一个元素或链接的作用，而不是一个元素的外观，以便视觉障碍用户能够理解。链接文本应该是：</p>
                                 <ul class="lst-kix_9qtqh176w4cq-0 start">
-                                    <li>Specify the task that tapping the link will perform</li>
-                                    <li>Avoid vague descriptions, such as “click here” </li>
+                                    <li>指明点击链接后将执行的任务</li>
+                                    <li>避免含糊不清的描述，例如「点击此处」</li>
                                 </ul>
-                                <p>Ensure an element has the same description everywhere it’s used. </p>
+                                <p>确保元素在所有地方都保持一致。</p>
                             </div>
                             <div class="figure">
                                 <figure class="s-tag-media">
                                     <div class="media"><img alt="" src="<!-- @path accessibility_writing_edit_do.png -->" /></div>
                                     <figcaption>
-                                        <p class="s-tag-caption do">Do.</p>
-                                        <p>The description read aloud indicates the action represented by the icon. </p>
+                                        <p class="s-tag-caption do"><!-- $do --></p>
+                                        <p>语音描述指明了图标的操作</p>
                                     </figcaption>
                                 </figure>
                             </div>
@@ -722,8 +666,8 @@
                                 <figure class="s-tag-media">
                                     <div class="media"><img alt="" src="<!-- @path accessibility_writing_edit_dont.png -->" /></div>
                                     <figcaption>
-                                        <p class="s-tag-caption dont">Don't.</p>
-                                        <p>Describing what the icon looks like doesn’t make it clear what the action does. </p>
+                                        <p class="s-tag-caption dont"><!-- $dont --></p>
+                                        <p>描述外观无法表明图标的作用</p>
                                     </figcaption>
                                 </figure>
                             </div>
@@ -735,8 +679,8 @@
                                 <figure class="s-tag-media">
                                     <div class="media"><img alt="" src="<!-- @path accessibility_writing_menu_do.png -->" /></div>
                                     <figcaption>
-                                        <p class="s-tag-caption do">Do.</p>
-                                        <p>Accessible text for a navigation menu could be “Show/hide navigation menu” (preferred) or “Show/Hide main menu” (acceptable).</p>
+                                        <p class="s-tag-caption do"><!-- $do --></p>
+                                        <p>导航菜单的无障碍文本可以是「显示／隐藏导航菜单」（首选）或者「显示/隐藏主菜单」（可接受）。</p>
                                     </figcaption>
                                 </figure>
                             </div>
@@ -744,21 +688,21 @@
                                 <figure class="s-tag-media">
                                     <div class="media"><img alt="" src="<!-- @path accessibility_writing_menu_dont.png -->" /></div>
                                     <figcaption>
-                                        <p class="s-tag-caption dont">Don't.</p>
-                                        <p>When read aloud, the text “side drawer” doesn’t indicate what action will occur.</p>
+                                        <p class="s-tag-caption dont"><!-- $dont --></p>
+                                        <p>「侧边抽屉」无法指明会发生什么操作</p>
                                     </figcaption>
                                 </figure>
                             </div>
                         </section>
                         <section class="module-module-module col-3">
                             <div class="module">
-                                <p><strong>Elements with state changes</strong></p>
-                                <p>For icons that toggle between values or states, announce the icon according to how it is presented to the user.</p>
+                                <p><strong>状态改变的元素</strong></p>
+                                <p>对于可以改变数值和状态的图标，根据向用户呈现内容来朗读图标。</p>
                                 <ul class="lst-kix_dsyd8ql7t187-0 start">
-                                    <li>If the icon is a <strong>property</strong> of an item, make it a checkbox so that screen readers verbalize the current state, such as “on” or “off.”</li>
-                                    <li>If the icon is an <strong>action</strong>, write the text label to specify the action that occurs if the icon is selected, such as “Add to wishlist.”</li>
+                                    <li>如果图标表示项目的<strong>属性</strong>，则将其设置为复选框，以便屏幕阅读器能读出当前状态，例如「打开」或「关闭」。</li>
+                                    <li>如果图标表示<strong>操作</strong>，使用文本标签来指明选中图标后会发生的操作，例如「添加到心愿单」。</li>
                                 </ul>
-                                <p>How elements should be used affects how they are displayed. For example, if a star icon represents the action of adding something to a wishlist, the app should verbalize “Add to wishlist” or “Remove from wishlist.”</p>
+                                <p>元素的显示方式会影响功能，例如，如果星形图标表示添加到心愿单，则应用应当说出「添加到心愿单」或「从心愿单中移除」。</p>
                             </div>
                             <div class="module">
                             </div>
@@ -769,15 +713,15 @@
                     <div class="col-list">
                         <section class="module-figure-figure col-3">
                             <div class="module">
-                                <h1>Don’t mention the exact gesture or interaction</h1>
-                                <p>Don’t tell users how to physically interact with a control, as they may be navigating with a keyboard or other device, not with their fingers or a mouse. Accessibility software will describe the correct interaction for the user.</p>
+                                <h1>不要提及确切的手势和交互</h1>
+                                <p>不要告诉用户如何与控件进行肢体交互，因为它们可能使用键盘或其他设备，而不是用手指或鼠标进行导航。无障碍软件会为用户描述正确的交互方式。</p>
                             </div>
                             <div class="figure">
                                 <figure class="s-tag-media">
                                     <div class="media"><img alt="" src="<!-- @path accessibility_writing_voicesearch_do.png -->" /></div>
                                     <figcaption>
-                                        <p class="s-tag-caption do">Do.</p>
-                                        <p>The command “voice search” describes the user task (search) paired with the input method (voice).</p>
+                                        <p class="s-tag-caption do"><!-- $do --></p>
+                                        <p>「语音搜索」的描述和用户输入法（语音）相匹配的任务（搜索）。</p>
                                     </figcaption>
                                 </figure>
                             </div>
@@ -785,23 +729,23 @@
                                 <figure class="s-tag-media">
                                     <div class="media"><img alt="" src="<!-- @path accessibility_writing_voicesearch_dont.png -->" /></div>
                                     <figcaption>
-                                        <p class="s-tag-caption dont">Don't.</p>
-                                        <p>The command “Tap” is inaccurate as it is not the only way to activate this control (it could be selected via a keyboard press, switch device, or braille display). As the main user task in this example is to search, that action should be mentioned instead of “speak”.</p>
+                                        <p class="s-tag-caption dont"><!-- $dont --></p>
+                                        <p>「点击」是不准确的，因为这不是激活此控件的唯一方式（它也可以通过按下键盘、开关切换或盲文显示来激活）。由于本例中用户的主要任务是搜索，所以操作应该使用如上文所提到的文字，而不应该使用「说话」。</p>
                                     </figcaption>
                                 </figure>
                             </div>
                         </section>
                     </div>
-                    <h1>Confirm actions</h1>
-                    <p>Use dialogs, toasts, or snackbars (Android) to confirm or acknowledge user actions that are destructive (like “Delete” or “Remove”) or difficult to undo. </p>
-                    <p>For actions that are confirmed through visual means, such as a grid rearranging itself when an item is deleted, a toast is not necessary. In these cases, add accessibility text to provide acknowledgement.</p>
-                    <h1>Provide hint speech </h1>
-                    <p>Hint speech provides extra information for actions that aren't clear. For example, Android's “double-tap to select” feature prompts the user to tap twice when landing on an item without taking action. Android TalkBack will also announce any custom actions associated with an element. Use hint speech sparingly and only for complex UI. </p>
+                    <h1>确认操作</h1>
+                    <p>使用对话框、Toast 或 Snackbar（Android）来让用户确认或确知具有破坏性（例如「删除」或「移除」）或无法撤销的操作。</p>
+                    <p>通过视觉表现来确认的操作（例如，在删除一个项目时重新排列网格的布局）并不需要 Toast。在这些情况下，使用无障碍文本确保让用户得知。</p>
+                    <h1>使用提示语音</h1>
+                    <p>提示语音为不明确的操作提供额外的信息。例如，Android 的「双击以选择」功能，提示用户在选择项目时需要点击两次。Android 的 TalkBack 也会提醒用户与元素相关的自定义操作。谨慎使用提示语音，确保只在复杂的 UI 上使用。</p>
                     <div class="modulettes">
-                        <a class="modulette container android" href="https://www.google.com/url?q=http://developer.android.com/reference/android/view/accessibility/AccessibilityNodeInfo.html%23addAction(android.view.accessibility.AccessibilityNodeInfo.AccessibilityAction)&amp;sa=D&amp;ust=1481818010766000&amp;usg=AFQjCNE_U-MDUDvIwn8hceWHW36IGykFbQ" target="_blank">
+                        <a class="modulette container android" href="https://developer.android.com/reference/android/view/accessibility/AccessibilityNodeInfo.html#addAction(android.view.accessibility.AccessibilityNodeInfo.AccessibilityAction)" target="_blank">
                             <img alt="" class="icon callout-icon" src="<!-- @path android.svg -->">
                             <div class="info">
-                                <div class="title">Android Custom Actions</div>
+                                <div class="title">Android 自定义操作</div>
                                 <span class="subtitle"></span>
                             </div>
                             </img>
